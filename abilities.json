@@ -1,0 +1,1990 @@
+[
+  {
+    "id": 1,
+    "name": "あくしゅう",
+    "nameEn": "Stench",
+    "effects": [],
+    "description": "臭い　においを　放つことによって攻撃した　ときに　相手をひるませることが　ある。"
+  },
+  {
+    "id": 2,
+    "name": "あめふらし",
+    "nameEn": "Drizzle",
+    "effects": [],
+    "description": "登場　したときに天気を　雨に　する。"
+  },
+  {
+    "id": 3,
+    "name": "かそく",
+    "nameEn": "Speed Boost",
+    "effects": [],
+    "description": "毎ターン　素早さが　上がる。"
+  },
+  {
+    "id": 4,
+    "name": "カブトアーマー",
+    "nameEn": "Battle Armor",
+    "effects": [],
+    "description": "硬い　甲羅に　守られて相手の　攻撃が急所に　当たらない。"
+  },
+  {
+    "id": 5,
+    "name": "がんじょう",
+    "nameEn": "Sturdy",
+    "effects": [],
+    "description": "相手の　技を　受けても一撃で　倒されることが　ない。一撃必殺技も　効かない。"
+  },
+  {
+    "id": 6,
+    "name": "しめりけ",
+    "nameEn": "Damp",
+    "effects": [],
+    "description": "あたりを　湿らせることに　よってじばく　などの　爆発する　技をだれも　使えなくなる。"
+  },
+  {
+    "id": 7,
+    "name": "じゅうなん",
+    "nameEn": "Limber",
+    "effects": [],
+    "description": "柔軟な　体によってまひ状態に　ならない。"
+  },
+  {
+    "id": 8,
+    "name": "すながくれ",
+    "nameEn": "Sand Veil",
+    "effects": [],
+    "description": "砂あらしの　とき回避率が　上がる。"
+  },
+  {
+    "id": 9,
+    "name": "せいでんき",
+    "nameEn": "Static",
+    "effects": [],
+    "description": "静電気を　体に　まとい触った　相手をまひさせる　ことがある。"
+  },
+  {
+    "id": 10,
+    "name": "ちくでん",
+    "nameEn": "Volt Absorb",
+    "effects": [],
+    "description": "でんきタイプの　技を　受けるとダメージを　受けずに　回復する。"
+  },
+  {
+    "id": 11,
+    "name": "ちょすい",
+    "nameEn": "Water Absorb",
+    "effects": [],
+    "description": "みずタイプの　技を　受けるとダメージを　受けずに　回復する。"
+  },
+  {
+    "id": 12,
+    "name": "どんかん",
+    "nameEn": "Oblivious",
+    "effects": [],
+    "description": "鈍感なのでメロメロや　ちょうはつ状態にならない。"
+  },
+  {
+    "id": 13,
+    "name": "ノーてんき",
+    "nameEn": "Cloud Nine",
+    "effects": [],
+    "description": "あらゆる　天気の　影響がなくなって　しまう。"
+  },
+  {
+    "id": 14,
+    "name": "ふくがん",
+    "nameEn": "Compound Eyes",
+    "effects": [],
+    "description": "複眼を　持っているため技の　命中率が　上がる。"
+  },
+  {
+    "id": 15,
+    "name": "ふみん",
+    "nameEn": "Insomnia",
+    "effects": [],
+    "description": "眠れない　体質　なのでねむり状態に　ならない。"
+  },
+  {
+    "id": 16,
+    "name": "へんしょく",
+    "nameEn": "Color Change",
+    "effects": [],
+    "description": "相手から　受けた　技の　タイプに自分の　タイプが　変化　する。"
+  },
+  {
+    "id": 17,
+    "name": "めんえき",
+    "nameEn": "Immunity",
+    "effects": [],
+    "description": "体内に　免疫を　持っているためどく状態に　ならない。"
+  },
+  {
+    "id": 18,
+    "name": "もらいび",
+    "nameEn": "Flash Fire",
+    "effects": [],
+    "description": "ほのおタイプの　技を　受けると炎を　もらい　自分が　出すほのおタイプの　技が　強くなる。"
+  },
+  {
+    "id": 19,
+    "name": "りんぷん",
+    "nameEn": "Shield Dust",
+    "effects": [],
+    "description": "りんぷんに　守られて技の　追加効果を　受けなくなる。"
+  },
+  {
+    "id": 20,
+    "name": "マイペース",
+    "nameEn": "Own Tempo",
+    "effects": [],
+    "description": "マイペースなのでこんらん状態に　ならない。"
+  },
+  {
+    "id": 21,
+    "name": "きゅうばん",
+    "nameEn": "Suction Cups",
+    "effects": [],
+    "description": "吸盤で　地面に　張り付きポケモンを　入れ替えさせる技や　道具が　効かなくなる。"
+  },
+  {
+    "id": 22,
+    "name": "いかく",
+    "nameEn": "Intimidate",
+    "effects": [],
+    "description": "登場　したとき　威嚇して相手を　萎縮させ相手の　攻撃を　下げて　しまう。"
+  },
+  {
+    "id": 23,
+    "name": "かげふみ",
+    "nameEn": "Shadow Tag",
+    "effects": [],
+    "description": "相手の　影を　踏み逃げたり　交代　できなくする。"
+  },
+  {
+    "id": 24,
+    "name": "さめはだ",
+    "nameEn": "Rough Skin",
+    "effects": [],
+    "description": "攻撃を　受けたとき自分に　触れた　相手をざらざらの　肌で　キズつける。"
+  },
+  {
+    "id": 25,
+    "name": "ふしぎなまもり",
+    "nameEn": "Wonder Guard",
+    "effects": [],
+    "description": "効果バツグンの　技しか当たらない　不思議な　力。"
+  },
+  {
+    "id": 26,
+    "name": "ふゆう",
+    "nameEn": "Levitate",
+    "effects": [],
+    "description": "地面から　浮くことによってじめんタイプの　技を　受けない。"
+  },
+  {
+    "id": 27,
+    "name": "ほうし",
+    "nameEn": "Effect Spore",
+    "effects": [],
+    "description": "攻撃で　自分に　触れた　相手をどくや　まひや　ねむり状態にする　ことがある。"
+  },
+  {
+    "id": 28,
+    "name": "シンクロ",
+    "nameEn": "Synchronize",
+    "effects": [],
+    "description": "自分が　なってしまったどくや　まひや　やけどを相手に　うつす。"
+  },
+  {
+    "id": 29,
+    "name": "クリアボディ",
+    "nameEn": "Clear Body",
+    "effects": [],
+    "description": "相手の　技や　特性で能力を　下げられない。"
+  },
+  {
+    "id": 30,
+    "name": "しぜんかいふく",
+    "nameEn": "Natural Cure",
+    "effects": [],
+    "description": "手持ちに　ひっこむと状態異常が　治る。"
+  },
+  {
+    "id": 31,
+    "name": "ひらいしん",
+    "nameEn": "Lightning Rod",
+    "effects": [],
+    "description": "でんきタイプの　技を　自分に寄せつけ　ダメージを　受けずに特攻が　上がる。"
+  },
+  {
+    "id": 32,
+    "name": "てんのめぐみ",
+    "nameEn": "Serene Grace",
+    "effects": [],
+    "description": "天の恵みの　おかげで技の　追加効果が　でやすい。"
+  },
+  {
+    "id": 33,
+    "name": "すいすい",
+    "nameEn": "Swift Swim",
+    "effects": [],
+    "description": "天気が　雨のとき素早さが　上がる。"
+  },
+  {
+    "id": 34,
+    "name": "ようりょくそ",
+    "nameEn": "Chlorophyll",
+    "effects": [],
+    "description": "天気が　晴れのとき素早さが　上がる。"
+  },
+  {
+    "id": 35,
+    "name": "はっこう",
+    "nameEn": "Illuminate",
+    "effects": [],
+    "description": "あたりを　明るくする　ことで野生の　ポケモンに遭遇　しやすくなる。"
+  },
+  {
+    "id": 36,
+    "name": "トレース",
+    "nameEn": "Trace",
+    "effects": [],
+    "description": "登場　したとき相手の　特性を　トレースして同じ　特性に　なる。"
+  },
+  {
+    "id": 37,
+    "name": "ちからもち",
+    "nameEn": "Huge Power",
+    "effects": [],
+    "description": "物理攻撃の威力が　２倍になる。"
+  },
+  {
+    "id": 38,
+    "name": "どくのトゲ",
+    "nameEn": "Poison Point",
+    "effects": [],
+    "description": "自分に　触った　相手をどく状態に　することがある。"
+  },
+  {
+    "id": 39,
+    "name": "せいしんりょく",
+    "nameEn": "Inner Focus",
+    "effects": [],
+    "description": "鍛えられた　精神に　よって相手の　攻撃に　ひるまない。"
+  },
+  {
+    "id": 40,
+    "name": "マグマのよろい",
+    "nameEn": "Magma Armor",
+    "effects": [],
+    "description": "熱い　マグマを　身にまといこおり状態に　ならない。"
+  },
+  {
+    "id": 41,
+    "name": "みずのベール",
+    "nameEn": "Water Veil",
+    "effects": [],
+    "description": "水のベールを　身にまといやけど状態に　ならない。"
+  },
+  {
+    "id": 42,
+    "name": "じりょく",
+    "nameEn": "Magnet Pull",
+    "effects": [],
+    "description": "はがねタイプの　ポケモンを磁力で　引きつけて逃げられなくする。"
+  },
+  {
+    "id": 43,
+    "name": "ぼうおん",
+    "nameEn": "Soundproof",
+    "effects": [],
+    "description": "音を　遮断　することに　よって音の　攻撃を　受けない。"
+  },
+  {
+    "id": 44,
+    "name": "あめうけざら",
+    "nameEn": "Rain Dish",
+    "effects": [],
+    "description": "天気が　雨のとき少しずつ　ＨＰを　回復する。"
+  },
+  {
+    "id": 45,
+    "name": "すなおこし",
+    "nameEn": "Sand Stream",
+    "effects": [],
+    "description": "登場　したとき天気を　砂あらしにする。"
+  },
+  {
+    "id": 46,
+    "name": "プレッシャー",
+    "nameEn": "Pressure",
+    "effects": [],
+    "description": "プレッシャーを　あたえて相手の　使う　技の　ＰＰを多く　減らす。"
+  },
+  {
+    "id": 47,
+    "name": "あついしぼう",
+    "nameEn": "Thick Fat",
+    "effects": [],
+    "description": "厚い　脂肪で　守られているのでほのおタイプと　こおりタイプの技の　ダメージを　半減させる。"
+  },
+  {
+    "id": 48,
+    "name": "はやおき",
+    "nameEn": "Early Bird",
+    "effects": [],
+    "description": "ねむり状態に　なっても２倍の　早さで目覚める　ことが　できる。"
+  },
+  {
+    "id": 49,
+    "name": "ほのおのからだ",
+    "nameEn": "Flame Body",
+    "effects": [],
+    "description": "自分に　触った　相手をやけど状態に　する　ことがある。"
+  },
+  {
+    "id": 50,
+    "name": "にげあし",
+    "nameEn": "Run Away",
+    "effects": [],
+    "description": "野生の　ポケモンから必ず　逃げられる。"
+  },
+  {
+    "id": 51,
+    "name": "するどいめ",
+    "nameEn": "Keen Eye",
+    "effects": [],
+    "description": "鋭い　目の　おかげで命中率を　下げられない。"
+  },
+  {
+    "id": 52,
+    "name": "かいりきバサミ",
+    "nameEn": "Hyper Cutter",
+    "effects": [],
+    "description": "力自慢の　ハサミを　持っているので相手に　攻撃を　下げられない。"
+  },
+  {
+    "id": 53,
+    "name": "ものひろい",
+    "nameEn": "Pickup",
+    "effects": [],
+    "description": "相手の　使った　道具を拾ってくることが　ある。冒険中も　拾ってくる。"
+  },
+  {
+    "id": 54,
+    "name": "なまけ",
+    "nameEn": "Truant",
+    "effects": [],
+    "description": "技を　出すと次の　ターンは　休んでしまう。"
+  },
+  {
+    "id": 55,
+    "name": "はりきり",
+    "nameEn": "Hustle",
+    "effects": [],
+    "description": "自分の　攻撃が　高くなるが命中率が　下がる。"
+  },
+  {
+    "id": 56,
+    "name": "メロメロボディ",
+    "nameEn": "Cute Charm",
+    "effects": [],
+    "description": "自分に　触った　相手をメロメロに　することが　ある。"
+  },
+  {
+    "id": 57,
+    "name": "プラス",
+    "nameEn": "Plus",
+    "effects": [],
+    "description": "プラスか　マイナスの　特性を　持つポケモンが　仲間に　いると自分の　特攻が　上がる。"
+  },
+  {
+    "id": 58,
+    "name": "マイナス",
+    "nameEn": "Minus",
+    "effects": [],
+    "description": "プラスか　マイナスの　特性を　持つポケモンが　仲間に　いると自分の　特攻が　上がる。"
+  },
+  {
+    "id": 59,
+    "name": "てんきや",
+    "nameEn": "Forecast",
+    "effects": [],
+    "description": "天気の　影響を　受けてみずタイプ　ほのおタイプ　こおりタイプのどれかに　変化する。"
+  },
+  {
+    "id": 60,
+    "name": "ねんちゃく",
+    "nameEn": "Sticky Hold",
+    "effects": [],
+    "description": "粘着質の　体に道具が　くっついているため相手に　道具を　奪われない。"
+  },
+  {
+    "id": 61,
+    "name": "だっぴ",
+    "nameEn": "Shed Skin",
+    "effects": [],
+    "description": "体の　皮を　脱ぎ捨てることで状態異常を治すことが　ある。"
+  },
+  {
+    "id": 62,
+    "name": "こんじょう",
+    "nameEn": "Guts",
+    "effects": [],
+    "description": "状態異常に　なると根性を　だして攻撃が　上がる。"
+  },
+  {
+    "id": 63,
+    "name": "ふしぎなうろこ",
+    "nameEn": "Marvel Scale",
+    "effects": [],
+    "description": "状態異常に　なると不思議なウロコが　反応して防御が　上がる。"
+  },
+  {
+    "id": 64,
+    "name": "ヘドロえき",
+    "nameEn": "Liquid Ooze",
+    "effects": [],
+    "description": "ヘドロ液を　吸い取った　相手は強烈な　悪臭でダメージを　受けて　ＨＰを　減らす。"
+  },
+  {
+    "id": 65,
+    "name": "しんりょく",
+    "nameEn": "Overgrow",
+    "effects": [],
+    "description": "ＨＰが　減ったときくさタイプの　技の威力が　上がる。"
+  },
+  {
+    "id": 66,
+    "name": "もうか",
+    "nameEn": "Blaze",
+    "effects": [],
+    "description": "ＨＰが　減ったときほのおタイプの　技の威力が　上がる。"
+  },
+  {
+    "id": 67,
+    "name": "げきりゅう",
+    "nameEn": "Torrent",
+    "effects": [],
+    "description": "ＨＰが　減ったときみずタイプの　技の威力が　上がる。"
+  },
+  {
+    "id": 68,
+    "name": "むしのしらせ",
+    "nameEn": "Swarm",
+    "effects": [],
+    "description": "ＨＰが　減ったときむしタイプの　技の威力が　上がる。"
+  },
+  {
+    "id": 69,
+    "name": "いしあたま",
+    "nameEn": "Rock Head",
+    "effects": [],
+    "description": "反動を　受ける　技を　出してもＨＰが　減らない。"
+  },
+  {
+    "id": 70,
+    "name": "ひでり",
+    "nameEn": "Drought",
+    "effects": [],
+    "description": "登場　したときに天気を　晴れに　する。"
+  },
+  {
+    "id": 71,
+    "name": "ありじごく",
+    "nameEn": "Arena Trap",
+    "effects": [],
+    "description": "戦闘で　相手を逃げられなくする。"
+  },
+  {
+    "id": 72,
+    "name": "やるき",
+    "nameEn": "Vital Spirit",
+    "effects": [],
+    "description": "やる気を　だすことに　よってねむり状態に　ならない。"
+  },
+  {
+    "id": 73,
+    "name": "しろいけむり",
+    "nameEn": "White Smoke",
+    "effects": [],
+    "description": "白い煙に　守られて相手に　能力を　下げられない。"
+  },
+  {
+    "id": 74,
+    "name": "ヨガパワー",
+    "nameEn": "Pure Power",
+    "effects": [],
+    "description": "ヨガの　力で物理攻撃の　威力が２倍に　なる。"
+  },
+  {
+    "id": 75,
+    "name": "シェルアーマー",
+    "nameEn": "Shell Armor",
+    "effects": [],
+    "description": "硬い　殻に　守られ相手の　攻撃が急所に　当たらない。"
+  },
+  {
+    "id": 76,
+    "name": "エアロック",
+    "nameEn": "Air Lock",
+    "effects": [],
+    "description": "あらゆる　天気の　影響が消えて　しまう。"
+  },
+  {
+    "id": 77,
+    "name": "ちどりあし",
+    "nameEn": "Tangled Feet",
+    "effects": [],
+    "description": "こんらん状態の　ときは回避率が　アップする。"
+  },
+  {
+    "id": 78,
+    "name": "でんきエンジン",
+    "nameEn": "Motor Drive",
+    "effects": [],
+    "description": "でんきタイプの　技を　受けるとダメージを　受けずに素早さが　上がる。"
+  },
+  {
+    "id": 79,
+    "name": "とうそうしん",
+    "nameEn": "Rivalry",
+    "effects": [],
+    "description": "性別が　同じだと闘争心を　燃やして　強くなる。性別が　違うと　弱くなる。"
+  },
+  {
+    "id": 80,
+    "name": "ふくつのこころ",
+    "nameEn": "Steadfast",
+    "effects": [],
+    "description": "ひるむ　たびに不屈の心を　燃やして素早さが　上がる。"
+  },
+  {
+    "id": 81,
+    "name": "ゆきがくれ",
+    "nameEn": "Snow Cloak",
+    "effects": [],
+    "description": "天気が　あられのとき回避率が　上がる。"
+  },
+  {
+    "id": 82,
+    "name": "くいしんぼう",
+    "nameEn": "Gluttony",
+    "effects": [],
+    "description": "ＨＰが　少なくなったら　食べるきのみを　ＨＰ　半分の時に　食べてしまう。"
+  },
+  {
+    "id": 83,
+    "name": "いかりのつぼ",
+    "nameEn": "Anger Point",
+    "effects": [],
+    "description": "急所に　攻撃が　当たると怒りくるって　攻撃力が最大に　なる。"
+  },
+  {
+    "id": 84,
+    "name": "かるわざ",
+    "nameEn": "Unburden",
+    "effects": [],
+    "description": "持っていた　道具が　なくなると素早さが　上がる。"
+  },
+  {
+    "id": 85,
+    "name": "たいねつ",
+    "nameEn": "Heatproof",
+    "effects": [],
+    "description": "耐熱の　体に　よってほのおタイプの　技の威力を　半減させる。"
+  },
+  {
+    "id": 86,
+    "name": "たんじゅん",
+    "nameEn": "Simple",
+    "effects": [],
+    "description": "能力　変化がいつもの　２倍に　なる。"
+  },
+  {
+    "id": 87,
+    "name": "かんそうはだ",
+    "nameEn": "Dry Skin",
+    "effects": [],
+    "description": "天気が　雨の時や　みずタイプの技で　ＨＰが　回復し　はれの時やほのおタイプの　技で　減ってしまう。"
+  },
+  {
+    "id": 88,
+    "name": "ダウンロード",
+    "nameEn": "Download",
+    "effects": [],
+    "description": "相手の　防御と　特防を　くらべて低い　ほうの　能力に　あわせて自分の　攻撃か　特攻を　上げる。"
+  },
+  {
+    "id": 89,
+    "name": "てつのこぶし",
+    "nameEn": "Iron Fist",
+    "effects": [],
+    "description": "パンチを　使う　技の威力が　上がる。"
+  },
+  {
+    "id": 90,
+    "name": "ポイズンヒール",
+    "nameEn": "Poison Heal",
+    "effects": [],
+    "description": "どく状態に　なるとＨＰが　減らずに　増えていく。"
+  },
+  {
+    "id": 91,
+    "name": "てきおうりょく",
+    "nameEn": "Adaptability",
+    "effects": [],
+    "description": "自分と　おなじ　タイプの技の　威力が　上がる。"
+  },
+  {
+    "id": 92,
+    "name": "スキルリンク",
+    "nameEn": "Skill Link",
+    "effects": [],
+    "description": "連続技を　使うと　いつも最高回数　出すことが　できる。"
+  },
+  {
+    "id": 93,
+    "name": "うるおいボディ",
+    "nameEn": "Hydration",
+    "effects": [],
+    "description": "天気が　雨のとき状態異常が　治る。"
+  },
+  {
+    "id": 94,
+    "name": "サンパワー",
+    "nameEn": "Solar Power",
+    "effects": [],
+    "description": "天気が　晴れると特攻が　上がるが毎ターン　ＨＰが　減る。"
+  },
+  {
+    "id": 95,
+    "name": "はやあし",
+    "nameEn": "Quick Feet",
+    "effects": [],
+    "description": "状態異常に　なると素早さが　上がる。"
+  },
+  {
+    "id": 96,
+    "name": "ノーマルスキン",
+    "nameEn": "Normalize",
+    "effects": [],
+    "description": "どんな　タイプの　技でもすべて　ノーマルタイプに　なる。威力が　少し　上がる。"
+  },
+  {
+    "id": 97,
+    "name": "スナイパー",
+    "nameEn": "Sniper",
+    "effects": [],
+    "description": "攻撃を　急所に　当てると威力が　さらに　上がる。"
+  },
+  {
+    "id": 98,
+    "name": "マジックガード",
+    "nameEn": "Magic Guard",
+    "effects": [],
+    "description": "攻撃　以外ではダメージを　受けない。"
+  },
+  {
+    "id": 99,
+    "name": "ノーガード",
+    "nameEn": "No Guard",
+    "effects": [],
+    "description": "ノーガード戦法に　よってお互いの　出す　技がかならず　当たる　ようになる。"
+  },
+  {
+    "id": 100,
+    "name": "あとだし",
+    "nameEn": "Stall",
+    "effects": [],
+    "description": "技を　出す　順番がかならず　最後に　なる。"
+  },
+  {
+    "id": 101,
+    "name": "テクニシャン",
+    "nameEn": "Technician",
+    "effects": [],
+    "description": "威力が　低い　技の威力を　高くして　攻撃できる。"
+  },
+  {
+    "id": 102,
+    "name": "リーフガード",
+    "nameEn": "Leaf Guard",
+    "effects": [],
+    "description": "天気が　晴れのときは状態異常に　ならない。"
+  },
+  {
+    "id": 103,
+    "name": "ぶきよう",
+    "nameEn": "Klutz",
+    "effects": [],
+    "description": "持っている　道具を使うことが　できない。"
+  },
+  {
+    "id": 104,
+    "name": "かたやぶり",
+    "nameEn": "Mold Breaker",
+    "effects": [],
+    "description": "相手の　特性にジャマされる　ことなく　相手に技を　出すことが　できる。"
+  },
+  {
+    "id": 105,
+    "name": "きょううん",
+    "nameEn": "Super Luck",
+    "effects": [],
+    "description": "強運を　持っているため相手の　急所に攻撃が　当たりやすい。"
+  },
+  {
+    "id": 106,
+    "name": "ゆうばく",
+    "nameEn": "Aftermath",
+    "effects": [],
+    "description": "ひんしに　なったとき触った　相手にダメージを　あたえる。"
+  },
+  {
+    "id": 107,
+    "name": "きけんよち",
+    "nameEn": "Anticipation",
+    "effects": [],
+    "description": "相手の　持つ　危険な　技を察知する　ことができる。"
+  },
+  {
+    "id": 108,
+    "name": "よちむ",
+    "nameEn": "Forewarn",
+    "effects": [],
+    "description": "登場　したとき相手の　持つ　技をひとつだけ　読み取る。"
+  },
+  {
+    "id": 109,
+    "name": "てんねん",
+    "nameEn": "Unaware",
+    "effects": [],
+    "description": "相手の　能力の　変化を無視して　攻撃が　できる。"
+  },
+  {
+    "id": 110,
+    "name": "いろめがね",
+    "nameEn": "Tinted Lens",
+    "effects": [],
+    "description": "効果が　いまひとつの　技を通常の　威力で出すことが　できる。"
+  },
+  {
+    "id": 111,
+    "name": "フィルター",
+    "nameEn": "Filter",
+    "effects": [],
+    "description": "効果バツグンに　なってしまう攻撃の　威力を弱める　ことが　できる。"
+  },
+  {
+    "id": 112,
+    "name": "スロースタート",
+    "nameEn": "Slow Start",
+    "effects": [],
+    "description": "５ターンの　あいだ攻撃と　素早さが半分に　なる。"
+  },
+  {
+    "id": 113,
+    "name": "きもったま",
+    "nameEn": "Scrappy",
+    "effects": [],
+    "description": "ゴーストタイプの　ポケモンにノーマルタイプと　かくとうタイプの技を　当てることが　できる。"
+  },
+  {
+    "id": 114,
+    "name": "よびみず",
+    "nameEn": "Storm Drain",
+    "effects": [],
+    "description": "みずタイプの　技を　自分に　よせつけダメージは　受けずに　特攻が　上がる。"
+  },
+  {
+    "id": 115,
+    "name": "アイスボディ",
+    "nameEn": "Ice Body",
+    "effects": [],
+    "description": "天気が　あられのとき　ＨＰを少しずつ　回復　する。"
+  },
+  {
+    "id": 116,
+    "name": "ハードロック",
+    "nameEn": "Solid Rock",
+    "effects": [],
+    "description": "効果バツグンに　なってしまう攻撃の　威力を弱める　ことが　できる。"
+  },
+  {
+    "id": 117,
+    "name": "ゆきふらし",
+    "nameEn": "Snow Warning",
+    "effects": [],
+    "description": "登場　したときに天気を　あられに　する。"
+  },
+  {
+    "id": 118,
+    "name": "みつあつめ",
+    "nameEn": "Honey Gather",
+    "effects": [],
+    "description": "戦闘が　終わったときあまいミツを　拾うことが　ある。"
+  },
+  {
+    "id": 119,
+    "name": "おみとおし",
+    "nameEn": "Frisk",
+    "effects": [],
+    "description": "登場　したとき相手の　持ち物を見通すことが　できる。"
+  },
+  {
+    "id": 120,
+    "name": "すてみ",
+    "nameEn": "Reckless",
+    "effects": [],
+    "description": "反動で　ダメージを受ける　技の　威力が　上がる。"
+  },
+  {
+    "id": 121,
+    "name": "マルチタイプ",
+    "nameEn": "Multitype",
+    "effects": [],
+    "description": "持っている　プレートやＺクリスタルの　タイプによって自分の　タイプが　変わる。"
+  },
+  {
+    "id": 122,
+    "name": "フラワーギフト",
+    "nameEn": "Flower Gift",
+    "effects": [],
+    "description": "天気が　晴れのとき自分と　味方の　攻撃と特防の　能力が　上がる。"
+  },
+  {
+    "id": 123,
+    "name": "ナイトメア",
+    "nameEn": "Bad Dreams",
+    "effects": [],
+    "description": "ねむり状態の　相手にダメージを　あたえる。"
+  },
+  {
+    "id": 124,
+    "name": "わるいてぐせ",
+    "nameEn": "Pickpocket",
+    "effects": [],
+    "description": "触られた　相手の　道具を盗んで　しまう。"
+  },
+  {
+    "id": 125,
+    "name": "ちからずく",
+    "nameEn": "Sheer Force",
+    "effects": [],
+    "description": "技の　追加効果は　なくなるがそのぶん　高い　威力で技を　出すことが　できる。"
+  },
+  {
+    "id": 126,
+    "name": "あまのじゃく",
+    "nameEn": "Contrary",
+    "effects": [],
+    "description": "能力の　変化が　逆転して上がるときに　下がり下がるときに　上がる。"
+  },
+  {
+    "id": 127,
+    "name": "きんちょうかん",
+    "nameEn": "Unnerve",
+    "effects": [],
+    "description": "相手を　緊張させてきのみを　食べられなく　させる。"
+  },
+  {
+    "id": 128,
+    "name": "まけんき",
+    "nameEn": "Defiant",
+    "effects": [],
+    "description": "能力を　下げられると攻撃が　ぐーんと　上がる。"
+  },
+  {
+    "id": 129,
+    "name": "よわき",
+    "nameEn": "Defeatist",
+    "effects": [],
+    "description": "ＨＰが　半分に　なると弱気に　なって　攻撃と特攻が　半減する。"
+  },
+  {
+    "id": 130,
+    "name": "のろわれボディ",
+    "nameEn": "Cursed Body",
+    "effects": [],
+    "description": "攻撃を　受けると　相手の　技をかなしばり状態にすることが　ある。"
+  },
+  {
+    "id": 131,
+    "name": "いやしのこころ",
+    "nameEn": "Healer",
+    "effects": [],
+    "description": "状態異常の　味方をたまに　治してあげる。"
+  },
+  {
+    "id": 132,
+    "name": "フレンドガード",
+    "nameEn": "Friend Guard",
+    "effects": [],
+    "description": "味方の　ダメージを減らすことが　できる。"
+  },
+  {
+    "id": 133,
+    "name": "くだけるよろい",
+    "nameEn": "Weak Armor",
+    "effects": [],
+    "description": "物理技で　ダメージを　受けると防御が　下がり素早さが　ぐーんと　上がる。"
+  },
+  {
+    "id": 134,
+    "name": "ヘヴィメタル",
+    "nameEn": "Heavy Metal",
+    "effects": [],
+    "description": "自分の　重さが２倍に　なる。"
+  },
+  {
+    "id": 135,
+    "name": "ライトメタル",
+    "nameEn": "Light Metal",
+    "effects": [],
+    "description": "自分の　重さが半分に　なる。"
+  },
+  {
+    "id": 136,
+    "name": "マルチスケイル",
+    "nameEn": "Multiscale",
+    "effects": [],
+    "description": "ＨＰが　満タンの　ときに受ける　ダメージが　少なくなる。"
+  },
+  {
+    "id": 137,
+    "name": "どくぼうそう",
+    "nameEn": "Toxic Boost",
+    "effects": [],
+    "description": "どく状態に　なったとき物理技の　威力が　上がる。"
+  },
+  {
+    "id": 138,
+    "name": "ねつぼうそう",
+    "nameEn": "Flare Boost",
+    "effects": [],
+    "description": "やけど状態に　なったとき特殊技の　威力が　上がる。"
+  },
+  {
+    "id": 139,
+    "name": "しゅうかく",
+    "nameEn": "Harvest",
+    "effects": [],
+    "description": "使った　きのみを何回も　作りだす。"
+  },
+  {
+    "id": 140,
+    "name": "テレパシー",
+    "nameEn": "Telepathy",
+    "effects": [],
+    "description": "味方の　攻撃を　読み取って技を　回避する。"
+  },
+  {
+    "id": 141,
+    "name": "ムラっけ",
+    "nameEn": "Moody",
+    "effects": [],
+    "description": "毎ターン　能力の　どれかがぐーんと　上がって　どれかが　下がる。"
+  },
+  {
+    "id": 142,
+    "name": "ぼうじん",
+    "nameEn": "Overcoat",
+    "effects": [],
+    "description": "すなあらしや　あられなどのダメージを　受けない。粉の　技を　受けない。"
+  },
+  {
+    "id": 143,
+    "name": "どくしゅ",
+    "nameEn": "Poison Touch",
+    "effects": [],
+    "description": "触る　だけで　相手をどく　状態に　することがある。"
+  },
+  {
+    "id": 144,
+    "name": "さいせいりょく",
+    "nameEn": "Regenerator",
+    "effects": [],
+    "description": "手持ちに　引っ込むとＨＰが　少し　回復する。"
+  },
+  {
+    "id": 145,
+    "name": "はとむね",
+    "nameEn": "Big Pecks",
+    "effects": [],
+    "description": "防御を　下げる効果を　受けない。"
+  },
+  {
+    "id": 146,
+    "name": "すなかき",
+    "nameEn": "Sand Rush",
+    "effects": [],
+    "description": "天気が　すなあらし　のとき素早さが　上がる。"
+  },
+  {
+    "id": 147,
+    "name": "ミラクルスキン",
+    "nameEn": "Wonder Skin",
+    "effects": [],
+    "description": "変化技を　受けにくい体に　なっている。"
+  },
+  {
+    "id": 148,
+    "name": "アナライズ",
+    "nameEn": "Analytic",
+    "effects": [],
+    "description": "いちばん　最後に　技を　出すと技の　威力が　上がる。"
+  },
+  {
+    "id": 149,
+    "name": "イリュージョン",
+    "nameEn": "Illusion",
+    "effects": [],
+    "description": "手持ちの　いちばん　うしろに　いるポケモンに　なりきって　登場して相手を　化かす。"
+  },
+  {
+    "id": 150,
+    "name": "かわりもの",
+    "nameEn": "Imposter",
+    "effects": [],
+    "description": "目の前の　ポケモンに変身　してしまう。"
+  },
+  {
+    "id": 151,
+    "name": "すりぬけ",
+    "nameEn": "Infiltrator",
+    "effects": [],
+    "description": "相手の　壁や　身代わりをすりぬけて　攻撃　できる"
+  },
+  {
+    "id": 152,
+    "name": "ミイラ",
+    "nameEn": "Mummy",
+    "effects": [],
+    "description": "相手に　触られると相手を　ミイラに　してしまう。"
+  },
+  {
+    "id": 153,
+    "name": "じしんかじょう",
+    "nameEn": "Moxie",
+    "effects": [],
+    "description": "相手を　倒すと自信が　ついて攻撃が　上がる。"
+  },
+  {
+    "id": 154,
+    "name": "せいぎのこころ",
+    "nameEn": "Justified",
+    "effects": [],
+    "description": "あくタイプの　攻撃を　受けると正義感で　攻撃が　上がる。"
+  },
+  {
+    "id": 155,
+    "name": "びびり",
+    "nameEn": "Rattled",
+    "effects": [],
+    "description": "あくタイプと　ゴーストタイプとむしタイプの　技を　受けるとびびって　素早さが　上がる。"
+  },
+  {
+    "id": 156,
+    "name": "マジックミラー",
+    "nameEn": "Magic Bounce",
+    "effects": [],
+    "description": "相手に　だされた　変化技を　受けずにそのまま　返す　ことが　できる。"
+  },
+  {
+    "id": 157,
+    "name": "そうしょく",
+    "nameEn": "Sap Sipper",
+    "effects": [],
+    "description": "くさタイプの　技を　受けるとダメージを　受けずに攻撃が　上がる。"
+  },
+  {
+    "id": 158,
+    "name": "いたずらごころ",
+    "nameEn": "Prankster",
+    "effects": [],
+    "description": "変化技を　先制で出すことが　できる。"
+  },
+  {
+    "id": 159,
+    "name": "すなのちから",
+    "nameEn": "Sand Force",
+    "effects": [],
+    "description": "天気が　すなあらしの　ときいわタイプと　じめんタイプとはがねタイプの　威力が　上がる。"
+  },
+  {
+    "id": 160,
+    "name": "てつのトゲ",
+    "nameEn": "Iron Barbs",
+    "effects": [],
+    "description": "自分に　触った　相手に鉄のトゲで　ダメージを　あたえる。"
+  },
+  {
+    "id": 161,
+    "name": "ダルマモード",
+    "nameEn": "Zen Mode",
+    "effects": [],
+    "description": "ＨＰが　半分　以下に　なると姿が　変化する。"
+  },
+  {
+    "id": 162,
+    "name": "しょうりのほし",
+    "nameEn": "Victory Star",
+    "effects": [],
+    "description": "自分や　味方の命中率が　上がる。"
+  },
+  {
+    "id": 163,
+    "name": "ターボブレイズ",
+    "nameEn": "Turboblaze",
+    "effects": [],
+    "description": "相手の　特性に　ジャマされず相手に　技を　出すことが　できる。"
+  },
+  {
+    "id": 164,
+    "name": "テラボルテージ",
+    "nameEn": "Teravolt",
+    "effects": [],
+    "description": "相手の　特性に　ジャマされず相手に　技を　出すことが　できる。"
+  },
+  {
+    "id": 165,
+    "name": "アロマベール",
+    "nameEn": "Aroma Veil",
+    "effects": [],
+    "description": "自分と　味方への　メンタル攻撃を　防ぐことが　できる。"
+  },
+  {
+    "id": 166,
+    "name": "フラワーベール",
+    "nameEn": "Flower Veil",
+    "effects": [],
+    "description": "味方の　草ポケモンは能力が　下がらず状態異常にも　ならない。"
+  },
+  {
+    "id": 167,
+    "name": "ほおぶくろ",
+    "nameEn": "Cheek Pouch",
+    "effects": [],
+    "description": "どんな　きのみでも食べると　ＨＰも　回復する。"
+  },
+  {
+    "id": 168,
+    "name": "へんげんじざい",
+    "nameEn": "Protean",
+    "effects": [],
+    "description": "自分が　出す　技と同じ　タイプに　変化する。"
+  },
+  {
+    "id": 169,
+    "name": "ファーコート",
+    "nameEn": "Fur Coat",
+    "effects": [],
+    "description": "相手から　受ける　物理技のダメージが　半分に　なる。"
+  },
+  {
+    "id": 170,
+    "name": "マジシャン",
+    "nameEn": "Magician",
+    "effects": [],
+    "description": "技を　当てた　相手の道具を　奪ってしまう。"
+  },
+  {
+    "id": 171,
+    "name": "ぼうだん",
+    "nameEn": "Bulletproof",
+    "effects": [],
+    "description": "相手の　弾や　爆弾などの技を　防ぐことが　できる。"
+  },
+  {
+    "id": 172,
+    "name": "かちき",
+    "nameEn": "Competitive",
+    "effects": [],
+    "description": "能力を　下げられると特攻が　ぐーんと　上がる。"
+  },
+  {
+    "id": 173,
+    "name": "がんじょうあご",
+    "nameEn": "Strong Jaw",
+    "effects": [],
+    "description": "あごが　頑丈で噛む　技の　威力が高くなる。"
+  },
+  {
+    "id": 174,
+    "name": "フリーズスキン",
+    "nameEn": "Refrigerate",
+    "effects": [],
+    "description": "ノーマルタイプの　技がこおりタイプに　なる。威力が　少し　上がる。"
+  },
+  {
+    "id": 175,
+    "name": "スイートベール",
+    "nameEn": "Sweet Veil",
+    "effects": [],
+    "description": "味方の　ポケモンは眠らなくなる。"
+  },
+  {
+    "id": 176,
+    "name": "バトルスイッチ",
+    "nameEn": "Stance Change",
+    "effects": [],
+    "description": "攻撃技を　出すと　ブレードフォルムに技　キングシールドを　出すとシールドフォルムに　変化する。"
+  },
+  {
+    "id": 177,
+    "name": "はやてのつばさ",
+    "nameEn": "Gale Wings",
+    "effects": [],
+    "description": "ＨＰが　満タン　だとひこうタイプの　技を先制で　出すことが　できる。"
+  },
+  {
+    "id": 178,
+    "name": "メガランチャー",
+    "nameEn": "Mega Launcher",
+    "effects": [],
+    "description": "波動の　技の威力が　高くなる。"
+  },
+  {
+    "id": 179,
+    "name": "くさのけがわ",
+    "nameEn": "Grass Pelt",
+    "effects": [],
+    "description": "グラスフィールドのとき防御が　上がる。"
+  },
+  {
+    "id": 180,
+    "name": "きょうせい",
+    "nameEn": "Symbiosis",
+    "effects": [],
+    "description": "味方が　道具を　使うと自分の　持っている　道具を味方に　渡す。"
+  },
+  {
+    "id": 181,
+    "name": "かたいツメ",
+    "nameEn": "Tough Claws",
+    "effects": [],
+    "description": "相手に　接触する　技の威力が　高くなる。"
+  },
+  {
+    "id": 182,
+    "name": "フェアリースキン",
+    "nameEn": "Pixilate",
+    "effects": [],
+    "description": "ノーマルタイプの　技がフェアリータイプになる。威力が　少し　上がる。"
+  },
+  {
+    "id": 183,
+    "name": "ぬめぬめ",
+    "nameEn": "Gooey",
+    "effects": [],
+    "description": "攻撃で　自分に　触れた　相手の素早さを　下げる。"
+  },
+  {
+    "id": 184,
+    "name": "スカイスキン",
+    "nameEn": "Aerilate",
+    "effects": [],
+    "description": "ノーマルタイプの　技がひこうタイプになる。威力が　少し　上がる。"
+  },
+  {
+    "id": 185,
+    "name": "おやこあい",
+    "nameEn": "Parental Bond",
+    "effects": [],
+    "description": "親子　２匹で　２回攻撃することが　できる。"
+  },
+  {
+    "id": 186,
+    "name": "ダークオーラ",
+    "nameEn": "Dark Aura",
+    "effects": [],
+    "description": "全員の　あくタイプの技が　強くなる。"
+  },
+  {
+    "id": 187,
+    "name": "フェアリーオーラ",
+    "nameEn": "Fairy Aura",
+    "effects": [],
+    "description": "全員の　フェアリータイプの技が　強くなる。"
+  },
+  {
+    "id": 188,
+    "name": "オーラブレイク",
+    "nameEn": "Aura Break",
+    "effects": [],
+    "description": "オーラの　効果を　逆転させて威力を　下げる。"
+  },
+  {
+    "id": 191,
+    "name": "デルタストリーム",
+    "nameEn": "Delta Stream",
+    "effects": [],
+    "description": "ひこうタイプの　弱点がなくなる　天気にする。"
+  },
+  {
+    "id": 192,
+    "name": "じきゅうりょく",
+    "nameEn": "Stamina",
+    "effects": [],
+    "description": "攻撃を　受けると防御が　上がる。"
+  },
+  {
+    "id": 194,
+    "name": "ききかいひ",
+    "nameEn": "Emergency Exit",
+    "effects": [],
+    "description": "ＨＰが　半分に　なると危険を　回避するため手持ちに　引っ込んで　しまう。"
+  },
+  {
+    "id": 195,
+    "name": "みずがため",
+    "nameEn": "Water Compaction",
+    "effects": [],
+    "description": "みずタイプの　技を　受けると防御が　ぐーんと　上がる。"
+  },
+  {
+    "id": 196,
+    "name": "ひとでなし",
+    "nameEn": "Merciless",
+    "effects": [],
+    "description": "どく状態の相手を　攻撃するとかならず　急所に　当たる。"
+  },
+  {
+    "id": 197,
+    "name": "リミットシールド",
+    "nameEn": "Shields Down",
+    "effects": [],
+    "description": "ＨＰが　半分に　なると殻が　壊れて攻撃的に　なる。"
+  },
+  {
+    "id": 198,
+    "name": "はりこみ",
+    "nameEn": "Stakeout",
+    "effects": [],
+    "description": "交代で　出てきた　相手に２倍の　ダメージで　攻撃　できる。"
+  },
+  {
+    "id": 199,
+    "name": "すいほう",
+    "nameEn": "Water Bubble",
+    "effects": [],
+    "description": "自分に　対する　ほのおタイプの技の　威力を　下げる。やけど　しない。"
+  },
+  {
+    "id": 200,
+    "name": "はがねつかい",
+    "nameEn": "Steelworker",
+    "effects": [],
+    "description": "はがねタイプの　技の威力が　上がる。"
+  },
+  {
+    "id": 201,
+    "name": "ぎゃくじょう",
+    "nameEn": "Berserk",
+    "effects": [],
+    "description": "相手の　攻撃でＨＰが　半分に　なると特攻が　上がる。"
+  },
+  {
+    "id": 202,
+    "name": "ゆきかき",
+    "nameEn": "Slush Rush",
+    "effects": [],
+    "description": "天気が　あられ　のとき素早さが　上がる。"
+  },
+  {
+    "id": 203,
+    "name": "えんかく",
+    "nameEn": "Long Reach",
+    "effects": [],
+    "description": "すべての　技を相手に　接触　しないで出すことが　できる。"
+  },
+  {
+    "id": 204,
+    "name": "うるおいボイス",
+    "nameEn": "Liquid Voice",
+    "effects": [],
+    "description": "すべての　音技がみずタイプに　なる。"
+  },
+  {
+    "id": 205,
+    "name": "ヒーリングシフト",
+    "nameEn": "Triage",
+    "effects": [],
+    "description": "回復技を　先制で出すことが　できる。"
+  },
+  {
+    "id": 208,
+    "name": "ぎょぐん",
+    "nameEn": "Schooling",
+    "effects": [],
+    "description": "ＨＰが　多いときは　群れて　強くなる。ＨＰの　残りが　少なくなると群れは　散り散りに　なってしまう。"
+  },
+  {
+    "id": 209,
+    "name": "ばけのかわ",
+    "nameEn": "Disguise",
+    "effects": [],
+    "description": "体を　被う　化けの皮で１回　攻撃を　防ぐことが　できる。"
+  },
+  {
+    "id": 212,
+    "name": "ふしょく",
+    "nameEn": "Corrosion",
+    "effects": [],
+    "description": "はがねタイプや　どくタイプもどく状態に　することが　できる。"
+  },
+  {
+    "id": 213,
+    "name": "ぜったいねむり",
+    "nameEn": "Comatose",
+    "effects": [],
+    "description": "つねに　夢うつつの　状態で絶対に　目覚めない。眠ったまま　攻撃が　できる。"
+  },
+  {
+    "id": 214,
+    "name": "じょおうのいげん",
+    "nameEn": "Queenly Majesty",
+    "effects": [],
+    "description": "相手に　威圧感を　あたえこちらに　むかって　先制技を出せない　ようにする。"
+  },
+  {
+    "id": 215,
+    "name": "とびだすなかみ",
+    "nameEn": "Innards Out",
+    "effects": [],
+    "description": "相手に　倒されたときＨＰの　残りの　ぶんだけ相手に　ダメージを　あたえる。"
+  },
+  {
+    "id": 216,
+    "name": "おどりこ",
+    "nameEn": "Dancer",
+    "effects": [],
+    "description": "だれかが　踊り技を　使うと自分も　それに　続いて踊り技を　出すことが　できる。"
+  },
+  {
+    "id": 218,
+    "name": "もふもふ",
+    "nameEn": "Fluffy",
+    "effects": [],
+    "description": "相手から　受けた　接触する　技のダメージを　半減するが　ほのおタイプの技の　ダメージは　２倍になる。"
+  },
+  {
+    "id": 219,
+    "name": "ビビッドボディ",
+    "nameEn": "Dazzling",
+    "effects": [],
+    "description": "相手を　びっくり　させてこちらに　むかって　先制技を出せない　ようにする。"
+  },
+  {
+    "id": 220,
+    "name": "ソウルハート",
+    "nameEn": "Soul Heart",
+    "effects": [],
+    "description": "ポケモンが　ひんしに　なるたびに特攻が　上がる。"
+  },
+  {
+    "id": 222,
+    "name": "レシーバー",
+    "nameEn": "Receiver",
+    "effects": [],
+    "description": "倒された　味方の　特性を受け継いで　同じ　特性に　なる。"
+  },
+  {
+    "id": 224,
+    "name": "ビーストブースト",
+    "nameEn": "Beast Boost",
+    "effects": [],
+    "description": "相手を　倒したとき自分の　いちばん　高い能力が　上がる。"
+  },
+  {
+    "id": 225,
+    "name": "ＡＲシステム",
+    "nameEn": "Rks System",
+    "effects": [],
+    "description": "持っている　メモリで自分の　タイプが　変わる。"
+  },
+  {
+    "id": 226,
+    "name": "エレキメイカー",
+    "nameEn": "Electric Surge",
+    "effects": [],
+    "description": "登場　したときにエレキフィールドを　はりめぐらせる。"
+  },
+  {
+    "id": 227,
+    "name": "サイコメイカー",
+    "nameEn": "Psychic Surge",
+    "effects": [],
+    "description": "登場　したときにサイコフィールドを　はりめぐらせる。"
+  },
+  {
+    "id": 228,
+    "name": "ミストメイカー",
+    "nameEn": "Misty Surge",
+    "effects": [],
+    "description": "登場　したときにミストフィールドを　はりめぐらせる。"
+  },
+  {
+    "id": 229,
+    "name": "グラスメイカー",
+    "nameEn": "Grassy Surge",
+    "effects": [],
+    "description": "登場　したときにグラスフィールドを　はりめぐらせる。"
+  },
+  {
+    "id": 230,
+    "name": "メタルプロテクト",
+    "nameEn": "Full Metal Body",
+    "effects": [],
+    "description": "相手の　技や　特性で能力を　下げられない。"
+  },
+  {
+    "id": 231,
+    "name": "ファントムガード",
+    "nameEn": "Shadow Shield",
+    "effects": [],
+    "description": "ＨＰが　満タンの　ときに受ける　ダメージが　少なくなる。"
+  },
+  {
+    "id": 232,
+    "name": "プリズムアーマー",
+    "nameEn": "Prism Armor",
+    "effects": [],
+    "description": "効果バツグンに　なってしまう攻撃の　威力を弱める　ことが　できる。"
+  },
+  {
+    "id": 234,
+    "name": "ふとうのけん",
+    "nameEn": "Intrepid Sword",
+    "effects": [],
+    "description": "登場　したときに攻撃が　上がる。"
+  },
+  {
+    "id": 235,
+    "name": "ふくつのたて",
+    "nameEn": "Dauntless Shield",
+    "effects": [],
+    "description": "登場　したときに防御が　上がる。"
+  },
+  {
+    "id": 236,
+    "name": "リベロ",
+    "nameEn": "Libero",
+    "effects": [],
+    "description": "自分が　出す　技と同じ　タイプに　変化する。"
+  },
+  {
+    "id": 238,
+    "name": "わたげ",
+    "nameEn": "Cotton Down",
+    "effects": [],
+    "description": "攻撃を　受けると　わたげを　ばらまいて自分以外の　ポケモン　すべての素早さを　下げる。"
+  },
+  {
+    "id": 239,
+    "name": "スクリューおびれ",
+    "nameEn": "Propeller Tail",
+    "effects": [],
+    "description": "相手の　技を　引き受ける特性や　技の影響を　無視　できる。"
+  },
+  {
+    "id": 240,
+    "name": "ミラーアーマー",
+    "nameEn": "Mirror Armor",
+    "effects": [],
+    "description": "自分が　受けた能力　ダウンの効果　だけを　跳ね返す。"
+  },
+  {
+    "id": 241,
+    "name": "うのミサイル",
+    "nameEn": "Gulp Missile",
+    "effects": [],
+    "description": "なみのりか　ダイビングを　すると獲物を　くわえてくる。　ダメージを受けると　獲物を　吐きだして　攻撃。"
+  },
+  {
+    "id": 242,
+    "name": "すじがねいり",
+    "nameEn": "Stalwart",
+    "effects": [],
+    "description": "相手の　技を　引き受ける特性や　技の影響を　無視　できる。"
+  },
+  {
+    "id": 243,
+    "name": "じょうききかん",
+    "nameEn": "Steam Engine",
+    "effects": [],
+    "description": "みずタイプ　ほのおタイプの技を　受けると素早さが　ぐぐーんと　上がる。"
+  },
+  {
+    "id": 244,
+    "name": "パンクロック",
+    "nameEn": "Punk Rock",
+    "effects": [],
+    "description": "音技の　威力が　上がる。受けた　音技のダメージは　半分に　なる。"
+  },
+  {
+    "id": 245,
+    "name": "すなはき",
+    "nameEn": "Sand Spit",
+    "effects": [],
+    "description": "攻撃を　受けると砂あらしを　起こす。"
+  },
+  {
+    "id": 246,
+    "name": "こおりのりんぷん",
+    "nameEn": "Ice Scales",
+    "effects": [],
+    "description": "こおりのりんぷんに　守られて特殊攻撃で　受けるダメージが　半減　する。"
+  },
+  {
+    "id": 247,
+    "name": "じゅくせい",
+    "nameEn": "Ripen",
+    "effects": [],
+    "description": "熟成　させることできのみの　効果が倍に　なる。"
+  },
+  {
+    "id": 248,
+    "name": "アイスフェイス",
+    "nameEn": "Ice Face",
+    "effects": [],
+    "description": "物理攻撃は　頭の　氷がみがわりに　なるが　姿も　変わる。氷は　あられが　降ると　元に戻る。"
+  },
+  {
+    "id": 249,
+    "name": "パワースポット",
+    "nameEn": "Power Spot",
+    "effects": [],
+    "description": "隣に　いるだけで技の　威力が　上がる。"
+  },
+  {
+    "id": 251,
+    "name": "バリアフリー",
+    "nameEn": "Screen Cleaner",
+    "effects": [],
+    "description": "登場　したときに　敵と　味方のひかりのかべ　リフレクターオーロラベールの　効果が　消える。"
+  },
+  {
+    "id": 252,
+    "name": "はがねのせいしん",
+    "nameEn": "Steely Spirit",
+    "effects": [],
+    "description": "味方の　はがねタイプの攻撃の　威力が　上がる。"
+  },
+  {
+    "id": 253,
+    "name": "ほろびのボディ",
+    "nameEn": "Perish Body",
+    "effects": [],
+    "description": "接触する　技を　受けるとお互い　３ターン　たつと　ひんしになる。交代すると　効果は　なくなる。"
+  },
+  {
+    "id": 254,
+    "name": "さまようたましい",
+    "nameEn": "Wandering Spirit",
+    "effects": [],
+    "description": "接触する　技で攻撃　してきた　ポケモンと特性を　入れ替える。"
+  },
+  {
+    "id": 256,
+    "name": "かがくへんかガス",
+    "nameEn": "Neutralizing Gas",
+    "effects": [],
+    "description": "かがくへんかガスの　ポケモンが　場にいるとすべての　ポケモンの　特性の効果が　消えたり　発動　しなくなる。"
+  },
+  {
+    "id": 258,
+    "name": "はらぺこスイッチ",
+    "nameEn": "Hunger Switch",
+    "effects": [],
+    "description": "ターンの　終わりに　まんぷくもようはらぺこもよう　まんぷくもよう……と交互に　姿を　変える。"
+  },
+  {
+    "id": 260,
+    "name": "ふかしのこぶし",
+    "nameEn": "Unseen Fist",
+    "effects": [],
+    "description": "相手に　接触する　技なら守りの　効果を無視して　攻撃することが　できる。"
+  },
+  {
+    "id": 262,
+    "name": "トランジスタ",
+    "nameEn": "Transistor",
+    "effects": [],
+    "description": "でんきタイプの　技の威力が　上がる。"
+  },
+  {
+    "id": 263,
+    "name": "りゅうのあぎと",
+    "nameEn": "Dragons Maw",
+    "effects": [],
+    "description": "ドラゴンタイプの　技の威力が　上がる。"
+  },
+  {
+    "id": 264,
+    "name": "しろのいななき",
+    "nameEn": "Chilling Neigh",
+    "effects": [],
+    "description": "相手を　倒すと冷たい　声で　いなないて攻撃が　上がる。"
+  },
+  {
+    "id": 265,
+    "name": "くろのいななき",
+    "nameEn": "Grim Neigh",
+    "effects": [],
+    "description": "相手を　倒すと恐ろしい　声で　いなないて特攻が　上がる。"
+  },
+  {
+    "id": 268,
+    "name": "とれないにおい",
+    "nameEn": "Lingering Aroma",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 269,
+    "name": "こぼれダネ",
+    "nameEn": "Seed Sower",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 270,
+    "name": "ねつこうかん",
+    "nameEn": "Thermal Exchange",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 271,
+    "name": "いかりのこうら",
+    "nameEn": "Anger Shell",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 272,
+    "name": "きよめのしお",
+    "nameEn": "Purifying Salt",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 273,
+    "name": "こんがりボディ",
+    "nameEn": "Well Baked Body",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 274,
+    "name": "かぜのり",
+    "nameEn": "Wind Rider",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 275,
+    "name": "ばんけん",
+    "nameEn": "Guard Dog",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 276,
+    "name": "いわはこび",
+    "nameEn": "Rocky Payload",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 277,
+    "name": "ふうりょくでんき",
+    "nameEn": "Wind Power",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 278,
+    "name": "マイティチェンジ",
+    "nameEn": "Zero To Hero",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 279,
+    "name": "しれいとう",
+    "nameEn": "Commander",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 280,
+    "name": "でんきにかえる",
+    "nameEn": "Electromorphosis",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 281,
+    "name": "こだいかっせい",
+    "nameEn": "Protosynthesis",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 282,
+    "name": "クォークチャージ",
+    "nameEn": "Quark Drive",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 283,
+    "name": "おうごんのからだ",
+    "nameEn": "Good As Gold",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 284,
+    "name": "わざわいのうつわ",
+    "nameEn": "Vessel Of Ruin",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 285,
+    "name": "わざわいのつるぎ",
+    "nameEn": "Sword Of Ruin",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 286,
+    "name": "わざわいのおふだ",
+    "nameEn": "Tablets Of Ruin",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 287,
+    "name": "わざわいのたま",
+    "nameEn": "Beads Of Ruin",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 288,
+    "name": "ひひいろのこどう",
+    "nameEn": "Orichalcum Pulse",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 289,
+    "name": "ハドロンエンジン",
+    "nameEn": "Hadron Engine",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 290,
+    "name": "びんじょう",
+    "nameEn": "Opportunist",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 291,
+    "name": "はんすう",
+    "nameEn": "Cud Chew",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 292,
+    "name": "きれあじ",
+    "nameEn": "Sharpness",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 293,
+    "name": "そうだいしょう",
+    "nameEn": "Supreme Overlord",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 294,
+    "name": "きょうえん",
+    "nameEn": "Costar",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 295,
+    "name": "どくげしょう",
+    "nameEn": "Toxic Debris",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 296,
+    "name": "テイルアーマー",
+    "nameEn": "Armor Tail",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 297,
+    "name": "どしょく",
+    "nameEn": "Earth Eater",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 298,
+    "name": "きんしのちから",
+    "nameEn": "Mycelium Might",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 300,
+    "name": "Supersweet Syrup",
+    "nameEn": "Supersweet Syrup",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 301,
+    "name": "おもてなし",
+    "nameEn": "Hospitality",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 302,
+    "name": "どくのくさり",
+    "nameEn": "Toxic Chain",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 304,
+    "name": "テラスチェンジ",
+    "nameEn": "Tera Shift",
+    "effects": [],
+    "description": ""
+  },
+  {
+    "id": 307,
+    "name": "どくくぐつ",
+    "nameEn": "Poison Puppeteer",
+    "effects": [],
+    "description": ""
+  }
+]
