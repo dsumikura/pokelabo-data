@@ -1,10 +1,10 @@
 {
-  "version": 3,
-  "updatedAt": "2026-03-29T12:31:44.811945+00:00",
+  "version": 4,
+  "updatedAt": "2026-03-29T15:54:58.216576+00:00",
   "files": {
     "pokemon": {
-      "hash": "9a344c5e11fc814e903038e75ac557685a8abb90f0f2a26913466703c694daa0",
-      "size": 906207
+      "hash": "329af10b6e95a93de1df57e9502727b3a37e35149e1a852f9dcdc56c3fe0204d",
+      "size": 918268
     },
     "moves": {
       "hash": "b5a7687b12bcd7e4c8dbe09537e71edf03549be485587623c19da41b27953d08",

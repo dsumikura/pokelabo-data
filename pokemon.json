@@ -1985,7 +1985,31 @@
       }
     ],
     "weight": 40.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "fairy",
+          "flying"
+        ],
+        "baseStats": {
+          "hp": 95,
+          "attack": 80,
+          "defense": 93,
+          "spAttack": 135,
+          "spDefense": 110,
+          "speed": 70
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "clefable-mega",
+        "spriteId": 10278
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       1,
@@ -3941,7 +3965,31 @@
       }
     ],
     "weight": 15.5,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "attack": 125,
+          "defense": 85,
+          "spAttack": 135,
+          "spDefense": 95,
+          "speed": 70
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "victreebel-mega",
+        "spriteId": 10279
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       14,
@@ -6771,7 +6819,31 @@
       }
     ],
     "weight": 80.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "water",
+          "psychic"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "attack": 140,
+          "defense": 105,
+          "spAttack": 130,
+          "spDefense": 105,
+          "speed": 120
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "starmie-mega",
+        "spriteId": 10280
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       29,
@@ -9081,7 +9153,31 @@
       }
     ],
     "weight": 210.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "dragon",
+          "flying"
+        ],
+        "baseStats": {
+          "hp": 91,
+          "attack": 124,
+          "defense": 115,
+          "spAttack": 145,
+          "spDefense": 125,
+          "speed": 100
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "dragonite-mega",
+        "spriteId": 10281
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       5,
@@ -9906,7 +10002,31 @@
       }
     ],
     "weight": 100.5,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "grass",
+          "fairy"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "attack": 92,
+          "defense": 115,
+          "spAttack": 143,
+          "spDefense": 115,
+          "speed": 80
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "meganium-mega",
+        "spriteId": 10282
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       14,
@@ -10179,7 +10299,31 @@
       }
     ],
     "weight": 88.8,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "water",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 85,
+          "attack": 160,
+          "defense": 125,
+          "spAttack": 89,
+          "spDefense": 93,
+          "speed": 78
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "feraligatr-mega",
+        "spriteId": 10283
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       5,
@@ -14261,7 +14405,31 @@
       }
     ],
     "weight": 50.5,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "steel",
+          "flying"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "attack": 140,
+          "defense": 110,
+          "spAttack": 40,
+          "spDefense": 100,
+          "speed": 110
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "skarmory-mega",
+        "spriteId": 10284
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       14,
@@ -33161,7 +33329,31 @@
       }
     ],
     "weight": 26.6,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "ice",
+          "ghost"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "attack": 80,
+          "defense": 70,
+          "spAttack": 140,
+          "spDefense": 100,
+          "speed": 120
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "froslass-mega",
+        "spriteId": 10285
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       8,
@@ -35399,7 +35591,31 @@
       }
     ],
     "weight": 150.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "fire",
+          "fighting"
+        ],
+        "baseStats": {
+          "hp": 110,
+          "attack": 148,
+          "defense": 75,
+          "spAttack": 110,
+          "spDefense": 110,
+          "speed": 75
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "emboar-mega",
+        "spriteId": 10286
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       7,
@@ -36861,7 +37077,31 @@
       }
     ],
     "weight": 40.4,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "ground",
+          "steel"
+        ],
+        "baseStats": {
+          "hp": 110,
+          "attack": 165,
+          "defense": 100,
+          "spAttack": 65,
+          "spDefense": 65,
+          "speed": 103
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "excadrill-mega",
+        "spriteId": 10287
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       10,
@@ -37741,7 +37981,31 @@
       }
     ],
     "weight": 200.5,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "bug",
+          "poison"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "attack": 140,
+          "defense": 149,
+          "spAttack": 75,
+          "spDefense": 99,
+          "speed": 62
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "scolipede-mega",
+        "spriteId": 10288
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       14,
@@ -38557,7 +38821,31 @@
       }
     ],
     "weight": 30.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "dark",
+          "fighting"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "attack": 130,
+          "defense": 135,
+          "spAttack": 55,
+          "spDefense": 135,
+          "speed": 68
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "scrafty-mega",
+        "spriteId": 10289
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       5,
@@ -40950,7 +41238,30 @@
       }
     ],
     "weight": 80.5,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "electric"
+        ],
+        "baseStats": {
+          "hp": 85,
+          "attack": 145,
+          "defense": 80,
+          "spAttack": 135,
+          "spDefense": 90,
+          "speed": 80
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "eelektross-mega",
+        "spriteId": 10290
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       7,
@@ -41214,7 +41525,31 @@
       }
     ],
     "weight": 34.3,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "ghost",
+          "fire"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "attack": 75,
+          "defense": 110,
+          "spAttack": 175,
+          "spDefense": 110,
+          "speed": 90
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "chandelure-mega",
+        "spriteId": 10291
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       52,
@@ -44561,7 +44896,31 @@
       }
     ],
     "weight": 90.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "grass",
+          "fighting"
+        ],
+        "baseStats": {
+          "hp": 88,
+          "attack": 137,
+          "defense": 172,
+          "spAttack": 74,
+          "spDefense": 115,
+          "speed": 44
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "chesnaught-mega",
+        "spriteId": 10292
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       9,
@@ -44714,7 +45073,31 @@
       }
     ],
     "weight": 39.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "fire",
+          "psychic"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "attack": 69,
+          "defense": 72,
+          "spAttack": 159,
+          "spDefense": 125,
+          "speed": 134
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "delphox-mega",
+        "spriteId": 10293
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       7,
@@ -44856,7 +45239,31 @@
       }
     ],
     "weight": 40.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "water",
+          "dark"
+        ],
+        "baseStats": {
+          "hp": 72,
+          "attack": 125,
+          "defense": 77,
+          "spAttack": 133,
+          "spDefense": 81,
+          "speed": 142
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "greninja-mega",
+        "spriteId": 10294
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       1,
@@ -45335,7 +45742,31 @@
       }
     ],
     "weight": 81.5,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "fire",
+          "normal"
+        ],
+        "baseStats": {
+          "hp": 86,
+          "attack": 88,
+          "defense": 92,
+          "spAttack": 129,
+          "spDefense": 86,
+          "speed": 126
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "pyroar-mega",
+        "spriteId": 10295
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       29,
@@ -46323,7 +46754,31 @@
       }
     ],
     "weight": 47.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "dark",
+          "psychic"
+        ],
+        "baseStats": {
+          "hp": 86,
+          "attack": 102,
+          "defense": 88,
+          "spAttack": 98,
+          "spDefense": 120,
+          "speed": 88
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "malamar-mega",
+        "spriteId": 10297
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       15,
@@ -46456,7 +46911,31 @@
       }
     ],
     "weight": 96.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "rock",
+          "fighting"
+        ],
+        "baseStats": {
+          "hp": 72,
+          "attack": 140,
+          "defense": 130,
+          "spAttack": 64,
+          "spDefense": 106,
+          "speed": 88
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "barbaracle-mega",
+        "spriteId": 10298
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       10,
@@ -46596,7 +47075,31 @@
       }
     ],
     "weight": 81.5,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "poison",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "attack": 85,
+          "defense": 105,
+          "spAttack": 132,
+          "spDefense": 163,
+          "speed": 44
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "dragalge-mega",
+        "spriteId": 10299
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       33,
@@ -47275,7 +47778,31 @@
       }
     ],
     "weight": 21.5,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "fighting",
+          "flying"
+        ],
+        "baseStats": {
+          "hp": 78,
+          "attack": 137,
+          "defense": 100,
+          "spAttack": 74,
+          "spDefense": 93,
+          "speed": 118
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "hawlucha-mega",
+        "spriteId": 10300
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       2,
@@ -48570,7 +49097,31 @@
       }
     ],
     "weight": 305.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "dragon",
+          "ground"
+        ],
+        "baseStats": {
+          "hp": 216,
+          "attack": 70,
+          "defense": 91,
+          "spAttack": 216,
+          "spDefense": 85,
+          "speed": 100
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "zygarde-mega",
+        "spriteId": 10301
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       20,
@@ -52711,7 +53262,31 @@
       }
     ],
     "weight": 185.0,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "normal",
+          "dragon"
+        ],
+        "baseStats": {
+          "hp": 78,
+          "attack": 85,
+          "defense": 110,
+          "spAttack": 160,
+          "spDefense": 116,
+          "speed": 36
+        },
+        "ability": {
+          "id": 0,
+          "name": "不明",
+          "nameEn": "Unknown",
+          "effects": []
+        },
+        "megaStone": "drampa-mega",
+        "spriteId": 10302
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       13,
