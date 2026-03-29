@@ -130,6 +130,7 @@ def fetch_mega_form(mega_name: str) -> dict | None:
     return {
         "name": display, "types": types, "baseStats": base_stats,
         "ability": ability_data, "megaStone": mega_name,
+        "spriteId": data["id"],
     }
 
 
