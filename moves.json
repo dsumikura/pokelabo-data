@@ -15220,7 +15220,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -15266,7 +15266,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -15565,7 +15565,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -16163,7 +16163,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -18992,7 +18992,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -19084,7 +19084,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -19429,7 +19429,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -19682,7 +19682,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -19866,7 +19866,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -20740,7 +20740,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -20809,7 +20809,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
@@ -21085,7 +21085,7 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": true
     },
     "powerType": "fixed",
     "hitCount": "single"
