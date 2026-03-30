@@ -68,7 +68,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "この技は　使えません思い出すことが　できなくなりますが技を　忘れることを　おすすめします"
   },
   {
@@ -92,7 +95,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "この技は　使えません思い出すことが　できなくなりますが技を　忘れることを　おすすめします"
   },
   {
@@ -572,7 +578,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 2
+    },
     "description": "２本の　足で　相手を　けとばして攻撃する。　２回連続でダメージを　与える。"
   },
   {
@@ -740,7 +748,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "つのや　くちばしで相手を　つついて　攻撃する。２ー５回の　間　連続で　だす。"
   },
   {
@@ -980,7 +991,9 @@
       "hasSecondaryEffect": true
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 2
+    },
     "description": "この技は　使えません思い出すことが　できなくなりますが技を　忘れることを　おすすめします"
   },
   {
@@ -1004,7 +1017,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "鋭い　ハリを相手に　発射して　攻撃する。２ー５回の　間　連続で　だす。"
   },
   {
@@ -3140,7 +3156,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "この技は　使えません思い出すことが　できなくなりますが技を　忘れることを　おすすめします"
   },
   {
@@ -3356,7 +3375,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "この技は　使えません思い出すことが　できなくなりますが技を　忘れることを　おすすめします"
   },
   {
@@ -3692,7 +3714,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "ツメや　カマなどで相手を　ひっかいて　攻撃する。２ー５回の　間　連続で　だす。"
   },
   {
@@ -3716,7 +3741,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 2
+    },
     "description": "手に　持った　ホネを　相手に　投げつけ行きと　帰りの　２回連続でダメージを　与える。"
   },
   {
@@ -4004,7 +4031,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 3
+    },
     "description": "３回連続で　キックを　くりだして攻撃する。　技が　当たるたびに威力は　あがる。"
   },
   {
@@ -4748,7 +4777,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "硬い　ホネで相手を　なぐりつけて　攻撃する。２ー５回の　間　連続で　だす。"
   },
   {
@@ -6020,7 +6052,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 6
+    },
     "description": "味方　全員で　攻撃する。仲間の　ポケモンが　多いほど技の　攻撃回数が　増える。"
   },
   {
@@ -7004,7 +7038,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "ひらいた　両手で相手を　つっぱって　攻撃する。２ー５回の　間　連続で　だす。"
   },
   {
@@ -7940,7 +7977,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "タネを　勢いよく相手に　発射して　攻撃する。２ー５回の　間　連続で　だす。"
   },
   {
@@ -7988,7 +8028,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "鋭い　氷柱を相手に　発射して　攻撃する。２ー５回の　間　連続で　だす。"
   },
   {
@@ -8396,7 +8439,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "硬い　岩石を相手に　発射して　攻撃する。２ー５回の　間　連続で　だす。"
   },
   {
@@ -10988,7 +11034,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 2
+    },
     "description": "しっぽなどを　使い相手を　たたいて　攻撃する。２回連続で　ダメージを　与える。"
   },
   {
@@ -12716,7 +12764,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 2
+    },
     "description": "体の　硬い部分で　相手をたたいて　攻撃する。２回連続で　ダメージを　与える。"
   },
   {
@@ -12980,7 +13030,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "硬い　しっぽで相手を　たたいて　攻撃する。２ー５回の　間　連続で　だす。"
   },
   {
@@ -13052,7 +13105,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 2
+    },
     "description": "鋼鉄の　ギアを　相手に投げつけて　攻撃する。２回連続で　ダメージを　与える。"
   },
   {
@@ -14252,7 +14307,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "粘液で　できた　手裏剣を２ー５回の　間　連続で　だす。必ず　先制攻撃　できる。"
   },
   {
@@ -17804,7 +17862,9 @@
       "hasSecondaryEffect": true
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 2
+    },
     "description": "胸の　ナットを　軸に　回転して２回　続けて　うでを　たたきつける。相手を　ひるませる　ことが　ある。"
   },
   {
@@ -18020,7 +18080,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 2
+    },
     "description": "ドラメシヤで　２回　攻撃。相手が　２匹　いるときはそれぞれに　１回ずつ　攻撃する。"
   },
   {
@@ -19172,7 +19234,10 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "min": 2,
+      "max": 5
+    },
     "description": "ウロコを　撃ちだして　攻撃する。２ー５回の　間　連続で　だす。素早さが　あがるが　防御が　さがる。"
   },
   {
@@ -19508,7 +19573,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 3
+    },
     "description": "３回連続で　キックを　くりだして攻撃する。　技が　当たるたびに威力は　あがる。"
   },
   {
@@ -19532,7 +19599,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 2
+    },
     "description": "翼を　相手に　ぶつけて攻撃する。　２回連続でダメージを　与える。"
   },
   {
@@ -19628,7 +19697,9 @@
       "hasSecondaryEffect": false
     },
     "powerType": "fixed",
-    "hitCount": "single",
+    "hitCount": {
+      "fixed": 3
+    },
     "description": "みずの型を　極めし流れるような　３回の　連撃。必ず　急所に　当たる。"
   },
   {
