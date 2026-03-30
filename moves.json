@@ -20948,7 +20948,8 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": false,
+      "alwaysCritical": true
     },
     "powerType": "fixed",
     "hitCount": "single",
