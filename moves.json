@@ -11561,7 +11561,8 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": false,
+      "alwaysCritical": true
     },
     "powerType": "fixed",
     "hitCount": "single",
@@ -12617,7 +12618,8 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": true
+      "hasSecondaryEffect": true,
+      "alwaysCritical": true
     },
     "powerType": "fixed",
     "hitCount": "single",
@@ -19670,7 +19672,8 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": false,
+      "alwaysCritical": true
     },
     "powerType": "fixed",
     "hitCount": "single",
@@ -19694,7 +19697,8 @@
       "isSlicing": false,
       "isBullet": false,
       "isWind": false,
-      "hasSecondaryEffect": false
+      "hasSecondaryEffect": false,
+      "alwaysCritical": true
     },
     "powerType": "fixed",
     "hitCount": {
