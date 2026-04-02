@@ -68383,6 +68383,86 @@
     ]
   },
   {
+    "id": 1011,
+    "name": "カミッチュ",
+    "nameEn": "Dipplin",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 110,
+      "spAttack": 95,
+      "spDefense": 80,
+      "speed": 40
+    },
+    "abilities": [
+      {
+        "id": 300,
+        "name": "supersweet-syrup",
+        "nameEn": "Supersweet Syrup",
+        "effects": []
+      },
+      {
+        "id": 82,
+        "name": "くいしんぼう",
+        "nameEn": "Gluttony",
+        "effects": []
+      }
+    ],
+    "weight": 9.7,
+    "megaEvolutions": [],
+    "forms": [],
+    "learnableMoveIds": [
+      34,
+      36,
+      63,
+      74,
+      76,
+      105,
+      110,
+      111,
+      115,
+      156,
+      164,
+      182,
+      200,
+      202,
+      203,
+      205,
+      214,
+      225,
+      230,
+      241,
+      263,
+      278,
+      310,
+      331,
+      360,
+      389,
+      402,
+      406,
+      412,
+      416,
+      434,
+      437,
+      447,
+      450,
+      458,
+      525,
+      580,
+      611,
+      676,
+      803,
+      851,
+      884,
+      903,
+      913
+    ]
+  },
+  {
     "id": 1013,
     "name": "ヤバソチャ",
     "nameEn": "Sinistcha",
