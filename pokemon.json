@@ -48881,7 +48881,136 @@
     ],
     "weight": 12.5,
     "megaEvolutions": [],
-    "forms": [],
+    "forms": [
+      {
+        "formName": "ちいさいサイズ",
+        "formNameEn": "small",
+        "types": [
+          "ghost",
+          "grass"
+        ],
+        "baseStats": {
+          "hp": 55,
+          "attack": 85,
+          "defense": 122,
+          "spAttack": 58,
+          "spDefense": 75,
+          "speed": 99
+        },
+        "abilities": [
+          {
+            "id": 53,
+            "name": "ものひろい",
+            "nameEn": "Pickup",
+            "effects": []
+          },
+          {
+            "id": 119,
+            "name": "おみとおし",
+            "nameEn": "Frisk",
+            "effects": []
+          }
+        ],
+        "weight": 9.5,
+        "spriteId": 10030
+      },
+      {
+        "formName": "ふつうサイズ",
+        "formNameEn": "average",
+        "types": [
+          "ghost",
+          "grass"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "attack": 90,
+          "defense": 122,
+          "spAttack": 58,
+          "spDefense": 75,
+          "speed": 84
+        },
+        "abilities": [
+          {
+            "id": 53,
+            "name": "ものひろい",
+            "nameEn": "Pickup",
+            "effects": []
+          },
+          {
+            "id": 119,
+            "name": "おみとおし",
+            "nameEn": "Frisk",
+            "effects": []
+          }
+        ],
+        "weight": 12.5,
+        "spriteId": 711
+      },
+      {
+        "formName": "おおきいサイズ",
+        "formNameEn": "large",
+        "types": [
+          "ghost",
+          "grass"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "attack": 95,
+          "defense": 122,
+          "spAttack": 58,
+          "spDefense": 75,
+          "speed": 69
+        },
+        "abilities": [
+          {
+            "id": 53,
+            "name": "ものひろい",
+            "nameEn": "Pickup",
+            "effects": []
+          },
+          {
+            "id": 119,
+            "name": "おみとおし",
+            "nameEn": "Frisk",
+            "effects": []
+          }
+        ],
+        "weight": 14.0,
+        "spriteId": 10031
+      },
+      {
+        "formName": "とくだいサイズ",
+        "formNameEn": "super",
+        "types": [
+          "ghost",
+          "grass"
+        ],
+        "baseStats": {
+          "hp": 85,
+          "attack": 100,
+          "defense": 122,
+          "spAttack": 58,
+          "spDefense": 75,
+          "speed": 54
+        },
+        "abilities": [
+          {
+            "id": 53,
+            "name": "ものひろい",
+            "nameEn": "Pickup",
+            "effects": []
+          },
+          {
+            "id": 119,
+            "name": "おみとおし",
+            "nameEn": "Frisk",
+            "effects": []
+          }
+        ],
+        "weight": 39.0,
+        "spriteId": 10032
+      }
+    ],
     "learnableMoveIds": [
       53,
       63,
