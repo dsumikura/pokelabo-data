@@ -1619,7 +1619,9 @@
       "isWind": false,
       "hasSecondaryEffect": false
     },
-    "powerType": "fixed",
+    "powerType": {
+      "variable": "grassKnot"
+    },
     "hitCount": "single",
     "description": "足を　強く　けり相手を　転ばせて　攻撃する。相手が　重いほど　威力が　あがる。"
   },
@@ -8681,7 +8683,9 @@
       "isWind": false,
       "hasSecondaryEffect": false
     },
-    "powerType": "fixed",
+    "powerType": {
+      "variable": "gyroball"
+    },
     "hitCount": "single",
     "description": "体を　高速に　回転させて体当たりする。相手より　素早さが低いほど　強い。"
   },
@@ -10769,7 +10773,9 @@
       "isWind": false,
       "hasSecondaryEffect": false
     },
-    "powerType": "fixed",
+    "powerType": {
+      "variable": "grassKnot"
+    },
     "hitCount": "single",
     "description": "草を　からませて　相手を転ばせる。相手が　重いほど威力が　あがる。"
   },
@@ -11660,7 +11666,9 @@
       "isWind": false,
       "hasSecondaryEffect": false
     },
-    "powerType": "fixed",
+    "powerType": {
+      "variable": "heavySlam"
+    },
     "hitCount": "single",
     "description": "重たい　体で　相手に　ぶつかって攻撃する。　自分が　相手より重いほど　威力が　あがる。"
   },
@@ -11708,7 +11716,9 @@
       "isWind": false,
       "hasSecondaryEffect": false
     },
-    "powerType": "fixed",
+    "powerType": {
+      "variable": "electroball"
+    },
     "hitCount": "single",
     "description": "電気の　塊を　相手にぶつける。相手より　素早さが速いほど　威力が　あがる。"
   },
@@ -11852,7 +11862,9 @@
       "isWind": false,
       "hasSecondaryEffect": false
     },
-    "powerType": "fixed",
+    "powerType": {
+      "variable": "foulPlay"
+    },
     "hitCount": "single",
     "description": "相手の　力を　利用する。戦っている　相手の　攻撃が高いほど　ダメージが　あがる。"
   },
@@ -12887,7 +12899,9 @@
       "isWind": false,
       "hasSecondaryEffect": false
     },
-    "powerType": "fixed",
+    "powerType": {
+      "variable": "heavySlam"
+    },
     "hitCount": "single",
     "description": "燃える　体で　相手に　ぶつかって攻撃する。　自分が　相手より重いほど　威力が　あがる。"
   },
