@@ -65629,56 +65629,107 @@
           "effects": []
         },
         "megaStone": "tatsugiri-curly-mega",
-        "spriteId": 10322
-      },
-      {
-        "name": "メガシンカ",
-        "types": [
-          "dragon",
-          "water"
-        ],
-        "baseStats": {
-          "hp": 68,
-          "attack": 65,
-          "defense": 90,
-          "spAttack": 135,
-          "spDefense": 125,
-          "speed": 92
-        },
-        "ability": {
-          "id": 0,
-          "name": "不明",
-          "nameEn": "Unknown",
-          "effects": []
-        },
-        "megaStone": "tatsugiri-droopy-mega",
-        "spriteId": 10323
-      },
-      {
-        "name": "メガシンカ",
-        "types": [
-          "dragon",
-          "water"
-        ],
-        "baseStats": {
-          "hp": 68,
-          "attack": 65,
-          "defense": 90,
-          "spAttack": 135,
-          "spDefense": 125,
-          "speed": 92
-        },
-        "ability": {
-          "id": 0,
-          "name": "不明",
-          "nameEn": "Unknown",
-          "effects": []
-        },
-        "megaStone": "tatsugiri-stretchy-mega",
         "spriteId": 10324
       }
     ],
-    "forms": [],
+    "forms": [
+      {
+        "formName": "そったすがた",
+        "formNameEn": "curly",
+        "types": [
+          "dragon",
+          "water"
+        ],
+        "baseStats": {
+          "hp": 68,
+          "attack": 50,
+          "defense": 60,
+          "spAttack": 120,
+          "spDefense": 95,
+          "speed": 82
+        },
+        "abilities": [
+          {
+            "id": 279,
+            "name": "しれいとう",
+            "nameEn": "Commander",
+            "effects": []
+          },
+          {
+            "id": 114,
+            "name": "よびみず",
+            "nameEn": "Storm Drain",
+            "effects": []
+          }
+        ],
+        "weight": 8.0,
+        "spriteId": 978
+      },
+      {
+        "formName": "たれたすがた",
+        "formNameEn": "droopy",
+        "types": [
+          "dragon",
+          "water"
+        ],
+        "baseStats": {
+          "hp": 68,
+          "attack": 50,
+          "defense": 60,
+          "spAttack": 120,
+          "spDefense": 95,
+          "speed": 82
+        },
+        "abilities": [
+          {
+            "id": 279,
+            "name": "しれいとう",
+            "nameEn": "Commander",
+            "effects": []
+          },
+          {
+            "id": 114,
+            "name": "よびみず",
+            "nameEn": "Storm Drain",
+            "effects": []
+          }
+        ],
+        "weight": 8.0,
+        "spriteId": 10184
+      },
+      {
+        "formName": "のびたすがた",
+        "formNameEn": "stretchy",
+        "types": [
+          "dragon",
+          "water"
+        ],
+        "baseStats": {
+          "hp": 68,
+          "attack": 50,
+          "defense": 60,
+          "spAttack": 120,
+          "spDefense": 95,
+          "speed": 82
+        },
+        "abilities": [
+          {
+            "id": 279,
+            "name": "しれいとう",
+            "nameEn": "Commander",
+            "effects": []
+          },
+          {
+            "id": 114,
+            "name": "よびみず",
+            "nameEn": "Storm Drain",
+            "effects": []
+          }
+        ],
+        "weight": 8.0,
+        "spriteId": 10185
+      }
+    ],
     "learnableMoveIds": [
       36,
       55,
