@@ -65695,7 +65695,7 @@
           }
         ],
         "weight": 8.0,
-        "spriteId": 10184
+        "spriteId": 10258
       },
       {
         "formName": "のびたすがた",
@@ -65727,7 +65727,7 @@
           }
         ],
         "weight": 8.0,
-        "spriteId": 10185
+        "spriteId": 10259
       }
     ],
     "learnableMoveIds": [
