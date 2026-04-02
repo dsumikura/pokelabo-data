@@ -46687,6 +46687,12 @@
             "name": "すりぬけ",
             "nameEn": "Infiltrator",
             "effects": []
+          },
+          {
+            "id": 158,
+            "name": "いたずらごころ",
+            "nameEn": "Prankster",
+            "effects": []
           }
         ],
         "weight": 8.5,
@@ -46717,6 +46723,12 @@
             "id": 151,
             "name": "すりぬけ",
             "nameEn": "Infiltrator",
+            "effects": []
+          },
+          {
+            "id": 172,
+            "name": "かちき",
+            "nameEn": "Competitive",
             "effects": []
           }
         ],
@@ -48976,6 +48988,12 @@
             "name": "おみとおし",
             "nameEn": "Frisk",
             "effects": []
+          },
+          {
+            "id": 15,
+            "name": "ふみん",
+            "nameEn": "Insomnia",
+            "effects": []
           }
         ],
         "weight": 9.5,
@@ -49007,6 +49025,12 @@
             "id": 119,
             "name": "おみとおし",
             "nameEn": "Frisk",
+            "effects": []
+          },
+          {
+            "id": 15,
+            "name": "ふみん",
+            "nameEn": "Insomnia",
             "effects": []
           }
         ],
@@ -49040,6 +49064,12 @@
             "name": "おみとおし",
             "nameEn": "Frisk",
             "effects": []
+          },
+          {
+            "id": 15,
+            "name": "ふみん",
+            "nameEn": "Insomnia",
+            "effects": []
           }
         ],
         "weight": 14.0,
@@ -49071,6 +49101,12 @@
             "id": 119,
             "name": "おみとおし",
             "nameEn": "Frisk",
+            "effects": []
+          },
+          {
+            "id": 15,
+            "name": "ふみん",
+            "nameEn": "Insomnia",
             "effects": []
           }
         ],
@@ -59991,6 +60027,12 @@
             "name": "シンクロ",
             "nameEn": "Synchronize",
             "effects": []
+          },
+          {
+            "id": 227,
+            "name": "サイコメイカー",
+            "nameEn": "Psychic Surge",
+            "effects": []
           }
         ],
         "weight": 28.0,
@@ -60022,6 +60064,12 @@
             "id": 28,
             "name": "シンクロ",
             "nameEn": "Synchronize",
+            "effects": []
+          },
+          {
+            "id": 227,
+            "name": "サイコメイカー",
+            "nameEn": "Psychic Surge",
             "effects": []
           }
         ],
@@ -68723,7 +68771,7 @@
     "abilities": [
       {
         "id": 300,
-        "name": "supersweet-syrup",
+        "name": "かんろなミツ",
         "nameEn": "Supersweet Syrup",
         "effects": []
       },
@@ -68731,6 +68779,12 @@
         "id": 82,
         "name": "くいしんぼう",
         "nameEn": "Gluttony",
+        "effects": []
+      },
+      {
+        "id": 60,
+        "name": "ねんちゃく",
+        "nameEn": "Sticky Hold",
         "effects": []
       }
     ],
@@ -71718,6 +71772,12 @@
         "id": 166,
         "name": "フラワーベール",
         "nameEn": "Flower Veil",
+        "effects": []
+      },
+      {
+        "id": 180,
+        "name": "きょうせい",
+        "nameEn": "Symbiosis",
         "effects": []
       }
     ],
