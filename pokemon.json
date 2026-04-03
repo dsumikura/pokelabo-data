@@ -35887,9 +35887,9 @@
                     "speed": 75
                 },
                 "ability": {
-                    "id": 0,
-                    "name": "不明",
-                    "nameEn": "Unknown",
+                    "id": 104,
+                    "name": "かたやぶり",
+                    "nameEn": "Mold Breaker",
                     "effects": []
                 },
                 "megaStone": "emboar-mega",
@@ -45216,9 +45216,9 @@
                     "speed": 44
                 },
                 "ability": {
-                    "id": 0,
-                    "name": "不明",
-                    "nameEn": "Unknown",
+                    "id": 171,
+                    "name": "ぼうだん",
+                    "nameEn": "Bulletproof",
                     "effects": []
                 },
                 "megaStone": "chesnaught-mega",
@@ -45393,9 +45393,9 @@
                     "speed": 134
                 },
                 "ability": {
-                    "id": 0,
-                    "name": "不明",
-                    "nameEn": "Unknown",
+                    "id": 26,
+                    "name": "ふゆう",
+                    "nameEn": "Levitate",
                     "effects": []
                 },
                 "megaStone": "delphox-mega",
@@ -45559,9 +45559,9 @@
                     "speed": 142
                 },
                 "ability": {
-                    "id": 0,
-                    "name": "不明",
-                    "nameEn": "Unknown",
+                    "id": 168,
+                    "name": "へんげんじざい",
+                    "nameEn": "Protean",
                     "effects": []
                 },
                 "megaStone": "greninja-mega",
