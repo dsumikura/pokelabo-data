@@ -1992,5 +1992,11 @@
         "name": "メガソーラー",
         "nameEn": "Mega Solar",
         "effects": []
+    },
+    {
+        "id": 10002,
+        "name": "ドラゴンスキン",
+        "nameEn": "Dragon Skin",
+        "effects": []
     }
 ]

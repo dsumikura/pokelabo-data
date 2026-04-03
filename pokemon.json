@@ -10500,9 +10500,9 @@
                     "speed": 78
                 },
                 "ability": {
-                    "id": 0,
-                    "name": "不明",
-                    "nameEn": "Unknown",
+                    "id": 10002,
+                    "name": "ドラゴンスキン",
+                    "nameEn": "Dragon Skin",
                     "effects": []
                 },
                 "megaStone": "feraligatr-mega",
