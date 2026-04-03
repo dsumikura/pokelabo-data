@@ -1,692 +1,866 @@
 [
-  {
-    "id": 0,
-    "name": "なし",
-    "nameEn": "None",
-    "effects": []
-  },
-  {
-    "id": 270,
-    "name": "こだわりハチマキ",
-    "nameEn": "Choice Band",
-    "effects": []
-  },
-  {
-    "id": 297,
-    "name": "こだわりメガネ",
-    "nameEn": "Choice Specs",
-    "effects": []
-  },
-  {
-    "id": 247,
-    "name": "いのちのたま",
-    "nameEn": "Life Orb",
-    "effects": []
-  },
-  {
-    "id": 199,
-    "name": "もくたん",
-    "nameEn": "Charcoal",
-    "effects": []
-  },
-  {
-    "id": 220,
-    "name": "しんぴのしずく",
-    "nameEn": "Mystic Water",
-    "effects": []
-  },
-  {
-    "id": 237,
-    "name": "きせきのタネ",
-    "nameEn": "Miracle Seed",
-    "effects": []
-  },
-  {
-    "id": 236,
-    "name": "じしゃく",
-    "nameEn": "Magnet",
-    "effects": []
-  },
-  {
-    "id": 223,
-    "name": "りゅうのキバ",
-    "nameEn": "Dragon Fang",
-    "effects": []
-  },
-  {
-    "id": 245,
-    "name": "くろいメガネ",
-    "nameEn": "Black Glasses",
-    "effects": []
-  },
-  {
-    "id": 233,
-    "name": "メタルコート",
-    "nameEn": "Metal Coat",
-    "effects": []
-  },
-  {
-    "id": 221,
-    "name": "とけないこおり",
-    "nameEn": "Never-Melt Ice",
-    "effects": []
-  },
-  {
-    "id": 222,
-    "name": "くろおび",
-    "nameEn": "Black Belt",
-    "effects": []
-  },
-  {
-    "id": 234,
-    "name": "やわらかいすな",
-    "nameEn": "Soft Sand",
-    "effects": []
-  },
-  {
-    "id": 235,
-    "name": "するどいくちばし",
-    "nameEn": "Sharp Beak",
-    "effects": []
-  },
-  {
-    "id": 244,
-    "name": "まがったスプーン",
-    "nameEn": "Twisted Spoon",
-    "effects": []
-  },
-  {
-    "id": 225,
-    "name": "どくバリ",
-    "nameEn": "Poison Barb",
-    "effects": []
-  },
-  {
-    "id": 224,
-    "name": "シルクのスカーフ",
-    "nameEn": "Silk Scarf",
-    "effects": []
-  },
-  {
-    "id": 226,
-    "name": "のろいのおふだ",
-    "nameEn": "Spell Tag",
-    "effects": []
-  },
-  {
-    "id": 198,
-    "name": "ぎんのこな",
-    "nameEn": "Silver Powder",
-    "effects": []
-  },
-  {
-    "id": 246,
-    "name": "がんせきおこう",
-    "nameEn": "Rock Incense",
-    "effects": []
-  },
-  {
-    "id": 538,
-    "name": "とつげきチョッキ",
-    "nameEn": "Assault Vest",
-    "effects": []
-  },
-  {
-    "id": 1000,
-    "name": "ユキノオーナイト",
-    "nameEn": "abomasnow-mega",
-    "effects": []
-  },
-  {
-    "id": 1001,
-    "name": "アブソルナイト",
-    "nameEn": "absol-mega",
-    "effects": []
-  },
-  {
-    "id": 1002,
-    "name": "アブソルナイトZ",
-    "nameEn": "absol-mega-z",
-    "effects": []
-  },
-  {
-    "id": 1003,
-    "name": "プテラナイト",
-    "nameEn": "aerodactyl-mega",
-    "effects": []
-  },
-  {
-    "id": 1004,
-    "name": "ボスゴドラナイト",
-    "nameEn": "aggron-mega",
-    "effects": []
-  },
-  {
-    "id": 1005,
-    "name": "フーディナイト",
-    "nameEn": "alakazam-mega",
-    "effects": []
-  },
-  {
-    "id": 1006,
-    "name": "チルタリスナイト",
-    "nameEn": "altaria-mega",
-    "effects": []
-  },
-  {
-    "id": 1007,
-    "name": "デンリュウナイト",
-    "nameEn": "ampharos-mega",
-    "effects": []
-  },
-  {
-    "id": 1008,
-    "name": "タブンネナイト",
-    "nameEn": "audino-mega",
-    "effects": []
-  },
-  {
-    "id": 1009,
-    "name": "ジュペッタナイト",
-    "nameEn": "banette-mega",
-    "effects": []
-  },
-  {
-    "id": 1010,
-    "name": "ガメノデスナイト",
-    "nameEn": "barbaracle-mega",
-    "effects": []
-  },
-  {
-    "id": 1011,
-    "name": "セグレイブナイト",
-    "nameEn": "baxcalibur-mega",
-    "effects": []
-  },
-  {
-    "id": 1012,
-    "name": "スピアーナイト",
-    "nameEn": "beedrill-mega",
-    "effects": []
-  },
-  {
-    "id": 1013,
-    "name": "カメックスナイト",
-    "nameEn": "blastoise-mega",
-    "effects": []
-  },
-  {
-    "id": 1014,
-    "name": "バシャーモナイト",
-    "nameEn": "blaziken-mega",
-    "effects": []
-  },
-  {
-    "id": 1015,
-    "name": "バクーダナイト",
-    "nameEn": "camerupt-mega",
-    "effects": []
-  },
-  {
-    "id": 1016,
-    "name": "シャンデラナイト",
-    "nameEn": "chandelure-mega",
-    "effects": []
-  },
-  {
-    "id": 1017,
-    "name": "リザードナイトX",
-    "nameEn": "charizard-mega-x",
-    "effects": []
-  },
-  {
-    "id": 1018,
-    "name": "リザードナイトY",
-    "nameEn": "charizard-mega-y",
-    "effects": []
-  },
-  {
-    "id": 1019,
-    "name": "ブリガロンナイト",
-    "nameEn": "chesnaught-mega",
-    "effects": []
-  },
-  {
-    "id": 1020,
-    "name": "チリーンナイト",
-    "nameEn": "chimecho-mega",
-    "effects": []
-  },
-  {
-    "id": 1021,
-    "name": "ピクシナイト",
-    "nameEn": "clefable-mega",
-    "effects": []
-  },
-  {
-    "id": 1022,
-    "name": "ケケンカニナイト",
-    "nameEn": "crabominable-mega",
-    "effects": []
-  },
-  {
-    "id": 1023,
-    "name": "ダークライナイト",
-    "nameEn": "darkrai-mega",
-    "effects": []
-  },
-  {
-    "id": 1024,
-    "name": "マフォクシーナイト",
-    "nameEn": "delphox-mega",
-    "effects": []
-  },
-  {
-    "id": 1025,
-    "name": "ディアンシーナイト",
-    "nameEn": "diancie-mega",
-    "effects": []
-  },
-  {
-    "id": 1026,
-    "name": "ドラミドロナイト",
-    "nameEn": "dragalge-mega",
-    "effects": []
-  },
-  {
-    "id": 1027,
-    "name": "カイリューナイト",
-    "nameEn": "dragonite-mega",
-    "effects": []
-  },
-  {
-    "id": 1028,
-    "name": "ジジーロンナイト",
-    "nameEn": "drampa-mega",
-    "effects": []
-  },
-  {
-    "id": 1029,
-    "name": "シビルドンナイト",
-    "nameEn": "eelektross-mega",
-    "effects": []
-  },
-  {
-    "id": 1030,
-    "name": "エンブオーナイト",
-    "nameEn": "emboar-mega",
-    "effects": []
-  },
-  {
-    "id": 1031,
-    "name": "ドリュウズナイト",
-    "nameEn": "excadrill-mega",
-    "effects": []
-  },
-  {
-    "id": 1032,
-    "name": "タイレーツナイト",
-    "nameEn": "falinks-mega",
-    "effects": []
-  },
-  {
-    "id": 1033,
-    "name": "オーダイルナイト",
-    "nameEn": "feraligatr-mega",
-    "effects": []
-  },
-  {
-    "id": 1034,
-    "name": "ユキメノコナイト",
-    "nameEn": "froslass-mega",
-    "effects": []
-  },
-  {
-    "id": 1035,
-    "name": "エルレイドナイト",
-    "nameEn": "gallade-mega",
-    "effects": []
-  },
-  {
-    "id": 1036,
-    "name": "ガブリアスナイト",
-    "nameEn": "garchomp-mega",
-    "effects": []
-  },
-  {
-    "id": 1037,
-    "name": "ガブリアスナイトZ",
-    "nameEn": "garchomp-mega-z",
-    "effects": []
-  },
-  {
-    "id": 1038,
-    "name": "サーナイトナイト",
-    "nameEn": "gardevoir-mega",
-    "effects": []
-  },
-  {
-    "id": 1039,
-    "name": "ゲンガナイト",
-    "nameEn": "gengar-mega",
-    "effects": []
-  },
-  {
-    "id": 1040,
-    "name": "オニゴーリナイト",
-    "nameEn": "glalie-mega",
-    "effects": []
-  },
-  {
-    "id": 1041,
-    "name": "キラフロルナイト",
-    "nameEn": "glimmora-mega",
-    "effects": []
-  },
-  {
-    "id": 1042,
-    "name": "グソクムシャナイト",
-    "nameEn": "golisopod-mega",
-    "effects": []
-  },
-  {
-    "id": 1043,
-    "name": "ゴルーグナイト",
-    "nameEn": "golurk-mega",
-    "effects": []
-  },
-  {
-    "id": 1044,
-    "name": "ゲッコウガナイト",
-    "nameEn": "greninja-mega",
-    "effects": []
-  },
-  {
-    "id": 1045,
-    "name": "ギャラドスナイト",
-    "nameEn": "gyarados-mega",
-    "effects": []
-  },
-  {
-    "id": 1046,
-    "name": "ルチャブルナイト",
-    "nameEn": "hawlucha-mega",
-    "effects": []
-  },
-  {
-    "id": 1047,
-    "name": "ヒードランナイト",
-    "nameEn": "heatran-mega",
-    "effects": []
-  },
-  {
-    "id": 1048,
-    "name": "ヘラクロスナイト",
-    "nameEn": "heracross-mega",
-    "effects": []
-  },
-  {
-    "id": 1049,
-    "name": "ヘルガナイト",
-    "nameEn": "houndoom-mega",
-    "effects": []
-  },
-  {
-    "id": 1050,
-    "name": "ガルーラナイト",
-    "nameEn": "kangaskhan-mega",
-    "effects": []
-  },
-  {
-    "id": 1051,
-    "name": "ラティアスナイト",
-    "nameEn": "latias-mega",
-    "effects": []
-  },
-  {
-    "id": 1052,
-    "name": "ラティオスナイト",
-    "nameEn": "latios-mega",
-    "effects": []
-  },
-  {
-    "id": 1053,
-    "name": "ミミロップナイト",
-    "nameEn": "lopunny-mega",
-    "effects": []
-  },
-  {
-    "id": 1054,
-    "name": "ルカリオナイト",
-    "nameEn": "lucario-mega",
-    "effects": []
-  },
-  {
-    "id": 1055,
-    "name": "ルカリオナイトZ",
-    "nameEn": "lucario-mega-z",
-    "effects": []
-  },
-  {
-    "id": 1056,
-    "name": "マギアナナイト",
-    "nameEn": "magearna-mega",
-    "effects": []
-  },
-  {
-    "id": 1057,
-    "name": "マギアナナイト",
-    "nameEn": "magearna-original-mega",
-    "effects": []
-  },
-  {
-    "id": 1058,
-    "name": "カラマネロナイト",
-    "nameEn": "malamar-mega",
-    "effects": []
-  },
-  {
-    "id": 1059,
-    "name": "ライボルトナイト",
-    "nameEn": "manectric-mega",
-    "effects": []
-  },
-  {
-    "id": 1060,
-    "name": "クチートナイト",
-    "nameEn": "mawile-mega",
-    "effects": []
-  },
-  {
-    "id": 1061,
-    "name": "チャーレムナイト",
-    "nameEn": "medicham-mega",
-    "effects": []
-  },
-  {
-    "id": 1062,
-    "name": "メガニウムナイト",
-    "nameEn": "meganium-mega",
-    "effects": []
-  },
-  {
-    "id": 1063,
-    "name": "ニャオニクスナイト",
-    "nameEn": "meowstic-mega",
-    "effects": []
-  },
-  {
-    "id": 1064,
-    "name": "メタグロスナイト",
-    "nameEn": "metagross-mega",
-    "effects": []
-  },
-  {
-    "id": 1065,
-    "name": "ミュウツナイトX",
-    "nameEn": "mewtwo-mega-x",
-    "effects": []
-  },
-  {
-    "id": 1066,
-    "name": "ミュウツナイトY",
-    "nameEn": "mewtwo-mega-y",
-    "effects": []
-  },
-  {
-    "id": 1067,
-    "name": "ピジョットナイト",
-    "nameEn": "pidgeot-mega",
-    "effects": []
-  },
-  {
-    "id": 1068,
-    "name": "カイロスナイト",
-    "nameEn": "pinsir-mega",
-    "effects": []
-  },
-  {
-    "id": 1069,
-    "name": "カエンジシナイト",
-    "nameEn": "pyroar-mega",
-    "effects": []
-  },
-  {
-    "id": 1070,
-    "name": "ライチュウナイトX",
-    "nameEn": "raichu-mega-x",
-    "effects": []
-  },
-  {
-    "id": 1071,
-    "name": "ライチュウナイトY",
-    "nameEn": "raichu-mega-y",
-    "effects": []
-  },
-  {
-    "id": 1072,
-    "name": "レックウザナイト",
-    "nameEn": "rayquaza-mega",
-    "effects": []
-  },
-  {
-    "id": 1073,
-    "name": "ヤミラミナイト",
-    "nameEn": "sableye-mega",
-    "effects": []
-  },
-  {
-    "id": 1074,
-    "name": "ボーマンダナイト",
-    "nameEn": "salamence-mega",
-    "effects": []
-  },
-  {
-    "id": 1075,
-    "name": "ジュカインナイト",
-    "nameEn": "sceptile-mega",
-    "effects": []
-  },
-  {
-    "id": 1076,
-    "name": "ハッサムナイト",
-    "nameEn": "scizor-mega",
-    "effects": []
-  },
-  {
-    "id": 1077,
-    "name": "ペンドラーナイト",
-    "nameEn": "scolipede-mega",
-    "effects": []
-  },
-  {
-    "id": 1078,
-    "name": "スコヴィランナイト",
-    "nameEn": "scovillain-mega",
-    "effects": []
-  },
-  {
-    "id": 1079,
-    "name": "ズルズキンナイト",
-    "nameEn": "scrafty-mega",
-    "effects": []
-  },
-  {
-    "id": 1080,
-    "name": "サメハダナイト",
-    "nameEn": "sharpedo-mega",
-    "effects": []
-  },
-  {
-    "id": 1081,
-    "name": "エアームドナイト",
-    "nameEn": "skarmory-mega",
-    "effects": []
-  },
-  {
-    "id": 1082,
-    "name": "ヤドランナイト",
-    "nameEn": "slowbro-mega",
-    "effects": []
-  },
-  {
-    "id": 1083,
-    "name": "ムクホークナイト",
-    "nameEn": "staraptor-mega",
-    "effects": []
-  },
-  {
-    "id": 1084,
-    "name": "スターミナイト",
-    "nameEn": "starmie-mega",
-    "effects": []
-  },
-  {
-    "id": 1085,
-    "name": "ハガネールナイト",
-    "nameEn": "steelix-mega",
-    "effects": []
-  },
-  {
-    "id": 1086,
-    "name": "ラグラージナイト",
-    "nameEn": "swampert-mega",
-    "effects": []
-  },
-  {
-    "id": 1087,
-    "name": "シャリタツナイト",
-    "nameEn": "tatsugiri-curly-mega",
-    "effects": []
-  },
-  {
-    "id": 1090,
-    "name": "バンギラスナイト",
-    "nameEn": "tyranitar-mega",
-    "effects": []
-  },
-  {
-    "id": 1091,
-    "name": "フシギバナイト",
-    "nameEn": "venusaur-mega",
-    "effects": []
-  },
-  {
-    "id": 1092,
-    "name": "ウツボットナイト",
-    "nameEn": "victreebel-mega",
-    "effects": []
-  },
-  {
-    "id": 1093,
-    "name": "ゼラオラナイト",
-    "nameEn": "zeraora-mega",
-    "effects": []
-  },
-  {
-    "id": 1094,
-    "name": "ジガルデナイト",
-    "nameEn": "zygarde-mega",
-    "effects": []
-  }
+    {
+        "id": 0,
+        "name": "なし",
+        "nameEn": "None",
+        "effects": []
+    },
+    {
+        "id": 270,
+        "name": "こだわりハチマキ",
+        "nameEn": "Choice Band",
+        "effects": []
+    },
+    {
+        "id": 297,
+        "name": "こだわりメガネ",
+        "nameEn": "Choice Specs",
+        "effects": []
+    },
+    {
+        "id": 247,
+        "name": "いのちのたま",
+        "nameEn": "Life Orb",
+        "effects": []
+    },
+    {
+        "id": 199,
+        "name": "もくたん",
+        "nameEn": "Charcoal",
+        "effects": []
+    },
+    {
+        "id": 220,
+        "name": "しんぴのしずく",
+        "nameEn": "Mystic Water",
+        "effects": []
+    },
+    {
+        "id": 237,
+        "name": "きせきのタネ",
+        "nameEn": "Miracle Seed",
+        "effects": []
+    },
+    {
+        "id": 236,
+        "name": "じしゃく",
+        "nameEn": "Magnet",
+        "effects": []
+    },
+    {
+        "id": 223,
+        "name": "りゅうのキバ",
+        "nameEn": "Dragon Fang",
+        "effects": []
+    },
+    {
+        "id": 245,
+        "name": "くろいメガネ",
+        "nameEn": "Black Glasses",
+        "effects": []
+    },
+    {
+        "id": 233,
+        "name": "メタルコート",
+        "nameEn": "Metal Coat",
+        "effects": []
+    },
+    {
+        "id": 221,
+        "name": "とけないこおり",
+        "nameEn": "Never-Melt Ice",
+        "effects": []
+    },
+    {
+        "id": 222,
+        "name": "くろおび",
+        "nameEn": "Black Belt",
+        "effects": []
+    },
+    {
+        "id": 234,
+        "name": "やわらかいすな",
+        "nameEn": "Soft Sand",
+        "effects": []
+    },
+    {
+        "id": 235,
+        "name": "するどいくちばし",
+        "nameEn": "Sharp Beak",
+        "effects": []
+    },
+    {
+        "id": 244,
+        "name": "まがったスプーン",
+        "nameEn": "Twisted Spoon",
+        "effects": []
+    },
+    {
+        "id": 225,
+        "name": "どくバリ",
+        "nameEn": "Poison Barb",
+        "effects": []
+    },
+    {
+        "id": 224,
+        "name": "シルクのスカーフ",
+        "nameEn": "Silk Scarf",
+        "effects": []
+    },
+    {
+        "id": 226,
+        "name": "のろいのおふだ",
+        "nameEn": "Spell Tag",
+        "effects": []
+    },
+    {
+        "id": 198,
+        "name": "ぎんのこな",
+        "nameEn": "Silver Powder",
+        "effects": []
+    },
+    {
+        "id": 246,
+        "name": "がんせきおこう",
+        "nameEn": "Rock Incense",
+        "effects": []
+    },
+    {
+        "id": 538,
+        "name": "とつげきチョッキ",
+        "nameEn": "Assault Vest",
+        "effects": []
+    },
+    {
+        "id": 1000,
+        "name": "ユキノオーナイト",
+        "nameEn": "abomasnow-mega",
+        "effects": []
+    },
+    {
+        "id": 1001,
+        "name": "アブソルナイト",
+        "nameEn": "absol-mega",
+        "effects": []
+    },
+    {
+        "id": 1002,
+        "name": "アブソルナイトZ",
+        "nameEn": "absol-mega-z",
+        "effects": []
+    },
+    {
+        "id": 1003,
+        "name": "プテラナイト",
+        "nameEn": "aerodactyl-mega",
+        "effects": []
+    },
+    {
+        "id": 1004,
+        "name": "ボスゴドラナイト",
+        "nameEn": "aggron-mega",
+        "effects": []
+    },
+    {
+        "id": 1005,
+        "name": "フーディナイト",
+        "nameEn": "alakazam-mega",
+        "effects": []
+    },
+    {
+        "id": 1006,
+        "name": "チルタリスナイト",
+        "nameEn": "altaria-mega",
+        "effects": []
+    },
+    {
+        "id": 1007,
+        "name": "デンリュウナイト",
+        "nameEn": "ampharos-mega",
+        "effects": []
+    },
+    {
+        "id": 1008,
+        "name": "タブンネナイト",
+        "nameEn": "audino-mega",
+        "effects": []
+    },
+    {
+        "id": 1009,
+        "name": "ジュペッタナイト",
+        "nameEn": "banette-mega",
+        "effects": []
+    },
+    {
+        "id": 1010,
+        "name": "ガメノデスナイト",
+        "nameEn": "barbaracle-mega",
+        "effects": []
+    },
+    {
+        "id": 1011,
+        "name": "セグレイブナイト",
+        "nameEn": "baxcalibur-mega",
+        "effects": []
+    },
+    {
+        "id": 1012,
+        "name": "スピアーナイト",
+        "nameEn": "beedrill-mega",
+        "effects": []
+    },
+    {
+        "id": 1013,
+        "name": "カメックスナイト",
+        "nameEn": "blastoise-mega",
+        "effects": []
+    },
+    {
+        "id": 1014,
+        "name": "バシャーモナイト",
+        "nameEn": "blaziken-mega",
+        "effects": []
+    },
+    {
+        "id": 1015,
+        "name": "バクーダナイト",
+        "nameEn": "camerupt-mega",
+        "effects": []
+    },
+    {
+        "id": 1016,
+        "name": "シャンデラナイト",
+        "nameEn": "chandelure-mega",
+        "effects": []
+    },
+    {
+        "id": 1017,
+        "name": "リザードナイトX",
+        "nameEn": "charizard-mega-x",
+        "effects": []
+    },
+    {
+        "id": 1018,
+        "name": "リザードナイトY",
+        "nameEn": "charizard-mega-y",
+        "effects": []
+    },
+    {
+        "id": 1019,
+        "name": "ブリガロンナイト",
+        "nameEn": "chesnaught-mega",
+        "effects": []
+    },
+    {
+        "id": 1020,
+        "name": "チリーンナイト",
+        "nameEn": "chimecho-mega",
+        "effects": []
+    },
+    {
+        "id": 1021,
+        "name": "ピクシナイト",
+        "nameEn": "clefable-mega",
+        "effects": []
+    },
+    {
+        "id": 1022,
+        "name": "ケケンカニナイト",
+        "nameEn": "crabominable-mega",
+        "effects": []
+    },
+    {
+        "id": 1023,
+        "name": "ダークライナイト",
+        "nameEn": "darkrai-mega",
+        "effects": []
+    },
+    {
+        "id": 1024,
+        "name": "マフォクシーナイト",
+        "nameEn": "delphox-mega",
+        "effects": []
+    },
+    {
+        "id": 1025,
+        "name": "ディアンシーナイト",
+        "nameEn": "diancie-mega",
+        "effects": []
+    },
+    {
+        "id": 1026,
+        "name": "ドラミドロナイト",
+        "nameEn": "dragalge-mega",
+        "effects": []
+    },
+    {
+        "id": 1027,
+        "name": "カイリューナイト",
+        "nameEn": "dragonite-mega",
+        "effects": []
+    },
+    {
+        "id": 1028,
+        "name": "ジジーロンナイト",
+        "nameEn": "drampa-mega",
+        "effects": []
+    },
+    {
+        "id": 1029,
+        "name": "シビルドンナイト",
+        "nameEn": "eelektross-mega",
+        "effects": []
+    },
+    {
+        "id": 1030,
+        "name": "エンブオーナイト",
+        "nameEn": "emboar-mega",
+        "effects": []
+    },
+    {
+        "id": 1031,
+        "name": "ドリュウズナイト",
+        "nameEn": "excadrill-mega",
+        "effects": []
+    },
+    {
+        "id": 1032,
+        "name": "タイレーツナイト",
+        "nameEn": "falinks-mega",
+        "effects": []
+    },
+    {
+        "id": 1033,
+        "name": "オーダイルナイト",
+        "nameEn": "feraligatr-mega",
+        "effects": []
+    },
+    {
+        "id": 1034,
+        "name": "ユキメノコナイト",
+        "nameEn": "froslass-mega",
+        "effects": []
+    },
+    {
+        "id": 1035,
+        "name": "エルレイドナイト",
+        "nameEn": "gallade-mega",
+        "effects": []
+    },
+    {
+        "id": 1036,
+        "name": "ガブリアスナイト",
+        "nameEn": "garchomp-mega",
+        "effects": []
+    },
+    {
+        "id": 1037,
+        "name": "ガブリアスナイトZ",
+        "nameEn": "garchomp-mega-z",
+        "effects": []
+    },
+    {
+        "id": 1038,
+        "name": "サーナイトナイト",
+        "nameEn": "gardevoir-mega",
+        "effects": []
+    },
+    {
+        "id": 1039,
+        "name": "ゲンガナイト",
+        "nameEn": "gengar-mega",
+        "effects": []
+    },
+    {
+        "id": 1040,
+        "name": "オニゴーリナイト",
+        "nameEn": "glalie-mega",
+        "effects": []
+    },
+    {
+        "id": 1041,
+        "name": "キラフロルナイト",
+        "nameEn": "glimmora-mega",
+        "effects": []
+    },
+    {
+        "id": 1042,
+        "name": "グソクムシャナイト",
+        "nameEn": "golisopod-mega",
+        "effects": []
+    },
+    {
+        "id": 1043,
+        "name": "ゴルーグナイト",
+        "nameEn": "golurk-mega",
+        "effects": []
+    },
+    {
+        "id": 1044,
+        "name": "ゲッコウガナイト",
+        "nameEn": "greninja-mega",
+        "effects": []
+    },
+    {
+        "id": 1045,
+        "name": "ギャラドスナイト",
+        "nameEn": "gyarados-mega",
+        "effects": []
+    },
+    {
+        "id": 1046,
+        "name": "ルチャブルナイト",
+        "nameEn": "hawlucha-mega",
+        "effects": []
+    },
+    {
+        "id": 1047,
+        "name": "ヒードランナイト",
+        "nameEn": "heatran-mega",
+        "effects": []
+    },
+    {
+        "id": 1048,
+        "name": "ヘラクロスナイト",
+        "nameEn": "heracross-mega",
+        "effects": []
+    },
+    {
+        "id": 1049,
+        "name": "ヘルガナイト",
+        "nameEn": "houndoom-mega",
+        "effects": []
+    },
+    {
+        "id": 1050,
+        "name": "ガルーラナイト",
+        "nameEn": "kangaskhan-mega",
+        "effects": []
+    },
+    {
+        "id": 1051,
+        "name": "ラティアスナイト",
+        "nameEn": "latias-mega",
+        "effects": []
+    },
+    {
+        "id": 1052,
+        "name": "ラティオスナイト",
+        "nameEn": "latios-mega",
+        "effects": []
+    },
+    {
+        "id": 1053,
+        "name": "ミミロップナイト",
+        "nameEn": "lopunny-mega",
+        "effects": []
+    },
+    {
+        "id": 1054,
+        "name": "ルカリオナイト",
+        "nameEn": "lucario-mega",
+        "effects": []
+    },
+    {
+        "id": 1055,
+        "name": "ルカリオナイトZ",
+        "nameEn": "lucario-mega-z",
+        "effects": []
+    },
+    {
+        "id": 1056,
+        "name": "マギアナナイト",
+        "nameEn": "magearna-mega",
+        "effects": []
+    },
+    {
+        "id": 1057,
+        "name": "マギアナナイト",
+        "nameEn": "magearna-original-mega",
+        "effects": []
+    },
+    {
+        "id": 1058,
+        "name": "カラマネロナイト",
+        "nameEn": "malamar-mega",
+        "effects": []
+    },
+    {
+        "id": 1059,
+        "name": "ライボルトナイト",
+        "nameEn": "manectric-mega",
+        "effects": []
+    },
+    {
+        "id": 1060,
+        "name": "クチートナイト",
+        "nameEn": "mawile-mega",
+        "effects": []
+    },
+    {
+        "id": 1061,
+        "name": "チャーレムナイト",
+        "nameEn": "medicham-mega",
+        "effects": []
+    },
+    {
+        "id": 1062,
+        "name": "メガニウムナイト",
+        "nameEn": "meganium-mega",
+        "effects": []
+    },
+    {
+        "id": 1063,
+        "name": "ニャオニクスナイト",
+        "nameEn": "meowstic-mega",
+        "effects": []
+    },
+    {
+        "id": 1064,
+        "name": "メタグロスナイト",
+        "nameEn": "metagross-mega",
+        "effects": []
+    },
+    {
+        "id": 1065,
+        "name": "ミュウツナイトX",
+        "nameEn": "mewtwo-mega-x",
+        "effects": []
+    },
+    {
+        "id": 1066,
+        "name": "ミュウツナイトY",
+        "nameEn": "mewtwo-mega-y",
+        "effects": []
+    },
+    {
+        "id": 1067,
+        "name": "ピジョットナイト",
+        "nameEn": "pidgeot-mega",
+        "effects": []
+    },
+    {
+        "id": 1068,
+        "name": "カイロスナイト",
+        "nameEn": "pinsir-mega",
+        "effects": []
+    },
+    {
+        "id": 1069,
+        "name": "カエンジシナイト",
+        "nameEn": "pyroar-mega",
+        "effects": []
+    },
+    {
+        "id": 1070,
+        "name": "ライチュウナイトX",
+        "nameEn": "raichu-mega-x",
+        "effects": []
+    },
+    {
+        "id": 1071,
+        "name": "ライチュウナイトY",
+        "nameEn": "raichu-mega-y",
+        "effects": []
+    },
+    {
+        "id": 1072,
+        "name": "レックウザナイト",
+        "nameEn": "rayquaza-mega",
+        "effects": []
+    },
+    {
+        "id": 1073,
+        "name": "ヤミラミナイト",
+        "nameEn": "sableye-mega",
+        "effects": []
+    },
+    {
+        "id": 1074,
+        "name": "ボーマンダナイト",
+        "nameEn": "salamence-mega",
+        "effects": []
+    },
+    {
+        "id": 1075,
+        "name": "ジュカインナイト",
+        "nameEn": "sceptile-mega",
+        "effects": []
+    },
+    {
+        "id": 1076,
+        "name": "ハッサムナイト",
+        "nameEn": "scizor-mega",
+        "effects": []
+    },
+    {
+        "id": 1077,
+        "name": "ペンドラーナイト",
+        "nameEn": "scolipede-mega",
+        "effects": []
+    },
+    {
+        "id": 1078,
+        "name": "スコヴィランナイト",
+        "nameEn": "scovillain-mega",
+        "effects": []
+    },
+    {
+        "id": 1079,
+        "name": "ズルズキンナイト",
+        "nameEn": "scrafty-mega",
+        "effects": []
+    },
+    {
+        "id": 1080,
+        "name": "サメハダナイト",
+        "nameEn": "sharpedo-mega",
+        "effects": []
+    },
+    {
+        "id": 1081,
+        "name": "エアームドナイト",
+        "nameEn": "skarmory-mega",
+        "effects": []
+    },
+    {
+        "id": 1082,
+        "name": "ヤドランナイト",
+        "nameEn": "slowbro-mega",
+        "effects": []
+    },
+    {
+        "id": 1083,
+        "name": "ムクホークナイト",
+        "nameEn": "staraptor-mega",
+        "effects": []
+    },
+    {
+        "id": 1084,
+        "name": "スターミナイト",
+        "nameEn": "starmie-mega",
+        "effects": []
+    },
+    {
+        "id": 1085,
+        "name": "ハガネールナイト",
+        "nameEn": "steelix-mega",
+        "effects": []
+    },
+    {
+        "id": 1086,
+        "name": "ラグラージナイト",
+        "nameEn": "swampert-mega",
+        "effects": []
+    },
+    {
+        "id": 1087,
+        "name": "シャリタツナイト",
+        "nameEn": "tatsugiri-curly-mega",
+        "effects": []
+    },
+    {
+        "id": 1090,
+        "name": "バンギラスナイト",
+        "nameEn": "tyranitar-mega",
+        "effects": []
+    },
+    {
+        "id": 1091,
+        "name": "フシギバナイト",
+        "nameEn": "venusaur-mega",
+        "effects": []
+    },
+    {
+        "id": 1092,
+        "name": "ウツボットナイト",
+        "nameEn": "victreebel-mega",
+        "effects": []
+    },
+    {
+        "id": 1093,
+        "name": "ゼラオラナイト",
+        "nameEn": "zeraora-mega",
+        "effects": []
+    },
+    {
+        "id": 1094,
+        "name": "ジガルデナイト",
+        "nameEn": "zygarde-mega",
+        "effects": []
+    },
+    {
+        "id": 539,
+        "name": "こだわりスカーフ",
+        "nameEn": "Choice Scarf",
+        "effects": []
+    },
+    {
+        "id": 540,
+        "name": "きあいのタスキ",
+        "nameEn": "Focus Sash",
+        "effects": []
+    },
+    {
+        "id": 541,
+        "name": "たべのこし",
+        "nameEn": "Leftovers",
+        "effects": []
+    },
+    {
+        "id": 542,
+        "name": "オボンのみ",
+        "nameEn": "Sitrus Berry",
+        "effects": []
+    },
+    {
+        "id": 543,
+        "name": "ラムのみ",
+        "nameEn": "Lum Berry",
+        "effects": []
+    },
+    {
+        "id": 544,
+        "name": "ゴツゴツメット",
+        "nameEn": "Rocky Helmet",
+        "effects": []
+    },
+    {
+        "id": 545,
+        "name": "くろいヘドロ",
+        "nameEn": "Black Sludge",
+        "effects": []
+    },
+    {
+        "id": 546,
+        "name": "たつじんのおび",
+        "nameEn": "Expert Belt",
+        "effects": []
+    },
+    {
+        "id": 547,
+        "name": "ふうせん",
+        "nameEn": "Air Balloon",
+        "effects": []
+    },
+    {
+        "id": 548,
+        "name": "かえんだま",
+        "nameEn": "Flame Orb",
+        "effects": []
+    },
+    {
+        "id": 549,
+        "name": "どくどくだま",
+        "nameEn": "Toxic Orb",
+        "effects": []
+    },
+    {
+        "id": 550,
+        "name": "じゃくてんほけん",
+        "nameEn": "Weakness Policy",
+        "effects": []
+    },
+    {
+        "id": 551,
+        "name": "しんかのきせき",
+        "nameEn": "Eviolite",
+        "effects": []
+    },
+    {
+        "id": 552,
+        "name": "あつぞこブーツ",
+        "nameEn": "Heavy-Duty Boots",
+        "effects": []
+    },
+    {
+        "id": 553,
+        "name": "パワフルハーブ",
+        "nameEn": "Power Herb",
+        "effects": []
+    },
+    {
+        "id": 554,
+        "name": "しろいハーブ",
+        "nameEn": "White Herb",
+        "effects": []
+    },
+    {
+        "id": 555,
+        "name": "メンタルハーブ",
+        "nameEn": "Mental Herb",
+        "effects": []
+    },
+    {
+        "id": 556,
+        "name": "ぼうじんゴーグル",
+        "nameEn": "Safety Goggles",
+        "effects": []
+    },
+    {
+        "id": 557,
+        "name": "ぼうごパッド",
+        "nameEn": "Protective Pads",
+        "effects": []
+    },
+    {
+        "id": 558,
+        "name": "おんみつマント",
+        "nameEn": "Covert Cloak",
+        "effects": []
+    },
+    {
+        "id": 559,
+        "name": "クリアチャーム",
+        "nameEn": "Clear Amulet",
+        "effects": []
+    },
+    {
+        "id": 560,
+        "name": "いかさまダイス",
+        "nameEn": "Loaded Dice",
+        "effects": []
+    },
+    {
+        "id": 561,
+        "name": "ピントレンズ",
+        "nameEn": "Scope Lens",
+        "effects": []
+    },
+    {
+        "id": 562,
+        "name": "こうかくレンズ",
+        "nameEn": "Wide Lens",
+        "effects": []
+    },
+    {
+        "id": 563,
+        "name": "レッドカード",
+        "nameEn": "Red Card",
+        "effects": []
+    },
+    {
+        "id": 564,
+        "name": "だっしゅつボタン",
+        "nameEn": "Eject Button",
+        "effects": []
+    },
+    {
+        "id": 565,
+        "name": "だっしゅつパック",
+        "nameEn": "Eject Pack",
+        "effects": []
+    },
+    {
+        "id": 566,
+        "name": "のどスプレー",
+        "nameEn": "Throat Spray",
+        "effects": []
+    },
+    {
+        "id": 567,
+        "name": "ブーストエナジー",
+        "nameEn": "Booster Energy",
+        "effects": []
+    }
 ]
