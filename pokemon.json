@@ -71836,7 +71836,30 @@
       }
     ],
     "weight": 0.9,
-    "megaEvolutions": [],
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
+        "types": [
+          "fairy"
+        ],
+        "baseStats": {
+          "hp": 74,
+          "attack": 85,
+          "defense": 87,
+          "spAttack": 155,
+          "spDefense": 148,
+          "speed": 102
+        },
+        "ability": {
+          "id": 187,
+          "name": "フェアリーオーラ",
+          "nameEn": "Fairy Aura",
+          "effects": []
+        },
+        "megaStone": "floette-mega",
+        "spriteId": 10061
+      }
+    ],
     "forms": [],
     "learnableMoveIds": [
       22,
