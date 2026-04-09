@@ -868,5 +868,227 @@
         "name": "ブーストエナジー",
         "nameEn": "Booster Energy",
         "effects": []
+    },
+    {
+        "id": 197,
+        "name": "おうじゃのしるし",
+        "nameEn": "King's Rock",
+        "effects": []
+    },
+    {
+        "id": 253,
+        "name": "かいがらのすず",
+        "nameEn": "Shell Bell",
+        "effects": []
+    },
+    {
+        "id": 238,
+        "name": "かたいいし",
+        "nameEn": "Hard Stone",
+        "effects": []
+    },
+    {
+        "id": 230,
+        "name": "きあいのハチマキ",
+        "nameEn": "Focus Band",
+        "effects": []
+    },
+    {
+        "id": 214,
+        "name": "しろいハーブ",
+        "nameEn": "White Herb",
+        "effects": []
+    },
+    {
+        "id": 206,
+        "name": "せんせいのツメ",
+        "nameEn": "Quick Claw",
+        "effects": []
+    },
+    {
+        "id": 209,
+        "name": "でんきだま",
+        "nameEn": "Light Ball",
+        "effects": []
+    },
+    {
+        "id": 204,
+        "name": "ひかりのこな",
+        "nameEn": "Bright Powder",
+        "effects": []
+    },
+    {
+        "id": 219,
+        "name": "メンタルハーブ",
+        "nameEn": "Mental Herb",
+        "effects": []
+    },
+    {
+        "id": 155,
+        "name": "オボンのみ",
+        "nameEn": "Sitrus Berry",
+        "effects": []
+    },
+    {
+        "id": 157,
+        "name": "ラムのみ",
+        "nameEn": "Lum Berry",
+        "effects": []
+    },
+    {
+        "id": 153,
+        "name": "オレンのみ",
+        "nameEn": "Oran Berry",
+        "effects": []
+    },
+    {
+        "id": 149,
+        "name": "クラボのみ",
+        "nameEn": "Cheri Berry",
+        "effects": []
+    },
+    {
+        "id": 150,
+        "name": "カゴのみ",
+        "nameEn": "Chesto Berry",
+        "effects": []
+    },
+    {
+        "id": 151,
+        "name": "モモンのみ",
+        "nameEn": "Pecha Berry",
+        "effects": []
+    },
+    {
+        "id": 152,
+        "name": "チーゴのみ",
+        "nameEn": "Rawst Berry",
+        "effects": []
+    },
+    {
+        "id": 154,
+        "name": "ナナシのみ",
+        "nameEn": "Aspear Berry",
+        "effects": []
+    },
+    {
+        "id": 156,
+        "name": "ヒメリのみ",
+        "nameEn": "Leppa Berry",
+        "effects": []
+    },
+    {
+        "id": 158,
+        "name": "キーのみ",
+        "nameEn": "Persim Berry",
+        "effects": []
+    },
+    {
+        "id": 159,
+        "name": "オッカのみ",
+        "nameEn": "Occa Berry",
+        "effects": []
+    },
+    {
+        "id": 160,
+        "name": "イトケのみ",
+        "nameEn": "Passho Berry",
+        "effects": []
+    },
+    {
+        "id": 162,
+        "name": "ソクノのみ",
+        "nameEn": "Wacan Berry",
+        "effects": []
+    },
+    {
+        "id": 163,
+        "name": "リンドのみ",
+        "nameEn": "Rindo Berry",
+        "effects": []
+    },
+    {
+        "id": 164,
+        "name": "ヤチェのみ",
+        "nameEn": "Yache Berry",
+        "effects": []
+    },
+    {
+        "id": 165,
+        "name": "ヨプのみ",
+        "nameEn": "Chople Berry",
+        "effects": []
+    },
+    {
+        "id": 166,
+        "name": "ビアーのみ",
+        "nameEn": "Kebia Berry",
+        "effects": []
+    },
+    {
+        "id": 167,
+        "name": "シュカのみ",
+        "nameEn": "Shuca Berry",
+        "effects": []
+    },
+    {
+        "id": 168,
+        "name": "バコウのみ",
+        "nameEn": "Coba Berry",
+        "effects": []
+    },
+    {
+        "id": 169,
+        "name": "ウタンのみ",
+        "nameEn": "Payapa Berry",
+        "effects": []
+    },
+    {
+        "id": 170,
+        "name": "タンガのみ",
+        "nameEn": "Tanga Berry",
+        "effects": []
+    },
+    {
+        "id": 171,
+        "name": "ヨロギのみ",
+        "nameEn": "Charti Berry",
+        "effects": []
+    },
+    {
+        "id": 172,
+        "name": "カシブのみ",
+        "nameEn": "Kasib Berry",
+        "effects": []
+    },
+    {
+        "id": 173,
+        "name": "ハバンのみ",
+        "nameEn": "Haban Berry",
+        "effects": []
+    },
+    {
+        "id": 175,
+        "name": "ナモのみ",
+        "nameEn": "Colbur Berry",
+        "effects": []
+    },
+    {
+        "id": 176,
+        "name": "リリバのみ",
+        "nameEn": "Babiri Berry",
+        "effects": []
+    },
+    {
+        "id": 686,
+        "name": "ロゼルのみ",
+        "nameEn": "Roseli Berry",
+        "effects": []
+    },
+    {
+        "id": 174,
+        "name": "ホズのみ",
+        "nameEn": "Chilan Berry",
+        "effects": []
     }
 ]
