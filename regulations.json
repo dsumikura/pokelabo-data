@@ -2,6 +2,7 @@
   {
     "id": "M-A",
     "displayName": "M-A",
+    "excludedMegaNames": ["メガシンカ Z"],
     "pokemonIds": [
       3,
       6,
