@@ -133,7 +133,7 @@
     },
     {
         "id": 1000,
-        "name": "ユキノオーナイト",
+        "name": "ユキノオナイト",
         "nameEn": "abomasnow-mega",
         "effects": []
     },
@@ -205,7 +205,7 @@
     },
     {
         "id": 1012,
-        "name": "スピアーナイト",
+        "name": "スピアナイト",
         "nameEn": "beedrill-mega",
         "effects": []
     },
@@ -247,7 +247,7 @@
     },
     {
         "id": 1019,
-        "name": "ブリガロンナイト",
+        "name": "ブリガロナイト",
         "nameEn": "chesnaught-mega",
         "effects": []
     },
@@ -277,7 +277,7 @@
     },
     {
         "id": 1024,
-        "name": "マフォクシーナイト",
+        "name": "マフォクシナイト",
         "nameEn": "delphox-mega",
         "effects": []
     },
@@ -295,13 +295,13 @@
     },
     {
         "id": 1027,
-        "name": "カイリューナイト",
+        "name": "カイリュナイト",
         "nameEn": "dragonite-mega",
         "effects": []
     },
     {
         "id": 1028,
-        "name": "ジジーロンナイト",
+        "name": "ジジーロナイト",
         "nameEn": "drampa-mega",
         "effects": []
     },
@@ -313,7 +313,7 @@
     },
     {
         "id": 1030,
-        "name": "エンブオーナイト",
+        "name": "エンブオナイト",
         "nameEn": "emboar-mega",
         "effects": []
     },
@@ -601,7 +601,7 @@
     },
     {
         "id": 1078,
-        "name": "スコヴィランナイト",
+        "name": "スコヴィラナイト",
         "nameEn": "scovillain-mega",
         "effects": []
     },
