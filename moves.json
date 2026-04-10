@@ -324,7 +324,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -979,7 +980,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -1084,7 +1086,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -1134,7 +1137,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -1284,7 +1288,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -1434,7 +1439,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -1484,7 +1490,8 @@
             "isBullet": false,
             "isWind": true,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -1886,7 +1893,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -2036,7 +2044,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -2236,7 +2245,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -3011,7 +3021,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -3236,7 +3247,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -3489,7 +3501,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -3642,7 +3655,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -3842,7 +3856,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -3947,7 +3962,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -4474,7 +4490,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -4549,7 +4566,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -4899,7 +4917,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -4924,7 +4943,8 @@
             "isBullet": false,
             "isWind": true,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -5577,7 +5597,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -5777,7 +5798,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -6002,7 +6024,8 @@
             "isBullet": false,
             "isWind": true,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -6454,7 +6477,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -7129,7 +7153,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -7482,7 +7507,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -7632,7 +7658,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -7882,7 +7909,8 @@
             "isBullet": false,
             "isWind": true,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -8107,7 +8135,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -8282,7 +8311,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -9468,7 +9498,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -10918,7 +10949,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -10943,7 +10975,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -11168,7 +11201,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -11647,7 +11681,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -12098,7 +12133,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -12175,7 +12211,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -12804,7 +12841,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -13104,7 +13142,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -13129,7 +13168,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -13230,7 +13270,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -13689,7 +13730,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -13739,7 +13781,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -13789,7 +13832,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -13939,7 +13983,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -14139,7 +14184,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -14314,7 +14360,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -14364,7 +14411,8 @@
             "isBullet": false,
             "isWind": true,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -14414,7 +14462,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -14539,7 +14588,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -14714,7 +14764,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -14839,7 +14890,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -15042,7 +15094,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -15192,7 +15245,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -15417,7 +15471,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -15442,7 +15497,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -15467,7 +15523,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -15517,7 +15574,8 @@
             "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": true
+            "isPulse": true,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -15542,7 +15600,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -16667,7 +16726,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -17242,7 +17302,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -17342,7 +17403,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -17392,7 +17454,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -17667,7 +17730,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -18067,7 +18131,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -18267,7 +18332,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -18317,7 +18383,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -18871,7 +18938,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -19671,7 +19739,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -19721,7 +19790,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -20124,7 +20194,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -20249,7 +20320,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -20324,7 +20396,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -20582,7 +20655,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -20632,7 +20706,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": true,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -20682,7 +20757,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -20707,7 +20783,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -20857,7 +20934,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -21232,7 +21310,8 @@
             "isBullet": false,
             "isWind": true,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -21257,7 +21336,8 @@
             "isBullet": false,
             "isWind": true,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -21282,7 +21362,8 @@
             "isBullet": false,
             "isWind": true,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -21732,7 +21813,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -21933,7 +22015,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
@@ -22733,7 +22816,8 @@
             "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
-            "isPulse": false
+            "isPulse": false,
+            "isSpread": true
         },
         "powerType": "fixed",
         "hitCount": "single",
