@@ -1740,263 +1740,265 @@
         "name": "とれないにおい",
         "nameEn": "Lingering Aroma",
         "effects": [],
-        "description": ""
+        "description": "接触した　相手に　においが　うつり　特性が　とれないにおいに　なる。"
     },
     {
         "id": 269,
         "name": "こぼれダネ",
         "nameEn": "Seed Sower",
         "effects": [],
-        "description": ""
+        "description": "攻撃を　受けると　足元を　グラスフィールドにする。"
     },
     {
         "id": 270,
         "name": "ねつこうかん",
         "nameEn": "Thermal Exchange",
         "effects": [],
-        "description": ""
+        "description": "ほのおタイプの技を　受けると　攻撃が　上がる。やけど状態に　ならない。"
     },
     {
         "id": 271,
         "name": "いかりのこうら",
         "nameEn": "Anger Shell",
         "effects": [],
-        "description": ""
+        "description": "HPが　半分に　なると　攻撃・特攻・素早さが　上がるが　防御・特防が　下がる。"
     },
     {
         "id": 272,
         "name": "きよめのしお",
         "nameEn": "Purifying Salt",
         "effects": [],
-        "description": ""
+        "description": "状態異常に　ならない。ゴーストタイプの技の　ダメージを　半減する。"
     },
     {
         "id": 273,
         "name": "こんがりボディ",
         "nameEn": "Well Baked Body",
         "effects": [],
-        "description": ""
+        "description": "ほのおタイプの技を　受けると　ダメージを　受けずに　防御が　ぐーんと　上がる。"
     },
     {
         "id": 274,
         "name": "かぜのり",
         "nameEn": "Wind Rider",
         "effects": [],
-        "description": ""
+        "description": "おいかぜが　吹いたり　かぜ技を　受けると　ダメージを　受けずに　攻撃が　上がる。"
     },
     {
         "id": 275,
         "name": "ばんけん",
         "nameEn": "Guard Dog",
         "effects": [],
-        "description": ""
+        "description": "いかくされると　攻撃が　上がる。ポケモンを　入れ替えさせる技や道具が　効かない。"
     },
     {
         "id": 276,
         "name": "いわはこび",
         "nameEn": "Rocky Payload",
         "effects": [],
-        "description": ""
+        "description": "いわタイプの技の　威力が　上がる。"
     },
     {
         "id": 277,
         "name": "ふうりょくでんき",
         "nameEn": "Wind Power",
         "effects": [],
-        "description": ""
+        "description": "かぜ技を　受けると　じゅうでん状態に　なる。"
     },
     {
         "id": 278,
         "name": "マイティチェンジ",
         "nameEn": "Zero To Hero",
         "effects": [],
-        "description": ""
+        "description": "控えに　もどると　マイティフォルムに　変化する。"
     },
     {
         "id": 279,
         "name": "しれいとう",
         "nameEn": "Commander",
         "effects": [],
-        "description": ""
+        "description": "ヘイラッシャが　いると　口の中に　入って　そこから指令を出す。"
     },
     {
         "id": 280,
         "name": "でんきにかえる",
         "nameEn": "Electromorphosis",
         "effects": [],
-        "description": ""
+        "description": "ダメージを　受けると　じゅうでん状態に　なる。"
     },
     {
         "id": 281,
         "name": "こだいかっせい",
         "nameEn": "Protosynthesis",
         "effects": [],
-        "description": ""
+        "description": "にほんばれか　ブーストエナジーで　いちばん　高い能力が　上がる。"
     },
     {
         "id": 282,
         "name": "クォークチャージ",
         "nameEn": "Quark Drive",
         "effects": [],
-        "description": ""
+        "description": "エレキフィールドか　ブーストエナジーで　いちばん　高い能力が　上がる。"
     },
     {
         "id": 283,
         "name": "おうごんのからだ",
         "nameEn": "Good As Gold",
         "effects": [],
-        "description": ""
+        "description": "酸化しない　丈夫な　黄金の体の　おかげで　相手からの　変化技を　受けない。"
     },
     {
         "id": 284,
         "name": "わざわいのうつわ",
         "nameEn": "Vessel Of Ruin",
         "effects": [],
-        "description": ""
+        "description": "禍の器の力で　自分以外の　ポケモンの　特攻を　弱くする。"
     },
     {
         "id": 285,
         "name": "わざわいのつるぎ",
         "nameEn": "Sword Of Ruin",
         "effects": [],
-        "description": ""
+        "description": "禍の剣の力で　自分以外の　ポケモンの　防御を　弱くする。"
     },
     {
         "id": 286,
         "name": "わざわいのおふだ",
         "nameEn": "Tablets Of Ruin",
         "effects": [],
-        "description": ""
+        "description": "禍の札の力で　自分以外の　ポケモンの　攻撃を　弱くする。"
     },
     {
         "id": 287,
         "name": "わざわいのたま",
         "nameEn": "Beads Of Ruin",
         "effects": [],
-        "description": ""
+        "description": "禍の玉の力で　自分以外の　ポケモンの　特防を　弱くする。"
     },
     {
         "id": 288,
         "name": "ひひいろのこどう",
         "nameEn": "Orichalcum Pulse",
         "effects": [],
-        "description": ""
+        "description": "登場したとき　天気を　はれにする。にほんばれのとき　攻撃が　上がる。"
     },
     {
         "id": 289,
         "name": "ハドロンエンジン",
         "nameEn": "Hadron Engine",
         "effects": [],
-        "description": ""
+        "description": "登場したとき　エレキフィールドを　はる。エレキフィールドのとき　特攻が　上がる。"
     },
     {
         "id": 290,
         "name": "びんじょう",
         "nameEn": "Opportunist",
         "effects": [],
-        "description": ""
+        "description": "相手の　能力が　上がると　自分も　便乗して　同じように　能力を　上げる。"
     },
     {
         "id": 291,
         "name": "はんすう",
         "nameEn": "Cud Chew",
         "effects": [],
-        "description": ""
+        "description": "きのみを　食べると　次のターンの　終わりに　もう一度　同じきのみを　食べる。"
     },
     {
         "id": 292,
         "name": "きれあじ",
         "nameEn": "Sharpness",
         "effects": [],
-        "description": ""
+        "description": "斬る技の　威力が　上がる。"
     },
     {
         "id": 293,
         "name": "そうだいしょう",
         "nameEn": "Supreme Overlord",
         "effects": [],
-        "description": ""
+        "description": "倒れた味方の数だけ　攻撃と特攻が　少しずつ上がった状態で　登場する。"
     },
     {
         "id": 294,
         "name": "きょうえん",
         "nameEn": "Costar",
         "effects": [],
-        "description": ""
+        "description": "登場したとき　味方の　能力変化を　コピーする。"
     },
     {
         "id": 295,
         "name": "どくげしょう",
         "nameEn": "Toxic Debris",
         "effects": [],
-        "description": ""
+        "description": "物理技の　ダメージを　受けると　相手の足元に　どくびしを　まく。"
     },
     {
         "id": 296,
         "name": "テイルアーマー",
         "nameEn": "Armor Tail",
         "effects": [],
-        "description": ""
+        "description": "しっぽで　まわりの空間を　ゆがめて　先制技を　受けない。"
     },
     {
         "id": 297,
         "name": "どしょく",
         "nameEn": "Earth Eater",
         "effects": [],
-        "description": ""
+        "description": "じめんタイプの技を　受けると　ダメージを　受けずに　HPが　回復する。"
     },
     {
         "id": 298,
         "name": "きんしのちから",
         "nameEn": "Mycelium Might",
         "effects": [],
-        "description": ""
+        "description": "変化技は　必ず　後攻に　なるが　相手の特性に　邪魔されない。"
     },
     {
         "id": 300,
-        "name": "Supersweet Syrup",
+        "name": "かんろなミツ",
         "nameEn": "Supersweet Syrup",
         "effects": [],
-        "description": ""
+        "description": "登場したとき　甘い蜜の　においで　相手の　回避率を　下げる。"
     },
     {
         "id": 301,
         "name": "おもてなし",
         "nameEn": "Hospitality",
         "effects": [],
-        "description": ""
+        "description": "登場したとき　味方の　HPを　少し　回復する。"
     },
     {
         "id": 302,
         "name": "どくのくさり",
         "nameEn": "Toxic Chain",
         "effects": [],
-        "description": ""
+        "description": "毒で　できた　鎖の力で　技を　当てたとき　もうどく状態に　することがある。"
     },
     {
         "id": 304,
         "name": "テラスチェンジ",
         "nameEn": "Tera Shift",
         "effects": [],
-        "description": ""
+        "description": "登場したとき　テラスタルフォルムに　変化する。"
     },
     {
         "id": 307,
         "name": "どくくぐつ",
         "nameEn": "Poison Puppeteer",
         "effects": [],
-        "description": ""
+        "description": "自分の技で　どくや　もうどくに　した相手は　こんらん状態に　もなる。"
     },
     {
         "id": 10001,
         "name": "メガソーラー",
         "nameEn": "Mega Solar",
-        "effects": []
+        "effects": [],
+        "description": "メガシンカしたとき　天気を　にほんばれにする。"
     },
     {
         "id": 10002,
         "name": "ドラゴンスキン",
         "nameEn": "Dragon Skin",
-        "effects": []
+        "effects": [],
+        "description": "ノーマルタイプの技が　ドラゴンタイプに　なり　威力が　少し上がる。"
     }
 ]
