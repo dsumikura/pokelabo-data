@@ -43039,7 +43039,34 @@
     ],
     "weight": 53.0,
     "megaEvolutions": [],
-    "forms": [],
+    "forms": [
+      {
+        "formName": "ブレード",
+        "formNameEn": "blade",
+        "types": [
+          "steel",
+          "ghost"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "attack": 140,
+          "defense": 50,
+          "spAttack": 140,
+          "spDefense": 50,
+          "speed": 60
+        },
+        "abilities": [
+          {
+            "id": 176,
+            "name": "バトルスイッチ",
+            "nameEn": "Stance Change",
+            "effects": []
+          }
+        ],
+        "weight": 53.0,
+        "spriteId": 10028
+      }
+    ],
     "learnableMoveIds": [
       14,
       63,
