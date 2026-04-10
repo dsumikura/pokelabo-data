@@ -1090,5 +1090,11 @@
         "name": "ホズのみ",
         "nameEn": "Chilan Berry",
         "effects": []
+    },
+    {
+        "id": 568,
+        "name": "ようせいのハネ",
+        "nameEn": "Fairy Feather",
+        "effects": []
     }
 ]
