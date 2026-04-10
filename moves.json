@@ -10192,7 +10192,7 @@
         "priority": 0,
         "flags": {
             "isContact": false,
-            "isSound": false,
+            "isSound": true,
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
@@ -14481,7 +14481,7 @@
         "priority": 0,
         "flags": {
             "isContact": false,
-            "isSound": false,
+            "isSound": true,
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
@@ -14858,7 +14858,7 @@
         "priority": 0,
         "flags": {
             "isContact": false,
-            "isSound": false,
+            "isSound": true,
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
@@ -23010,7 +23010,7 @@
         "priority": 0,
         "flags": {
             "isContact": false,
-            "isSound": false,
+            "isSound": true,
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
