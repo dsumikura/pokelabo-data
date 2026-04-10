@@ -1992,13 +1992,111 @@
         "name": "メガソーラー",
         "nameEn": "Mega Solar",
         "effects": [],
-        "description": "メガシンカしたとき　天気を　にほんばれにする。"
+        "description": "この特性を持つポケモンが技を使うときに　天気が　にほんばれ状態と　同じ効果を　受ける。"
     },
     {
         "id": 10002,
         "name": "ドラゴンスキン",
         "nameEn": "Dragon Skin",
         "effects": [],
-        "description": "ノーマルタイプの技が　ドラゴンタイプに　なり　威力が　少し上がる。"
+        "description": "自分の　ノーマルタイプの技が　ドラゴンタイプに　なり　威力が　1.2倍に　なる。"
+    },
+    {
+        "id": 10003,
+        "name": "かんつうドリル",
+        "nameEn": "Piercing Drill",
+        "effects": [],
+        "description": "接触技を使うとき　相手の守りの効果を　無視して　本来の1/4の　ダメージを　与える。相手の守りの効果以外は　発動される。"
+    },
+    {
+        "id": 10004,
+        "name": "きみょうなくすり",
+        "nameEn": "Curious Medicine",
+        "effects": [],
+        "description": "登場したとき　味方の　能力変化を　元に　もどす。"
+    },
+    {
+        "id": 10005,
+        "name": "エレキスキン",
+        "nameEn": "Galvanize",
+        "effects": [],
+        "description": "ノーマルタイプの技が　でんきタイプに　なり　威力が　少し上がる。"
+    },
+    {
+        "id": 10006,
+        "name": "ごりむちゅう",
+        "nameEn": "Gorilla Tactics",
+        "effects": [],
+        "description": "攻撃が　上がるが　最初に　選んだ技しか　出せなくなる。"
+    },
+    {
+        "id": 10007,
+        "name": "ぎたい",
+        "nameEn": "Mimicry",
+        "effects": [],
+        "description": "フィールドの状態に　あわせて　自分のタイプが　変化する。"
+    },
+    {
+        "id": 10008,
+        "name": "しんがん",
+        "nameEn": "Mind's Eye",
+        "effects": [],
+        "description": "ノーマル・かくとう技が　ゴーストタイプに当たる。命中率も下げられない。"
+    },
+    {
+        "id": 10009,
+        "name": "パステルベール",
+        "nameEn": "Pastel Veil",
+        "effects": [],
+        "description": "自分と　味方を　どく状態から　守る。"
+    },
+    {
+        "id": 10010,
+        "name": "かがくのちから",
+        "nameEn": "Power Of Alchemy",
+        "effects": [],
+        "description": "倒れた味方と　同じ特性に　なる。"
+    },
+    {
+        "id": 10011,
+        "name": "クイックドロウ",
+        "nameEn": "Quick Draw",
+        "effects": [],
+        "description": "先制で　技を　出せることがある。"
+    },
+    {
+        "id": 10012,
+        "name": "サーフテール",
+        "nameEn": "Surge Surfer",
+        "effects": [],
+        "description": "エレキフィールドのとき　素早さが　2倍に　なる。"
+    },
+    {
+        "id": 10013,
+        "name": "カーリーヘアー",
+        "nameEn": "Tangling Hair",
+        "effects": [],
+        "description": "接触する技で　ダメージを　受けると　相手の素早さを　下げる。"
+    },
+    {
+        "id": 10014,
+        "name": "じんばいったい",
+        "nameEn": "As One Glastrier",
+        "effects": [],
+        "description": "バドレックスの　きんちょうかんと　ブリザポスの　じんばいったいを　あわせ持つ。"
+    },
+    {
+        "id": 10015,
+        "name": "じんばいったい",
+        "nameEn": "As One Spectrier",
+        "effects": [],
+        "description": "バドレックスの　きんちょうかんと　レイスポスの　くろのいななきを　あわせ持つ。"
+    },
+    {
+        "id": 10016,
+        "name": "とびだすハバネロ",
+        "nameEn": "Spicy Spray",
+        "effects": [],
+        "description": "技のダメージを　受けると　相手を　やけど状態に　する。"
     }
 ]
