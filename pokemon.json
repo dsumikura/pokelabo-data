@@ -47110,7 +47110,33 @@
     ],
     "weight": 0.3,
     "megaEvolutions": [],
-    "forms": [],
+    "forms": [
+      {
+        "formName": "むれ",
+        "formNameEn": "school",
+        "types": [
+          "water"
+        ],
+        "baseStats": {
+          "hp": 45,
+          "attack": 140,
+          "defense": 130,
+          "spAttack": 140,
+          "spDefense": 135,
+          "speed": 30
+        },
+        "abilities": [
+          {
+            "id": 208,
+            "name": "むれたすがた",
+            "nameEn": "Schooling",
+            "effects": []
+          }
+        ],
+        "weight": 78.6,
+        "spriteId": 10127
+      }
+    ],
     "learnableMoveIds": [
       36,
       38,
@@ -48743,7 +48769,34 @@
     ],
     "weight": 40.0,
     "megaEvolutions": [],
-    "forms": [],
+    "forms": [
+      {
+        "formName": "コア",
+        "formNameEn": "core",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "attack": 100,
+          "defense": 60,
+          "spAttack": 100,
+          "spDefense": 60,
+          "speed": 120
+        },
+        "abilities": [
+          {
+            "id": 222,
+            "name": "リミットシールド",
+            "nameEn": "Shields Down",
+            "effects": []
+          }
+        ],
+        "weight": 0.3,
+        "spriteId": 10136
+      }
+    ],
     "learnableMoveIds": [
       33,
       36,
@@ -55305,7 +55358,33 @@
     ],
     "weight": 89.0,
     "megaEvolutions": [],
-    "forms": [],
+    "forms": [
+      {
+        "formName": "ナイス",
+        "formNameEn": "noice",
+        "types": [
+          "ice"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "attack": 80,
+          "defense": 70,
+          "spAttack": 65,
+          "spDefense": 50,
+          "speed": 130
+        },
+        "abilities": [
+          {
+            "id": 248,
+            "name": "アイスフェイス",
+            "nameEn": "Ice Face",
+            "effects": []
+          }
+        ],
+        "weight": 89.0,
+        "spriteId": 10185
+      }
+    ],
     "learnableMoveIds": [
       8,
       29,
