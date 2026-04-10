@@ -3044,7 +3044,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -3524,7 +3524,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -4789,7 +4789,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": true,
             "isPulse": false
@@ -8334,7 +8334,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -8815,7 +8815,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -9068,7 +9068,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -10221,7 +10221,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": true,
+            "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": true
@@ -10721,7 +10721,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": true,
             "isPulse": false
@@ -11048,7 +11048,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -11148,7 +11148,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -12234,7 +12234,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -12361,7 +12361,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": true,
             "isPulse": false
@@ -13727,7 +13727,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": true,
             "isPulse": false,
@@ -15571,7 +15571,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": true,
+            "isBullet": false,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": true,
@@ -17024,7 +17024,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -17375,7 +17375,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": false,
             "isPulse": false
@@ -19636,7 +19636,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": true,
             "isPulse": false
@@ -22738,7 +22738,7 @@
             "isPunch": false,
             "isBite": false,
             "isSlicing": false,
-            "isBullet": false,
+            "isBullet": true,
             "isWind": false,
             "hasSecondaryEffect": true,
             "isPulse": false
