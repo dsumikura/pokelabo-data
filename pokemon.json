@@ -60432,7 +60432,33 @@
     ],
     "weight": 60.2,
     "megaEvolutions": [],
-    "forms": [],
+    "forms": [
+      {
+        "formName": "マイティ",
+        "formNameEn": "hero",
+        "types": [
+          "water"
+        ],
+        "baseStats": {
+          "hp": 100,
+          "attack": 160,
+          "defense": 97,
+          "spAttack": 106,
+          "spDefense": 87,
+          "speed": 100
+        },
+        "abilities": [
+          {
+            "id": 278,
+            "name": "マイティチェンジ",
+            "nameEn": "Zero To Hero",
+            "effects": []
+          }
+        ],
+        "weight": 60.2,
+        "spriteId": 10256
+      }
+    ],
     "learnableMoveIds": [
       8,
       34,
