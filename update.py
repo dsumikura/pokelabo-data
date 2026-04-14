@@ -5,6 +5,17 @@ Usage:
   python3 update.py                    # 全データ再取得 + manifest更新 + commit & push
   python3 update.py --manifest-only    # manifestのみ更新（手動でJSON編集した場合）
   python3 update.py --no-push          # commit まで（pushしない）
+
+⚠ 注意: PokeAPIはリージョナルフォーム（アローラ等）の覚える技を
+        通常フォームにも混入させて返します。Champions準拠の正確な技は
+        PokeLabo側の `python3 scripts/fetch_gamewith_moves.py` で取得し、
+        生成された pokemon.json をこのリポジトリにコピーしてください。
+        運用例:
+          cd ~/projects/PokeLabo
+          python3 scripts/fetch_gamewith_moves.py
+          cp PokeLabo/Resources/pokemon.json ~/projects/pokelabo-data/pokemon.json
+          cd ~/projects/pokelabo-data
+          python3 update.py --manifest-only
 """
 
 import json

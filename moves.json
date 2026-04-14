@@ -1225,7 +1225,7 @@
         "nameEn": "Sonic Boom",
         "type": "normal",
         "category": "special",
-        "power": null,
+        "power": 1,
         "accuracy": 90,
         "pp": 20,
         "priority": 0,
@@ -1240,7 +1240,7 @@
             "hasSecondaryEffect": false,
             "isPulse": false
         },
-        "powerType": "fixed",
+        "powerType": "fixedDamage",
         "hitCount": "single",
         "description": "この技は　使えません思い出すことが　できなくなりますが技を　忘れることを　おすすめします"
     },
@@ -1730,7 +1730,7 @@
         "nameEn": "Seismic Toss",
         "type": "fighting",
         "category": "physical",
-        "power": null,
+        "power": 1,
         "accuracy": 100,
         "pp": 20,
         "priority": 0,
@@ -1745,7 +1745,7 @@
             "hasSecondaryEffect": false,
             "isPulse": false
         },
-        "powerType": "fixed",
+        "powerType": "fixedDamage",
         "hitCount": "single",
         "description": "引力を　使い　投げとばす。自分の　レベルと　同じ　ダメージを相手に　与える。"
     },
@@ -2057,7 +2057,7 @@
         "nameEn": "Dragon Rage",
         "type": "dragon",
         "category": "special",
-        "power": null,
+        "power": 1,
         "accuracy": 100,
         "pp": 10,
         "priority": 0,
@@ -2072,7 +2072,7 @@
             "hasSecondaryEffect": false,
             "isPulse": false
         },
-        "powerType": "fixed",
+        "powerType": "fixedDamage",
         "hitCount": "single",
         "description": "この技は　使えません思い出すことが　できなくなりますが技を　忘れることを　おすすめします"
     },
@@ -4075,7 +4075,7 @@
         "nameEn": "Super Fang",
         "type": "normal",
         "category": "physical",
-        "power": null,
+        "power": 1,
         "accuracy": 90,
         "pp": 10,
         "priority": 0,
@@ -4090,7 +4090,7 @@
             "hasSecondaryEffect": false,
             "isPulse": false
         },
-        "powerType": "fixed",
+        "powerType": "fixedDamage",
         "hitCount": "single",
         "description": "鋭い　前歯で激しく　かみついて　攻撃する。相手の　ＨＰは　半分に　なる。"
     },
@@ -4402,7 +4402,7 @@
         "nameEn": "Flail",
         "type": "normal",
         "category": "physical",
-        "power": null,
+        "power": 200,
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
@@ -4417,7 +4417,9 @@
             "hasSecondaryEffect": false,
             "isPulse": false
         },
-        "powerType": "fixed",
+        "powerType": {
+            "variable": "flail"
+        },
         "hitCount": "single",
         "description": "じたばた　暴れて　攻撃する。自分の　ＨＰが　少ないほど技の　威力は　あがる。"
     },
@@ -4503,7 +4505,7 @@
         "nameEn": "Reversal",
         "type": "fighting",
         "category": "physical",
-        "power": null,
+        "power": 200,
         "accuracy": 100,
         "pp": 15,
         "priority": 0,
@@ -4518,7 +4520,9 @@
             "hasSecondaryEffect": false,
             "isPulse": false
         },
-        "powerType": "fixed",
+        "powerType": {
+            "variable": "reversal"
+        },
         "hitCount": "single",
         "description": "力を　ふりしぼり　攻撃する。自分の　ＨＰが　少ないほど技の　威力は　あがる。"
     },
@@ -7156,7 +7160,9 @@
             "isPulse": false,
             "isSpread": true
         },
-        "powerType": "fixed",
+        "powerType": {
+            "variable": "eruption"
+        },
         "hitCount": "single",
         "description": "怒りを　爆発させて　相手を攻撃する。　自分の　ＨＰが少ないほど　技の　威力は　さがる。"
     },
@@ -8138,7 +8144,9 @@
             "isPulse": false,
             "isSpread": true
         },
-        "powerType": "fixed",
+        "powerType": {
+            "variable": "eruption"
+        },
         "hitCount": "single",
         "description": "潮を　吹きつけて　攻撃する。自分の　ＨＰが　少ないほど技の　威力は　さがる。"
     },
@@ -11618,7 +11626,7 @@
         "nameEn": "Crush Grip",
         "type": "normal",
         "category": "physical",
-        "power": null,
+        "power": 120,
         "accuracy": 100,
         "pp": 5,
         "priority": 0,
@@ -11633,7 +11641,9 @@
             "hasSecondaryEffect": false,
             "isPulse": false
         },
-        "powerType": "fixed",
+        "powerType": {
+            "variable": "crushGrip"
+        },
         "hitCount": "single",
         "description": "すさまじい　力で　相手を　にぎりつぶす。相手の　ＨＰが　残っているほど威力が　あがる。"
     },
