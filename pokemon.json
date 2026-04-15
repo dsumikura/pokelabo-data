@@ -1201,52 +1201,7 @@
       }
     ],
     "weight": 30.0,
-    "megaEvolutions": [
-      {
-        "name": "メガシンカ X",
-        "types": [
-          "electric"
-        ],
-        "baseStats": {
-          "hp": 60,
-          "attack": 135,
-          "defense": 95,
-          "spAttack": 90,
-          "spDefense": 95,
-          "speed": 110
-        },
-        "ability": {
-          "id": 0,
-          "name": "不明",
-          "nameEn": "Unknown",
-          "effects": []
-        },
-        "megaStone": "raichu-mega-x",
-        "spriteId": 10304
-      },
-      {
-        "name": "メガシンカ Y",
-        "types": [
-          "electric"
-        ],
-        "baseStats": {
-          "hp": 60,
-          "attack": 100,
-          "defense": 55,
-          "spAttack": 160,
-          "spDefense": 80,
-          "speed": 130
-        },
-        "ability": {
-          "id": 0,
-          "name": "不明",
-          "nameEn": "Unknown",
-          "effects": []
-        },
-        "megaStone": "raichu-mega-y",
-        "spriteId": 10305
-      }
-    ],
+    "megaEvolutions": [],
     "forms": [],
     "learnableMoveIds": [
       9,
