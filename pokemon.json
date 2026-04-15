@@ -42824,7 +42824,7 @@
   },
   {
     "id": 678,
-    "name": "ニャオニクス",
+    "name": "ニャオニクス(オス)",
     "nameEn": "Meowstic-male",
     "types": [
       "psychic"
@@ -42882,47 +42882,103 @@
         "spriteId": 10314
       }
     ],
-    "forms": [
+    "forms": [],
+    "learnableMoveIds": [
+      63,
+      85,
+      86,
+      91,
+      94,
+      113,
+      115,
+      156,
+      164,
+      173,
+      182,
+      203,
+      204,
+      214,
+      219,
+      226,
+      231,
+      240,
+      241,
+      244,
+      247,
+      248,
+      263,
+      270,
+      271,
+      272,
+      281,
+      285,
+      313,
+      321,
+      326,
+      343,
+      347,
+      356,
+      371,
+      389,
+      399,
+      412,
+      416,
+      417,
+      428,
+      433,
+      451,
+      472,
+      473,
+      478,
+      500,
+      541,
+      583,
+      678,
+      797,
+      885,
+      914,
+      917
+    ]
+  },
+  {
+    "id": 10025,
+    "name": "ニャオニクス(メス)",
+    "nameEn": "Meowstic-female",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "spAttack": 83,
+      "spDefense": 81,
+      "speed": 104
+    },
+    "abilities": [
       {
-        "formName": "オス",
-        "formNameEn": "male",
-        "types": [
-          "psychic"
-        ],
-        "baseStats": {
-          "hp": 74,
-          "attack": 48,
-          "defense": 76,
-          "spAttack": 83,
-          "spDefense": 81,
-          "speed": 104
-        },
-        "abilities": [
-          {
-            "id": 51,
-            "name": "するどいめ",
-            "nameEn": "Keen Eye",
-            "effects": []
-          },
-          {
-            "id": 151,
-            "name": "すりぬけ",
-            "nameEn": "Infiltrator",
-            "effects": []
-          },
-          {
-            "id": 158,
-            "name": "いたずらごころ",
-            "nameEn": "Prankster",
-            "effects": []
-          }
-        ],
-        "weight": 8.5,
-        "spriteId": 678
+        "id": 51,
+        "name": "するどいめ",
+        "nameEn": "Keen Eye",
+        "effects": []
       },
       {
-        "formName": "メス",
-        "formNameEn": "female",
+        "id": 151,
+        "name": "すりぬけ",
+        "nameEn": "Infiltrator",
+        "effects": []
+      },
+      {
+        "id": 172,
+        "name": "かちき",
+        "nameEn": "Competitive",
+        "effects": []
+      }
+    ],
+    "weight": 8.5,
+    "megaEvolutions": [
+      {
+        "name": "メガシンカ",
         "types": [
           "psychic"
         ],
@@ -42930,34 +42986,21 @@
           "hp": 74,
           "attack": 48,
           "defense": 76,
-          "spAttack": 83,
-          "spDefense": 81,
-          "speed": 104
+          "spAttack": 143,
+          "spDefense": 101,
+          "speed": 124
         },
-        "abilities": [
-          {
-            "id": 51,
-            "name": "するどいめ",
-            "nameEn": "Keen Eye",
-            "effects": []
-          },
-          {
-            "id": 151,
-            "name": "すりぬけ",
-            "nameEn": "Infiltrator",
-            "effects": []
-          },
-          {
-            "id": 172,
-            "name": "かちき",
-            "nameEn": "Competitive",
-            "effects": []
-          }
-        ],
-        "weight": 8.5,
-        "spriteId": 10025
+        "ability": {
+          "id": 36,
+          "name": "トレース",
+          "nameEn": "Trace",
+          "effects": []
+        },
+        "megaStone": "meowstic-mega",
+        "spriteId": 10314
       }
     ],
+    "forms": [],
     "learnableMoveIds": [
       63,
       85,
@@ -55447,7 +55490,7 @@
   },
   {
     "id": 876,
-    "name": "イエッサン",
+    "name": "イエッサン(オス)",
     "nameEn": "Indeedee-male",
     "types": [
       "psychic",
@@ -55483,84 +55526,116 @@
     ],
     "weight": 28.0,
     "megaEvolutions": [],
-    "forms": [
+    "forms": [],
+    "learnableMoveIds": [
+      6,
+      34,
+      36,
+      60,
+      94,
+      113,
+      115,
+      118,
+      129,
+      156,
+      161,
+      164,
+      173,
+      182,
+      203,
+      204,
+      213,
+      214,
+      219,
+      226,
+      227,
+      244,
+      247,
+      248,
+      252,
+      263,
+      266,
+      270,
+      271,
+      285,
+      286,
+      304,
+      312,
+      326,
+      345,
+      347,
+      356,
+      361,
+      375,
+      384,
+      385,
+      387,
+      409,
+      412,
+      428,
+      433,
+      470,
+      471,
+      472,
+      473,
+      478,
+      495,
+      496,
+      500,
+      502,
+      505,
+      574,
+      577,
+      583,
+      589,
+      595,
+      605,
+      678,
+      797,
+      805,
+      851,
+      917
+    ]
+  },
+  {
+    "id": 10176,
+    "name": "イエッサン(メス)",
+    "nameEn": "Indeedee-female",
+    "types": [
+      "psychic",
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 65,
+      "spAttack": 95,
+      "spDefense": 105,
+      "speed": 85
+    },
+    "abilities": [
       {
-        "formName": "オス",
-        "formNameEn": "male",
-        "types": [
-          "psychic",
-          "normal"
-        ],
-        "baseStats": {
-          "hp": 60,
-          "attack": 65,
-          "defense": 55,
-          "spAttack": 105,
-          "spDefense": 95,
-          "speed": 95
-        },
-        "abilities": [
-          {
-            "id": 39,
-            "name": "せいしんりょく",
-            "nameEn": "Inner Focus",
-            "effects": []
-          },
-          {
-            "id": 28,
-            "name": "シンクロ",
-            "nameEn": "Synchronize",
-            "effects": []
-          },
-          {
-            "id": 227,
-            "name": "サイコメイカー",
-            "nameEn": "Psychic Surge",
-            "effects": []
-          }
-        ],
-        "weight": 28.0,
-        "spriteId": 876
+        "id": 20,
+        "name": "マイペース",
+        "nameEn": "Own Tempo",
+        "effects": []
       },
       {
-        "formName": "メス",
-        "formNameEn": "female",
-        "types": [
-          "psychic",
-          "normal"
-        ],
-        "baseStats": {
-          "hp": 70,
-          "attack": 55,
-          "defense": 65,
-          "spAttack": 95,
-          "spDefense": 105,
-          "speed": 85
-        },
-        "abilities": [
-          {
-            "id": 20,
-            "name": "マイペース",
-            "nameEn": "Own Tempo",
-            "effects": []
-          },
-          {
-            "id": 28,
-            "name": "シンクロ",
-            "nameEn": "Synchronize",
-            "effects": []
-          },
-          {
-            "id": 227,
-            "name": "サイコメイカー",
-            "nameEn": "Psychic Surge",
-            "effects": []
-          }
-        ],
-        "weight": 28.0,
-        "spriteId": 10186
+        "id": 28,
+        "name": "シンクロ",
+        "nameEn": "Synchronize",
+        "effects": []
+      },
+      {
+        "id": 227,
+        "name": "サイコメイカー",
+        "nameEn": "Psychic Surge",
+        "effects": []
       }
     ],
+    "weight": 28.0,
+    "megaEvolutions": [],
+    "forms": [],
     "learnableMoveIds": [
       6,
       34,
@@ -57526,7 +57601,7 @@
   },
   {
     "id": 902,
-    "name": "イダイトウ",
+    "name": "イダイトウ(オス)",
     "nameEn": "Basculegion-male",
     "types": [
       "water",
@@ -57562,84 +57637,98 @@
     ],
     "weight": 110.0,
     "megaEvolutions": [],
-    "forms": [
+    "forms": [],
+    "learnableMoveIds": [
+      37,
+      38,
+      44,
+      56,
+      57,
+      58,
+      59,
+      63,
+      97,
+      101,
+      109,
+      127,
+      156,
+      164,
+      175,
+      180,
+      182,
+      184,
+      196,
+      200,
+      203,
+      214,
+      220,
+      240,
+      242,
+      247,
+      250,
+      253,
+      263,
+      283,
+      330,
+      341,
+      352,
+      416,
+      423,
+      428,
+      453,
+      457,
+      487,
+      506,
+      566,
+      706,
+      710,
+      799,
+      812,
+      834,
+      854,
+      883,
+      886
+    ]
+  },
+  {
+    "id": 10248,
+    "name": "イダイトウ(メス)",
+    "nameEn": "Basculegion-female",
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 120,
+      "attack": 92,
+      "defense": 65,
+      "spAttack": 100,
+      "spDefense": 75,
+      "speed": 78
+    },
+    "abilities": [
       {
-        "formName": "オス",
-        "formNameEn": "male",
-        "types": [
-          "water",
-          "ghost"
-        ],
-        "baseStats": {
-          "hp": 120,
-          "attack": 112,
-          "defense": 65,
-          "spAttack": 80,
-          "spDefense": 75,
-          "speed": 78
-        },
-        "abilities": [
-          {
-            "id": 33,
-            "name": "すいすい",
-            "nameEn": "Swift Swim",
-            "effects": []
-          },
-          {
-            "id": 91,
-            "name": "てきおうりょく",
-            "nameEn": "Adaptability",
-            "effects": []
-          },
-          {
-            "id": 104,
-            "name": "かたやぶり",
-            "nameEn": "Mold Breaker",
-            "effects": []
-          }
-        ],
-        "weight": 110.0,
-        "spriteId": 902
+        "id": 33,
+        "name": "すいすい",
+        "nameEn": "Swift Swim",
+        "effects": []
       },
       {
-        "formName": "メス",
-        "formNameEn": "female",
-        "types": [
-          "water",
-          "ghost"
-        ],
-        "baseStats": {
-          "hp": 120,
-          "attack": 92,
-          "defense": 65,
-          "spAttack": 100,
-          "spDefense": 75,
-          "speed": 78
-        },
-        "abilities": [
-          {
-            "id": 33,
-            "name": "すいすい",
-            "nameEn": "Swift Swim",
-            "effects": []
-          },
-          {
-            "id": 91,
-            "name": "てきおうりょく",
-            "nameEn": "Adaptability",
-            "effects": []
-          },
-          {
-            "id": 104,
-            "name": "かたやぶり",
-            "nameEn": "Mold Breaker",
-            "effects": []
-          }
-        ],
-        "weight": 110.0,
-        "spriteId": 10248
+        "id": 91,
+        "name": "てきおうりょく",
+        "nameEn": "Adaptability",
+        "effects": []
+      },
+      {
+        "id": 104,
+        "name": "かたやぶり",
+        "nameEn": "Mold Breaker",
+        "effects": []
       }
     ],
+    "weight": 110.0,
+    "megaEvolutions": [],
+    "forms": [],
     "learnableMoveIds": [
       37,
       38,
