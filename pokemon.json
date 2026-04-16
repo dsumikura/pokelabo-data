@@ -43110,6 +43110,32 @@
         ],
         "weight": 53.0,
         "spriteId": 10026
+      },
+      {
+        "formName": "シールド",
+        "formNameEn": "shield",
+        "types": [
+          "steel",
+          "ghost"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "attack": 50,
+          "defense": 140,
+          "spAttack": 50,
+          "spDefense": 140,
+          "speed": 60
+        },
+        "abilities": [
+          {
+            "id": 176,
+            "name": "バトルスイッチ",
+            "nameEn": "Stance Change",
+            "effects": []
+          }
+        ],
+        "weight": 53.0,
+        "spriteId": 10025
       }
     ],
     "learnableMoveIds": [
@@ -60627,6 +60653,31 @@
         ],
         "weight": 60.2,
         "spriteId": 10256
+      },
+      {
+        "formName": "ナイーブ",
+        "formNameEn": "zero",
+        "types": [
+          "water"
+        ],
+        "baseStats": {
+          "hp": 100,
+          "attack": 70,
+          "defense": 72,
+          "spAttack": 53,
+          "spDefense": 62,
+          "speed": 100
+        },
+        "abilities": [
+          {
+            "id": 278,
+            "name": "マイティチェンジ",
+            "nameEn": "Zero To Hero",
+            "effects": []
+          }
+        ],
+        "weight": 60.2,
+        "spriteId": 964
       }
     ],
     "learnableMoveIds": [
