@@ -247,7 +247,7 @@ def update_manifest():
             current = json.load(f)
 
     files = {}
-    for name in ["pokemon", "moves", "items"]:
+    for name in ["pokemon", "moves", "items", "regulations"]:
         path = DATA_DIR / f"{name}.json"
         if path.exists():
             with open(path, "rb") as f:
