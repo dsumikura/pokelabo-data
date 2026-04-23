@@ -52,7 +52,8 @@
           "effects": []
         },
         "megaStone": "venusaur-mega",
-        "spriteId": 10033
+        "spriteId": 10033,
+        "weight": 155.5
       }
     ],
     "forms": [],
@@ -169,7 +170,8 @@
           "effects": []
         },
         "megaStone": "charizard-mega-x",
-        "spriteId": 10034
+        "spriteId": 10034,
+        "weight": 110.5
       },
       {
         "name": "メガシンカ Y",
@@ -192,7 +194,8 @@
           "effects": []
         },
         "megaStone": "charizard-mega-y",
-        "spriteId": 10035
+        "spriteId": 10035,
+        "weight": 100.5
       }
     ],
     "forms": [],
@@ -322,7 +325,8 @@
           "effects": []
         },
         "megaStone": "blastoise-mega",
-        "spriteId": 10036
+        "spriteId": 10036,
+        "weight": 101.1
       }
     ],
     "forms": [],
@@ -577,7 +581,8 @@
           "effects": []
         },
         "megaStone": "beedrill-mega",
-        "spriteId": 10090
+        "spriteId": 10090,
+        "weight": 40.5
       }
     ],
     "forms": [],
@@ -696,7 +701,8 @@
           "effects": []
         },
         "megaStone": "pidgeot-mega",
-        "spriteId": 10073
+        "spriteId": 10073,
+        "weight": 50.5
       }
     ],
     "forms": [],
@@ -1222,7 +1228,8 @@
           "effects": []
         },
         "megaStone": "raichu-mega-x",
-        "spriteId": 10304
+        "spriteId": 10304,
+        "weight": 38.0
       },
       {
         "name": "メガシンカ Y",
@@ -1244,7 +1251,8 @@
           "effects": []
         },
         "megaStone": "raichu-mega-y",
-        "spriteId": 10305
+        "spriteId": 10305,
+        "weight": 26.0
       }
     ],
     "forms": [],
@@ -1864,7 +1872,8 @@
           "effects": []
         },
         "megaStone": "clefable-mega",
-        "spriteId": 10278
+        "spriteId": 10278,
+        "weight": 42.3
       }
     ],
     "forms": [],
@@ -3388,7 +3397,8 @@
           "effects": []
         },
         "megaStone": "alakazam-mega",
-        "spriteId": 10037
+        "spriteId": 10037,
+        "weight": 48.0
       }
     ],
     "forms": [],
@@ -3615,7 +3625,8 @@
           "effects": []
         },
         "megaStone": "victreebel-mega",
-        "spriteId": 10279
+        "spriteId": 10279,
+        "weight": 125.5
       }
     ],
     "forms": [],
@@ -4139,7 +4150,8 @@
           "effects": []
         },
         "megaStone": "slowbro-mega",
-        "spriteId": 10071
+        "spriteId": 10071,
+        "weight": 120.0
       }
     ],
     "forms": [],
@@ -4808,7 +4820,8 @@
           "effects": []
         },
         "megaStone": "gengar-mega",
-        "spriteId": 10038
+        "spriteId": 10038,
+        "weight": 40.5
       }
     ],
     "forms": [],
@@ -6031,7 +6044,8 @@
           "effects": []
         },
         "megaStone": "kangaskhan-mega",
-        "spriteId": 10039
+        "spriteId": 10039,
+        "weight": 100.0
       }
     ],
     "forms": [],
@@ -6279,7 +6293,8 @@
           "effects": []
         },
         "megaStone": "starmie-mega",
-        "spriteId": 10280
+        "spriteId": 10280,
+        "weight": 80.0
       }
     ],
     "forms": [],
@@ -6569,7 +6584,8 @@
           "effects": []
         },
         "megaStone": "pinsir-mega",
-        "spriteId": 10040
+        "spriteId": 10040,
+        "weight": 59.0
       }
     ],
     "forms": [],
@@ -6778,7 +6794,8 @@
           "effects": []
         },
         "megaStone": "gyarados-mega",
-        "spriteId": 10041
+        "spriteId": 10041,
+        "weight": 305.0
       }
     ],
     "forms": [],
@@ -7654,7 +7671,8 @@
           "effects": []
         },
         "megaStone": "aerodactyl-mega",
-        "spriteId": 10042
+        "spriteId": 10042,
+        "weight": 79.0
       }
     ],
     "forms": [],
@@ -8266,7 +8284,8 @@
           "effects": []
         },
         "megaStone": "dragonite-mega",
-        "spriteId": 10281
+        "spriteId": 10281,
+        "weight": 290.0
       }
     ],
     "forms": [],
@@ -8408,7 +8427,8 @@
           "effects": []
         },
         "megaStone": "mewtwo-mega-x",
-        "spriteId": 10043
+        "spriteId": 10043,
+        "weight": 127.0
       },
       {
         "name": "メガシンカ Y",
@@ -8430,7 +8450,8 @@
           "effects": []
         },
         "megaStone": "mewtwo-mega-y",
-        "spriteId": 10044
+        "spriteId": 10044,
+        "weight": 33.0
       }
     ],
     "forms": [],
@@ -9060,7 +9081,8 @@
           "effects": []
         },
         "megaStone": "meganium-mega",
-        "spriteId": 10282
+        "spriteId": 10282,
+        "weight": 201.0
       }
     ],
     "forms": [],
@@ -9277,7 +9299,8 @@
           "effects": []
         },
         "megaStone": "feraligatr-mega",
-        "spriteId": 10283
+        "spriteId": 10283,
+        "weight": 108.8
       }
     ],
     "forms": [],
@@ -10297,7 +10320,8 @@
           "effects": []
         },
         "megaStone": "ampharos-mega",
-        "spriteId": 10045
+        "spriteId": 10045,
+        "weight": 61.5
       }
     ],
     "forms": [],
@@ -11778,7 +11802,8 @@
           "effects": []
         },
         "megaStone": "steelix-mega",
-        "spriteId": 10072
+        "spriteId": 10072,
+        "weight": 740.0
       }
     ],
     "forms": [],
@@ -12069,7 +12094,8 @@
           "effects": []
         },
         "megaStone": "scizor-mega",
-        "spriteId": 10046
+        "spriteId": 10046,
+        "weight": 125.0
       }
     ],
     "forms": [],
@@ -12322,7 +12348,8 @@
           "effects": []
         },
         "megaStone": "heracross-mega",
-        "spriteId": 10047
+        "spriteId": 10047,
+        "weight": 62.5
       }
     ],
     "forms": [],
@@ -12981,7 +13008,8 @@
           "effects": []
         },
         "megaStone": "skarmory-mega",
-        "spriteId": 10284
+        "spriteId": 10284,
+        "weight": 40.4
       }
     ],
     "forms": [],
@@ -13098,7 +13126,8 @@
           "effects": []
         },
         "megaStone": "houndoom-mega",
-        "spriteId": 10048
+        "spriteId": 10048,
+        "weight": 49.5
       }
     ],
     "forms": [],
@@ -14320,7 +14349,8 @@
           "effects": []
         },
         "megaStone": "tyranitar-mega",
-        "spriteId": 10049
+        "spriteId": 10049,
+        "weight": 255.0
       }
     ],
     "forms": [],
@@ -14898,7 +14928,8 @@
           "effects": []
         },
         "megaStone": "sceptile-mega",
-        "spriteId": 10065
+        "spriteId": 10065,
+        "weight": 55.2
       }
     ],
     "forms": [],
@@ -15079,7 +15110,8 @@
           "effects": []
         },
         "megaStone": "blaziken-mega",
-        "spriteId": 10050
+        "spriteId": 10050,
+        "weight": 52.0
       }
     ],
     "forms": [],
@@ -15261,7 +15293,8 @@
           "effects": []
         },
         "megaStone": "swampert-mega",
-        "spriteId": 10064
+        "spriteId": 10064,
+        "weight": 102.0
       }
     ],
     "forms": [],
@@ -16280,7 +16313,8 @@
           "effects": []
         },
         "megaStone": "gardevoir-mega",
-        "spriteId": 10051
+        "spriteId": 10051,
+        "weight": 48.4
       }
     ],
     "forms": [],
@@ -17451,7 +17485,8 @@
           "effects": []
         },
         "megaStone": "sableye-mega",
-        "spriteId": 10066
+        "spriteId": 10066,
+        "weight": 161.0
       }
     ],
     "forms": [],
@@ -17605,7 +17640,8 @@
           "effects": []
         },
         "megaStone": "mawile-mega",
-        "spriteId": 10052
+        "spriteId": 10052,
+        "weight": 23.5
       }
     ],
     "forms": [],
@@ -17779,7 +17815,8 @@
           "effects": []
         },
         "megaStone": "aggron-mega",
-        "spriteId": 10053
+        "spriteId": 10053,
+        "weight": 395.0
       }
     ],
     "forms": [],
@@ -17922,7 +17959,8 @@
           "effects": []
         },
         "megaStone": "medicham-mega",
-        "spriteId": 10054
+        "spriteId": 10054,
+        "weight": 31.5
       }
     ],
     "forms": [],
@@ -18063,7 +18101,8 @@
           "effects": []
         },
         "megaStone": "manectric-mega",
-        "spriteId": 10055
+        "spriteId": 10055,
+        "weight": 44.0
       }
     ],
     "forms": [],
@@ -18811,7 +18850,8 @@
           "effects": []
         },
         "megaStone": "sharpedo-mega",
-        "spriteId": 10070
+        "spriteId": 10070,
+        "weight": 130.3
       }
     ],
     "forms": [],
@@ -19043,7 +19083,8 @@
           "effects": []
         },
         "megaStone": "camerupt-mega",
-        "spriteId": 10087
+        "spriteId": 10087,
+        "weight": 320.5
       }
     ],
     "forms": [],
@@ -19863,7 +19904,8 @@
           "effects": []
         },
         "megaStone": "altaria-mega",
-        "spriteId": 10067
+        "spriteId": 10067,
+        "weight": 20.6
       }
     ],
     "forms": [],
@@ -21472,7 +21514,8 @@
           "effects": []
         },
         "megaStone": "banette-mega",
-        "spriteId": 10056
+        "spriteId": 10056,
+        "weight": 13.0
       }
     ],
     "forms": [],
@@ -21728,7 +21771,8 @@
           "effects": []
         },
         "megaStone": "chimecho-mega",
-        "spriteId": 10306
+        "spriteId": 10306,
+        "weight": 8.0
       }
     ],
     "forms": [],
@@ -21857,7 +21901,8 @@
           "effects": []
         },
         "megaStone": "absol-mega",
-        "spriteId": 10057
+        "spriteId": 10057,
+        "weight": 49.0
       },
       {
         "name": "メガシンカ Z",
@@ -21880,7 +21925,8 @@
           "effects": []
         },
         "megaStone": "absol-mega-z",
-        "spriteId": 10307
+        "spriteId": 10307,
+        "weight": 49.0
       }
     ],
     "forms": [],
@@ -22015,7 +22061,8 @@
           "effects": []
         },
         "megaStone": "glalie-mega",
-        "spriteId": 10074
+        "spriteId": 10074,
+        "weight": 350.2
       }
     ],
     "forms": [],
@@ -22645,7 +22692,8 @@
           "effects": []
         },
         "megaStone": "salamence-mega",
-        "spriteId": 10089
+        "spriteId": 10089,
+        "weight": 112.6
       }
     ],
     "forms": [],
@@ -22799,7 +22847,8 @@
           "effects": []
         },
         "megaStone": "metagross-mega",
-        "spriteId": 10076
+        "spriteId": 10076,
+        "weight": 942.9
       }
     ],
     "forms": [],
@@ -23320,7 +23369,8 @@
           "effects": []
         },
         "megaStone": "latias-mega",
-        "spriteId": 10062
+        "spriteId": 10062,
+        "weight": 52.0
       }
     ],
     "forms": [],
@@ -23496,7 +23546,8 @@
           "effects": []
         },
         "megaStone": "latios-mega",
-        "spriteId": 10063
+        "spriteId": 10063,
+        "weight": 70.0
       }
     ],
     "forms": [],
@@ -23905,7 +23956,8 @@
           "effects": []
         },
         "megaStone": "rayquaza-mega",
-        "spriteId": 10079
+        "spriteId": 10079,
+        "weight": 392.0
       }
     ],
     "forms": [],
@@ -24692,7 +24744,8 @@
           "effects": []
         },
         "megaStone": "staraptor-mega",
-        "spriteId": 10308
+        "spriteId": 10308,
+        "weight": 50.0
       }
     ],
     "forms": [],
@@ -26535,7 +26588,8 @@
           "effects": []
         },
         "megaStone": "lopunny-mega",
-        "spriteId": 10088
+        "spriteId": 10088,
+        "weight": 28.3
       }
     ],
     "forms": [],
@@ -27527,7 +27581,8 @@
           "effects": []
         },
         "megaStone": "garchomp-mega",
-        "spriteId": 10058
+        "spriteId": 10058,
+        "weight": 95.0
       },
       {
         "name": "メガシンカ Z",
@@ -27549,7 +27604,8 @@
           "effects": []
         },
         "megaStone": "garchomp-mega-z",
-        "spriteId": 10309
+        "spriteId": 10309,
+        "weight": 99.0
       }
     ],
     "forms": [],
@@ -27673,7 +27729,8 @@
           "effects": []
         },
         "megaStone": "lucario-mega",
-        "spriteId": 10059
+        "spriteId": 10059,
+        "weight": 57.5
       },
       {
         "name": "メガシンカ Z",
@@ -27696,7 +27753,8 @@
           "effects": []
         },
         "megaStone": "lucario-mega-z",
-        "spriteId": 10310
+        "spriteId": 10310,
+        "weight": 49.4
       }
     ],
     "forms": [],
@@ -28392,7 +28450,8 @@
           "effects": []
         },
         "megaStone": "abomasnow-mega",
-        "spriteId": 10060
+        "spriteId": 10060,
+        "weight": 185.0
       }
     ],
     "forms": [],
@@ -30234,7 +30293,8 @@
           "effects": []
         },
         "megaStone": "gallade-mega",
-        "spriteId": 10068
+        "spriteId": 10068,
+        "weight": 56.4
       }
     ],
     "forms": [],
@@ -30669,7 +30729,8 @@
           "effects": []
         },
         "megaStone": "froslass-mega",
-        "spriteId": 10285
+        "spriteId": 10285,
+        "weight": 29.6
       }
     ],
     "forms": [],
@@ -31517,7 +31578,8 @@
           "effects": []
         },
         "megaStone": "heatran-mega",
-        "spriteId": 10311
+        "spriteId": 10311,
+        "weight": 570.0
       }
     ],
     "forms": [],
@@ -32220,7 +32282,8 @@
           "effects": []
         },
         "megaStone": "darkrai-mega",
-        "spriteId": 10312
+        "spriteId": 10312,
+        "weight": 240.0
       }
     ],
     "forms": [],
@@ -32893,7 +32956,8 @@
           "effects": []
         },
         "megaStone": "emboar-mega",
-        "spriteId": 10286
+        "spriteId": 10286,
+        "weight": 180.3
       }
     ],
     "forms": [],
@@ -34240,7 +34304,8 @@
           "effects": []
         },
         "megaStone": "excadrill-mega",
-        "spriteId": 10287
+        "spriteId": 10287,
+        "weight": 60.0
       }
     ],
     "forms": [],
@@ -34357,7 +34422,8 @@
           "effects": []
         },
         "megaStone": "audino-mega",
-        "spriteId": 10069
+        "spriteId": 10069,
+        "weight": 32.0
       }
     ],
     "forms": [],
@@ -35059,7 +35125,8 @@
           "effects": []
         },
         "megaStone": "scolipede-mega",
-        "spriteId": 10288
+        "spriteId": 10288,
+        "weight": 230.5
       }
     ],
     "forms": [],
@@ -35855,7 +35922,8 @@
           "effects": []
         },
         "megaStone": "scrafty-mega",
-        "spriteId": 10289
+        "spriteId": 10289,
+        "weight": 31.0
       }
     ],
     "forms": [],
@@ -38146,7 +38214,8 @@
           "effects": []
         },
         "megaStone": "eelektross-mega",
-        "spriteId": 10290
+        "spriteId": 10290,
+        "weight": 180.0
       }
     ],
     "forms": [],
@@ -38434,7 +38503,8 @@
           "effects": []
         },
         "megaStone": "chandelure-mega",
-        "spriteId": 10291
+        "spriteId": 10291,
+        "weight": 69.6
       }
     ],
     "forms": [],
@@ -39349,7 +39419,8 @@
           "effects": []
         },
         "megaStone": "golurk-mega",
-        "spriteId": 10313
+        "spriteId": 10313,
+        "weight": 330.0
       }
     ],
     "forms": [],
@@ -41683,7 +41754,8 @@
           "effects": []
         },
         "megaStone": "chesnaught-mega",
-        "spriteId": 10292
+        "spriteId": 10292,
+        "weight": 90.0
       }
     ],
     "forms": [],
@@ -41830,7 +41902,8 @@
           "effects": []
         },
         "megaStone": "delphox-mega",
-        "spriteId": 10293
+        "spriteId": 10293,
+        "weight": 39.0
       }
     ],
     "forms": [],
@@ -41962,7 +42035,8 @@
           "effects": []
         },
         "megaStone": "greninja-mega",
-        "spriteId": 10294
+        "spriteId": 10294,
+        "weight": 40.0
       }
     ],
     "forms": [],
@@ -42363,7 +42437,8 @@
           "effects": []
         },
         "megaStone": "pyroar-mega",
-        "spriteId": 10295
+        "spriteId": 10295,
+        "weight": 93.3
       }
     ],
     "forms": [],
@@ -42879,7 +42954,8 @@
           "effects": []
         },
         "megaStone": "meowstic-mega",
-        "spriteId": 10314
+        "spriteId": 10314,
+        "weight": 10.11
       }
     ],
     "forms": [],
@@ -42997,7 +43073,8 @@
           "effects": []
         },
         "megaStone": "meowstic-mega",
-        "spriteId": 10314
+        "spriteId": 10314,
+        "weight": 10.11
       }
     ],
     "forms": [],
@@ -43404,7 +43481,8 @@
           "effects": []
         },
         "megaStone": "malamar-mega",
-        "spriteId": 10297
+        "spriteId": 10297,
+        "weight": 69.8
       }
     ],
     "forms": [],
@@ -43561,7 +43639,8 @@
           "effects": []
         },
         "megaStone": "barbaracle-mega",
-        "spriteId": 10298
+        "spriteId": 10298,
+        "weight": 100.0
       }
     ],
     "forms": [],
@@ -43725,7 +43804,8 @@
           "effects": []
         },
         "megaStone": "dragalge-mega",
-        "spriteId": 10299
+        "spriteId": 10299,
+        "weight": 100.3
       }
     ],
     "forms": [],
@@ -44332,7 +44412,8 @@
           "effects": []
         },
         "megaStone": "hawlucha-mega",
-        "spriteId": 10300
+        "spriteId": 10300,
+        "weight": 25.0
       }
     ],
     "forms": [],
@@ -45610,7 +45691,8 @@
           "effects": []
         },
         "megaStone": "zygarde-mega",
-        "spriteId": 10301
+        "spriteId": 10301,
+        "weight": 610.0
       }
     ],
     "forms": [],
@@ -45734,7 +45816,8 @@
           "effects": []
         },
         "megaStone": "diancie-mega",
-        "spriteId": 10075
+        "spriteId": 10075,
+        "weight": 27.8
       }
     ],
     "forms": [],
@@ -46763,7 +46846,8 @@
           "effects": []
         },
         "megaStone": "crabominable-mega",
-        "spriteId": 10315
+        "spriteId": 10315,
+        "weight": 252.8
       }
     ],
     "forms": [],
@@ -48425,7 +48509,8 @@
           "effects": []
         },
         "megaStone": "golisopod-mega",
-        "spriteId": 10316
+        "spriteId": 10316,
+        "weight": 148.0
       }
     ],
     "forms": [],
@@ -49542,7 +49627,8 @@
           "effects": []
         },
         "megaStone": "drampa-mega",
-        "spriteId": 10302
+        "spriteId": 10302,
+        "weight": 240.5
       }
     ],
     "forms": [],
@@ -51336,7 +51422,8 @@
           "effects": []
         },
         "megaStone": "magearna-mega",
-        "spriteId": 10317
+        "spriteId": 10317,
+        "weight": 248.1
       }
     ],
     "forms": [],
@@ -51905,7 +51992,8 @@
           "effects": []
         },
         "megaStone": "zeraora-mega",
-        "spriteId": 10319
+        "spriteId": 10319,
+        "weight": 44.5
       }
     ],
     "forms": [],
@@ -55069,7 +55157,8 @@
           "effects": []
         },
         "megaStone": "falinks-mega",
-        "spriteId": 10303
+        "spriteId": 10303,
+        "weight": 99.0
       }
     ],
     "forms": [],
@@ -60073,7 +60162,8 @@
           "effects": []
         },
         "megaStone": "scovillain-mega",
-        "spriteId": 10320
+        "spriteId": 10320,
+        "weight": 22.0
       }
     ],
     "forms": [],
@@ -61052,7 +61142,8 @@
           "effects": []
         },
         "megaStone": "glimmora-mega",
-        "spriteId": 10321
+        "spriteId": 10321,
+        "weight": 77.01
       }
     ],
     "forms": [],
@@ -61597,7 +61688,8 @@
           "effects": []
         },
         "megaStone": "tatsugiri-curly-mega",
-        "spriteId": 10324
+        "spriteId": 10324,
+        "weight": 24.0
       }
     ],
     "forms": [
@@ -63382,7 +63474,8 @@
           "effects": []
         },
         "megaStone": "baxcalibur-mega",
-        "spriteId": 10325
+        "spriteId": 10325,
+        "weight": 315.0
       }
     ],
     "forms": [],
@@ -67300,7 +67393,8 @@
           "effects": []
         },
         "megaStone": "floette-mega",
-        "spriteId": 10061
+        "spriteId": 10061,
+        "weight": 100.8
       }
     ],
     "forms": [],
