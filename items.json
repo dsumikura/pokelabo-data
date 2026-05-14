@@ -9,1092 +9,1274 @@
         "id": 270,
         "name": "こだわりハチマキ",
         "nameEn": "Choice Band",
-        "effects": []
+        "effects": [],
+        "sprite": "choice-band"
     },
     {
         "id": 297,
         "name": "こだわりメガネ",
         "nameEn": "Choice Specs",
-        "effects": []
+        "effects": [],
+        "sprite": "choice-specs"
     },
     {
         "id": 247,
         "name": "いのちのたま",
         "nameEn": "Life Orb",
-        "effects": []
+        "effects": [],
+        "sprite": "life-orb"
     },
     {
         "id": 199,
         "name": "もくたん",
         "nameEn": "Charcoal",
-        "effects": []
+        "effects": [],
+        "sprite": "charcoal"
     },
     {
         "id": 220,
         "name": "しんぴのしずく",
         "nameEn": "Mystic Water",
-        "effects": []
+        "effects": [],
+        "sprite": "mystic-water"
     },
     {
         "id": 237,
         "name": "きせきのタネ",
         "nameEn": "Miracle Seed",
-        "effects": []
+        "effects": [],
+        "sprite": "miracle-seed"
     },
     {
         "id": 236,
         "name": "じしゃく",
         "nameEn": "Magnet",
-        "effects": []
+        "effects": [],
+        "sprite": "magnet"
     },
     {
         "id": 223,
         "name": "りゅうのキバ",
         "nameEn": "Dragon Fang",
-        "effects": []
+        "effects": [],
+        "sprite": "dragon-fang"
     },
     {
         "id": 245,
         "name": "くろいメガネ",
         "nameEn": "Black Glasses",
-        "effects": []
+        "effects": [],
+        "sprite": "black-glasses"
     },
     {
         "id": 233,
         "name": "メタルコート",
         "nameEn": "Metal Coat",
-        "effects": []
+        "effects": [],
+        "sprite": "metal-coat"
     },
     {
         "id": 221,
         "name": "とけないこおり",
         "nameEn": "Never-Melt Ice",
-        "effects": []
+        "effects": [],
+        "sprite": "never-melt-ice"
     },
     {
         "id": 222,
         "name": "くろおび",
         "nameEn": "Black Belt",
-        "effects": []
+        "effects": [],
+        "sprite": "black-belt"
     },
     {
         "id": 234,
         "name": "やわらかいすな",
         "nameEn": "Soft Sand",
-        "effects": []
+        "effects": [],
+        "sprite": "soft-sand"
     },
     {
         "id": 235,
         "name": "するどいくちばし",
         "nameEn": "Sharp Beak",
-        "effects": []
+        "effects": [],
+        "sprite": "sharp-beak"
     },
     {
         "id": 244,
         "name": "まがったスプーン",
         "nameEn": "Twisted Spoon",
-        "effects": []
+        "effects": [],
+        "sprite": "twisted-spoon"
     },
     {
         "id": 225,
         "name": "どくバリ",
         "nameEn": "Poison Barb",
-        "effects": []
+        "effects": [],
+        "sprite": "poison-barb"
     },
     {
         "id": 224,
         "name": "シルクのスカーフ",
         "nameEn": "Silk Scarf",
-        "effects": []
+        "effects": [],
+        "sprite": "silk-scarf"
     },
     {
         "id": 226,
         "name": "のろいのおふだ",
         "nameEn": "Spell Tag",
-        "effects": []
+        "effects": [],
+        "sprite": "spell-tag"
     },
     {
         "id": 198,
         "name": "ぎんのこな",
         "nameEn": "Silver Powder",
-        "effects": []
+        "effects": [],
+        "sprite": "silver-powder"
     },
     {
         "id": 246,
         "name": "がんせきおこう",
         "nameEn": "Rock Incense",
-        "effects": []
+        "effects": [],
+        "sprite": "rock-incense"
     },
     {
         "id": 538,
         "name": "とつげきチョッキ",
         "nameEn": "Assault Vest",
-        "effects": []
+        "effects": [],
+        "sprite": "assault-vest"
     },
     {
         "id": 1000,
         "name": "ユキノオナイト",
         "nameEn": "abomasnow-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "abomasite"
     },
     {
         "id": 1001,
         "name": "アブソルナイト",
         "nameEn": "absol-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "absolite"
     },
     {
         "id": 1002,
         "name": "アブソルナイトZ",
         "nameEn": "absol-mega-z",
-        "effects": []
+        "effects": [],
+        "sprite": "absolite-z"
     },
     {
         "id": 1003,
         "name": "プテラナイト",
         "nameEn": "aerodactyl-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "aerodactylite"
     },
     {
         "id": 1004,
         "name": "ボスゴドラナイト",
         "nameEn": "aggron-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "aggronite"
     },
     {
         "id": 1005,
         "name": "フーディナイト",
         "nameEn": "alakazam-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "alakazite"
     },
     {
         "id": 1006,
         "name": "チルタリスナイト",
         "nameEn": "altaria-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "altarianite"
     },
     {
         "id": 1007,
         "name": "デンリュウナイト",
         "nameEn": "ampharos-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "ampharosite"
     },
     {
         "id": 1008,
         "name": "タブンネナイト",
         "nameEn": "audino-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "audinite"
     },
     {
         "id": 1009,
         "name": "ジュペッタナイト",
         "nameEn": "banette-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "banettite"
     },
     {
         "id": 1010,
         "name": "ガメノデスナイト",
         "nameEn": "barbaracle-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "barbaracite"
     },
     {
         "id": 1011,
         "name": "セグレイブナイト",
         "nameEn": "baxcalibur-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "baxcalibrite"
     },
     {
         "id": 1012,
         "name": "スピアナイト",
         "nameEn": "beedrill-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "beedrillite"
     },
     {
         "id": 1013,
         "name": "カメックスナイト",
         "nameEn": "blastoise-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "blastoisinite"
     },
     {
         "id": 1014,
         "name": "バシャーモナイト",
         "nameEn": "blaziken-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "blazikenite"
     },
     {
         "id": 1015,
         "name": "バクーダナイト",
         "nameEn": "camerupt-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "cameruptite"
     },
     {
         "id": 1016,
         "name": "シャンデラナイト",
         "nameEn": "chandelure-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "chandelurite"
     },
     {
         "id": 1017,
         "name": "リザードナイトX",
         "nameEn": "charizard-mega-x",
-        "effects": []
+        "effects": [],
+        "sprite": "charizardite-x"
     },
     {
         "id": 1018,
         "name": "リザードナイトY",
         "nameEn": "charizard-mega-y",
-        "effects": []
+        "effects": [],
+        "sprite": "charizardite-y"
     },
     {
         "id": 1019,
         "name": "ブリガロナイト",
         "nameEn": "chesnaught-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "chesnaughtite"
     },
     {
         "id": 1020,
         "name": "チリーンナイト",
         "nameEn": "chimecho-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "chimechite"
     },
     {
         "id": 1021,
         "name": "ピクシナイト",
         "nameEn": "clefable-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "clefablite"
     },
     {
         "id": 1022,
         "name": "ケケンカニナイト",
         "nameEn": "crabominable-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "crabominite"
     },
     {
         "id": 1023,
         "name": "ダークライナイト",
         "nameEn": "darkrai-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "darkranite"
     },
     {
         "id": 1024,
         "name": "マフォクシナイト",
         "nameEn": "delphox-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "delphoxite"
     },
     {
         "id": 1025,
         "name": "ディアンシーナイト",
         "nameEn": "diancie-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "diancite"
     },
     {
         "id": 1026,
         "name": "ドラミドロナイト",
         "nameEn": "dragalge-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "dragalgite"
     },
     {
         "id": 1027,
         "name": "カイリュナイト",
         "nameEn": "dragonite-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "dragalgite"
     },
     {
         "id": 1028,
         "name": "ジジーロナイト",
         "nameEn": "drampa-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "drampanite"
     },
     {
         "id": 1029,
         "name": "シビルドンナイト",
         "nameEn": "eelektross-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "eelektrossite"
     },
     {
         "id": 1030,
         "name": "エンブオナイト",
         "nameEn": "emboar-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "emboarite"
     },
     {
         "id": 1031,
         "name": "ドリュウズナイト",
         "nameEn": "excadrill-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "excadrite"
     },
     {
         "id": 1032,
         "name": "タイレーツナイト",
         "nameEn": "falinks-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "falinksite"
     },
     {
         "id": 1033,
         "name": "オーダイルナイト",
         "nameEn": "feraligatr-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "feraligite"
     },
     {
         "id": 1034,
         "name": "ユキメノコナイト",
         "nameEn": "froslass-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "froslassite"
     },
     {
         "id": 1035,
         "name": "エルレイドナイト",
         "nameEn": "gallade-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "galladite"
     },
     {
         "id": 1036,
         "name": "ガブリアスナイト",
         "nameEn": "garchomp-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "garchompite"
     },
     {
         "id": 1037,
         "name": "ガブリアスナイトZ",
         "nameEn": "garchomp-mega-z",
-        "effects": []
+        "effects": [],
+        "sprite": "garchompite-z"
     },
     {
         "id": 1038,
         "name": "サーナイトナイト",
         "nameEn": "gardevoir-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "gardevoirite"
     },
     {
         "id": 1039,
         "name": "ゲンガナイト",
         "nameEn": "gengar-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "gengarite"
     },
     {
         "id": 1040,
         "name": "オニゴーリナイト",
         "nameEn": "glalie-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "glalitite"
     },
     {
         "id": 1041,
         "name": "キラフロルナイト",
         "nameEn": "glimmora-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "glimmoranite"
     },
     {
         "id": 1042,
         "name": "グソクムシャナイト",
         "nameEn": "golisopod-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "golisopite"
     },
     {
         "id": 1043,
         "name": "ゴルーグナイト",
         "nameEn": "golurk-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "golurkite"
     },
     {
         "id": 1044,
         "name": "ゲッコウガナイト",
         "nameEn": "greninja-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "greninjite"
     },
     {
         "id": 1045,
         "name": "ギャラドスナイト",
         "nameEn": "gyarados-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "gyaradosite"
     },
     {
         "id": 1046,
         "name": "ルチャブルナイト",
         "nameEn": "hawlucha-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "hawluchanite"
     },
     {
         "id": 1047,
         "name": "ヒードランナイト",
         "nameEn": "heatran-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "heatranite"
     },
     {
         "id": 1048,
         "name": "ヘラクロスナイト",
         "nameEn": "heracross-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "heracronite"
     },
     {
         "id": 1049,
         "name": "ヘルガナイト",
         "nameEn": "houndoom-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "houndoominite"
     },
     {
         "id": 1050,
         "name": "ガルーラナイト",
         "nameEn": "kangaskhan-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "kangaskhanite"
     },
     {
         "id": 1051,
         "name": "ラティアスナイト",
         "nameEn": "latias-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "latiasite"
     },
     {
         "id": 1052,
         "name": "ラティオスナイト",
         "nameEn": "latios-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "latiasite"
     },
     {
         "id": 1053,
         "name": "ミミロップナイト",
         "nameEn": "lopunny-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "lopunnite"
     },
     {
         "id": 1054,
         "name": "ルカリオナイト",
         "nameEn": "lucario-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "lucarionite"
     },
     {
         "id": 1055,
         "name": "ルカリオナイトZ",
         "nameEn": "lucario-mega-z",
-        "effects": []
+        "effects": [],
+        "sprite": "lucarionite-z"
     },
     {
         "id": 1056,
         "name": "マギアナナイト",
         "nameEn": "magearna-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "magearnite"
     },
     {
         "id": 1057,
         "name": "マギアナナイト",
         "nameEn": "magearna-original-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "magearnite"
     },
     {
         "id": 1058,
         "name": "カラマネロナイト",
         "nameEn": "malamar-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "malamarite"
     },
     {
         "id": 1059,
         "name": "ライボルトナイト",
         "nameEn": "manectric-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "manectite"
     },
     {
         "id": 1060,
         "name": "クチートナイト",
         "nameEn": "mawile-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "mawilite"
     },
     {
         "id": 1061,
         "name": "チャーレムナイト",
         "nameEn": "medicham-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "medichamite"
     },
     {
         "id": 1062,
         "name": "メガニウムナイト",
         "nameEn": "meganium-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "meganiumite"
     },
     {
         "id": 1063,
         "name": "ニャオニクスナイト",
         "nameEn": "meowstic-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "meowsticite"
     },
     {
         "id": 1064,
         "name": "メタグロスナイト",
         "nameEn": "metagross-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "metagrossite"
     },
     {
         "id": 1065,
         "name": "ミュウツナイトX",
         "nameEn": "mewtwo-mega-x",
-        "effects": []
+        "effects": [],
+        "sprite": "mewtwonite-x"
     },
     {
         "id": 1066,
         "name": "ミュウツナイトY",
         "nameEn": "mewtwo-mega-y",
-        "effects": []
+        "effects": [],
+        "sprite": "mewtwonite-y"
     },
     {
         "id": 1067,
         "name": "ピジョットナイト",
         "nameEn": "pidgeot-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "pidgeotite"
     },
     {
         "id": 1068,
         "name": "カイロスナイト",
         "nameEn": "pinsir-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "pinsirite"
     },
     {
         "id": 1069,
         "name": "カエンジシナイト",
         "nameEn": "pyroar-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "pyroarite"
     },
     {
         "id": 1070,
         "name": "ライチュウナイトX",
         "nameEn": "raichu-mega-x",
-        "effects": []
+        "effects": [],
+        "sprite": "raichunite-x"
     },
     {
         "id": 1071,
         "name": "ライチュウナイトY",
         "nameEn": "raichu-mega-y",
-        "effects": []
+        "effects": [],
+        "sprite": "raichunite-y"
     },
     {
         "id": 1072,
         "name": "レックウザナイト",
         "nameEn": "rayquaza-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "meteorite"
     },
     {
         "id": 1073,
         "name": "ヤミラミナイト",
         "nameEn": "sableye-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "sablenite"
     },
     {
         "id": 1074,
         "name": "ボーマンダナイト",
         "nameEn": "salamence-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "salamencite"
     },
     {
         "id": 1075,
         "name": "ジュカインナイト",
         "nameEn": "sceptile-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "sceptilite"
     },
     {
         "id": 1076,
         "name": "ハッサムナイト",
         "nameEn": "scizor-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "scizorite"
     },
     {
         "id": 1077,
         "name": "ペンドラーナイト",
         "nameEn": "scolipede-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "scolipite"
     },
     {
         "id": 1078,
         "name": "スコヴィラナイト",
         "nameEn": "scovillain-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "scovillainite"
     },
     {
         "id": 1079,
         "name": "ズルズキンナイト",
         "nameEn": "scrafty-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "scraftinite"
     },
     {
         "id": 1080,
         "name": "サメハダナイト",
         "nameEn": "sharpedo-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "sharpedonite"
     },
     {
         "id": 1081,
         "name": "エアームドナイト",
         "nameEn": "skarmory-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "skarmorite"
     },
     {
         "id": 1082,
         "name": "ヤドランナイト",
         "nameEn": "slowbro-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "slowbronite"
     },
     {
         "id": 1083,
         "name": "ムクホークナイト",
         "nameEn": "staraptor-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "staraptite"
     },
     {
         "id": 1084,
         "name": "スターミナイト",
         "nameEn": "starmie-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "staraptite"
     },
     {
         "id": 1085,
         "name": "ハガネールナイト",
         "nameEn": "steelix-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "steelixite"
     },
     {
         "id": 1086,
         "name": "ラグラージナイト",
         "nameEn": "swampert-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "swampertite"
     },
     {
         "id": 1087,
         "name": "シャリタツナイト",
         "nameEn": "tatsugiri-curly-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "tatsugirinite"
     },
     {
         "id": 1090,
         "name": "バンギラスナイト",
         "nameEn": "tyranitar-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "tyranitarite"
     },
     {
         "id": 1091,
         "name": "フシギバナイト",
         "nameEn": "venusaur-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "venusaurite"
     },
     {
         "id": 1092,
         "name": "ウツボットナイト",
         "nameEn": "victreebel-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "victreebelite"
     },
     {
         "id": 1093,
         "name": "ゼラオラナイト",
         "nameEn": "zeraora-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "zeraorite"
     },
     {
         "id": 1094,
         "name": "ジガルデナイト",
         "nameEn": "zygarde-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "zygardite"
     },
     {
         "id": 1095,
         "name": "フラエッテナイト",
         "nameEn": "floette-mega",
-        "effects": []
+        "effects": [],
+        "sprite": "floettite"
     },
     {
         "id": 539,
         "name": "こだわりスカーフ",
         "nameEn": "Choice Scarf",
-        "effects": []
+        "effects": [],
+        "sprite": "choice-scarf"
     },
     {
         "id": 540,
         "name": "きあいのタスキ",
         "nameEn": "Focus Sash",
-        "effects": []
+        "effects": [],
+        "sprite": "focus-sash"
     },
     {
         "id": 541,
         "name": "たべのこし",
         "nameEn": "Leftovers",
-        "effects": []
+        "effects": [],
+        "sprite": "leftovers"
     },
     {
         "id": 542,
         "name": "オボンのみ",
         "nameEn": "Sitrus Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "sitrus-berry"
     },
     {
         "id": 543,
         "name": "ラムのみ",
         "nameEn": "Lum Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "lum-berry"
     },
     {
         "id": 544,
         "name": "ゴツゴツメット",
         "nameEn": "Rocky Helmet",
-        "effects": []
+        "effects": [],
+        "sprite": "rocky-helmet"
     },
     {
         "id": 545,
         "name": "くろいヘドロ",
         "nameEn": "Black Sludge",
-        "effects": []
+        "effects": [],
+        "sprite": "black-sludge"
     },
     {
         "id": 546,
         "name": "たつじんのおび",
         "nameEn": "Expert Belt",
-        "effects": []
+        "effects": [],
+        "sprite": "expert-belt"
     },
     {
         "id": 547,
         "name": "ふうせん",
         "nameEn": "Air Balloon",
-        "effects": []
+        "effects": [],
+        "sprite": "air-balloon"
     },
     {
         "id": 548,
         "name": "かえんだま",
         "nameEn": "Flame Orb",
-        "effects": []
+        "effects": [],
+        "sprite": "flame-orb"
     },
     {
         "id": 549,
         "name": "どくどくだま",
         "nameEn": "Toxic Orb",
-        "effects": []
+        "effects": [],
+        "sprite": "toxic-orb"
     },
     {
         "id": 550,
         "name": "じゃくてんほけん",
         "nameEn": "Weakness Policy",
-        "effects": []
+        "effects": [],
+        "sprite": "weakness-policy"
     },
     {
         "id": 551,
         "name": "しんかのきせき",
         "nameEn": "Eviolite",
-        "effects": []
+        "effects": [],
+        "sprite": "eviolite"
     },
     {
         "id": 552,
         "name": "あつぞこブーツ",
         "nameEn": "Heavy-Duty Boots",
-        "effects": []
+        "effects": [],
+        "sprite": "heavy-duty-boots"
     },
     {
         "id": 553,
         "name": "パワフルハーブ",
         "nameEn": "Power Herb",
-        "effects": []
+        "effects": [],
+        "sprite": "power-herb"
     },
     {
         "id": 554,
         "name": "しろいハーブ",
         "nameEn": "White Herb",
-        "effects": []
+        "effects": [],
+        "sprite": "white-herb"
     },
     {
         "id": 555,
         "name": "メンタルハーブ",
         "nameEn": "Mental Herb",
-        "effects": []
+        "effects": [],
+        "sprite": "mental-herb"
     },
     {
         "id": 556,
         "name": "ぼうじんゴーグル",
         "nameEn": "Safety Goggles",
-        "effects": []
+        "effects": [],
+        "sprite": "safety-goggles"
     },
     {
         "id": 557,
         "name": "ぼうごパッド",
         "nameEn": "Protective Pads",
-        "effects": []
+        "effects": [],
+        "sprite": "protective-pads"
     },
     {
         "id": 558,
         "name": "おんみつマント",
         "nameEn": "Covert Cloak",
-        "effects": []
+        "effects": [],
+        "sprite": "covert-cloak"
     },
     {
         "id": 559,
         "name": "クリアチャーム",
         "nameEn": "Clear Amulet",
-        "effects": []
+        "effects": [],
+        "sprite": "clear-amulet"
     },
     {
         "id": 560,
         "name": "いかさまダイス",
         "nameEn": "Loaded Dice",
-        "effects": []
+        "effects": [],
+        "sprite": "loaded-dice"
     },
     {
         "id": 561,
         "name": "ピントレンズ",
         "nameEn": "Scope Lens",
-        "effects": []
+        "effects": [],
+        "sprite": "scope-lens"
     },
     {
         "id": 562,
         "name": "こうかくレンズ",
         "nameEn": "Wide Lens",
-        "effects": []
+        "effects": [],
+        "sprite": "wide-lens"
     },
     {
         "id": 563,
         "name": "レッドカード",
         "nameEn": "Red Card",
-        "effects": []
+        "effects": [],
+        "sprite": "red-card"
     },
     {
         "id": 564,
         "name": "だっしゅつボタン",
         "nameEn": "Eject Button",
-        "effects": []
+        "effects": [],
+        "sprite": "eject-button"
     },
     {
         "id": 565,
         "name": "だっしゅつパック",
         "nameEn": "Eject Pack",
-        "effects": []
+        "effects": [],
+        "sprite": "eject-pack"
     },
     {
         "id": 566,
         "name": "のどスプレー",
         "nameEn": "Throat Spray",
-        "effects": []
+        "effects": [],
+        "sprite": "throat-spray"
     },
     {
         "id": 567,
         "name": "ブーストエナジー",
         "nameEn": "Booster Energy",
-        "effects": []
+        "effects": [],
+        "sprite": "booster-energy"
     },
     {
         "id": 197,
         "name": "おうじゃのしるし",
         "nameEn": "King's Rock",
-        "effects": []
+        "effects": [],
+        "sprite": "kings-rock"
     },
     {
         "id": 253,
         "name": "かいがらのすず",
         "nameEn": "Shell Bell",
-        "effects": []
+        "effects": [],
+        "sprite": "shell-bell"
     },
     {
         "id": 238,
         "name": "かたいいし",
         "nameEn": "Hard Stone",
-        "effects": []
+        "effects": [],
+        "sprite": "hard-stone"
     },
     {
         "id": 230,
         "name": "きあいのハチマキ",
         "nameEn": "Focus Band",
-        "effects": []
+        "effects": [],
+        "sprite": "focus-band"
     },
     {
         "id": 214,
         "name": "しろいハーブ",
         "nameEn": "White Herb",
-        "effects": []
+        "effects": [],
+        "sprite": "white-herb"
     },
     {
         "id": 206,
         "name": "せんせいのツメ",
         "nameEn": "Quick Claw",
-        "effects": []
+        "effects": [],
+        "sprite": "quick-claw"
     },
     {
         "id": 209,
         "name": "でんきだま",
         "nameEn": "Light Ball",
-        "effects": []
+        "effects": [],
+        "sprite": "light-ball"
     },
     {
         "id": 204,
         "name": "ひかりのこな",
         "nameEn": "Bright Powder",
-        "effects": []
+        "effects": [],
+        "sprite": "bright-powder"
     },
     {
         "id": 219,
         "name": "メンタルハーブ",
         "nameEn": "Mental Herb",
-        "effects": []
+        "effects": [],
+        "sprite": "mental-herb"
     },
     {
         "id": 155,
         "name": "オボンのみ",
         "nameEn": "Sitrus Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "sitrus-berry"
     },
     {
         "id": 157,
         "name": "ラムのみ",
         "nameEn": "Lum Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "lum-berry"
     },
     {
         "id": 153,
         "name": "オレンのみ",
         "nameEn": "Oran Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "oran-berry"
     },
     {
         "id": 149,
         "name": "クラボのみ",
         "nameEn": "Cheri Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "cheri-berry"
     },
     {
         "id": 150,
         "name": "カゴのみ",
         "nameEn": "Chesto Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "chesto-berry"
     },
     {
         "id": 151,
         "name": "モモンのみ",
         "nameEn": "Pecha Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "pecha-berry"
     },
     {
         "id": 152,
         "name": "チーゴのみ",
         "nameEn": "Rawst Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "rawst-berry"
     },
     {
         "id": 154,
         "name": "ナナシのみ",
         "nameEn": "Aspear Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "aspear-berry"
     },
     {
         "id": 156,
         "name": "ヒメリのみ",
         "nameEn": "Leppa Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "leppa-berry"
     },
     {
         "id": 158,
         "name": "キーのみ",
         "nameEn": "Persim Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "persim-berry"
     },
     {
         "id": 159,
         "name": "オッカのみ",
         "nameEn": "Occa Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "occa-berry"
     },
     {
         "id": 160,
         "name": "イトケのみ",
         "nameEn": "Passho Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "passho-berry"
     },
     {
         "id": 162,
         "name": "ソクノのみ",
         "nameEn": "Wacan Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "wacan-berry"
     },
     {
         "id": 163,
         "name": "リンドのみ",
         "nameEn": "Rindo Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "rindo-berry"
     },
     {
         "id": 164,
         "name": "ヤチェのみ",
         "nameEn": "Yache Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "yache-berry"
     },
     {
         "id": 165,
         "name": "ヨプのみ",
         "nameEn": "Chople Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "chople-berry"
     },
     {
         "id": 166,
         "name": "ビアーのみ",
         "nameEn": "Kebia Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "kebia-berry"
     },
     {
         "id": 167,
         "name": "シュカのみ",
         "nameEn": "Shuca Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "shuca-berry"
     },
     {
         "id": 168,
         "name": "バコウのみ",
         "nameEn": "Coba Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "coba-berry"
     },
     {
         "id": 169,
         "name": "ウタンのみ",
         "nameEn": "Payapa Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "payapa-berry"
     },
     {
         "id": 170,
         "name": "タンガのみ",
         "nameEn": "Tanga Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "tanga-berry"
     },
     {
         "id": 171,
         "name": "ヨロギのみ",
         "nameEn": "Charti Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "charti-berry"
     },
     {
         "id": 172,
         "name": "カシブのみ",
         "nameEn": "Kasib Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "kasib-berry"
     },
     {
         "id": 173,
         "name": "ハバンのみ",
         "nameEn": "Haban Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "haban-berry"
     },
     {
         "id": 175,
         "name": "ナモのみ",
         "nameEn": "Colbur Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "colbur-berry"
     },
     {
         "id": 176,
         "name": "リリバのみ",
         "nameEn": "Babiri Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "babiri-berry"
     },
     {
         "id": 686,
         "name": "ロゼルのみ",
         "nameEn": "Roseli Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "roseli-berry"
     },
     {
         "id": 174,
         "name": "ホズのみ",
         "nameEn": "Chilan Berry",
-        "effects": []
+        "effects": [],
+        "sprite": "chilan-berry"
     },
     {
         "id": 568,
         "name": "ようせいのハネ",
         "nameEn": "Fairy Feather",
-        "effects": []
+        "effects": [],
+        "sprite": "fairy-feather"
     }
 ]
