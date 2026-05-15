@@ -239,6 +239,21 @@ def fetch_move(move_id: int) -> dict | None:
 # Manifest
 # ==============================
 
+def fetch_remote_manifest_version() -> int:
+    """リモート main の manifest.json から version を取得。失敗時は 0。
+
+    rebase / cherry-pick / `git checkout --theirs` 等の操作でローカル manifest が
+    リモートより古い状態になる事故を防ぐため、version 算出時にリモート最新も参照する。
+    """
+    url = "https://raw.githubusercontent.com/dsumikura/pokelabo-data/main/manifest.json"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "PokeLabo/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            return int(json.loads(resp.read()).get("version", 0))
+    except Exception:
+        return 0
+
+
 def update_manifest():
     current = {}
     manifest_path = DATA_DIR / "manifest.json"
@@ -254,14 +269,29 @@ def update_manifest():
                 data = f.read()
                 files[name] = {"hash": hashlib.sha256(data).hexdigest(), "size": len(data)}
 
+    # ローカル / リモートのうち大きい方を起点に +1。
+    # rebase 等でローカルが巻き戻った場合の version 逆戻りを防ぐ。
+    # アプリ側の syncIfNeeded は `local.version >= remote.version` で up-to-date を
+    # 判定するため、リモート version を下げると本番ユーザーが同期不能になる。
+    local_version = int(current.get("version", 0))
+    remote_version = fetch_remote_manifest_version()
+    base_version = max(local_version, remote_version)
+    next_version = base_version + 1
+
     manifest = {
-        "version": current.get("version", 0) + 1,
+        "version": next_version,
         "updatedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "files": files,
     }
     with open(manifest_path, "w") as f:
         json.dump(manifest, f, indent=2)
-    print(f"manifest.json updated (version {manifest['version']})")
+    if remote_version > local_version:
+        print(
+            f"manifest.json updated (version {next_version}; "
+            f"remote={remote_version} > local={local_version} のため逆戻り防止)"
+        )
+    else:
+        print(f"manifest.json updated (version {next_version})")
 
 
 # ==============================
