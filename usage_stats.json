@@ -1,7 +1,7 @@
 {
   "source": "",
   "season": "M-1",
-  "generated_at": "2026-05-20T20:21:00+00:00",
+  "generated_at": "2026-05-21T19:55:55+00:00",
   "top_ranking": {
     "single": [
       "garchomp",
@@ -53692,108 +53692,6 @@
             "rank": 10,
             "name": "エンペルト"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 27.6
-          },
-          {
-            "rank": 2,
-            "hp": 1,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 10.1
-          },
-          {
-            "rank": 3,
-            "hp": 1,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 5.9
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 4.8
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.5
-          },
-          {
-            "rank": 6,
-            "hp": 1,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.7
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.2
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 31,
-            "speed": 3,
-            "pct": 2.1
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 2,
-            "pct": 1.8
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.2
-          }
         ]
       },
       "double": {
@@ -54005,108 +53903,6 @@
           {
             "rank": 10,
             "name": "リザードン"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 13.6
-          },
-          {
-            "rank": 2,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 11.7
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 6.0
-          },
-          {
-            "rank": 4,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.3
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 1.9
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 1.6
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.6
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.5
           }
         ]
       }
@@ -54608,7 +54404,7 @@
         "items": [
           {
             "rank": 1,
-            "name": "オレンのみ",
+            "name": "オボンのみ",
             "pct": 33.9
           },
           {
@@ -54766,108 +54562,6 @@
           {
             "rank": 10,
             "name": "カイリュー"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 14.3
-          },
-          {
-            "rank": 2,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 6.0
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 4.7
-          },
-          {
-            "rank": 4,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 3.2
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.5
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.1
-          },
-          {
-            "rank": 7,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.8
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.4
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.3
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 1.3
           }
         ]
       },
@@ -55086,108 +54780,6 @@
             "rank": 10,
             "name": "エルフーン"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 23.6
-          },
-          {
-            "rank": 2,
-            "hp": 5,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 30,
-            "spDefense": 1,
-            "speed": 29,
-            "pct": 9.6
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 3.4
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.3
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 1.9
-          },
-          {
-            "rank": 7,
-            "hp": 2,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 30,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 1.6
-          },
-          {
-            "rank": 8,
-            "hp": 26,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 17,
-            "spDefense": 1,
-            "speed": 21,
-            "pct": 1.5
-          },
-          {
-            "rank": 9,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.4
-          },
-          {
-            "rank": 10,
-            "hp": 5,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 29,
-            "pct": 1.3
-          }
         ]
       }
     },
@@ -55399,108 +54991,6 @@
             "rank": 10,
             "name": "プリジュラス"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 24.0
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 17.6
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 5.0
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 14,
-            "speed": 18,
-            "pct": 3.1
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.4
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 7,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 10,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.7
-          }
         ]
       },
       "double": {
@@ -55707,108 +55197,6 @@
           {
             "rank": 10,
             "name": "ケケンカニ"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 17.4
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 8.3
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 6.0
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.8
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 4.0
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.4
-          },
-          {
-            "rank": 7,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.3
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.1
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.8
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 15,
-            "spAttack": 0,
-            "spDefense": 19,
-            "speed": 0,
-            "pct": 1.9
           }
         ]
       }
@@ -56031,108 +55419,6 @@
             "rank": 10,
             "name": "ドドグザン"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 14.8
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 11.6
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 11.1
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 9.0
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 5.1
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 4.4
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.7
-          },
-          {
-            "rank": 10,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.5
-          }
         ]
       },
       "double": {
@@ -56350,108 +55636,6 @@
             "rank": 10,
             "name": "リザードン"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 38.2
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 15.0
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 6.9
-          },
-          {
-            "rank": 4,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.9
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 2.9
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.9
-          },
-          {
-            "rank": 7,
-            "hp": 20,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 14,
-            "speed": 0,
-            "pct": 2.4
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.3
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.9
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.8
-          }
         ]
       }
     },
@@ -56668,108 +55852,6 @@
             "rank": 10,
             "name": "アシレーヌ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 12.3
-          },
-          {
-            "rank": 2,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 7.9
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 6.5
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 5.9
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.5
-          },
-          {
-            "rank": 6,
-            "hp": 31,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 3,
-            "pct": 3.2
-          },
-          {
-            "rank": 7,
-            "hp": 5,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 28,
-            "pct": 2.4
-          },
-          {
-            "rank": 8,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 2.4
-          },
-          {
-            "rank": 9,
-            "hp": 29,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 5,
-            "pct": 1.7
-          },
-          {
-            "rank": 10,
-            "hp": 31,
-            "attack": 0,
-            "defense": 3,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.5
-          }
         ]
       },
       "double": {
@@ -56981,108 +56063,6 @@
           {
             "rank": 10,
             "name": "ワルビアル"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 25,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 30,
-            "spDefense": 0,
-            "speed": 10,
-            "pct": 15.4
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 13.6
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 9.9
-          },
-          {
-            "rank": 4,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 6.6
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 6.1
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 2.8
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.4
-          },
-          {
-            "rank": 8,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.3
-          },
-          {
-            "rank": 9,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.3
-          },
-          {
-            "rank": 10,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.2
           }
         ]
       }
@@ -57300,108 +56280,6 @@
             "rank": 10,
             "name": "ゲンガー"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 26.2
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 8.8
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 5.3
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 4.5
-          },
-          {
-            "rank": 5,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.7
-          },
-          {
-            "rank": 6,
-            "hp": 31,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 3,
-            "speed": 0,
-            "pct": 3.7
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.3
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.6
-          }
         ]
       },
       "double": {
@@ -57614,108 +56492,6 @@
             "rank": 10,
             "name": "ヘラクロス"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 19.5
-          },
-          {
-            "rank": 2,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 9.8
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 7.6
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.5
-          },
-          {
-            "rank": 5,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.2
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.1
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.6
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.4
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.3
-          },
-          {
-            "rank": 10,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.1
-          }
         ]
       }
     },
@@ -57775,106 +56551,167 @@
             "pct": 8.7
           }
         ],
-        "ev_distributions": [
+        "items": [
           {
             "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 32.3
+            "name": "こだわりスカーフ",
+            "pct": 20.4
           },
           {
             "rank": 2,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 5.1
+            "name": "オボンのみ",
+            "pct": 20.2
           },
           {
             "rank": 3,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 4.0
+            "name": "きあいのタスキ",
+            "pct": 14.9
           },
           {
             "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.8
+            "name": "ラムのみ",
+            "pct": 11.5
           },
           {
             "rank": 5,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 3.2
+            "name": "せんせいのツメ",
+            "pct": 7.4
           },
           {
             "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.4
+            "name": "たべのこし",
+            "pct": 5.8
           },
           {
             "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 2.1
+            "name": "きせきのタネ",
+            "pct": 5
           },
           {
             "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.0
+            "name": "ひかりのこな",
+            "pct": 2.4
           },
           {
             "rank": 9,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.8
+            "name": "おうじゃのしるし",
+            "pct": 2
           },
           {
             "rank": 10,
-            "hp": 12,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 22,
-            "pct": 1.7
+            "name": "オッカのみ",
+            "pct": 1.4
+          }
+        ],
+        "abilities": [
+          {
+            "rank": 1,
+            "name": "じょおうのいげん",
+            "pct": 86.6
+          },
+          {
+            "rank": 2,
+            "name": "スイートベール",
+            "pct": 12.9
+          },
+          {
+            "rank": 3,
+            "name": "リーフガード",
+            "pct": 0.4
+          }
+        ],
+        "natures": [
+          {
+            "rank": 1,
+            "name": "いじっぱり",
+            "pct": 50.7
+          },
+          {
+            "rank": 2,
+            "name": "ようき",
+            "pct": 34.5
+          },
+          {
+            "rank": 3,
+            "name": "わんぱく",
+            "pct": 10.2
+          },
+          {
+            "rank": 4,
+            "name": "しんちょう",
+            "pct": 2
+          },
+          {
+            "rank": 5,
+            "name": "ゆうかん",
+            "pct": 1.1
+          },
+          {
+            "rank": 6,
+            "name": "やんちゃ",
+            "pct": 0.3
+          },
+          {
+            "rank": 7,
+            "name": "のんき",
+            "pct": 0.2
+          },
+          {
+            "rank": 8,
+            "name": "むじゃき",
+            "pct": 0.2
+          },
+          {
+            "rank": 9,
+            "name": "せっかち",
+            "pct": 0.2
+          },
+          {
+            "rank": 10,
+            "name": "さみしがり",
+            "pct": 0.2
+          }
+        ],
+        "teammates": [
+          {
+            "rank": 1,
+            "name": "ガブリアス"
+          },
+          {
+            "rank": 2,
+            "name": "リザードン"
+          },
+          {
+            "rank": 3,
+            "name": "アシレーヌ"
+          },
+          {
+            "rank": 4,
+            "name": "ミミロップ"
+          },
+          {
+            "rank": 5,
+            "name": "マフォクシー"
+          },
+          {
+            "rank": 6,
+            "name": "カイリュー"
+          },
+          {
+            "rank": 7,
+            "name": "ギャラドス"
+          },
+          {
+            "rank": 8,
+            "name": "プリジュラス"
+          },
+          {
+            "rank": 9,
+            "name": "ハツサム"
+          },
+          {
+            "rank": 10,
+            "name": "キラフロル"
           }
         ]
       },
@@ -58092,108 +56929,6 @@
           {
             "rank": 10,
             "name": "ファイアロー"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 22.7
-          },
-          {
-            "rank": 2,
-            "hp": 28,
-            "attack": 10,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 27,
-            "pct": 5.7
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.9
-          },
-          {
-            "rank": 4,
-            "hp": 30,
-            "attack": 14,
-            "defense": 4,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 17,
-            "pct": 2.9
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.8
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 2.7
-          },
-          {
-            "rank": 8,
-            "hp": 4,
-            "attack": 10,
-            "defense": 20,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 31,
-            "pct": 2.4
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.2
-          },
-          {
-            "rank": 10,
-            "hp": 4,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 30,
-            "pct": 2.1
           }
         ]
       }
@@ -58416,108 +57151,6 @@
             "rank": 10,
             "name": "ギャラドス"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 22.4
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 9.8
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 9.3
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 9.0
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 4.9
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 4.2
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.9
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.8
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 1.7
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.7
-          }
         ]
       },
       "double": {
@@ -58734,108 +57367,6 @@
           {
             "rank": 10,
             "name": "ミロカロス"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 14.7
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 12.0
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 6.9
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.7
-          },
-          {
-            "rank": 5,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 4.3
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 4.2
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.0
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.4
-          },
-          {
-            "rank": 9,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.1
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.8
           }
         ]
       }
@@ -59058,108 +57589,6 @@
             "rank": 10,
             "name": "ゲンガー"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 11.2
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 6.7
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 6.3
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.5
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.0
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 3.6
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.4
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.3
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.7
-          },
-          {
-            "rank": 10,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.7
-          }
         ]
       },
       "double": {
@@ -59377,108 +57806,6 @@
             "rank": 10,
             "name": "エルフーン"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 9.9
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 4.6
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.4
-          },
-          {
-            "rank": 4,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.4
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 3.0
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 24,
-            "spAttack": 0,
-            "spDefense": 10,
-            "speed": 0,
-            "pct": 2.9
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.3
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 15,
-            "spAttack": 0,
-            "spDefense": 19,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 25,
-            "spAttack": 0,
-            "spDefense": 9,
-            "speed": 0,
-            "pct": 1.8
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.8
-          }
         ]
       }
     },
@@ -59690,108 +58017,6 @@
             "rank": 10,
             "name": "プリジュラス"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 34.4
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 8.3
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 7.0
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 29,
-            "spAttack": 0,
-            "spDefense": 5,
-            "speed": 0,
-            "pct": 3.3
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.0
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.8
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 1.6
-          },
-          {
-            "rank": 8,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.5
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 1.4
-          },
-          {
-            "rank": 10,
-            "hp": 28,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 6,
-            "speed": 0,
-            "pct": 1.2
-          }
         ]
       },
       "double": {
@@ -59998,108 +58223,6 @@
           {
             "rank": 10,
             "name": "ローブシン"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 14.9
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 10.8
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 5.9
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.0
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.8
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.8
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 5,
-            "spAttack": 0,
-            "spDefense": 29,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 15,
-            "spAttack": 0,
-            "spDefense": 19,
-            "speed": 0,
-            "pct": 2.5
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.2
           }
         ]
       }
@@ -60322,108 +58445,6 @@
             "rank": 10,
             "name": "ギルガルド"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 38.7
-          },
-          {
-            "rank": 2,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 18.2
-          },
-          {
-            "rank": 3,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 6.4
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 4.7
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.2
-          },
-          {
-            "rank": 6,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.3
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.3
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 1.8
-          },
-          {
-            "rank": 9,
-            "hp": 7,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 27,
-            "pct": 1.8
-          },
-          {
-            "rank": 10,
-            "hp": 5,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 27,
-            "pct": 0.8
-          }
         ]
       },
       "double": {
@@ -60640,108 +58661,6 @@
           {
             "rank": 10,
             "name": "ロトム"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 42.7
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 8.6
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 6.5
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.1
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 2.6
-          },
-          {
-            "rank": 6,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.4
-          },
-          {
-            "rank": 7,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 2.2
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.1
-          },
-          {
-            "rank": 9,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.1
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 0,
-            "defense": 4,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 30,
-            "pct": 1.2
           }
         ]
       }
@@ -60964,108 +58883,6 @@
             "rank": 10,
             "name": "ミミロップ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 11.8
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 6.4
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 6.4
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 6.1
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 4.9
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 2,
-            "pct": 2.2
-          },
-          {
-            "rank": 8,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.9
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 1.9
-          },
-          {
-            "rank": 10,
-            "hp": 26,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 8,
-            "pct": 1.7
-          }
         ]
       },
       "double": {
@@ -61282,108 +59099,6 @@
           {
             "rank": 10,
             "name": "リザードン"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 12.0
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 4.6
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.2
-          },
-          {
-            "rank": 4,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.8
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.8
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.0
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.7
           }
         ]
       }
@@ -61606,108 +59321,6 @@
             "rank": 10,
             "name": "プリジュラス"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 34.4
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 15.1
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 11.9
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 3.5
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.5
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.3
-          },
-          {
-            "rank": 9,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.1
-          },
-          {
-            "rank": 10,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.0
-          }
         ]
       },
       "double": {
@@ -61924,108 +59537,6 @@
           {
             "rank": 10,
             "name": "イダイトウ"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 36.0
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 16.6
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 6.8
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 5.5
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 8,
-            "spAttack": 25,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 3.8
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 7,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 8,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.1
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.1
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 0.9
           }
         ]
       }
@@ -62248,108 +59759,6 @@
             "rank": 10,
             "name": "バサギリ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 33.8
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 6.3
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.9
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.8
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.7
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.3
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.1
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 2.4
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 2.2
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.1
-          }
         ]
       },
       "double": {
@@ -62567,108 +59976,6 @@
             "rank": 10,
             "name": "サーナイト"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 31,
-            "attack": 0,
-            "defense": 20,
-            "spAttack": 0,
-            "spDefense": 15,
-            "speed": 0,
-            "pct": 34.9
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 30,
-            "spAttack": 0,
-            "spDefense": 4,
-            "speed": 0,
-            "pct": 18.7
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 8.8
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.8
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 1,
-            "defense": 0,
-            "spAttack": 1,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.0
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 1.8
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 2,
-            "pct": 1.7
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 1.7
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 20,
-            "defense": 0,
-            "spAttack": 14,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.7
-          }
         ]
       }
     },
@@ -62741,41 +60048,36 @@
           },
           {
             "rank": 3,
-            "name": "オレンのみ",
-            "pct": 10.1
-          },
-          {
-            "rank": 4,
             "name": "たべのこし",
             "pct": 3.3
           },
           {
-            "rank": 5,
+            "rank": 4,
             "name": "メンタルハーブ",
             "pct": 3
           },
           {
-            "rank": 6,
+            "rank": 5,
             "name": "ビアーのみ",
             "pct": 1.3
           },
           {
-            "rank": 7,
+            "rank": 6,
             "name": "リリバのみ",
             "pct": 1
           },
           {
-            "rank": 8,
+            "rank": 7,
             "name": "せんせいのツメ",
             "pct": 0.7
           },
           {
-            "rank": 9,
+            "rank": 8,
             "name": "ラムのみ",
             "pct": 0.6
           },
           {
-            "rank": 10,
+            "rank": 9,
             "name": "ようせいのハネ",
             "pct": 0.6
           }
@@ -62884,108 +60186,6 @@
           {
             "rank": 10,
             "name": "ミミッキュ"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 12.9
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 7.5
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 19,
-            "speed": 15,
-            "pct": 4.1
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 4.0
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 3.3
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.5
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 2.3
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.0
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.8
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.7
           }
         ]
       },
@@ -63198,108 +60398,6 @@
           {
             "rank": 10,
             "name": "ドドゲザン"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 9.5
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 9,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 24,
-            "pct": 5.3
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 20,
-            "speed": 14,
-            "pct": 4.8
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 3.7
-          },
-          {
-            "rank": 5,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.4
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 2,
-            "pct": 3.1
-          },
-          {
-            "rank": 7,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.0
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.6
-          },
-          {
-            "rank": 9,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.5
           }
         ]
       }
@@ -63522,108 +60620,6 @@
             "rank": 10,
             "name": "マスカーニャ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 33.4
-          },
-          {
-            "rank": 2,
-            "hp": 1,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 7.4
-          },
-          {
-            "rank": 3,
-            "hp": 31,
-            "attack": 1,
-            "defense": 14,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 20,
-            "pct": 4.5
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.9
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.2
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.0
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 2.0
-          },
-          {
-            "rank": 8,
-            "hp": 1,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.8
-          },
-          {
-            "rank": 9,
-            "hp": 31,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 3,
-            "pct": 1.7
-          },
-          {
-            "rank": 10,
-            "hp": 1,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 1.6
-          }
         ]
       },
       "double": {
@@ -63840,108 +60836,6 @@
           {
             "rank": 10,
             "name": "プテラ"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 52.2
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.5
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 3.4
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.8
-          },
-          {
-            "rank": 5,
-            "hp": 1,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.1
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 1.9
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.6
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.6
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 1.5
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 1.2
           }
         ]
       }
@@ -64164,108 +61058,6 @@
             "rank": 10,
             "name": "エルレイド"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 12.9
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.2
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.9
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.8
-          },
-          {
-            "rank": 5,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.6
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 3.5
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 2.4
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 9,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.7
-          },
-          {
-            "rank": 10,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.7
-          }
         ]
       },
       "double": {
@@ -64482,108 +61274,6 @@
           {
             "rank": 10,
             "name": "プテラ"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 7.3
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.1
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 20,
-            "spAttack": 0,
-            "spDefense": 14,
-            "speed": 0,
-            "pct": 4.7
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.4
-          },
-          {
-            "rank": 5,
-            "hp": 19,
-            "attack": 0,
-            "defense": 17,
-            "spAttack": 0,
-            "spDefense": 30,
-            "speed": 0,
-            "pct": 2.8
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 24,
-            "spAttack": 0,
-            "spDefense": 10,
-            "speed": 0,
-            "pct": 2.4
-          },
-          {
-            "rank": 7,
-            "hp": 27,
-            "attack": 0,
-            "defense": 31,
-            "spAttack": 0,
-            "spDefense": 8,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 8,
-            "hp": 31,
-            "attack": 0,
-            "defense": 6,
-            "spAttack": 10,
-            "spDefense": 18,
-            "speed": 1,
-            "pct": 1.9
-          },
-          {
-            "rank": 9,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.7
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 27,
-            "spAttack": 0,
-            "spDefense": 7,
-            "speed": 0,
-            "pct": 1.5
           }
         ]
       }
@@ -64806,108 +61496,6 @@
             "rank": 10,
             "name": "カバルドン"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 15.5
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 6.2
-          },
-          {
-            "rank": 3,
-            "hp": 22,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 12,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.5
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.9
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.4
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 2.3
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.1
-          },
-          {
-            "rank": 9,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.0
-          },
-          {
-            "rank": 10,
-            "hp": 22,
-            "attack": 0,
-            "defense": 5,
-            "spAttack": 1,
-            "spDefense": 6,
-            "speed": 32,
-            "pct": 1.7
-          }
         ]
       },
       "double": {
@@ -65124,108 +61712,6 @@
           {
             "rank": 10,
             "name": "ガオガエン"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 48.9
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.8
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.9
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.9
-          },
-          {
-            "rank": 5,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.6
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 2.5
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 1.5
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 1.4
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 1.4
           }
         ]
       }
@@ -65448,108 +61934,6 @@
             "rank": 10,
             "name": "ドドゲザン"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 18.7
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 13.4
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.9
-          },
-          {
-            "rank": 4,
-            "hp": 31,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 3,
-            "speed": 0,
-            "pct": 4.3
-          },
-          {
-            "rank": 5,
-            "hp": 31,
-            "attack": 0,
-            "defense": 3,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.9
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.0
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 30,
-            "spAttack": 0,
-            "spDefense": 4,
-            "speed": 0,
-            "pct": 1.8
-          }
         ]
       },
       "double": {
@@ -65767,108 +62151,6 @@
             "rank": 10,
             "name": "バンギラス"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 15.0
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 1,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 7.6
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 6.3
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 5.3
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.0
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 9,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 10,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.1
-          }
         ]
       }
     },
@@ -66080,108 +62362,6 @@
             "rank": 10,
             "name": "ミミロップ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 10.8
-          },
-          {
-            "rank": 2,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 9.8
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 9.7
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 6.5
-          },
-          {
-            "rank": 5,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.0
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 3.1
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.1
-          },
-          {
-            "rank": 9,
-            "hp": 31,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 1.8
-          },
-          {
-            "rank": 10,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.8
-          }
         ]
       },
       "double": {
@@ -66388,108 +62568,6 @@
           {
             "rank": 10,
             "name": "エルフーン"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 19.1
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 13.6
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 6.6
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 5.4
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.5
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.3
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.3
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.3
-          },
-          {
-            "rank": 9,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 1.9
           }
         ]
       }
@@ -66702,108 +62780,6 @@
             "rank": 10,
             "name": "ハッサム"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 45.6
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 8.7
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 6.9
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.2
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.0
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.9
-          },
-          {
-            "rank": 7,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.1
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 1.9
-          },
-          {
-            "rank": 9,
-            "hp": 4,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 30,
-            "pct": 1.8
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 1.0
-          }
         ]
       },
       "double": {
@@ -67010,108 +62986,6 @@
           {
             "rank": 10,
             "name": "ユキメノコ"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 41.7
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 8.7
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 8.5
-          },
-          {
-            "rank": 4,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.1
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.4
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 2.6
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 1.7
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.7
-          },
-          {
-            "rank": 9,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.2
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.2
           }
         ]
       }
@@ -67329,108 +63203,6 @@
             "rank": 10,
             "name": "マスカーニャ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 16.5
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 16.3
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 5.7
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 12,
-            "spAttack": 0,
-            "spDefense": 22,
-            "speed": 0,
-            "pct": 4.0
-          },
-          {
-            "rank": 5,
-            "hp": 31,
-            "attack": 0,
-            "defense": 11,
-            "spAttack": 0,
-            "spDefense": 24,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 22,
-            "spAttack": 0,
-            "spDefense": 12,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.9
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.8
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.7
-          }
         ]
       },
       "double": {
@@ -67642,108 +63414,6 @@
           {
             "rank": 10,
             "name": "ジジーロン"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 16.8
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 12,
-            "spAttack": 0,
-            "spDefense": 22,
-            "speed": 0,
-            "pct": 7.8
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 7.5
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 5.9
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 22,
-            "spAttack": 0,
-            "spDefense": 12,
-            "speed": 0,
-            "pct": 3.8
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 17,
-            "spAttack": 0,
-            "spDefense": 17,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.3
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 1.7
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.7
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.6
           }
         ]
       }
@@ -67961,108 +63631,6 @@
             "rank": 10,
             "name": "ルカリオ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 27.0
-          },
-          {
-            "rank": 2,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 20.3
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 5.0
-          },
-          {
-            "rank": 4,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.8
-          },
-          {
-            "rank": 5,
-            "hp": 1,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.7
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.3
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.9
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.8
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.7
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 2.1
-          }
         ]
       },
       "double": {
@@ -68274,108 +63842,6 @@
           {
             "rank": 10,
             "name": "エルフーン"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 31.1
-          },
-          {
-            "rank": 2,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 18.6
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.9
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.8
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 3.2
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.0
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.8
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.3
-          },
-          {
-            "rank": 9,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.0
-          },
-          {
-            "rank": 10,
-            "hp": 1,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.7
           }
         ]
       }
@@ -68598,108 +64064,6 @@
             "rank": 10,
             "name": "フシギバナ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 16.7
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 8.0
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 6.1
-          },
-          {
-            "rank": 4,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.3
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 6,
-            "hp": 31,
-            "attack": 32,
-            "defense": 3,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 7,
-            "hp": 31,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 3,
-            "speed": 0,
-            "pct": 2.4
-          },
-          {
-            "rank": 8,
-            "hp": 1,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.0
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 1.9
-          }
         ]
       },
       "double": {
@@ -68916,108 +64280,6 @@
           {
             "rank": 10,
             "name": "ブリムオン"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 20.7
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 14.0
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 7.7
-          },
-          {
-            "rank": 4,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 4.6
-          },
-          {
-            "rank": 5,
-            "hp": 9,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 25,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.9
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 1.7
-          },
-          {
-            "rank": 9,
-            "hp": 1,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.6
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.4
           }
         ]
       }
@@ -69240,108 +64502,6 @@
             "rank": 10,
             "name": "バンギラス"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 17.5
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 13.5
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 4.3
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.8
-          },
-          {
-            "rank": 5,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.4
-          },
-          {
-            "rank": 7,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.3
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.3
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 1.5
-          }
         ]
       },
       "double": {
@@ -69558,108 +64718,6 @@
           {
             "rank": 10,
             "name": "ゴルーグ"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 28.1
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 11.6
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.9
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.3
-          },
-          {
-            "rank": 5,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.5
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.4
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.9
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.7
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 1.2
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.1
           }
         ]
       }
@@ -69882,108 +64940,6 @@
             "rank": 10,
             "name": "ゲンガー"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 30.5
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 17.1
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 6.0
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 5.1
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 6,
-            "hp": 31,
-            "attack": 3,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.0
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.8
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 2.4
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.1
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 1,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.0
-          }
         ]
       },
       "double": {
@@ -70200,108 +65156,6 @@
           {
             "rank": 10,
             "name": "ガブリアス"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 18.2
-          },
-          {
-            "rank": 2,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 10.9
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 9.2
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 7.7
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 6.0
-          },
-          {
-            "rank": 6,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.0
-          },
-          {
-            "rank": 7,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.4
-          },
-          {
-            "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.7
           }
         ]
       }
@@ -70524,108 +65378,6 @@
             "rank": 10,
             "name": "アーマーガア"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 28.5
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 5.7
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 5.6
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 4.9
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 4.2
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.3
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.0
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 1.9
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 2,
-            "pct": 1.7
-          }
         ]
       },
       "double": {
@@ -70843,108 +65595,6 @@
             "rank": 10,
             "name": "バンギラス"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 34.6
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 17.1
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 6.5
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.2
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 1.2
-          },
-          {
-            "rank": 6,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.1
-          },
-          {
-            "rank": 7,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 1.0
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.0
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 0.9
-          },
-          {
-            "rank": 10,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 0.9
-          }
         ]
       }
     },
@@ -71161,108 +65811,6 @@
             "rank": 10,
             "name": "イダイトウ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 19.5
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 8.0
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 3.9
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.0
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.3
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.8
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 19,
-            "spAttack": 0,
-            "spDefense": 15,
-            "speed": 0,
-            "pct": 1.8
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 9,
-            "spAttack": 0,
-            "spDefense": 25,
-            "speed": 0,
-            "pct": 1.6
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 16,
-            "spAttack": 0,
-            "spDefense": 18,
-            "speed": 0,
-            "pct": 1.6
-          }
         ]
       },
       "double": {
@@ -71318,106 +65866,162 @@
             "pct": 10.4
           }
         ],
-        "ev_distributions": [
+        "items": [
           {
             "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 10.9
+            "name": "メンタルハーブ",
+            "pct": 21.9
           },
           {
             "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 8.5
+            "name": "オボンのみ",
+            "pct": 18
           },
           {
             "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 5.6
+            "name": "たべのこし",
+            "pct": 16.4
           },
           {
             "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 21,
-            "spAttack": 0,
-            "spDefense": 13,
-            "speed": 0,
-            "pct": 4.4
+            "name": "オッカのみ",
+            "pct": 11.8
           },
           {
             "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 9,
-            "spAttack": 0,
-            "spDefense": 25,
-            "speed": 0,
-            "pct": 4.0
+            "name": "きあいのタスキ",
+            "pct": 8.8
           },
           {
             "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 14,
-            "spAttack": 0,
-            "spDefense": 20,
-            "speed": 0,
-            "pct": 3.8
+            "name": "シュカのみ",
+            "pct": 8.4
           },
           {
             "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 19,
-            "spAttack": 0,
-            "spDefense": 15,
-            "speed": 0,
-            "pct": 3.2
+            "name": "ひかりのこな",
+            "pct": 5
           },
           {
             "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 11,
-            "spAttack": 0,
-            "spDefense": 23,
-            "speed": 0,
-            "pct": 2.9
+            "name": "ようせいのハネ",
+            "pct": 2.8
           },
           {
             "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 17,
-            "spAttack": 0,
-            "spDefense": 17,
-            "speed": 0,
-            "pct": 2.4
+            "name": "ラムのみ",
+            "pct": 1.4
           },
           {
             "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.3
+            "name": "こだわりスカーフ",
+            "pct": 1
+          }
+        ],
+        "abilities": [
+          {
+            "rank": 1,
+            "name": "いたずらごころ",
+            "pct": 99.5
+          },
+          {
+            "rank": 2,
+            "name": "マジシャン",
+            "pct": 0.5
+          }
+        ],
+        "natures": [
+          {
+            "rank": 1,
+            "name": "ずぶとい",
+            "pct": 37.3
+          },
+          {
+            "rank": 2,
+            "name": "おだやか",
+            "pct": 27.5
+          },
+          {
+            "rank": 3,
+            "name": "ひかえめ",
+            "pct": 10.5
+          },
+          {
+            "rank": 4,
+            "name": "なまいき",
+            "pct": 6.4
+          },
+          {
+            "rank": 5,
+            "name": "のんき",
+            "pct": 6.3
+          },
+          {
+            "rank": 6,
+            "name": "れいせい",
+            "pct": 3.6
+          },
+          {
+            "rank": 7,
+            "name": "わんぱく",
+            "pct": 2.8
+          },
+          {
+            "rank": 8,
+            "name": "おくびょう",
+            "pct": 2.2
+          },
+          {
+            "rank": 9,
+            "name": "しんちょう",
+            "pct": 2
+          },
+          {
+            "rank": 10,
+            "name": "おっとり",
+            "pct": 0.4
+          }
+        ],
+        "teammates": [
+          {
+            "rank": 1,
+            "name": "ヤバソチャ"
+          },
+          {
+            "rank": 2,
+            "name": "ブリジュラス"
+          },
+          {
+            "rank": 3,
+            "name": "ガオガエン"
+          },
+          {
+            "rank": 4,
+            "name": "ペリッパー"
+          },
+          {
+            "rank": 5,
+            "name": "ガブリアス"
+          },
+          {
+            "rank": 6,
+            "name": "バンギラス"
+          },
+          {
+            "rank": 7,
+            "name": "イダイトウ"
+          },
+          {
+            "rank": 8,
+            "name": "オオニューラ"
+          },
+          {
+            "rank": 9,
+            "name": "ミロカロス"
+          },
+          {
+            "rank": 10,
+            "name": "カイリュー"
           }
         ]
       }
@@ -71640,108 +66244,6 @@
             "rank": 10,
             "name": "ドリュウズ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 20.8
-          },
-          {
-            "rank": 2,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 12.3
-          },
-          {
-            "rank": 3,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 7.3
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 6.0
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.7
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.6
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 2.5
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.5
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.4
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.2
-          }
         ]
       },
       "double": {
@@ -71959,108 +66461,6 @@
             "rank": 10,
             "name": "オオニューラ"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 15.4
-          },
-          {
-            "rank": 2,
-            "hp": 32,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 10.2
-          },
-          {
-            "rank": 3,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 6.5
-          },
-          {
-            "rank": 4,
-            "hp": 32,
-            "attack": 2,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.4
-          },
-          {
-            "rank": 5,
-            "hp": 2,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 6,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 3.1
-          },
-          {
-            "rank": 7,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 2.7
-          },
-          {
-            "rank": 9,
-            "hp": 24,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 32,
-            "speed": 10,
-            "pct": 2.3
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 2.1
-          }
         ]
       }
     },
@@ -72272,108 +66672,6 @@
             "rank": 10,
             "name": "プリジュラス"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 55.6
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 11.0
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 7.2
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.2
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 3.8
-          },
-          {
-            "rank": 6,
-            "hp": 1,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.3
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.9
-          },
-          {
-            "rank": 8,
-            "hp": 1,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.1
-          },
-          {
-            "rank": 9,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 0.8
-          },
-          {
-            "rank": 10,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 0.8
-          }
         ]
       },
       "double": {
@@ -72580,108 +66878,6 @@
           {
             "rank": 10,
             "name": "ユキメノコ"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 48.0
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 32,
-            "defense": 2,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 15.1
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 9.7
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 5.9
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 2.4
-          },
-          {
-            "rank": 6,
-            "hp": 1,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.5
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.1
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 0.9
-          },
-          {
-            "rank": 9,
-            "hp": 7,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 27,
-            "pct": 0.9
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 0.6
           }
         ]
       }
@@ -72904,108 +67100,6 @@
             "rank": 10,
             "name": "ロトム"
           }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 33.9
-          },
-          {
-            "rank": 2,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 10.8
-          },
-          {
-            "rank": 3,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 7.1
-          },
-          {
-            "rank": 4,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 4.8
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 4.6
-          },
-          {
-            "rank": 6,
-            "hp": 0,
-            "attack": 2,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.6
-          },
-          {
-            "rank": 7,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.5
-          },
-          {
-            "rank": 8,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.9
-          },
-          {
-            "rank": 9,
-            "hp": 1,
-            "attack": 1,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 2.1
-          },
-          {
-            "rank": 10,
-            "hp": 2,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 1.1
-          }
         ]
       },
       "double": {
@@ -73222,108 +67316,6 @@
           {
             "rank": 10,
             "name": "ヤバソチャ"
-          }
-        ],
-        "ev_distributions": [
-          {
-            "rank": 1,
-            "hp": 2,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 42.3
-          },
-          {
-            "rank": 2,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 32,
-            "pct": 8.9
-          },
-          {
-            "rank": 3,
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 7.4
-          },
-          {
-            "rank": 4,
-            "hp": 1,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 6.6
-          },
-          {
-            "rank": 5,
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 3.5
-          },
-          {
-            "rank": 6,
-            "hp": 9,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 23,
-            "pct": 2.5
-          },
-          {
-            "rank": 7,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 2.4
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 2,
-            "pct": 1.5
-          },
-          {
-            "rank": 9,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 32,
-            "pct": 0.9
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 0.8
           }
         ]
       }
