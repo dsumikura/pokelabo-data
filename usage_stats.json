@@ -1,7 +1,7 @@
 {
   "source": "",
   "season": "M-1",
-  "generated_at": "2026-05-22T19:49:47+00:00",
+  "generated_at": "2026-05-23T19:13:36+00:00",
   "top_ranking": {
     "single": [
       "garchomp",
@@ -80583,31 +80583,26 @@
           },
           {
             "rank": 5,
-            "name": "オレンのみ",
-            "pct": 1.3
-          },
-          {
-            "rank": 6,
             "name": "ひかりのこな",
             "pct": 1.1
           },
           {
-            "rank": 7,
+            "rank": 6,
             "name": "じしゃく",
             "pct": 0.9
           },
           {
-            "rank": 8,
+            "rank": 7,
             "name": "ラムのみ",
             "pct": 0.8
           },
           {
-            "rank": 9,
+            "rank": 8,
             "name": "ビアーのみ",
             "pct": 0.6
           },
           {
-            "rank": 10,
+            "rank": 9,
             "name": "おうじゃのしるし",
             "pct": 0.4
           }
