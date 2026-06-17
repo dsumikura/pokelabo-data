@@ -1,22 +1,22 @@
 {
-  "version": 142,
-  "updatedAt": "2026-06-16T20:59:30.041896+00:00",
+  "version": 143,
+  "updatedAt": "2026-06-17T14:57:03.312761+00:00",
   "files": {
     "pokemon": {
-      "hash": "0a48653d9f62fc9a2d3fb0bef8cb16611068bcce56a64358894f7ec3548f7286",
-      "size": 985164
+      "hash": "f59f5b0dc0ebbf2b5ce6ec261abb1a501206434722419ed768089db7641dbcd7",
+      "size": 981473
     },
     "moves": {
-      "hash": "cc98c9d7dae6cb3f032884bcfc9e714953e2f46165d491df8f604b0aede46935",
-      "size": 681534
+      "hash": "bb889335e48c9c585c0be3b975624746c2dd7846689ff64166b361aa57e2032c",
+      "size": 577162
     },
     "items": {
-      "hash": "4f3cbcd956d8af861942ff4a983414394da8f7c3f66328d8b506bdeae394fb51",
-      "size": 29572
+      "hash": "87415f362014c80c6517cbd15637e131ef44e9c13423fffb97709231a7f13098",
+      "size": 26787
     },
     "regulations": {
-      "hash": "bee07ee6a0314c74e1e079f448c62e09ceb19a8fa7957d9843d76aff7d1ba1f0",
-      "size": 3235
+      "hash": "9b4f22cdc98b8db5ec9c0ad5712d24825c8c686a75e6d25f6bbc61584a4d3dc5",
+      "size": 6829
     },
     "usage_stats": {
       "hash": "bed1baea58f19827b67eb8748829c9a6eaf85b1b1ad51b22c5d56ed53244ba55",
