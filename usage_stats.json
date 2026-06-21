@@ -1,9 +1,223 @@
 {
   "source": "",
   "season": "M-1",
-  "generated_at": "2026-06-20T19:39:56+00:00",
+  "generated_at": "2026-06-21T19:45:12+00:00",
   "top_ranking": {
-    "single": [],
+    "single": [
+      "garchomp",
+      "primarina",
+      "archaludon",
+      "charizard",
+      "corviknight",
+      "hippowdon",
+      "dragonite",
+      "meowscarada",
+      "gengar",
+      "basculegion",
+      "aegislash",
+      "scizor",
+      "lopunny",
+      "mimikyu",
+      "glimmora",
+      "kingambit",
+      "hydreigon",
+      "lucario",
+      "gyarados",
+      "rotom-wash",
+      "kangaskhan",
+      "umbreon",
+      "volcarona",
+      "floette-eternal",
+      "delphox",
+      "meganium",
+      "greninja",
+      "sneasler",
+      "venusaur",
+      "starmie",
+      "clefable",
+      "sylveon",
+      "skeledirge",
+      "tyranitar",
+      "rotom-heat",
+      "dragapult",
+      "espathra",
+      "toxapex",
+      "bellibolt",
+      "pelipper",
+      "mamoswine",
+      "ceruledge",
+      "diggersby",
+      "azumarill",
+      "snorlax",
+      "empoleon",
+      "blastoise",
+      "froslass",
+      "skarmory",
+      "araquanid",
+      "scovillain",
+      "excadrill",
+      "gardevoir",
+      "gallade",
+      "samurott-hisui",
+      "ninetales-alola",
+      "whimsicott",
+      "victreebel",
+      "goodra-hisui",
+      "kleavor",
+      "zoroark-hisui",
+      "slowking-galar",
+      "milotic",
+      "heracross",
+      "banette",
+      "incineroar",
+      "hatterene",
+      "serperior",
+      "tinkaton",
+      "vanilluxe",
+      "conkeldurr",
+      "armarouge",
+      "arcanine-hisui",
+      "ditto",
+      "heliolisk",
+      "chandelure",
+      "aerodactyl",
+      "sableye",
+      "slowbro",
+      "toucannon",
+      "chesnaught",
+      "aggron",
+      "sinistcha",
+      "sharpedo",
+      "polteageist",
+      "orthworm",
+      "quaquaval",
+      "arcanine",
+      "hawlucha",
+      "espeon",
+      "feraligatr",
+      "maushold",
+      "palafin",
+      "beedrill",
+      "vaporeon",
+      "infernape",
+      "alakazam",
+      "crabominable",
+      "weavile",
+      "basculegion-female",
+      "vivillon",
+      "talonflame",
+      "pinsir",
+      "chimecho",
+      "slowbro-galar",
+      "typhlosion-hisui",
+      "garganacl",
+      "abomasnow",
+      "salazzle",
+      "mudsdale",
+      "pidgeot",
+      "manectric",
+      "lycanroc-dusk",
+      "gliscor",
+      "altaria",
+      "jolteon",
+      "decidueye-hisui",
+      "emboar",
+      "tauros-paldea-blaze",
+      "machamp",
+      "medicham",
+      "ampharos",
+      "rotom-mow",
+      "krookodile",
+      "torterra",
+      "kommo-o",
+      "runerigus",
+      "torkoal",
+      "glaceon",
+      "forretress",
+      "tsareena",
+      "cofagrigus",
+      "politoed",
+      "steelix",
+      "slurpuff",
+      "ariados",
+      "noivern",
+      "drampa",
+      "goodra",
+      "absol",
+      "glalie",
+      "farigiraf",
+      "slowking",
+      "clawitzer",
+      "spiritomb",
+      "zoroark",
+      "pikachu",
+      "morpeko",
+      "hydrapple",
+      "rhyperior",
+      "houndoom",
+      "roserade",
+      "klefki",
+      "avalugg",
+      "sandaconda",
+      "golurk",
+      "alcremie",
+      "avalugg-hisui",
+      "toxicroak",
+      "reuniclus",
+      "tauros-paldea-aqua",
+      "rotom-frost",
+      "meowstic",
+      "aurorus",
+      "ninetales",
+      "trevenant",
+      "typhlosion",
+      "tyrantrum",
+      "bastiodon",
+      "pangoro",
+      "luxray",
+      "stunfisk",
+      "camerupt",
+      "leafeon",
+      "florges",
+      "emolga",
+      "flareon",
+      "decidueye",
+      "raichu-alola",
+      "gourgeist",
+      "raichu",
+      "wyrdeer",
+      "meowstic-female",
+      "audino",
+      "lycanroc",
+      "rampardos",
+      "dedenne",
+      "arbok",
+      "stunfisk-galar",
+      "furfrou",
+      "mr-rime",
+      "rotom-fan",
+      "beartic",
+      "liepard",
+      "appletun",
+      "flapple",
+      "garbodor",
+      "lycanroc-midnight",
+      "simipour",
+      "oranguru",
+      "tauros",
+      "samurott",
+      "gourgeist-small",
+      "passimian",
+      "simisage",
+      "simisear",
+      "watchog",
+      "aromatisse",
+      "rotom",
+      "tauros-paldea-combat",
+      "gourgeist-large",
+      "gourgeist-super",
+      "castform"
+    ],
     "double": [
       "sneasler",
       "garchomp",
@@ -225,7 +439,216 @@
       "id": 445,
       "name_ja": "ガブリアス",
       "single": {
-        "error": "http_404"
+        "moves": [
+          {
+            "rank": 1,
+            "name": "じしん",
+            "pct": 99
+          },
+          {
+            "rank": 2,
+            "name": "げきりん",
+            "pct": 60.1
+          },
+          {
+            "rank": 3,
+            "name": "ステルスロック",
+            "pct": 49.5
+          },
+          {
+            "rank": 4,
+            "name": "がんせきふうじ",
+            "pct": 41.6
+          },
+          {
+            "rank": 5,
+            "name": "どくづき",
+            "pct": 26.7
+          },
+          {
+            "rank": 6,
+            "name": "スケイルショット",
+            "pct": 22.4
+          },
+          {
+            "rank": 7,
+            "name": "つるぎのまい",
+            "pct": 20.1
+          },
+          {
+            "rank": 8,
+            "name": "いわなだれ",
+            "pct": 16.7
+          },
+          {
+            "rank": 9,
+            "name": "ドラゴンテール",
+            "pct": 16.2
+          },
+          {
+            "rank": 10,
+            "name": "まきびし",
+            "pct": 10.9
+          }
+        ],
+        "items": [
+          {
+            "rank": 1,
+            "name": "きあいのタスキ",
+            "pct": 38.8
+          },
+          {
+            "rank": 2,
+            "name": "こだわりスカーフ",
+            "pct": 31.9
+          },
+          {
+            "rank": 3,
+            "name": "オボンのみ",
+            "pct": 13.3
+          },
+          {
+            "rank": 4,
+            "name": "ラムのみ",
+            "pct": 7.5
+          },
+          {
+            "rank": 5,
+            "name": "ガブリアスナイト",
+            "pct": 2
+          },
+          {
+            "rank": 6,
+            "name": "ヤチェのみ",
+            "pct": 1.5
+          },
+          {
+            "rank": 7,
+            "name": "ハバンのみ",
+            "pct": 1.4
+          },
+          {
+            "rank": 8,
+            "name": "たべのこし",
+            "pct": 0.6
+          },
+          {
+            "rank": 9,
+            "name": "ひかりのこな",
+            "pct": 0.6
+          },
+          {
+            "rank": 10,
+            "name": "ロゼルのみ",
+            "pct": 0.4
+          }
+        ],
+        "abilities": [
+          {
+            "rank": 1,
+            "name": "さめはだ",
+            "pct": 99.1
+          },
+          {
+            "rank": 2,
+            "name": "すながくれ",
+            "pct": 0.9
+          }
+        ],
+        "natures": [
+          {
+            "rank": 1,
+            "name": "ようき",
+            "pct": 68.7
+          },
+          {
+            "rank": 2,
+            "name": "いじっぱり",
+            "pct": 16.9
+          },
+          {
+            "rank": 3,
+            "name": "わんぱく",
+            "pct": 9.9
+          },
+          {
+            "rank": 4,
+            "name": "しんちょう",
+            "pct": 2.8
+          },
+          {
+            "rank": 5,
+            "name": "むじゃき",
+            "pct": 0.6
+          },
+          {
+            "rank": 6,
+            "name": "やんちゃ",
+            "pct": 0.2
+          },
+          {
+            "rank": 7,
+            "name": "せっかち",
+            "pct": 0.2
+          },
+          {
+            "rank": 8,
+            "name": "ずぶとい",
+            "pct": 0.1
+          },
+          {
+            "rank": 9,
+            "name": "おくびょう",
+            "pct": 0.1
+          },
+          {
+            "rank": 10,
+            "name": "さみしがり",
+            "pct": 0.1
+          }
+        ],
+        "teammates": [
+          {
+            "rank": 1,
+            "name": "アシレーヌ"
+          },
+          {
+            "rank": 2,
+            "name": "アーマーガア"
+          },
+          {
+            "rank": 3,
+            "name": "ゲンガー"
+          },
+          {
+            "rank": 4,
+            "name": "ブリジュラス"
+          },
+          {
+            "rank": 5,
+            "name": "リザードン"
+          },
+          {
+            "rank": 6,
+            "name": "ハッサム"
+          },
+          {
+            "rank": 7,
+            "name": "マスカーニャ"
+          },
+          {
+            "rank": 8,
+            "name": "ギルガルド"
+          },
+          {
+            "rank": 9,
+            "name": "イダイトウ"
+          },
+          {
+            "rank": 10,
+            "name": "ミミロップ"
+          }
+        ]
       },
       "double": {
         "moves": [
@@ -1738,7 +2161,221 @@
       "id": 823,
       "name_ja": "アーマーガア",
       "single": {
-        "error": "http_404"
+        "moves": [
+          {
+            "rank": 1,
+            "name": "はねやすめ",
+            "pct": 96.9
+          },
+          {
+            "rank": 2,
+            "name": "ボディプレス",
+            "pct": 82.8
+          },
+          {
+            "rank": 3,
+            "name": "てっぺき",
+            "pct": 72.9
+          },
+          {
+            "rank": 4,
+            "name": "とんぼがえり",
+            "pct": 60.2
+          },
+          {
+            "rank": 5,
+            "name": "アイアンヘッド",
+            "pct": 27.1
+          },
+          {
+            "rank": 6,
+            "name": "ちょうはつ",
+            "pct": 17.8
+          },
+          {
+            "rank": 7,
+            "name": "ブレイブバード",
+            "pct": 9.8
+          },
+          {
+            "rank": 8,
+            "name": "ビルドアップ",
+            "pct": 8.4
+          },
+          {
+            "rank": 9,
+            "name": "つけあがる",
+            "pct": 7.4
+          },
+          {
+            "rank": 10,
+            "name": "きりばらい",
+            "pct": 6.4
+          }
+        ],
+        "items": [
+          {
+            "rank": 1,
+            "name": "たべのこし",
+            "pct": 67.1
+          },
+          {
+            "rank": 2,
+            "name": "オボンのみ",
+            "pct": 21.6
+          },
+          {
+            "rank": 3,
+            "name": "ひかりのこな",
+            "pct": 3.1
+          },
+          {
+            "rank": 4,
+            "name": "ラムのみ",
+            "pct": 2.7
+          },
+          {
+            "rank": 5,
+            "name": "オッカのみ",
+            "pct": 0.6
+          },
+          {
+            "rank": 6,
+            "name": "メンタルハーブ",
+            "pct": 0.5
+          },
+          {
+            "rank": 7,
+            "name": "するどいくちばし",
+            "pct": 0.4
+          },
+          {
+            "rank": 8,
+            "name": "せんせいのツメ",
+            "pct": 0.4
+          },
+          {
+            "rank": 9,
+            "name": "ソクノのみ",
+            "pct": 0.3
+          },
+          {
+            "rank": 10,
+            "name": "くろおび",
+            "pct": 0.2
+          }
+        ],
+        "abilities": [
+          {
+            "rank": 1,
+            "name": "プレッシャー",
+            "pct": 55.4
+          },
+          {
+            "rank": 2,
+            "name": "ミラーアーマー",
+            "pct": 42.6
+          },
+          {
+            "rank": 3,
+            "name": "きんちょうかん",
+            "pct": 1.9
+          }
+        ],
+        "natures": [
+          {
+            "rank": 1,
+            "name": "わんぱく",
+            "pct": 66.3
+          },
+          {
+            "rank": 2,
+            "name": "のんき",
+            "pct": 16.8
+          },
+          {
+            "rank": 3,
+            "name": "しんちょう",
+            "pct": 9.2
+          },
+          {
+            "rank": 4,
+            "name": "なまいき",
+            "pct": 3.2
+          },
+          {
+            "rank": 5,
+            "name": "ずぶとい",
+            "pct": 1.4
+          },
+          {
+            "rank": 6,
+            "name": "こうげき父",
+            "pct": 1.4
+          },
+          {
+            "rank": 7,
+            "name": "すばやさ へ",
+            "pct": 1
+          },
+          {
+            "rank": 8,
+            "name": "こうげきぐ",
+            "pct": 0.2
+          },
+          {
+            "rank": 9,
+            "name": "すばやさゃ",
+            "pct": 0.2
+          },
+          {
+            "rank": 10,
+            "name": "すばやさゃ",
+            "pct": 0.1
+          }
+        ],
+        "teammates": [
+          {
+            "rank": 1,
+            "name": "ガプリアス"
+          },
+          {
+            "rank": 2,
+            "name": "ガプリアス"
+          },
+          {
+            "rank": 3,
+            "name": "ゲンガー"
+          },
+          {
+            "rank": 4,
+            "name": "リザードン"
+          },
+          {
+            "rank": 5,
+            "name": "ミミロップ"
+          },
+          {
+            "rank": 6,
+            "name": "カイリュー"
+          },
+          {
+            "rank": 7,
+            "name": "イダイトウ"
+          },
+          {
+            "rank": 8,
+            "name": "マスカーニャ"
+          },
+          {
+            "rank": 9,
+            "name": "キラフロル"
+          },
+          {
+            "rank": 10,
+            "name": "カバルドン"
+          }
+        ]
       },
       "double": {
         "moves": [
@@ -3664,7 +4301,211 @@
       "id": 0,
       "name_ja": "",
       "single": {
-        "error": "http_404"
+        "moves": [
+          {
+            "rank": 1,
+            "name": "かげうち",
+            "pct": 94.8
+          },
+          {
+            "rank": 2,
+            "name": "ポルターガイスト",
+            "pct": 72.9
+          },
+          {
+            "rank": 3,
+            "name": "キングシールド",
+            "pct": 66.2
+          },
+          {
+            "rank": 4,
+            "name": "せいなるつるぎ",
+            "pct": 41.6
+          },
+          {
+            "rank": 5,
+            "name": "インファイト",
+            "pct": 37
+          },
+          {
+            "rank": 6,
+            "name": "つるぎのまい",
+            "pct": 35.6
+          },
+          {
+            "rank": 7,
+            "name": "アイアンヘッド",
+            "pct": 20.7
+          },
+          {
+            "rank": 8,
+            "name": "シャドーボール",
+            "pct": 18.5
+          },
+          {
+            "rank": 9,
+            "name": "ラスターカノン",
+            "pct": 7
+          },
+          {
+            "rank": 10,
+            "name": "シャドークロー",
+            "pct": 1.6
+          }
+        ],
+        "items": [
+          {
+            "rank": 1,
+            "name": "のろいのおふだ",
+            "pct": 47
+          },
+          {
+            "rank": 2,
+            "name": "たべのこし",
+            "pct": 33.3
+          },
+          {
+            "rank": 3,
+            "name": "きあいのタスキ",
+            "pct": 9.2
+          },
+          {
+            "rank": 4,
+            "name": "オボンのみ",
+            "pct": 3.3
+          },
+          {
+            "rank": 5,
+            "name": "ラムのみ",
+            "pct": 2.7
+          },
+          {
+            "rank": 6,
+            "name": "くろおび",
+            "pct": 0.6
+          },
+          {
+            "rank": 7,
+            "name": "シュカのみ",
+            "pct": 0.5
+          },
+          {
+            "rank": 8,
+            "name": "ひかりのこな",
+            "pct": 0.4
+          },
+          {
+            "rank": 9,
+            "name": "せんせいのツメ",
+            "pct": 0.3
+          },
+          {
+            "rank": 10,
+            "name": "カゴのみ",
+            "pct": 0.3
+          }
+        ],
+        "abilities": [
+          {
+            "rank": 1,
+            "name": "バトルスイッチ",
+            "pct": 100
+          }
+        ],
+        "natures": [
+          {
+            "rank": 1,
+            "name": "いじっぱり",
+            "pct": 62.5
+          },
+          {
+            "rank": 2,
+            "name": "ゆうかん",
+            "pct": 13.9
+          },
+          {
+            "rank": 3,
+            "name": "れいせい",
+            "pct": 13.9
+          },
+          {
+            "rank": 4,
+            "name": "なまいき",
+            "pct": 1.9
+          },
+          {
+            "rank": 5,
+            "name": "ひかえめ",
+            "pct": 1.6
+          },
+          {
+            "rank": 6,
+            "name": "しんちょう",
+            "pct": 1.3
+          },
+          {
+            "rank": 7,
+            "name": "のんき",
+            "pct": 1.3
+          },
+          {
+            "rank": 8,
+            "name": "わんぱく",
+            "pct": 1.2
+          },
+          {
+            "rank": 9,
+            "name": "ようき",
+            "pct": 0.9
+          },
+          {
+            "rank": 10,
+            "name": "やんちゃ",
+            "pct": 0.6
+          }
+        ],
+        "teammates": [
+          {
+            "rank": 1,
+            "name": "ガブリアス"
+          },
+          {
+            "rank": 2,
+            "name": "アシレーヌ"
+          },
+          {
+            "rank": 3,
+            "name": "カバルドン"
+          },
+          {
+            "rank": 4,
+            "name": "サザンドラ"
+          },
+          {
+            "rank": 5,
+            "name": "カイリュー"
+          },
+          {
+            "rank": 6,
+            "name": "ガルーラ"
+          },
+          {
+            "rank": 7,
+            "name": "リザードン"
+          },
+          {
+            "rank": 8,
+            "name": "ゲンガー"
+          },
+          {
+            "rank": 9,
+            "name": "ミミロップ"
+          },
+          {
+            "rank": 10,
+            "name": "マスカーニャ"
+          }
+        ]
       },
       "double": {
         "moves": [
@@ -9900,7 +10741,216 @@
       "id": 10061,
       "name_ja": "フラエッテ(えいえんのはな)",
       "single": {
-        "error": "http_404"
+        "moves": [
+          {
+            "rank": 1,
+            "name": "めいそう",
+            "pct": 89.3
+          },
+          {
+            "rank": 2,
+            "name": "ドレインキッス",
+            "pct": 82.1
+          },
+          {
+            "rank": 3,
+            "name": "ムーンフォース",
+            "pct": 79.7
+          },
+          {
+            "rank": 4,
+            "name": "はめつのひかり",
+            "pct": 38.3
+          },
+          {
+            "rank": 5,
+            "name": "こうごうせい",
+            "pct": 35.6
+          },
+          {
+            "rank": 6,
+            "name": "サイコキネシス",
+            "pct": 28.3
+          },
+          {
+            "rank": 7,
+            "name": "みがわり",
+            "pct": 23
+          },
+          {
+            "rank": 8,
+            "name": "あまえる",
+            "pct": 4.5
+          },
+          {
+            "rank": 9,
+            "name": "ギガドレイン",
+            "pct": 3.9
+          },
+          {
+            "rank": 10,
+            "name": "トリック",
+            "pct": 2.8
+          }
+        ],
+        "items": [
+          {
+            "rank": 1,
+            "name": "フラエッテナイト",
+            "pct": 96.1
+          },
+          {
+            "rank": 2,
+            "name": "こだわりスカーフ",
+            "pct": 3.2
+          },
+          {
+            "rank": 3,
+            "name": "ようせいのハネ",
+            "pct": 0.1
+          },
+          {
+            "rank": 4,
+            "name": "たべのこし",
+            "pct": 0
+          },
+          {
+            "rank": 5,
+            "name": "きあいのタスキ",
+            "pct": 0
+          },
+          {
+            "rank": 6,
+            "name": "オボンのみ",
+            "pct": 0
+          },
+          {
+            "rank": 7,
+            "name": "マフォクシナイト",
+            "pct": 0
+          },
+          {
+            "rank": 8,
+            "name": "ラムのみ",
+            "pct": 0
+          },
+          {
+            "rank": 9,
+            "name": "ゲンガナイト",
+            "pct": 0
+          },
+          {
+            "rank": 10,
+            "name": "ハッサムナイト",
+            "pct": 0
+          }
+        ],
+        "abilities": [
+          {
+            "rank": 1,
+            "name": "フラワーベール",
+            "pct": 99
+          },
+          {
+            "rank": 2,
+            "name": "きょうせい",
+            "pct": 1
+          }
+        ],
+        "natures": [
+          {
+            "rank": 1,
+            "name": "ひかえめ",
+            "pct": 63.7
+          },
+          {
+            "rank": 2,
+            "name": "おくびょう",
+            "pct": 29.6
+          },
+          {
+            "rank": 3,
+            "name": "ずぶとい",
+            "pct": 6.1
+          },
+          {
+            "rank": 4,
+            "name": "おだやか",
+            "pct": 0.5
+          },
+          {
+            "rank": 5,
+            "name": "ようき",
+            "pct": 0
+          },
+          {
+            "rank": 6,
+            "name": "れいせい",
+            "pct": 0
+          },
+          {
+            "rank": 7,
+            "name": "わんぱく",
+            "pct": 0
+          },
+          {
+            "rank": 8,
+            "name": "おっとり",
+            "pct": 0
+          },
+          {
+            "rank": 9,
+            "name": "のんき",
+            "pct": 0
+          },
+          {
+            "rank": 10,
+            "name": "まじめ",
+            "pct": 0
+          }
+        ],
+        "teammates": [
+          {
+            "rank": 1,
+            "name": "ガプリアス"
+          },
+          {
+            "rank": 2,
+            "name": "イダイトウ"
+          },
+          {
+            "rank": 3,
+            "name": "プリジュラス"
+          },
+          {
+            "rank": 4,
+            "name": "アーマーガア"
+          },
+          {
+            "rank": 5,
+            "name": "ギルガルド"
+          },
+          {
+            "rank": 6,
+            "name": "カバルドン"
+          },
+          {
+            "rank": 7,
+            "name": "リザードン"
+          },
+          {
+            "rank": 8,
+            "name": "ドドゲザン"
+          },
+          {
+            "rank": 9,
+            "name": "カイリュー"
+          },
+          {
+            "rank": 10,
+            "name": "マスカーニャ"
+          }
+        ]
       },
       "double": {
         "moves": [
@@ -11192,7 +12242,221 @@
         ]
       },
       "double": {
-        "error": "http_404"
+        "moves": [
+          {
+            "rank": 1,
+            "name": "インファイト",
+            "pct": 99.5
+          },
+          {
+            "rank": 2,
+            "name": "フェイタルクロー",
+            "pct": 98.5
+          },
+          {
+            "rank": 3,
+            "name": "ねこだまし",
+            "pct": 92
+          },
+          {
+            "rank": 4,
+            "name": "まもる",
+            "pct": 69.3
+          },
+          {
+            "rank": 5,
+            "name": "コーチング",
+            "pct": 9.8
+          },
+          {
+            "rank": 6,
+            "name": "いわなだれ",
+            "pct": 7.4
+          },
+          {
+            "rank": 7,
+            "name": "がんせきふうじ",
+            "pct": 4.1
+          },
+          {
+            "rank": 8,
+            "name": "じごくづき",
+            "pct": 3.7
+          },
+          {
+            "rank": 9,
+            "name": "フェイント",
+            "pct": 3.6
+          },
+          {
+            "rank": 10,
+            "name": "とんぼがえり",
+            "pct": 2.8
+          }
+        ],
+        "items": [
+          {
+            "rank": 1,
+            "name": "しろいハーブ",
+            "pct": 82.3
+          },
+          {
+            "rank": 2,
+            "name": "きあいのタスキ",
+            "pct": 15
+          },
+          {
+            "rank": 3,
+            "name": "オボンのみ",
+            "pct": 0.5
+          },
+          {
+            "rank": 4,
+            "name": "メンタルハーブ",
+            "pct": 0.4
+          },
+          {
+            "rank": 5,
+            "name": "おうじゃのしるし",
+            "pct": 0.3
+          },
+          {
+            "rank": 6,
+            "name": "ラムのみ",
+            "pct": 0.2
+          },
+          {
+            "rank": 7,
+            "name": "どくバリ",
+            "pct": 0.2
+          },
+          {
+            "rank": 8,
+            "name": "くろおび",
+            "pct": 0.2
+          },
+          {
+            "rank": 9,
+            "name": "せんせいのツメ",
+            "pct": 0.1
+          },
+          {
+            "rank": 10,
+            "name": "ひかりのこな",
+            "pct": 0.1
+          }
+        ],
+        "abilities": [
+          {
+            "rank": 1,
+            "name": "かるわざ",
+            "pct": 90.6
+          },
+          {
+            "rank": 2,
+            "name": "どくしゅ",
+            "pct": 9.1
+          },
+          {
+            "rank": 3,
+            "name": "プレッシャー",
+            "pct": 0.3
+          }
+        ],
+        "natures": [
+          {
+            "rank": 1,
+            "name": "ようき",
+            "pct": 54.2
+          },
+          {
+            "rank": 2,
+            "name": "いじっぱり",
+            "pct": 43.2
+          },
+          {
+            "rank": 3,
+            "name": "むじゃき",
+            "pct": 0.7
+          },
+          {
+            "rank": 4,
+            "name": "せっかち",
+            "pct": 0.4
+          },
+          {
+            "rank": 5,
+            "name": "わんぱく",
+            "pct": 0.4
+          },
+          {
+            "rank": 6,
+            "name": "さみしがり",
+            "pct": 0.3
+          },
+          {
+            "rank": 7,
+            "name": "やんちゃ",
+            "pct": 0.3
+          },
+          {
+            "rank": 8,
+            "name": "しんちょう",
+            "pct": 0.1
+          },
+          {
+            "rank": 9,
+            "name": "ゆうかん",
+            "pct": 0.1
+          },
+          {
+            "rank": 10,
+            "name": "おくびょう",
+            "pct": 0.1
+          }
+        ],
+        "teammates": [
+          {
+            "rank": 1,
+            "name": "ガブリアス"
+          },
+          {
+            "rank": 2,
+            "name": "ドドゲザン"
+          },
+          {
+            "rank": 3,
+            "name": "イダイトウ"
+          },
+          {
+            "rank": 4,
+            "name": "ガオガエン"
+          },
+          {
+            "rank": 5,
+            "name": "リザードン"
+          },
+          {
+            "rank": 6,
+            "name": "プテラ"
+          },
+          {
+            "rank": 7,
+            "name": "ヤバソチャ"
+          },
+          {
+            "rank": 8,
+            "name": "ミロカロス"
+          },
+          {
+            "rank": 9,
+            "name": "ペリッパー"
+          },
+          {
+            "rank": 10,
+            "name": "エルフーン"
+          }
+        ]
       }
     },
     "venusaur": {
