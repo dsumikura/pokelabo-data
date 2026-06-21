@@ -336,7 +336,7 @@
   },
   {
     "id": 1026,
-    "name": "ドラミドロナイト",
+    "name": "ドラミドナイト",
     "nameEn": "dragalge-mega",
     "effects": [],
     "sprite": "dragalgite"
@@ -357,7 +357,7 @@
   },
   {
     "id": 1029,
-    "name": "シビルドンナイト",
+    "name": "シビルドナイト",
     "nameEn": "eelektross-mega",
     "effects": [],
     "sprite": "eelektrossite"
@@ -560,7 +560,7 @@
   },
   {
     "id": 1058,
-    "name": "カラマネロナイト",
+    "name": "カラマネナイト",
     "nameEn": "malamar-mega",
     "effects": [],
     "sprite": "malamarite"
@@ -693,7 +693,7 @@
   },
   {
     "id": 1077,
-    "name": "ペンドラーナイト",
+    "name": "ペンドラナイト",
     "nameEn": "scolipede-mega",
     "effects": [],
     "sprite": "scolipite"
@@ -707,7 +707,7 @@
   },
   {
     "id": 1079,
-    "name": "ズルズキンナイト",
+    "name": "ズルズキナイト",
     "nameEn": "scrafty-mega",
     "effects": [],
     "sprite": "scraftinite"
