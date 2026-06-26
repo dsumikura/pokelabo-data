@@ -5,6 +5,9 @@ Usage:
   python3 update.py                    # 全データ再取得 + manifest更新 + commit & push
   python3 update.py --manifest-only    # manifestのみ更新（手動でJSON編集した場合）
   python3 update.py --no-push          # commit まで（pushしない）
+  python3 update.py --manifest-only --no-git
+                                       # manifestのみ更新（git操作なし。CI で呼び出し側が
+                                       # commit/push を行う場合に使用）
 
 ⚠ 注意: PokeAPIはリージョナルフォーム（アローラ等）の覚える技を
         通常フォームにも混入させて返します。Champions準拠の正確な技は
@@ -301,6 +304,10 @@ def update_manifest():
 def main():
     manifest_only = "--manifest-only" in sys.argv
     no_push = "--no-push" in sys.argv
+    # --no-git: commit/push を一切行わず manifest 更新のみ。
+    # CI（daily-usage-update.yml）では呼び出し側が git identity 設定込みで
+    # commit/push するため、ここで git を触ると identity 未設定エラーになる。
+    no_git = "--no-git" in sys.argv
 
     if not manifest_only:
         # ポケモン取得
@@ -339,6 +346,10 @@ def main():
 
     # manifest更新
     update_manifest()
+
+    if no_git:
+        print("\nmanifest更新のみ完了（git操作はスキップ）")
+        return
 
     # git commit & push
     subprocess.run(["git", "add", "-A"], cwd=DATA_DIR)
