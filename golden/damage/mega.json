@@ -1,0 +1,436 @@
+[
+  {
+    "description" : "メガリザードンX: ほのおも STAB（元リザードンと同タイプ側）",
+    "expected" : {
+      "allDamages" : [
+        64,
+        64,
+        66,
+        66,
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        76
+      ],
+      "isImmune" : false,
+      "maxDamage" : 76,
+      "minDamage" : 64,
+      "typeEffectiveness" : 1
+    },
+    "id" : "mega_charizard_x_fire_stab",
+    "input" : {
+      "attacker" : {
+        "ability" : "Tough Claws",
+        "baseStats" : {
+          "attack" : 130,
+          "defense" : 111,
+          "hp" : 78,
+          "spAttack" : 130,
+          "spDefense" : 85,
+          "speed" : 100
+        },
+        "types" : [
+          "fire",
+          "dragon"
+        ],
+        "weight" : 110.5
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "mega"
+    ]
+  },
+  {
+    "description" : "メガリザードンX: かたいツメ×接触ドラゴン技（STAB込み）",
+    "expected" : {
+      "allDamages" : [
+        93,
+        93,
+        94,
+        96,
+        96,
+        97,
+        99,
+        100,
+        100,
+        102,
+        103,
+        105,
+        105,
+        106,
+        108,
+        109
+      ],
+      "isImmune" : false,
+      "maxDamage" : 109,
+      "minDamage" : 93,
+      "typeEffectiveness" : 1
+    },
+    "id" : "mega_charizard_x_tough_claws",
+    "input" : {
+      "attacker" : {
+        "ability" : "Tough Claws",
+        "baseStats" : {
+          "attack" : 130,
+          "defense" : 111,
+          "hp" : 78,
+          "spAttack" : 130,
+          "spDefense" : 85,
+          "speed" : 100
+        },
+        "types" : [
+          "fire",
+          "dragon"
+        ],
+        "weight" : 110.5
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "flags" : {
+          "isContact" : true
+        },
+        "power" : 100,
+        "type" : "dragon"
+      }
+    },
+    "tags" : [
+      "mega",
+      "ability",
+      "ability:Tough Claws"
+    ]
+  },
+  {
+    "description" : "メガガブリアス防御側: メガ後の耐久（B115/D95）で受ける",
+    "expected" : {
+      "allDamages" : [
+        144,
+        144,
+        148,
+        148,
+        152,
+        152,
+        156,
+        156,
+        156,
+        160,
+        160,
+        164,
+        164,
+        168,
+        168,
+        172
+      ],
+      "isImmune" : false,
+      "maxDamage" : 172,
+      "minDamage" : 144,
+      "typeEffectiveness" : 2
+    },
+    "id" : "mega_garchomp_defense_side",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Sand Force",
+        "baseStats" : {
+          "attack" : 170,
+          "defense" : 115,
+          "hp" : 108,
+          "spAttack" : 120,
+          "spDefense" : 95,
+          "speed" : 92
+        },
+        "types" : [
+          "dragon",
+          "ground"
+        ],
+        "weight" : 95
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 90,
+        "type" : "ice"
+      }
+    },
+    "tags" : [
+      "mega"
+    ]
+  },
+  {
+    "description" : "メガガブリアス: すなのちから×砂あらし×じめん技（STAB込み）",
+    "expected" : {
+      "allDamages" : [
+        117,
+        118,
+        120,
+        120,
+        121,
+        123,
+        124,
+        126,
+        127,
+        129,
+        130,
+        132,
+        133,
+        135,
+        136,
+        138
+      ],
+      "isImmune" : false,
+      "maxDamage" : 138,
+      "minDamage" : 117,
+      "typeEffectiveness" : 1
+    },
+    "id" : "mega_garchomp_sand_force",
+    "input" : {
+      "attacker" : {
+        "ability" : "Sand Force",
+        "baseStats" : {
+          "attack" : 170,
+          "defense" : 115,
+          "hp" : 108,
+          "spAttack" : 120,
+          "spDefense" : 95,
+          "speed" : 92
+        },
+        "types" : [
+          "dragon",
+          "ground"
+        ],
+        "weight" : 95
+      },
+      "context" : {
+        "weather" : "sand"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "mega",
+      "ability",
+      "ability:Sand Force",
+      "weather"
+    ]
+  },
+  {
+    "description" : "メガクチート防御側: 23.5kg なのでくさむすびは低威力",
+    "expected" : {
+      "allDamages" : [
+        15,
+        15,
+        15,
+        15,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        17,
+        17,
+        17,
+        17,
+        17,
+        18
+      ],
+      "isImmune" : false,
+      "maxDamage" : 18,
+      "minDamage" : 15,
+      "typeEffectiveness" : 1
+    },
+    "id" : "mega_mawile_grass_knot_light",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Huge Power",
+        "baseStats" : {
+          "attack" : 105,
+          "defense" : 125,
+          "hp" : 50,
+          "spAttack" : 55,
+          "spDefense" : 95,
+          "speed" : 50
+        },
+        "types" : [
+          "steel",
+          "fairy"
+        ],
+        "weight" : 23.5
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 67,
+        "powerType" : {
+          "variable" : "grassKnot"
+        },
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "mega",
+      "weight_dependent"
+    ]
+  },
+  {
+    "description" : "メガクチート: ちからもち×はがね技（A105 だが実質2倍）",
+    "expected" : {
+      "allDamages" : [
+        118,
+        118,
+        120,
+        121,
+        123,
+        124,
+        126,
+        127,
+        129,
+        130,
+        132,
+        133,
+        135,
+        136,
+        138,
+        139
+      ],
+      "isImmune" : false,
+      "maxDamage" : 139,
+      "minDamage" : 118,
+      "typeEffectiveness" : 1
+    },
+    "id" : "mega_mawile_huge_power",
+    "input" : {
+      "attacker" : {
+        "ability" : "Huge Power",
+        "baseStats" : {
+          "attack" : 105,
+          "defense" : 125,
+          "hp" : 50,
+          "spAttack" : 55,
+          "spDefense" : 95,
+          "speed" : 50
+        },
+        "types" : [
+          "steel",
+          "fairy"
+        ],
+        "weight" : 23.5
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "steel"
+      }
+    },
+    "tags" : [
+      "mega",
+      "ability",
+      "ability:Huge Power"
+    ]
+  }
+]

@@ -1,0 +1,1208 @@
+[
+  {
+    "description" : "エレキフィールド: でんき技1.3倍",
+    "expected" : {
+      "allDamages" : [
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        69
+      ],
+      "isImmune" : false,
+      "maxDamage" : 69,
+      "minDamage" : 58,
+      "typeEffectiveness" : 1
+    },
+    "id" : "terrain_electric_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "electric"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "terrain"
+    ]
+  },
+  {
+    "description" : "エレキフィールド: 他タイプは補正なし",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "terrain_electric_other_type",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "electric"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "terrain"
+    ]
+  },
+  {
+    "description" : "グラスフィールド: くさ技1.3倍",
+    "expected" : {
+      "allDamages" : [
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        69
+      ],
+      "isImmune" : false,
+      "maxDamage" : 69,
+      "minDamage" : 58,
+      "typeEffectiveness" : 1
+    },
+    "id" : "terrain_grassy_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "grassy"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "grass"
+      }
+    },
+    "tags" : [
+      "terrain"
+    ]
+  },
+  {
+    "description" : "ミストフィールド: ドラゴン技0.5倍",
+    "expected" : {
+      "allDamages" : [
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        26
+      ],
+      "isImmune" : false,
+      "maxDamage" : 26,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "terrain_misty_dragon_drop",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "misty"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "dragon"
+      }
+    },
+    "tags" : [
+      "terrain"
+    ]
+  },
+  {
+    "description" : "ミストフィールド: 他タイプは補正なし",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "terrain_misty_other_type",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "misty"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "steel"
+      }
+    },
+    "tags" : [
+      "terrain"
+    ]
+  },
+  {
+    "description" : "サイコフィールド: エスパー技1.3倍",
+    "expected" : {
+      "allDamages" : [
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        69
+      ],
+      "isImmune" : false,
+      "maxDamage" : 69,
+      "minDamage" : 58,
+      "typeEffectiveness" : 1
+    },
+    "id" : "terrain_psychic_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "psychic"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "terrain"
+    ]
+  },
+  {
+    "description" : "あられ: こおりタイプのぼうぎょ補正（参照実装の挙動を固定）",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_hail_ice_def",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "hail"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ice"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "雨: ほのお技0.5倍",
+    "expected" : {
+      "allDamages" : [
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        26
+      ],
+      "isImmune" : false,
+      "maxDamage" : 26,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_rain_fire_drop",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "rain"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "雨: みず技1.5倍",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        68,
+        69,
+        70,
+        71,
+        71,
+        72,
+        73,
+        74,
+        75,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_rain_water_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "rain"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "砂あらし: いわ以外は補正なし",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_sand_nonrock_no_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "sand"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "砂あらし: いわタイプでも物理には効かない",
+    "expected" : {
+      "allDamages" : [
+        33,
+        33,
+        34,
+        34,
+        35,
+        35,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        39,
+        39
+      ],
+      "isImmune" : false,
+      "maxDamage" : 39,
+      "minDamage" : 33,
+      "typeEffectiveness" : 0.5
+    },
+    "id" : "weather_sand_rock_physical_no_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "sand"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "rock"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "砂あらし: いわタイプのとくぼう1.5倍",
+    "expected" : {
+      "allDamages" : [
+        22,
+        22,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        26,
+        26,
+        27
+      ],
+      "isImmune" : false,
+      "maxDamage" : 27,
+      "minDamage" : 22,
+      "typeEffectiveness" : 0.5
+    },
+    "id" : "weather_sand_rock_spdef_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "sand"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "rock"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "雪: こおりタイプのぼうぎょ1.5倍",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        48,
+        48,
+        48,
+        49,
+        49,
+        49,
+        51,
+        51,
+        51,
+        52,
+        52,
+        54
+      ],
+      "isImmune" : false,
+      "maxDamage" : 54,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_snow_ice_def_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "snow"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ice"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "雪: こおりタイプでも特殊には効かない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_snow_ice_special_no_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "snow"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ice"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "雪: こおり以外は補正なし",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_snow_nonice_no_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "snow"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "晴れ: ほのお技1.5倍",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        68,
+        69,
+        70,
+        71,
+        71,
+        72,
+        73,
+        74,
+        75,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_sun_fire_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "sun"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "晴れ: 対象外タイプは補正なし",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_sun_neutral_type",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "sun"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  },
+  {
+    "description" : "晴れ: みず技0.5倍",
+    "expected" : {
+      "allDamages" : [
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        26
+      ],
+      "isImmune" : false,
+      "maxDamage" : 26,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "weather_sun_water_drop",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "sun"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "weather"
+    ]
+  }
+]

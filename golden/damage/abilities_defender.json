@@ -1,0 +1,3778 @@
+[
+  {
+    "description" : "わざわいのたま: 攻撃側が持つと相手のとくぼう0.75倍（特殊）",
+    "expected" : {
+      "allDamages" : [
+        88,
+        90,
+        90,
+        91,
+        93,
+        94,
+        94,
+        96,
+        97,
+        97,
+        99,
+        100,
+        100,
+        102,
+        103,
+        105
+      ],
+      "isImmune" : false,
+      "maxDamage" : 105,
+      "minDamage" : 88,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_beads_of_ruin_on",
+    "input" : {
+      "attacker" : {
+        "ability" : "Beads Of Ruin",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Beads Of Ruin",
+      "ruin"
+    ]
+  },
+  {
+    "description" : "ぼうだん: 非弾丸技は通る",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_bulletproof_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Bulletproof",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "poison"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Bulletproof"
+    ]
+  },
+  {
+    "description" : "ぼうだん: 弾丸技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_bulletproof_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Bulletproof",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "flags" : {
+          "isBullet" : true
+        },
+        "power" : 100,
+        "type" : "poison"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Bulletproof",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "かんそうはだ: ほのお技は被ダメージ1.25倍",
+    "expected" : {
+      "allDamages" : [
+        56,
+        56,
+        57,
+        58,
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66
+      ],
+      "isImmune" : false,
+      "maxDamage" : 66,
+      "minDamage" : 56,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_dry_skin_fire",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Dry Skin",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Dry Skin"
+    ]
+  },
+  {
+    "description" : "かんそうはだ: みず技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_dry_skin_water",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Dry Skin",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Dry Skin",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "どしょく: じめん技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_earth_eater_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Earth Eater",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Earth Eater",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "うなぎのぼり: じめん技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_eel_climb_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Eel Climb",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Eel Climb",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "フィルター: 等倍には効かない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_filter_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Filter",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Filter",
+      "filter"
+    ]
+  },
+  {
+    "description" : "フィルター: 効果抜群を0.75倍に軽減",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 2
+    },
+    "id" : "ability_def_filter_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Filter",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "grass"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Filter",
+      "filter"
+    ]
+  },
+  {
+    "description" : "もらいび(防): 他タイプは通る",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_flash_fire_def_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Flash Fire",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Flash Fire"
+    ]
+  },
+  {
+    "description" : "もらいび(防): ほのお技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_flash_fire_def_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Flash Fire",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Flash Fire",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "もふもふ: 接触技でぼうぎょ2倍",
+    "expected" : {
+      "allDamages" : [
+        33,
+        34,
+        34,
+        34,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        37,
+        37,
+        39,
+        39,
+        39,
+        40
+      ],
+      "isImmune" : false,
+      "maxDamage" : 40,
+      "minDamage" : 33,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_fluffy_contact",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Fluffy",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "flags" : {
+          "isContact" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Fluffy"
+    ]
+  },
+  {
+    "description" : "もふもふ: ほのお技は被ダメージ2倍",
+    "expected" : {
+      "allDamages" : [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        104
+      ],
+      "isImmune" : false,
+      "maxDamage" : 104,
+      "minDamage" : 88,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_fluffy_fire",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Fluffy",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Fluffy"
+    ]
+  },
+  {
+    "description" : "もふもふ: 非接触・非ほのおは補正なし",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_fluffy_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Fluffy",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Fluffy"
+    ]
+  },
+  {
+    "description" : "ファーコート: 特殊には効かない",
+    "expected" : {
+      "allDamages" : [
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        27
+      ],
+      "isImmune" : false,
+      "maxDamage" : 27,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_fur_coat_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Fur Coat",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Fur Coat"
+    ]
+  },
+  {
+    "description" : "ファーコート: 物理でぼうぎょ2倍",
+    "expected" : {
+      "allDamages" : [
+        33,
+        34,
+        34,
+        34,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        37,
+        37,
+        39,
+        39,
+        39,
+        40
+      ],
+      "isImmune" : false,
+      "maxDamage" : 40,
+      "minDamage" : 33,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_fur_coat_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Fur Coat",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Fur Coat"
+    ]
+  },
+  {
+    "description" : "くさのけがわ: 特殊には効かない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_grass_pelt_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Grass Pelt",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Grass Pelt"
+    ]
+  },
+  {
+    "description" : "くさのけがわ: 物理でぼうぎょ1.5倍（実装では常時適用）",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        48,
+        48,
+        48,
+        49,
+        49,
+        49,
+        51,
+        51,
+        51,
+        52,
+        52,
+        54
+      ],
+      "isImmune" : false,
+      "maxDamage" : 54,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_grass_pelt_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Grass Pelt",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Grass Pelt"
+    ]
+  },
+  {
+    "description" : "たいねつ: 他タイプは軽減されない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_heatproof_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Heatproof",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Heatproof"
+    ]
+  },
+  {
+    "description" : "たいねつ: ほのお技半減",
+    "expected" : {
+      "allDamages" : [
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        27
+      ],
+      "isImmune" : false,
+      "maxDamage" : 27,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_heatproof_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Heatproof",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Heatproof"
+    ]
+  },
+  {
+    "description" : "こおりのりんぷん: 物理には効かない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_ice_scales_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Ice Scales",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Ice Scales"
+    ]
+  },
+  {
+    "description" : "こおりのりんぷん: 特殊でぼうぎょ側2倍",
+    "expected" : {
+      "allDamages" : [
+        33,
+        34,
+        34,
+        34,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        37,
+        37,
+        39,
+        39,
+        39,
+        40
+      ],
+      "isImmune" : false,
+      "maxDamage" : 40,
+      "minDamage" : 33,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_ice_scales_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Ice Scales",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Ice Scales"
+    ]
+  },
+  {
+    "description" : "ふゆう: 他タイプは通る",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_levitate_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Levitate",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "rock"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Levitate"
+    ]
+  },
+  {
+    "description" : "ふゆう: じめん技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_levitate_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Levitate",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Levitate",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "ひらいしん: でんき技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_lightning_rod_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Lightning Rod",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Lightning Rod",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "ふしぎなうろこ: 状態異常なしでは補正なし",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_marvel_scale_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Marvel Scale",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Marvel Scale"
+    ]
+  },
+  {
+    "description" : "ふしぎなうろこ: 状態異常でぼうぎょ1.5倍",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        48,
+        48,
+        48,
+        49,
+        49,
+        49,
+        51,
+        51,
+        51,
+        52,
+        52,
+        54
+      ],
+      "isImmune" : false,
+      "maxDamage" : 54,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_marvel_scale_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Marvel Scale",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "status" : "burn",
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Marvel Scale"
+    ]
+  },
+  {
+    "description" : "でんきエンジン: でんき技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_motor_drive_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Motor Drive",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Motor Drive",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "マルチスケイル: HP減少時は補正なし",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_multiscale_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "defenderIsFullHP" : false
+      },
+      "defender" : {
+        "ability" : "Multiscale",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Multiscale",
+      "multiscale"
+    ]
+  },
+  {
+    "description" : "マルチスケイル: HP満タンでダメージ半減",
+    "expected" : {
+      "allDamages" : [
+        33,
+        33,
+        34,
+        34,
+        35,
+        35,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        39,
+        39
+      ],
+      "isImmune" : false,
+      "maxDamage" : 39,
+      "minDamage" : 33,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_multiscale_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Multiscale",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Multiscale",
+      "multiscale"
+    ]
+  },
+  {
+    "description" : "プリズムアーマー: 効果抜群を0.75倍に軽減",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 2
+    },
+    "id" : "ability_def_prism_armor_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Prism Armor",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "dark"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Prism Armor",
+      "filter"
+    ]
+  },
+  {
+    "description" : "パンクロック(防): 音技半減",
+    "expected" : {
+      "allDamages" : [
+        33,
+        34,
+        34,
+        34,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        37,
+        37,
+        39,
+        39,
+        39,
+        40
+      ],
+      "isImmune" : false,
+      "maxDamage" : 40,
+      "minDamage" : 33,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_punk_rock_def_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Punk Rock",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "flags" : {
+          "isSound" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Punk Rock"
+    ]
+  },
+  {
+    "description" : "きよめのしお: 他タイプは軽減されない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_purifying_salt_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Purifying Salt",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "dark"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Purifying Salt"
+    ]
+  },
+  {
+    "description" : "きよめのしお: ゴースト技半減",
+    "expected" : {
+      "allDamages" : [
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        27
+      ],
+      "isImmune" : false,
+      "maxDamage" : 27,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_purifying_salt_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Purifying Salt",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "ghost"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Purifying Salt"
+    ]
+  },
+  {
+    "description" : "そうしょく: くさ技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_sap_sipper_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Sap Sipper",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "grass"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Sap Sipper",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "ファントムガード: HP満タンでダメージ半減",
+    "expected" : {
+      "allDamages" : [
+        33,
+        33,
+        34,
+        34,
+        35,
+        35,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        39,
+        39
+      ],
+      "isImmune" : false,
+      "maxDamage" : 39,
+      "minDamage" : 33,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_shadow_shield_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Shadow Shield",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Shadow Shield",
+      "multiscale"
+    ]
+  },
+  {
+    "description" : "ハードロック: 効果抜群を0.75倍に軽減",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 2
+    },
+    "id" : "ability_def_solid_rock_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Solid Rock",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "rock"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Solid Rock",
+      "filter"
+    ]
+  },
+  {
+    "description" : "ぼうおん: 非音技は通る",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_soundproof_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Soundproof",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Soundproof"
+    ]
+  },
+  {
+    "description" : "ぼうおん: 音技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_soundproof_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Soundproof",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "flags" : {
+          "isSound" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Soundproof",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "よびみず: みず技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_storm_drain_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Storm Drain",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Storm Drain",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "わざわいのつるぎ: 特殊には効かない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_sword_of_ruin_off",
+    "input" : {
+      "attacker" : {
+        "ability" : "Sword Of Ruin",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Sword Of Ruin",
+      "ruin"
+    ]
+  },
+  {
+    "description" : "わざわいのつるぎ: 攻撃側が持つと相手のぼうぎょ0.75倍（物理）",
+    "expected" : {
+      "allDamages" : [
+        88,
+        90,
+        90,
+        91,
+        93,
+        94,
+        94,
+        96,
+        97,
+        97,
+        99,
+        100,
+        100,
+        102,
+        103,
+        105
+      ],
+      "isImmune" : false,
+      "maxDamage" : 105,
+      "minDamage" : 88,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_sword_of_ruin_on",
+    "input" : {
+      "attacker" : {
+        "ability" : "Sword Of Ruin",
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Sword Of Ruin",
+      "ruin"
+    ]
+  },
+  {
+    "description" : "わざわいのおふだ: 特殊には効かない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_tablets_of_ruin_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Tablets Of Ruin",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Tablets Of Ruin",
+      "ruin"
+    ]
+  },
+  {
+    "description" : "わざわいのおふだ: 防御側が持つと相手のこうげき0.75倍（物理）",
+    "expected" : {
+      "allDamages" : [
+        51,
+        51,
+        51,
+        52,
+        52,
+        54,
+        54,
+        54,
+        55,
+        55,
+        57,
+        57,
+        57,
+        58,
+        58,
+        60
+      ],
+      "isImmune" : false,
+      "maxDamage" : 60,
+      "minDamage" : 51,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_tablets_of_ruin_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Tablets Of Ruin",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Tablets Of Ruin",
+      "ruin"
+    ]
+  },
+  {
+    "description" : "あついしぼう: ほのお技半減",
+    "expected" : {
+      "allDamages" : [
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        27
+      ],
+      "isImmune" : false,
+      "maxDamage" : 27,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_thick_fat_fire",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Thick Fat",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Thick Fat"
+    ]
+  },
+  {
+    "description" : "あついしぼう: こおり技半減",
+    "expected" : {
+      "allDamages" : [
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        27
+      ],
+      "isImmune" : false,
+      "maxDamage" : 27,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_thick_fat_ice",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Thick Fat",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "ice"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Thick Fat"
+    ]
+  },
+  {
+    "description" : "あついしぼう: 対象外タイプは軽減されない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_thick_fat_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Thick Fat",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Thick Fat"
+    ]
+  },
+  {
+    "description" : "てんねん(防): 相手の攻撃ランク+2を無視する",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_unaware_defender",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : 2
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Unaware",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Unaware",
+      "unaware",
+      "rank"
+    ]
+  },
+  {
+    "description" : "てんねん(防)比較用: 特性なしでは攻撃ランク+2が効く",
+    "expected" : {
+      "allDamages" : [
+        132,
+        133,
+        135,
+        136,
+        138,
+        139,
+        141,
+        142,
+        144,
+        145,
+        147,
+        148,
+        150,
+        151,
+        153,
+        156
+      ],
+      "isImmune" : false,
+      "maxDamage" : 156,
+      "minDamage" : 132,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_unaware_defender_baseline",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : 2
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:None",
+      "unaware",
+      "rank",
+      "ability:Unaware"
+    ]
+  },
+  {
+    "description" : "わざわいのうつわ: 防御側が持つと相手のとくこう0.75倍（特殊）",
+    "expected" : {
+      "allDamages" : [
+        51,
+        51,
+        51,
+        52,
+        52,
+        54,
+        54,
+        54,
+        55,
+        55,
+        57,
+        57,
+        57,
+        58,
+        58,
+        60
+      ],
+      "isImmune" : false,
+      "maxDamage" : 60,
+      "minDamage" : 51,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_vessel_of_ruin_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Vessel Of Ruin",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Vessel Of Ruin",
+      "ruin"
+    ]
+  },
+  {
+    "description" : "ちくでん: でんき技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_volt_absorb_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Volt Absorb",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Volt Absorb",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "ちょすい: みず技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_water_absorb_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Water Absorb",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Water Absorb",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "すいほう(防): ほのお技半減",
+    "expected" : {
+      "allDamages" : [
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        27
+      ],
+      "isImmune" : false,
+      "maxDamage" : 27,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_water_bubble_def_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Water Bubble",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Water Bubble"
+    ]
+  },
+  {
+    "description" : "こんがりボディ: ほのお技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_well_baked_body_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Well Baked Body",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Well Baked Body",
+      "immunity"
+    ]
+  }
+]

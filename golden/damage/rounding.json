@@ -1,0 +1,684 @@
+[
+  {
+    "description" : "やけど×0.5 の .5 ちょうど→切り捨て: ロール値 5×0.5=2.5→2（四捨五入だと 3）",
+    "expected" : {
+      "allDamages" : [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "isImmune" : false,
+      "maxDamage" : 3,
+      "minDamage" : 2,
+      "typeEffectiveness" : 1
+    },
+    "id" : "rounding_burn_half_exact_down",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "status" : "burn",
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 10,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "rounding",
+      "burn"
+    ]
+  },
+  {
+    "description" : "急所×1.5 の対照ケース: 基本ダメージ46（偶数）×1.5=69 ちょうどで端数なし。丸め方式の差が出ないことの確認",
+    "expected" : {
+      "allDamages" : [
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        69
+      ],
+      "isImmune" : false,
+      "maxDamage" : 69,
+      "minDamage" : 58,
+      "typeEffectiveness" : 1
+    },
+    "id" : "rounding_crit_even_control",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "rounding",
+      "critical"
+    ]
+  },
+  {
+    "description" : "急所×1.5 の .5 ちょうど→切り捨て: 基本ダメージ43（奇数）×1.5=64.5→64。四捨五入だと 65 になり全16ロールがずれる",
+    "expected" : {
+      "allDamages" : [
+        54,
+        55,
+        55,
+        56,
+        56,
+        57,
+        58,
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64
+      ],
+      "isImmune" : false,
+      "maxDamage" : 64,
+      "minDamage" : 54,
+      "typeEffectiveness" : 1
+    },
+    "id" : "rounding_crit_half_exact_down",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 95,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "rounding",
+      "critical"
+    ]
+  },
+  {
+    "description" : "急所→乱数→STAB の連鎖丸め: 急所 43×1.5=64.5→64、さらに STAB でロールごとに奇数×1.5 の .5 切り捨てが発生",
+    "expected" : {
+      "allDamages" : [
+        81,
+        82,
+        82,
+        84,
+        84,
+        85,
+        87,
+        87,
+        88,
+        90,
+        90,
+        91,
+        93,
+        93,
+        94,
+        96
+      ],
+      "isImmune" : false,
+      "maxDamage" : 96,
+      "minDamage" : 81,
+      "typeEffectiveness" : 1
+    },
+    "id" : "rounding_crit_stab_combo",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 95,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "rounding",
+      "critical",
+      "stab"
+    ]
+  },
+  {
+    "description" : "威力補正×1.5 の .5 ちょうど→切り捨て: てだすけで威力 25×1.5=37.5→37（四捨五入の 38 だと基本ダメージが 1 変わる攻撃実数値 240 を選択）",
+    "expected" : {
+      "allDamages" : [
+        28,
+        29,
+        29,
+        29,
+        30,
+        30,
+        30,
+        31,
+        31,
+        31,
+        32,
+        32,
+        32,
+        33,
+        33,
+        34
+      ],
+      "isImmune" : false,
+      "maxDamage" : 34,
+      "minDamage" : 28,
+      "typeEffectiveness" : 1
+    },
+    "id" : "rounding_helping_hand_power_half",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 220,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isHelpingHand" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 25,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "rounding",
+      "helping_hand"
+    ]
+  },
+  {
+    "description" : "乱数 85% の .5 ちょうど→切り捨て: 基本ダメージ10×0.85=8.5→8。四捨五入だと最小ロールが 9 になる",
+    "expected" : {
+      "allDamages" : [
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        10
+      ],
+      "isImmune" : false,
+      "maxDamage" : 10,
+      "minDamage" : 8,
+      "typeEffectiveness" : 1
+    },
+    "id" : "rounding_rng_floor_exact",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 20,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "rounding"
+    ]
+  },
+  {
+    "description" : "STAB×1.5 の .5 ちょうど→切り捨て: ロール値 5×1.5=7.5→7（四捨五入だと 8）。基本ダメージ6 でロールの大半が奇数 5 になる設計",
+    "expected" : {
+      "allDamages" : [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        9
+      ],
+      "isImmune" : false,
+      "maxDamage" : 9,
+      "minDamage" : 7,
+      "typeEffectiveness" : 1
+    },
+    "id" : "rounding_stab_half_exact_down",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 10,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "rounding",
+      "stab"
+    ]
+  },
+  {
+    "description" : "STAB 五捨五超入→相性切り捨ての順序: ロール値 5×1.5=7.5→7→×2=14。四捨五入で先に 8 にすると 16 になりずれる",
+    "expected" : {
+      "allDamages" : [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        18
+      ],
+      "isImmune" : false,
+      "maxDamage" : 18,
+      "minDamage" : 14,
+      "typeEffectiveness" : 2
+    },
+    "id" : "rounding_stab_type_chain",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ice"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "dragon"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 10,
+        "type" : "ice"
+      }
+    },
+    "tags" : [
+      "rounding",
+      "stab"
+    ]
+  },
+  {
+    "description" : "タイプ相性は常に切り捨て: ロール値 5×0.5=2.5→2（相性ステップに五捨五超入や四捨五入を使うとずれる）",
+    "expected" : {
+      "allDamages" : [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "isImmune" : false,
+      "maxDamage" : 3,
+      "minDamage" : 2,
+      "typeEffectiveness" : 0.5
+    },
+    "id" : "rounding_type_floor_half",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "steel"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 10,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "rounding"
+    ]
+  },
+  {
+    "description" : "壁×0.5 だけは四捨五入で .5 ちょうど→切り上げ: ロール値 5×0.5=2.5→3。五捨五超入で実装すると 2 になりずれる（やけどケースと対）",
+    "expected" : {
+      "allDamages" : [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "isImmune" : false,
+      "maxDamage" : 3,
+      "minDamage" : 3,
+      "typeEffectiveness" : 1
+    },
+    "id" : "rounding_wall_half_exact_up",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isReflect" : true
+        }
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 10,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "rounding",
+      "walls"
+    ]
+  }
+]

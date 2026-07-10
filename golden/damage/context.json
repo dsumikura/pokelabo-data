@@ -1,0 +1,2438 @@
+[
+  {
+    "description" : "攻撃側の場のリフレクター: 与ダメージには影響しないこと（物理基準と同値）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_attacker_side_reflect_no_effect",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "attackerSide" : {
+          "isReflect" : true
+        }
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls"
+    ]
+  },
+  {
+    "description" : "オーロラベール×物理（シングル）: 半減されること",
+    "expected" : {
+      "allDamages" : [
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23
+      ],
+      "isImmune" : false,
+      "maxDamage" : 23,
+      "minDamage" : 20,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_aurora_veil_physical_single",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isAuroraVeil" : true
+        }
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls"
+    ]
+  },
+  {
+    "description" : "オーロラベール×特殊（シングル）: 半減されること（両カテゴリに効く）",
+    "expected" : {
+      "allDamages" : [
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23
+      ],
+      "isImmune" : false,
+      "maxDamage" : 23,
+      "minDamage" : 20,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_aurora_veil_special_single",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isAuroraVeil" : true
+        }
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls"
+    ]
+  },
+  {
+    "description" : "コンテキストなしの物理基準: 壁・補助効果ペアの比較元",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_baseline_physical",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context"
+    ]
+  },
+  {
+    "description" : "コンテキストなしの特殊基準: 壁・補助効果ペアの比較元",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_baseline_special",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context"
+    ]
+  },
+  {
+    "description" : "バッテリー×物理: 補正が掛からないこと（物理基準と同値、パワースポットとの差分）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_battery_physical_no_effect",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "hasBattery" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "battery"
+    ]
+  },
+  {
+    "description" : "バッテリー×特殊: 威力 1.3 倍",
+    "expected" : {
+      "allDamages" : [
+        50,
+        50,
+        51,
+        51,
+        52,
+        53,
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59
+      ],
+      "isImmune" : false,
+      "maxDamage" : 59,
+      "minDamage" : 50,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_battery_special_boosted",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "hasBattery" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "battery"
+    ]
+  },
+  {
+    "description" : "じゅうでん×でんき技: 威力 2 倍",
+    "expected" : {
+      "allDamages" : [
+        68,
+        69,
+        70,
+        71,
+        72,
+        72,
+        73,
+        74,
+        75,
+        76,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "isImmune" : false,
+      "maxDamage" : 81,
+      "minDamage" : 68,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_charged_electric_doubled",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCharged" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "context",
+      "charge"
+    ]
+  },
+  {
+    "description" : "じゅうでん×でんき以外: 補正が掛からないこと（物理基準と同値）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_charged_non_electric_no_effect",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCharged" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "charge"
+    ]
+  },
+  {
+    "description" : "壁なし急所: 壁貫通ケース（context_wall_bypassed_by_critical）の比較元",
+    "expected" : {
+      "allDamages" : [
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        69
+      ],
+      "isImmune" : false,
+      "maxDamage" : 69,
+      "minDamage" : 58,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_crit_no_wall_pair",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "critical"
+    ]
+  },
+  {
+    "description" : "ダブル×単体技: 複数対象補正が掛からないこと（基準と同値）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_double_non_spread_no_penalty",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isDoubleBattle" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "double_battle"
+    ]
+  },
+  {
+    "description" : "ダブル×リフレクター×範囲技: 複数対象 0.75 とダブル壁 2/3 が両方適用されること",
+    "expected" : {
+      "allDamages" : [
+        19,
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21,
+        21,
+        21,
+        22,
+        22,
+        23
+      ],
+      "isImmune" : false,
+      "maxDamage" : 23,
+      "minDamage" : 19,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_double_wall_spread_combo",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isReflect" : true
+        },
+        "isDoubleBattle" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "flags" : {
+          "isSpread" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls",
+      "double_battle",
+      "spread"
+    ]
+  },
+  {
+    "description" : "ダブル×範囲技×フレンドガード: 複数対象 0.75 とフレンドガード 0.75 が重複適用されること",
+    "expected" : {
+      "allDamages" : [
+        21,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25
+      ],
+      "isImmune" : false,
+      "maxDamage" : 25,
+      "minDamage" : 21,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_friend_guard_double_spread_combo",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "hasFriendGuard" : true,
+        "isDoubleBattle" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "flags" : {
+          "isSpread" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "friend_guard",
+      "double_battle",
+      "spread"
+    ]
+  },
+  {
+    "description" : "フレンドガード: 最終ダメージ 0.75 倍（基準より減ること）",
+    "expected" : {
+      "allDamages" : [
+        29,
+        29,
+        30,
+        30,
+        30,
+        31,
+        31,
+        31,
+        31,
+        32,
+        32,
+        33,
+        33,
+        34,
+        34,
+        34
+      ],
+      "isImmune" : false,
+      "maxDamage" : 34,
+      "minDamage" : 29,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_friend_guard_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "hasFriendGuard" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "friend_guard"
+    ]
+  },
+  {
+    "description" : "じゅうりょく下のＧのちから: 威力 80→1.5 倍",
+    "expected" : {
+      "allDamages" : [
+        45,
+        46,
+        46,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        52,
+        53,
+        54
+      ],
+      "isImmune" : false,
+      "maxDamage" : 54,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_gravity_grav_apple_boosted",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isGravity" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 788,
+        "power" : 80,
+        "type" : "grass"
+      }
+    },
+    "tags" : [
+      "context",
+      "gravity"
+    ]
+  },
+  {
+    "description" : "じゅうりょく下の対象外技: 威力補正が掛からないこと（物理基準と同値）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_gravity_other_move_no_effect",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isGravity" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "gravity"
+    ]
+  },
+  {
+    "description" : "てだすけ×物理: 威力 1.5 倍（基準より増えること）",
+    "expected" : {
+      "allDamages" : [
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63,
+        63,
+        64,
+        65,
+        65,
+        66,
+        67,
+        68
+      ],
+      "isImmune" : false,
+      "maxDamage" : 68,
+      "minDamage" : 57,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_helping_hand_physical",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isHelpingHand" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "helping_hand"
+    ]
+  },
+  {
+    "description" : "てだすけ＋パワースポット: 威力チェーンで 1.5×1.3 が順に適用されること",
+    "expected" : {
+      "allDamages" : [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "isImmune" : false,
+      "maxDamage" : 87,
+      "minDamage" : 73,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_helping_hand_power_spot_combo",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "hasPowerSpot" : true,
+        "isHelpingHand" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "helping_hand",
+      "power_spot"
+    ]
+  },
+  {
+    "description" : "てだすけ×特殊: 威力 1.5 倍（特殊にも効くこと）",
+    "expected" : {
+      "allDamages" : [
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63,
+        63,
+        64,
+        65,
+        65,
+        66,
+        67,
+        68
+      ],
+      "isImmune" : false,
+      "maxDamage" : 68,
+      "minDamage" : 57,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_helping_hand_special",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isHelpingHand" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "helping_hand"
+    ]
+  },
+  {
+    "description" : "ひかりのかべ×特殊（ダブル）: 2/3 軽減",
+    "expected" : {
+      "allDamages" : [
+        26,
+        26,
+        27,
+        27,
+        27,
+        27,
+        27,
+        28,
+        28,
+        29,
+        29,
+        29,
+        29,
+        30,
+        30,
+        31
+      ],
+      "isImmune" : false,
+      "maxDamage" : 31,
+      "minDamage" : 26,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_light_screen_special_double",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isLightScreen" : true
+        },
+        "isDoubleBattle" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls",
+      "double_battle"
+    ]
+  },
+  {
+    "description" : "ひかりのかべ×特殊（シングル）: 半減されること",
+    "expected" : {
+      "allDamages" : [
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23
+      ],
+      "isImmune" : false,
+      "maxDamage" : 23,
+      "minDamage" : 20,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_light_screen_special_single",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isLightScreen" : true
+        }
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls"
+    ]
+  },
+  {
+    "description" : "ひかりのかべ×物理: 軽減されないこと（物理基準と同値）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_light_screen_vs_physical_no_effect",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isLightScreen" : true
+        }
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls"
+    ]
+  },
+  {
+    "description" : "ちいさくなる状態への対象外技: 威力 2 倍にならないこと（同威力の非発動ペアと同値）",
+    "expected" : {
+      "allDamages" : [
+        25,
+        25,
+        26,
+        26,
+        26,
+        27,
+        27,
+        27,
+        27,
+        28,
+        28,
+        28,
+        29,
+        29,
+        29,
+        30
+      ],
+      "isImmune" : false,
+      "maxDamage" : 30,
+      "minDamage" : 25,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_minimize_non_target_move_no_effect",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderIsMinimized" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 65,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "minimize"
+    ]
+  },
+  {
+    "description" : "通常状態へのふみつけ: 威力 65 のまま（発動ペアの比較元）",
+    "expected" : {
+      "allDamages" : [
+        25,
+        25,
+        26,
+        26,
+        26,
+        27,
+        27,
+        27,
+        27,
+        28,
+        28,
+        28,
+        29,
+        29,
+        29,
+        30
+      ],
+      "isImmune" : false,
+      "maxDamage" : 30,
+      "minDamage" : 25,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_minimize_off_stomp_pair",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 23,
+        "power" : 65,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "minimize"
+    ]
+  },
+  {
+    "description" : "ちいさくなる状態へのふみつけ: 威力 65→2 倍",
+    "expected" : {
+      "allDamages" : [
+        50,
+        50,
+        51,
+        51,
+        52,
+        53,
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59
+      ],
+      "isImmune" : false,
+      "maxDamage" : 59,
+      "minDamage" : 50,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_minimize_stomp_doubled",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderIsMinimized" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 23,
+        "power" : 65,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "minimize"
+    ]
+  },
+  {
+    "description" : "じゅうりょくなしのＧのちから: 威力 80 のまま（発動ペアの比較元）",
+    "expected" : {
+      "allDamages" : [
+        31,
+        31,
+        32,
+        32,
+        32,
+        33,
+        33,
+        34,
+        34,
+        34,
+        35,
+        35,
+        35,
+        36,
+        36,
+        37
+      ],
+      "isImmune" : false,
+      "maxDamage" : 37,
+      "minDamage" : 31,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_no_gravity_grav_apple_pair",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 788,
+        "power" : 80,
+        "type" : "grass"
+      }
+    },
+    "tags" : [
+      "context",
+      "gravity"
+    ]
+  },
+  {
+    "description" : "パワースポット×物理: 威力 1.3 倍",
+    "expected" : {
+      "allDamages" : [
+        50,
+        50,
+        51,
+        51,
+        52,
+        53,
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59
+      ],
+      "isImmune" : false,
+      "maxDamage" : 59,
+      "minDamage" : 50,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_power_spot_physical",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "hasPowerSpot" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "power_spot"
+    ]
+  },
+  {
+    "description" : "パワースポット×特殊: 威力 1.3 倍（両カテゴリに効くこと）",
+    "expected" : {
+      "allDamages" : [
+        50,
+        50,
+        51,
+        51,
+        52,
+        53,
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59
+      ],
+      "isImmune" : false,
+      "maxDamage" : 59,
+      "minDamage" : 50,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_power_spot_special",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "hasPowerSpot" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "power_spot"
+    ]
+  },
+  {
+    "description" : "リフレクター×物理（ダブル）: 2/3 軽減（シングルの半減と値が異なること）",
+    "expected" : {
+      "allDamages" : [
+        26,
+        26,
+        27,
+        27,
+        27,
+        27,
+        27,
+        28,
+        28,
+        29,
+        29,
+        29,
+        29,
+        30,
+        30,
+        31
+      ],
+      "isImmune" : false,
+      "maxDamage" : 31,
+      "minDamage" : 26,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_reflect_physical_double",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isReflect" : true
+        },
+        "isDoubleBattle" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls",
+      "double_battle"
+    ]
+  },
+  {
+    "description" : "リフレクター×物理（シングル）: 半減されること",
+    "expected" : {
+      "allDamages" : [
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23
+      ],
+      "isImmune" : false,
+      "maxDamage" : 23,
+      "minDamage" : 20,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_reflect_physical_single",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isReflect" : true
+        }
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls"
+    ]
+  },
+  {
+    "description" : "リフレクター×特殊: 軽減されないこと（特殊基準と同値）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_reflect_vs_special_no_effect",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isReflect" : true
+        }
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls"
+    ]
+  },
+  {
+    "description" : "ダブル×範囲技: 複数対象補正 0.75 倍が乗ること",
+    "expected" : {
+      "allDamages" : [
+        28,
+        29,
+        29,
+        29,
+        30,
+        30,
+        30,
+        31,
+        31,
+        31,
+        32,
+        32,
+        32,
+        33,
+        33,
+        34
+      ],
+      "isImmune" : false,
+      "maxDamage" : 34,
+      "minDamage" : 28,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_spread_double_battle",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isDoubleBattle" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "flags" : {
+          "isSpread" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "double_battle",
+      "spread"
+    ]
+  },
+  {
+    "description" : "ダブル×範囲技×相手単体: 単体ヒット時は 0.75 倍が無効化されること（基準と同値）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_spread_double_solo_target",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isDoubleBattle" : true,
+        "isSoloTarget" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "flags" : {
+          "isSpread" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "double_battle",
+      "spread"
+    ]
+  },
+  {
+    "description" : "シングル×範囲技: 複数対象補正が掛からないこと（基準と同値）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_spread_single_battle_no_penalty",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "flags" : {
+          "isSpread" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "spread"
+    ]
+  },
+  {
+    "description" : "急所は壁を無視: リフレクター＋急所 → 壁なし急所と同値になること",
+    "expected" : {
+      "allDamages" : [
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        69
+      ],
+      "isImmune" : false,
+      "maxDamage" : 69,
+      "minDamage" : 58,
+      "typeEffectiveness" : 1
+    },
+    "id" : "context_wall_bypassed_by_critical",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "defenderSide" : {
+          "isReflect" : true
+        },
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "context",
+      "walls",
+      "critical"
+    ]
+  }
+]

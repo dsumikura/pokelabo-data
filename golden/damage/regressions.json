@@ -1,0 +1,429 @@
+[
+  {
+    "description" : "かたいいし: いわ技1.2倍（v2.1.10 で両OSに存在した補正漏れの回帰）",
+    "expected" : {
+      "allDamages" : [
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        51
+      ],
+      "isImmune" : false,
+      "maxDamage" : 51,
+      "minDamage" : 43,
+      "typeEffectiveness" : 1
+    },
+    "id" : "regression_hard_stone_rock_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Hard Stone",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 80,
+        "type" : "rock"
+      }
+    },
+    "tags" : [
+      "regression",
+      "item",
+      "item:Hard Stone"
+    ]
+  },
+  {
+    "description" : "フェアリースキン×フェアリーオーラ: 変換後のノーマル技にオーラが乗る（v2.1.10 build 2 の回帰）",
+    "expected" : {
+      "allDamages" : [
+        126,
+        128,
+        130,
+        132,
+        132,
+        134,
+        136,
+        138,
+        138,
+        140,
+        142,
+        144,
+        144,
+        146,
+        148,
+        150
+      ],
+      "isImmune" : false,
+      "maxDamage" : 150,
+      "minDamage" : 126,
+      "typeEffectiveness" : 2
+    },
+    "id" : "regression_pixilate_fairy_aura_stack",
+    "input" : {
+      "attacker" : {
+        "ability" : "Pixilate",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Fairy Aura",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "dragon"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "regression",
+      "ability",
+      "ability:Pixilate",
+      "ability:Fairy Aura",
+      "skin",
+      "aura"
+    ]
+  },
+  {
+    "description" : "STAB pokeRound 境界: base37×1.5=55.5 → 五捨五超入で55（旧 Python T520）",
+    "expected" : {
+      "allDamages" : [
+        46,
+        46,
+        48,
+        48,
+        48,
+        49,
+        49,
+        51,
+        51,
+        51,
+        52,
+        52,
+        52,
+        54,
+        54,
+        55
+      ],
+      "isImmune" : false,
+      "maxDamage" : 55,
+      "minDamage" : 46,
+      "typeEffectiveness" : 1
+    },
+    "id" : "regression_python_t520_stab_pokeround",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 80,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "regression",
+      "stab"
+    ]
+  },
+  {
+    "description" : "砂×サイコショック: いわのとくぼう1.5倍は参照されない（物理防御参照のため）",
+    "expected" : {
+      "allDamages" : [
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        39,
+        39,
+        39,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43
+      ],
+      "isImmune" : false,
+      "maxDamage" : 43,
+      "minDamage" : 36,
+      "typeEffectiveness" : 1
+    },
+    "id" : "regression_sand_spdef_boost_not_for_psyshock",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "sand"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "rock"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 473,
+        "power" : 80,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "regression",
+      "weather",
+      "psyshock"
+    ]
+  },
+  {
+    "description" : "雪×サイコショック: 物理防御参照なので雪のこおりぼうぎょ1.5倍が効く",
+    "expected" : {
+      "allDamages" : [
+        24,
+        24,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        26,
+        27,
+        27,
+        27,
+        28,
+        28,
+        28,
+        29
+      ],
+      "isImmune" : false,
+      "maxDamage" : 29,
+      "minDamage" : 24,
+      "typeEffectiveness" : 1
+    },
+    "id" : "regression_snow_def_boost_applies_to_psyshock",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "snow"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ice"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 473,
+        "power" : 80,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "regression",
+      "weather",
+      "psyshock"
+    ]
+  },
+  {
+    "description" : "てんねん(防): 攻撃ランク+2を無視する（v2.1.10 の未対応回帰）",
+    "expected" : {
+      "allDamages" : [
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79,
+        79,
+        81,
+        81,
+        82,
+        82,
+        84,
+        85
+      ],
+      "isImmune" : false,
+      "maxDamage" : 85,
+      "minDamage" : 72,
+      "typeEffectiveness" : 1
+    },
+    "id" : "regression_unaware_ignores_attack_boost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 130,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : 2
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Unaware",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "regression",
+      "ability",
+      "ability:Unaware",
+      "unaware",
+      "rank"
+    ]
+  }
+]

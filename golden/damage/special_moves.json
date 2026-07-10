@@ -1,0 +1,3921 @@
+[
+  {
+    "description" : "ボディプレス比較用: ぼうぎょが低ければ威力が出ない",
+    "expected" : {
+      "allDamages" : [
+        42,
+        42,
+        42,
+        44,
+        44,
+        44,
+        44,
+        46,
+        46,
+        46,
+        46,
+        48,
+        48,
+        48,
+        48,
+        50
+      ],
+      "isImmune" : false,
+      "maxDamage" : 50,
+      "minDamage" : 42,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_body_press_low_defense_pair",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 150,
+          "defense" : 60,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 776,
+        "power" : 80,
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "body_press"
+    ]
+  },
+  {
+    "description" : "ボディプレス(776): 自分のぼうぎょでダメージ計算",
+    "expected" : {
+      "allDamages" : [
+        86,
+        86,
+        88,
+        88,
+        90,
+        90,
+        92,
+        92,
+        94,
+        94,
+        96,
+        96,
+        98,
+        98,
+        100,
+        102
+      ],
+      "isImmune" : false,
+      "maxDamage" : 102,
+      "minDamage" : 86,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_body_press_uses_own_defense",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 60,
+          "defense" : 150,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 776,
+        "power" : 80,
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "body_press"
+    ]
+  },
+  {
+    "description" : "にぎりつぶす(462): 相手HP満タンで最大威力",
+    "expected" : {
+      "allDamages" : [
+        79,
+        81,
+        81,
+        82,
+        84,
+        84,
+        85,
+        85,
+        87,
+        88,
+        88,
+        90,
+        91,
+        91,
+        93,
+        94
+      ],
+      "isImmune" : false,
+      "maxDamage" : 94,
+      "minDamage" : 79,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_crush_grip_full_hp",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 462,
+        "power" : 120,
+        "powerType" : {
+          "variable" : "crushGrip"
+        },
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "hp_dependent"
+    ]
+  },
+  {
+    "description" : "にぎりつぶす(462): 相手HP25%で威力減少（HP実数値180で比率が割り切れる構成）",
+    "expected" : {
+      "allDamages" : [
+        21,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        24,
+        24,
+        24,
+        24,
+        24,
+        25
+      ],
+      "isImmune" : false,
+      "maxDamage" : 25,
+      "minDamage" : 21,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_crush_grip_low_hp",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "defenderHPRatio" : 0.25
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 105,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 462,
+        "power" : 120,
+        "powerType" : {
+          "variable" : "crushGrip"
+        },
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "hp_dependent"
+    ]
+  },
+  {
+    "description" : "りゅうのいかり(82): 固定40ダメージ",
+    "expected" : {
+      "allDamages" : [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "isImmune" : false,
+      "maxDamage" : 40,
+      "minDamage" : 40,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_dragon_rage_40",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 82,
+        "powerType" : "fixedDamage",
+        "type" : "dragon"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "fixed_damage"
+    ]
+  },
+  {
+    "description" : "りゅうのいかり(82): フェアリーには無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_dragon_rage_fairy_immune",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fairy"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 82,
+        "powerType" : "fixedDamage",
+        "type" : "dragon"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "fixed_damage",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "じしん(89): グラスフィールドで威力半減",
+    "expected" : {
+      "allDamages" : [
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        27
+      ],
+      "isImmune" : false,
+      "maxDamage" : 27,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_earthquake_grassy_halved",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "grassy"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 89,
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "terrain"
+    ]
+  },
+  {
+    "description" : "じしん(89): フィールドなしは等倍",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_earthquake_no_terrain_pair",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 89,
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "special_move"
+    ]
+  },
+  {
+    "description" : "エレキボール(486): 自分が速いほど高威力",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_electro_ball_fast_attacker",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 150
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 30
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 486,
+        "powerType" : {
+          "variable" : "electroball"
+        },
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "speed_dependent"
+    ]
+  },
+  {
+    "description" : "ふんか(284): HP満タンで威力150",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        68,
+        69,
+        70,
+        71,
+        71,
+        72,
+        73,
+        74,
+        75,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_eruption_full_hp",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 284,
+        "power" : 150,
+        "powerType" : {
+          "variable" : "eruption"
+        },
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "hp_dependent"
+    ]
+  },
+  {
+    "description" : "ふんか(284): HP50%で威力半減（HP実数値180で比率が割り切れる構成）",
+    "expected" : {
+      "allDamages" : [
+        34,
+        34,
+        34,
+        35,
+        35,
+        36,
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        38,
+        39,
+        39,
+        40
+      ],
+      "isImmune" : false,
+      "maxDamage" : 40,
+      "minDamage" : 34,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_eruption_half_hp",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 105,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "attackerHPRatio" : 0.5
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 284,
+        "power" : 150,
+        "powerType" : {
+          "variable" : "eruption"
+        },
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "hp_dependent"
+    ]
+  },
+  {
+    "description" : "ワイドフォース(797): サイコフィールドで威力1.5倍",
+    "expected" : {
+      "allDamages" : [
+        69,
+        70,
+        71,
+        72,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "isImmune" : false,
+      "maxDamage" : 82,
+      "minDamage" : 69,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_expanding_force_psychic",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "psychic"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 797,
+        "power" : 80,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "terrain"
+    ]
+  },
+  {
+    "description" : "じたばた(175): HP満タンでは最低威力20",
+    "expected" : {
+      "allDamages" : [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        18
+      ],
+      "isImmune" : false,
+      "maxDamage" : 18,
+      "minDamage" : 15,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_flail_full_hp",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 175,
+        "powerType" : {
+          "variable" : "flail"
+        },
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "hp_dependent"
+    ]
+  },
+  {
+    "description" : "じたばた(175): HP残量が少ないほど高威力（HP 1/48 未満で200）",
+    "expected" : {
+      "allDamages" : [
+        132,
+        133,
+        135,
+        136,
+        138,
+        139,
+        141,
+        142,
+        144,
+        145,
+        147,
+        148,
+        150,
+        151,
+        153,
+        156
+      ],
+      "isImmune" : false,
+      "maxDamage" : 156,
+      "minDamage" : 132,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_flail_low_hp",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "attackerHPRatio" : 0.02
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 175,
+        "powerType" : {
+          "variable" : "flail"
+        },
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "hp_dependent"
+    ]
+  },
+  {
+    "description" : "フライングプレス(560): かくとう×ひこうの複合相性（くさに4倍）",
+    "expected" : {
+      "allDamages" : [
+        90,
+        90,
+        92,
+        92,
+        94,
+        94,
+        96,
+        96,
+        98,
+        98,
+        100,
+        100,
+        102,
+        102,
+        104,
+        106
+      ],
+      "isImmune" : false,
+      "maxDamage" : 106,
+      "minDamage" : 90,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_flying_press_dual_type",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "grass"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 560,
+        "power" : 100,
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "flying_press"
+    ]
+  },
+  {
+    "description" : "フライングプレス(560): ゴーストには無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 0
+    },
+    "id" : "special_flying_press_vs_ghost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ghost"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 560,
+        "power" : 100,
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "flying_press",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "イカサマ比較用: 相手のこうげきが低ければ威力が出ない",
+    "expected" : {
+      "allDamages" : [
+        24,
+        24,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        26,
+        27,
+        27,
+        27,
+        28,
+        28,
+        28,
+        29
+      ],
+      "isImmune" : false,
+      "maxDamage" : 29,
+      "minDamage" : 24,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_foul_play_low_defender_attack_pair",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 150,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 60,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 492,
+        "power" : 95,
+        "powerType" : {
+          "variable" : "foulPlay"
+        },
+        "type" : "dark"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "foul_play"
+    ]
+  },
+  {
+    "description" : "イカサマ(492): 相手のこうげきでダメージ計算",
+    "expected" : {
+      "allDamages" : [
+        51,
+        52,
+        53,
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61
+      ],
+      "isImmune" : false,
+      "maxDamage" : 61,
+      "minDamage" : 51,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_foul_play_uses_defender_attack",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 60,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 150,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 492,
+        "power" : 95,
+        "powerType" : {
+          "variable" : "foulPlay"
+        },
+        "type" : "dark"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "foul_play"
+    ]
+  },
+  {
+    "description" : "フリーズドライ(573): みずに効果抜群（相性上書き）",
+    "expected" : {
+      "allDamages" : [
+        62,
+        62,
+        64,
+        64,
+        64,
+        66,
+        66,
+        68,
+        68,
+        68,
+        70,
+        70,
+        70,
+        72,
+        72,
+        74
+      ],
+      "isImmune" : false,
+      "maxDamage" : 74,
+      "minDamage" : 62,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_freeze_dry_vs_water",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 573,
+        "power" : 70,
+        "type" : "ice"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "freeze_dry"
+    ]
+  },
+  {
+    "description" : "フリーズドライ(573): みず/ドラゴンには4倍",
+    "expected" : {
+      "allDamages" : [
+        124,
+        124,
+        128,
+        128,
+        128,
+        132,
+        132,
+        136,
+        136,
+        136,
+        140,
+        140,
+        140,
+        144,
+        144,
+        148
+      ],
+      "isImmune" : false,
+      "maxDamage" : 148,
+      "minDamage" : 124,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_freeze_dry_vs_water_dragon",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water",
+          "dragon"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 573,
+        "power" : 70,
+        "type" : "ice"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "freeze_dry"
+    ]
+  },
+  {
+    "description" : "Ｇのちから(788): じゅうりょく下で威力1.5倍",
+    "expected" : {
+      "allDamages" : [
+        60,
+        61,
+        61,
+        62,
+        63,
+        63,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        68,
+        69,
+        70,
+        71
+      ],
+      "isImmune" : false,
+      "maxDamage" : 71,
+      "minDamage" : 60,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_g_force_gravity",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "isGravity" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 788,
+        "power" : 90,
+        "type" : "grass"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "gravity"
+    ]
+  },
+  {
+    "description" : "くさむすび系(67): 相手が重いほど高威力（100kg超）",
+    "expected" : {
+      "allDamages" : [
+        90,
+        90,
+        92,
+        92,
+        94,
+        94,
+        96,
+        96,
+        98,
+        98,
+        100,
+        100,
+        102,
+        102,
+        104,
+        106
+      ],
+      "isImmune" : false,
+      "maxDamage" : 106,
+      "minDamage" : 90,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_grass_knot_heavy",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ],
+        "weight" : 150
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 67,
+        "powerType" : {
+          "variable" : "grassKnot"
+        },
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "weight_dependent"
+    ]
+  },
+  {
+    "description" : "くさむすび系(67): 相手が軽ければ低威力（10kg未満）",
+    "expected" : {
+      "allDamages" : [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "isImmune" : false,
+      "maxDamage" : 24,
+      "minDamage" : 20,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_grass_knot_light",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ],
+        "weight" : 5
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 67,
+        "powerType" : {
+          "variable" : "grassKnot"
+        },
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "weight_dependent"
+    ]
+  },
+  {
+    "description" : "ジャイロボール(360): 自分が遅いほど高威力",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_gyro_ball_slow_attacker",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 30
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 150
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 360,
+        "powerType" : {
+          "variable" : "gyroball"
+        },
+        "type" : "steel"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "speed_dependent"
+    ]
+  },
+  {
+    "description" : "ヘビーボンバー(484): 同重量なら最低威力",
+    "expected" : {
+      "allDamages" : [
+        18,
+        18,
+        19,
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21,
+        22
+      ],
+      "isImmune" : false,
+      "maxDamage" : 22,
+      "minDamage" : 18,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_heavy_slam_even_weight",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 484,
+        "powerType" : {
+          "variable" : "heavySlam"
+        },
+        "type" : "steel"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "weight_dependent"
+    ]
+  },
+  {
+    "description" : "ヘビーボンバー(484): 自分が重いほど高威力（重量比5倍以上）",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_heavy_slam_weight_ratio",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ],
+        "weight" : 300
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 484,
+        "powerType" : {
+          "variable" : "heavySlam"
+        },
+        "type" : "steel"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "weight_dependent"
+    ]
+  },
+  {
+    "description" : "はたきおとす(282): もちものなしでは等倍",
+    "expected" : {
+      "allDamages" : [
+        29,
+        30,
+        30,
+        30,
+        31,
+        31,
+        31,
+        32,
+        32,
+        32,
+        33,
+        33,
+        33,
+        34,
+        34,
+        35
+      ],
+      "isImmune" : false,
+      "maxDamage" : 35,
+      "minDamage" : 29,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_knock_off_no_item",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 282,
+        "power" : 65,
+        "type" : "dark"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "knock_off"
+    ]
+  },
+  {
+    "description" : "はたきおとす(282): 相手がもちもの持ちで威力1.5倍",
+    "expected" : {
+      "allDamages" : [
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        51
+      ],
+      "isImmune" : false,
+      "maxDamage" : 51,
+      "minDamage" : 43,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_knock_off_with_item",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Life Orb",
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 282,
+        "power" : 65,
+        "type" : "dark"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "knock_off"
+    ]
+  },
+  {
+    "description" : "おはかまいり(854): 倒れた味方2匹で威力3倍",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        68,
+        69,
+        70,
+        71,
+        71,
+        72,
+        73,
+        74,
+        75,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_last_respects_fallen",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "supremeOverlordCount" : 2
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 854,
+        "power" : 50,
+        "type" : "ghost"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "rank_dependent"
+    ]
+  },
+  {
+    "description" : "ミストバースト(802): ミストフィールドで威力1.5倍",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        68,
+        69,
+        70,
+        71,
+        71,
+        72,
+        73,
+        74,
+        75,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_misty_explosion_misty",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "misty"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 802,
+        "power" : 100,
+        "type" : "fairy"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "terrain"
+    ]
+  },
+  {
+    "description" : "連続技(2-5回): 単発計算は1発分の期待値",
+    "expected" : {
+      "allDamages" : [
+        16,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        21
+      ],
+      "isImmune" : false,
+      "maxDamage" : 21,
+      "minDamage" : 16,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_multi_hit_single_roll",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "hits" : {
+          "max" : 5,
+          "min" : 2
+        },
+        "power" : 25,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "multi_hit"
+    ]
+  },
+  {
+    "description" : "つけあがる(681): 上昇段階2で威力60",
+    "expected" : {
+      "allDamages" : [
+        27,
+        27,
+        27,
+        28,
+        28,
+        28,
+        29,
+        29,
+        29,
+        30,
+        30,
+        30,
+        31,
+        31,
+        31,
+        32
+      ],
+      "isImmune" : false,
+      "maxDamage" : 32,
+      "minDamage" : 27,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_power_trip_ranks",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "attackerPositiveRanks" : 2
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 681,
+        "power" : 20,
+        "type" : "dark"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "rank_dependent"
+    ]
+  },
+  {
+    "description" : "サイコブレイド(875): エレキフィールドで威力1.5倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_psyblade_electric",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "electric"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 875,
+        "power" : 80,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "terrain"
+    ]
+  },
+  {
+    "description" : "サイコショック(473): 特殊技だが物理防御を参照（ぼうぎょ紙・とくぼう硬い相手に通る）",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_psyshock_hits_defense",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 60,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 150,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 473,
+        "power" : 80,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "psyshock"
+    ]
+  },
+  {
+    "description" : "サイコショック比較用: 通常特殊技は とくぼう150 に阻まれる",
+    "expected" : {
+      "allDamages" : [
+        25,
+        25,
+        26,
+        26,
+        26,
+        27,
+        27,
+        27,
+        27,
+        28,
+        28,
+        28,
+        29,
+        29,
+        29,
+        30
+      ],
+      "isImmune" : false,
+      "maxDamage" : 30,
+      "minDamage" : 25,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_psyshock_vs_normal_special",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 60,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 150,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 80,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "psyshock"
+    ]
+  },
+  {
+    "description" : "サイコブレイク(540): 特殊技だが物理防御を参照",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        68,
+        69,
+        70,
+        71,
+        71,
+        72,
+        73,
+        74,
+        75,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_psystrike_hits_defense",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 60,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 150,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 540,
+        "power" : 100,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "psyshock"
+    ]
+  },
+  {
+    "description" : "おしおき(386): 相手の上昇段階2で威力100",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_punishment_defender_ranks",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : 2
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 386,
+        "power" : 60,
+        "type" : "dark"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "rank_dependent"
+    ]
+  },
+  {
+    "description" : "ふんどのこぶし(889): 被弾3回で威力200",
+    "expected" : {
+      "allDamages" : [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        104
+      ],
+      "isImmune" : false,
+      "maxDamage" : 104,
+      "minDamage" : 88,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_rage_fist_hits",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "attackerHitsReceived" : 3
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 889,
+        "power" : 50,
+        "type" : "ghost"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "rank_dependent"
+    ]
+  },
+  {
+    "description" : "ふんどのこぶし(889): 被弾0で威力50",
+    "expected" : {
+      "allDamages" : [
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        26,
+        26,
+        26,
+        27
+      ],
+      "isImmune" : false,
+      "maxDamage" : 27,
+      "minDamage" : 22,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_rage_fist_no_hits",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 889,
+        "power" : 50,
+        "type" : "ghost"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "rank_dependent"
+    ]
+  },
+  {
+    "description" : "きしかいせい(179): HP残量が少ないほど高威力",
+    "expected" : {
+      "allDamages" : [
+        176,
+        178,
+        180,
+        182,
+        184,
+        186,
+        188,
+        190,
+        192,
+        194,
+        196,
+        198,
+        200,
+        202,
+        204,
+        208
+      ],
+      "isImmune" : false,
+      "maxDamage" : 208,
+      "minDamage" : 176,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_reversal_low_hp",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "attackerHPRatio" : 0.02
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 179,
+        "powerType" : {
+          "variable" : "reversal"
+        },
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "hp_dependent"
+    ]
+  },
+  {
+    "description" : "ライジングボルト(804): エレキフィールドで威力2倍",
+    "expected" : {
+      "allDamages" : [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "isImmune" : false,
+      "maxDamage" : 95,
+      "minDamage" : 80,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_rising_voltage_electric",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "electric"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 804,
+        "power" : 70,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "terrain"
+    ]
+  },
+  {
+    "description" : "ちきゅうなげ(69): ゴーストには無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_seismic_toss_ghost_immune",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ghost"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 69,
+        "powerType" : "fixedDamage",
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "fixed_damage",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "ちきゅうなげ(69): レベル分（50）の固定ダメージ",
+    "expected" : {
+      "allDamages" : [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "isImmune" : false,
+      "maxDamage" : 50,
+      "minDamage" : 50,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_seismic_toss_level",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 69,
+        "powerType" : "fixedDamage",
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "fixed_damage"
+    ]
+  },
+  {
+    "description" : "シェルアームズ(801): 物理/特殊の有利な方を選択（参照実装の挙動を固定）",
+    "expected" : {
+      "allDamages" : [
+        55,
+        55,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63,
+        63,
+        64,
+        65
+      ],
+      "isImmune" : false,
+      "maxDamage" : 65,
+      "minDamage" : 55,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_shell_side_arm",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 140,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 80,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 80,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 140,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 801,
+        "power" : 90,
+        "type" : "poison"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "shell_side_arm"
+    ]
+  },
+  {
+    "description" : "ソーラービーム(76): 雨で威力半減",
+    "expected" : {
+      "allDamages" : [
+        27,
+        27,
+        27,
+        28,
+        28,
+        28,
+        29,
+        29,
+        29,
+        30,
+        30,
+        30,
+        31,
+        31,
+        31,
+        32
+      ],
+      "isImmune" : false,
+      "maxDamage" : 32,
+      "minDamage" : 27,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_solar_beam_rain_halved",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "rain"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 76,
+        "power" : 120,
+        "type" : "grass"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "weather"
+    ]
+  },
+  {
+    "description" : "ソーラービーム(76): 晴れは等倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_solar_beam_sun_full",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "sun"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 76,
+        "power" : 120,
+        "type" : "grass"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "weather"
+    ]
+  },
+  {
+    "description" : "ソニックブーム(49): 固定20ダメージ",
+    "expected" : {
+      "allDamages" : [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "isImmune" : false,
+      "maxDamage" : 20,
+      "minDamage" : 20,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_sonic_boom_20",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 49,
+        "powerType" : "fixedDamage",
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "fixed_damage"
+    ]
+  },
+  {
+    "description" : "アシストパワー(500): 上昇なしで威力20",
+    "expected" : {
+      "allDamages" : [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        12
+      ],
+      "isImmune" : false,
+      "maxDamage" : 12,
+      "minDamage" : 10,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_stored_power_no_ranks",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 500,
+        "power" : 20,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "rank_dependent"
+    ]
+  },
+  {
+    "description" : "アシストパワー(500): 上昇段階3で威力80",
+    "expected" : {
+      "allDamages" : [
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        39,
+        39,
+        39,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43
+      ],
+      "isImmune" : false,
+      "maxDamage" : 43,
+      "minDamage" : 36,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_stored_power_ranks",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "attackerPositiveRanks" : 3
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 500,
+        "power" : 20,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "rank_dependent"
+    ]
+  },
+  {
+    "description" : "いかりのまえば(162): 相手残りHPの半分（HP50%時）",
+    "expected" : {
+      "allDamages" : [
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "isImmune" : false,
+      "maxDamage" : 43,
+      "minDamage" : 43,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_super_fang_half_hp",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "defenderHPRatio" : 0.5
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 162,
+        "powerType" : "fixedDamage",
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "fixed_damage",
+      "hp_dependent"
+    ]
+  },
+  {
+    "description" : "だいちのはどう(805): エレキフィールドででんき化+威力2倍",
+    "expected" : {
+      "allDamages" : [
+        116,
+        118,
+        120,
+        120,
+        122,
+        124,
+        124,
+        126,
+        128,
+        128,
+        130,
+        132,
+        132,
+        134,
+        136,
+        138
+      ],
+      "isImmune" : false,
+      "maxDamage" : 138,
+      "minDamage" : 116,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_terrain_pulse_electric",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "terrain" : "electric"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 805,
+        "power" : 50,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "terrain_pulse",
+      "terrain"
+    ]
+  },
+  {
+    "description" : "だいちのはどう(805): フィールドなしはノーマルのまま",
+    "expected" : {
+      "allDamages" : [
+        33,
+        34,
+        34,
+        34,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        37,
+        37,
+        39,
+        39,
+        39,
+        40
+      ],
+      "isImmune" : false,
+      "maxDamage" : 40,
+      "minDamage" : 33,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_terrain_pulse_no_terrain",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 805,
+        "power" : 50,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "terrain_pulse"
+    ]
+  },
+  {
+    "description" : "トリプルアクセル(813): 単発計算は1発目威力20（参照実装の挙動を固定）",
+    "expected" : {
+      "allDamages" : [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        12
+      ],
+      "isImmune" : false,
+      "maxDamage" : 12,
+      "minDamage" : 10,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_triple_axel_first_hit",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "hits" : {
+          "fixed" : 3
+        },
+        "id" : 813,
+        "power" : 20,
+        "type" : "ice"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "multi_hit"
+    ]
+  },
+  {
+    "description" : "ウェザーボール(311): 天候なしはノーマル威力50のまま",
+    "expected" : {
+      "allDamages" : [
+        33,
+        34,
+        34,
+        34,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        37,
+        37,
+        39,
+        39,
+        39,
+        40
+      ],
+      "isImmune" : false,
+      "maxDamage" : 40,
+      "minDamage" : 33,
+      "typeEffectiveness" : 1
+    },
+    "id" : "special_weather_ball_no_weather",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 311,
+        "power" : 50,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "weather_ball"
+    ]
+  },
+  {
+    "description" : "ウェザーボール(311): 雨でみず化+威力2倍",
+    "expected" : {
+      "allDamages" : [
+        134,
+        134,
+        136,
+        138,
+        140,
+        142,
+        142,
+        144,
+        146,
+        148,
+        150,
+        150,
+        152,
+        154,
+        156,
+        158
+      ],
+      "isImmune" : false,
+      "maxDamage" : 158,
+      "minDamage" : 134,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_weather_ball_rain_water",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "rain"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 311,
+        "power" : 50,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "weather_ball",
+      "weather"
+    ]
+  },
+  {
+    "description" : "ウェザーボール(311): 晴れでほのお化+威力2倍",
+    "expected" : {
+      "allDamages" : [
+        134,
+        134,
+        136,
+        138,
+        140,
+        142,
+        142,
+        144,
+        146,
+        148,
+        150,
+        150,
+        152,
+        154,
+        156,
+        158
+      ],
+      "isImmune" : false,
+      "maxDamage" : 158,
+      "minDamage" : 134,
+      "typeEffectiveness" : 2
+    },
+    "id" : "special_weather_ball_sun_fire",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "weather" : "sun"
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "grass"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "id" : 311,
+        "power" : 50,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "special_move",
+      "weather_ball",
+      "weather"
+    ]
+  }
+]

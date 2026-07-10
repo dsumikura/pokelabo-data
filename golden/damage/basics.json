@@ -1,0 +1,1635 @@
+[
+  {
+    "description" : "複合タイプの攻撃側: ほのお/ひこうの片方（ひこう）と一致する技で STAB が乗ること",
+    "expected" : {
+      "allDamages" : [
+        51,
+        52,
+        52,
+        54,
+        54,
+        54,
+        55,
+        55,
+        57,
+        57,
+        57,
+        58,
+        58,
+        60,
+        60,
+        61
+      ],
+      "isImmune" : false,
+      "maxDamage" : 61,
+      "minDamage" : 51,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_dual_type_attacker_stab",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire",
+          "flying"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 90,
+        "type" : "flying"
+      }
+    },
+    "tags" : [
+      "basic",
+      "stab"
+    ]
+  },
+  {
+    "description" : "タイプ相性×0.25: でんき技 → くさ/ドラゴン（0.5×0.5）",
+    "expected" : {
+      "allDamages" : [
+        8,
+        8,
+        8,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        10,
+        10,
+        10
+      ],
+      "isImmune" : false,
+      "maxDamage" : 10,
+      "minDamage" : 8,
+      "typeEffectiveness" : 0.5
+    },
+    "id" : "basic_eff_x025_electric_vs_grass_dragon",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "grass",
+          "dragon"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "タイプ相性×0.5: でんき技 → くさ/ノーマル（0.5×1）",
+    "expected" : {
+      "allDamages" : [
+        17,
+        17,
+        17,
+        18,
+        18,
+        18,
+        18,
+        18,
+        19,
+        19,
+        19,
+        19,
+        19,
+        20,
+        20,
+        20
+      ],
+      "isImmune" : false,
+      "maxDamage" : 20,
+      "minDamage" : 17,
+      "typeEffectiveness" : 0.5
+    },
+    "id" : "basic_eff_x05_electric_vs_grass_normal",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "grass",
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "複合で無効: でんき技 → じめん/ひこう（0×2=0）。無効が抜群より優先されること",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 0
+    },
+    "id" : "basic_eff_x0_electric_vs_ground_flying",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ground",
+          "flying"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "basic",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "複合で等倍: でんき技 → みず/くさ（2×0.5=1）。単純等倍と同値になること",
+    "expected" : {
+      "allDamages" : [
+        34,
+        35,
+        35,
+        36,
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        38,
+        39,
+        39,
+        40,
+        40,
+        41
+      ],
+      "isImmune" : false,
+      "maxDamage" : 41,
+      "minDamage" : 34,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_eff_x1_compound_electric_vs_water_grass",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water",
+          "grass"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "タイプ相性×2: でんき技 → みず/はがね（2×1）",
+    "expected" : {
+      "allDamages" : [
+        68,
+        70,
+        70,
+        72,
+        72,
+        72,
+        74,
+        74,
+        76,
+        76,
+        76,
+        78,
+        78,
+        80,
+        80,
+        82
+      ],
+      "isImmune" : false,
+      "maxDamage" : 82,
+      "minDamage" : 68,
+      "typeEffectiveness" : 2
+    },
+    "id" : "basic_eff_x2_electric_vs_water_steel",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water",
+          "steel"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "タイプ相性×4: でんき技 → みず/ひこう（2×2）",
+    "expected" : {
+      "allDamages" : [
+        136,
+        140,
+        140,
+        144,
+        144,
+        144,
+        148,
+        148,
+        152,
+        152,
+        152,
+        156,
+        156,
+        160,
+        160,
+        164
+      ],
+      "isImmune" : false,
+      "maxDamage" : 164,
+      "minDamage" : 136,
+      "typeEffectiveness" : 2
+    },
+    "id" : "basic_eff_x4_electric_vs_water_flying",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water",
+          "flying"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "タイプ無効: ドラゴン技 → フェアリー",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 0
+    },
+    "id" : "basic_immune_dragon_vs_fairy",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fairy"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "dragon"
+      }
+    },
+    "tags" : [
+      "basic",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "タイプ無効: かくとう技 → ゴースト",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 0
+    },
+    "id" : "basic_immune_fighting_vs_ghost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ghost"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "basic",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "タイプ無効: じめん技 → ひこう",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 0
+    },
+    "id" : "basic_immune_ground_vs_flying",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "flying"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "basic",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "タイプ無効: ノーマル技 → ゴースト",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 0
+    },
+    "id" : "basic_immune_normal_vs_ghost",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "ghost"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "basic",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "タイプ無効: エスパー技 → あく",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 0
+    },
+    "id" : "basic_immune_psychic_vs_dark",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "dark"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "basic",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "最低ダメージ保証: 極低攻撃×高防御×0.25 相性で計算値 0 でも 1 が保証されること",
+    "expected" : {
+      "allDamages" : [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "isImmune" : false,
+      "maxDamage" : 1,
+      "minDamage" : 1,
+      "typeEffectiveness" : 0.5
+    },
+    "id" : "basic_min_damage_floor",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 10,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 200,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "steel",
+          "rock"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 20,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "等倍・補正なしの基準ケース: 全種族値100 同士 / 威力100 / 非 STAB",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_neutral_baseline",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "高威力物理: 威力150（非 STAB・等倍）",
+    "expected" : {
+      "allDamages" : [
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63,
+        63,
+        64,
+        65,
+        65,
+        66,
+        67,
+        68
+      ],
+      "isImmune" : false,
+      "maxDamage" : 68,
+      "minDamage" : 57,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_physical_high_power",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 150,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "低威力物理: 威力40（非 STAB・等倍）",
+    "expected" : {
+      "allDamages" : [
+        16,
+        16,
+        16,
+        16,
+        16,
+        17,
+        17,
+        17,
+        17,
+        17,
+        18,
+        18,
+        18,
+        18,
+        18,
+        19
+      ],
+      "isImmune" : false,
+      "maxDamage" : 19,
+      "minDamage" : 16,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_physical_low_power",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 40,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "非 STAB 物理の 16 ロール切り出し（Python 旧 T512 同等）",
+    "expected" : {
+      "allDamages" : [
+        69,
+        70,
+        71,
+        72,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "isImmune" : false,
+      "maxDamage" : 82,
+      "minDamage" : 69,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_physical_no_stab_rolls",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 130,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "evs" : {
+          "attack" : 32
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 120,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "STAB 物理: A130 EV32 無補正 / 防御100 / 威力120 → 103〜123（Python 旧 T500 同等）",
+    "expected" : {
+      "allDamages" : [
+        103,
+        105,
+        106,
+        108,
+        108,
+        109,
+        111,
+        112,
+        114,
+        115,
+        115,
+        117,
+        118,
+        120,
+        121,
+        123
+      ],
+      "isImmune" : false,
+      "maxDamage" : 123,
+      "minDamage" : 103,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_physical_stab",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 130,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "evs" : {
+          "attack" : 32
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 120,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "basic",
+      "stab"
+    ]
+  },
+  {
+    "description" : "高威力特殊: 威力150（非 STAB・等倍）",
+    "expected" : {
+      "allDamages" : [
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63,
+        63,
+        64,
+        65,
+        65,
+        66,
+        67,
+        68
+      ],
+      "isImmune" : false,
+      "maxDamage" : 68,
+      "minDamage" : 57,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_special_high_power",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 150,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "低威力特殊: 威力40（非 STAB・等倍）",
+    "expected" : {
+      "allDamages" : [
+        16,
+        16,
+        16,
+        16,
+        16,
+        17,
+        17,
+        17,
+        17,
+        17,
+        18,
+        18,
+        18,
+        18,
+        18,
+        19
+      ],
+      "isImmune" : false,
+      "maxDamage" : 19,
+      "minDamage" : 16,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_special_low_power",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 40,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "非 STAB 特殊: ノーマル単のポケモンがほのお技を使用（等倍・STAB なし）",
+    "expected" : {
+      "allDamages" : [
+        31,
+        31,
+        32,
+        32,
+        32,
+        33,
+        33,
+        34,
+        34,
+        34,
+        35,
+        35,
+        35,
+        36,
+        36,
+        37
+      ],
+      "isImmune" : false,
+      "maxDamage" : 37,
+      "minDamage" : 31,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_special_no_stab",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 80,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "basic"
+    ]
+  },
+  {
+    "description" : "STAB 特殊: C100 ほのお / とくぼう100 / 威力80",
+    "expected" : {
+      "allDamages" : [
+        46,
+        46,
+        48,
+        48,
+        48,
+        49,
+        49,
+        51,
+        51,
+        51,
+        52,
+        52,
+        52,
+        54,
+        54,
+        55
+      ],
+      "isImmune" : false,
+      "maxDamage" : 55,
+      "minDamage" : 46,
+      "typeEffectiveness" : 1
+    },
+    "id" : "basic_special_stab",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 80,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "basic",
+      "stab"
+    ]
+  },
+  {
+    "description" : "STAB×半減: ほのおタイプのほのお技 → みず（1.5×0.5）",
+    "expected" : {
+      "allDamages" : [
+        25,
+        26,
+        26,
+        27,
+        27,
+        27,
+        27,
+        27,
+        28,
+        28,
+        28,
+        29,
+        29,
+        30,
+        30,
+        30
+      ],
+      "isImmune" : false,
+      "maxDamage" : 30,
+      "minDamage" : 25,
+      "typeEffectiveness" : 0.5
+    },
+    "id" : "basic_stab_not_very_effective",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "basic",
+      "stab"
+    ]
+  },
+  {
+    "description" : "STAB×抜群: みずタイプのみず技 → ほのお（1.5×2）",
+    "expected" : {
+      "allDamages" : [
+        102,
+        104,
+        104,
+        108,
+        108,
+        108,
+        110,
+        110,
+        114,
+        114,
+        114,
+        116,
+        116,
+        120,
+        120,
+        122
+      ],
+      "isImmune" : false,
+      "maxDamage" : 122,
+      "minDamage" : 102,
+      "typeEffectiveness" : 2
+    },
+    "id" : "basic_stab_super_effective",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 90,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "basic",
+      "stab"
+    ]
+  }
+]

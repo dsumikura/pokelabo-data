@@ -1,0 +1,53 @@
+{
+  "files" : [
+    {
+      "caseCount" : 24,
+      "name" : "basics.json"
+    },
+    {
+      "caseCount" : 10,
+      "name" : "rounding.json"
+    },
+    {
+      "caseCount" : 30,
+      "name" : "stats.json"
+    },
+    {
+      "caseCount" : 35,
+      "name" : "context.json"
+    },
+    {
+      "caseCount" : 18,
+      "name" : "weather_terrain.json"
+    },
+    {
+      "caseCount" : 119,
+      "name" : "abilities_attacker.json"
+    },
+    {
+      "caseCount" : 54,
+      "name" : "abilities_defender.json"
+    },
+    {
+      "caseCount" : 55,
+      "name" : "items.json"
+    },
+    {
+      "caseCount" : 56,
+      "name" : "special_moves.json"
+    },
+    {
+      "caseCount" : 6,
+      "name" : "mega.json"
+    },
+    {
+      "caseCount" : 6,
+      "name" : "regressions.json"
+    }
+  ],
+  "generator" : {
+    "generatedAt" : "2026-07-10T06:04:36Z",
+    "sourceCommit" : "c7ef1c1"
+  },
+  "schemaVersion" : 1
+}

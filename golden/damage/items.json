@@ -1,0 +1,3796 @@
+[
+  {
+    "description" : "とつげきチョッキ: 物理には効かない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_assault_vest_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Assault Vest",
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Assault Vest"
+    ]
+  },
+  {
+    "description" : "とつげきチョッキ: 特殊でとくぼう1.5倍",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        48,
+        48,
+        48,
+        49,
+        49,
+        49,
+        51,
+        51,
+        51,
+        52,
+        52,
+        54
+      ],
+      "isImmune" : false,
+      "maxDamage" : 54,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_assault_vest_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Assault Vest",
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Assault Vest"
+    ]
+  },
+  {
+    "description" : "くろおび: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_black_belt_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Black Belt",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Black Belt"
+    ]
+  },
+  {
+    "description" : "くろおび: fighting技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        106,
+        108,
+        108,
+        110,
+        112,
+        112,
+        114,
+        114,
+        116,
+        118,
+        118,
+        120,
+        122,
+        122,
+        124,
+        126
+      ],
+      "isImmune" : false,
+      "maxDamage" : 126,
+      "minDamage" : 106,
+      "typeEffectiveness" : 2
+    },
+    "id" : "item_black_belt_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Black Belt",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Black Belt"
+    ]
+  },
+  {
+    "description" : "くろいメガネ: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_black_glasses_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Black Glasses",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Black Glasses"
+    ]
+  },
+  {
+    "description" : "くろいメガネ: dark技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_black_glasses_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Black Glasses",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "dark"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Black Glasses"
+    ]
+  },
+  {
+    "description" : "ブーストエナジー: パラドックス特性なしでは効果なし",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_booster_energy_alone",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Booster Energy",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Booster Energy",
+      "paradox_boost"
+    ]
+  },
+  {
+    "description" : "もくたん: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_charcoal_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Charcoal",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Charcoal"
+    ]
+  },
+  {
+    "description" : "もくたん: fire技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_charcoal_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Charcoal",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Charcoal"
+    ]
+  },
+  {
+    "description" : "こだわりハチマキ: 特殊には乗らない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_choice_band_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Choice Band",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Choice Band"
+    ]
+  },
+  {
+    "description" : "こだわりハチマキ: 物理でこうげき1.5倍",
+    "expected" : {
+      "allDamages" : [
+        100,
+        100,
+        102,
+        103,
+        105,
+        106,
+        106,
+        108,
+        109,
+        111,
+        112,
+        112,
+        114,
+        115,
+        117,
+        118
+      ],
+      "isImmune" : false,
+      "maxDamage" : 118,
+      "minDamage" : 100,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_choice_band_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Choice Band",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Choice Band"
+    ]
+  },
+  {
+    "description" : "こだわりメガネ: 物理には乗らない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_choice_specs_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Choice Specs",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Choice Specs"
+    ]
+  },
+  {
+    "description" : "こだわりメガネ: 特殊でとくこう1.5倍",
+    "expected" : {
+      "allDamages" : [
+        100,
+        100,
+        102,
+        103,
+        105,
+        106,
+        106,
+        108,
+        109,
+        111,
+        112,
+        112,
+        114,
+        115,
+        117,
+        118
+      ],
+      "isImmune" : false,
+      "maxDamage" : 118,
+      "minDamage" : 100,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_choice_specs_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Choice Specs",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Choice Specs"
+    ]
+  },
+  {
+    "description" : "りゅうのキバ: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_dragon_fang_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Dragon Fang",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Dragon Fang"
+    ]
+  },
+  {
+    "description" : "りゅうのキバ: dragon技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_dragon_fang_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Dragon Fang",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "dragon"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Dragon Fang"
+    ]
+  },
+  {
+    "description" : "たつじんのおび: 等倍では補正なし",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_expert_belt_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Expert Belt",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Expert Belt",
+      "expert_belt"
+    ]
+  },
+  {
+    "description" : "たつじんのおび: 効果抜群時1.2倍",
+    "expected" : {
+      "allDamages" : [
+        108,
+        108,
+        110,
+        110,
+        113,
+        113,
+        115,
+        115,
+        118,
+        118,
+        120,
+        120,
+        122,
+        122,
+        125,
+        127
+      ],
+      "isImmune" : false,
+      "maxDamage" : 127,
+      "minDamage" : 108,
+      "typeEffectiveness" : 2
+    },
+    "id" : "item_expert_belt_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Expert Belt",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "grass"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Expert Belt",
+      "expert_belt"
+    ]
+  },
+  {
+    "description" : "フェアリーのはね: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_fairy_feather_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Fairy Feather",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Fairy Feather"
+    ]
+  },
+  {
+    "description" : "フェアリーのはね: fairy技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_fairy_feather_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Fairy Feather",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fairy"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Fairy Feather"
+    ]
+  },
+  {
+    "description" : "半減きのみ: 等倍では発動しない（抜群ゲート）",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_half_berry_neutral_no_effect",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "hasHalfBerry" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "item",
+      "half_berry"
+    ]
+  },
+  {
+    "description" : "半減きのみ: 効果抜群時にダメージ半減（hasHalfBerry フラグ）",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 2
+    },
+    "id" : "item_half_berry_super_effective",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+        "hasHalfBerry" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "grass"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fire"
+      }
+    },
+    "tags" : [
+      "item",
+      "half_berry"
+    ]
+  },
+  {
+    "description" : "かたいいし: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_hard_stone_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Hard Stone",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Hard Stone"
+    ]
+  },
+  {
+    "description" : "かたいいし: rock技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_hard_stone_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Hard Stone",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "rock"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Hard Stone"
+    ]
+  },
+  {
+    "description" : "いのちのたま: ダメージ1.3倍",
+    "expected" : {
+      "allDamages" : [
+        87,
+        87,
+        90,
+        90,
+        91,
+        91,
+        94,
+        94,
+        95,
+        95,
+        97,
+        97,
+        99,
+        99,
+        101,
+        103
+      ],
+      "isImmune" : false,
+      "maxDamage" : 103,
+      "minDamage" : 87,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_life_orb_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Life Orb",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Life Orb"
+    ]
+  },
+  {
+    "description" : "じしゃく: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_magnet_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Magnet",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Magnet"
+    ]
+  },
+  {
+    "description" : "じしゃく: electric技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_magnet_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Magnet",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "electric"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Magnet"
+    ]
+  },
+  {
+    "description" : "メタルコート: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_metal_coat_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Metal Coat",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Metal Coat"
+    ]
+  },
+  {
+    "description" : "メタルコート: steel技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_metal_coat_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Metal Coat",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "steel"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Metal Coat"
+    ]
+  },
+  {
+    "description" : "きせきのタネ: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_miracle_seed_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Miracle Seed",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Miracle Seed"
+    ]
+  },
+  {
+    "description" : "きせきのタネ: grass技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_miracle_seed_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Miracle Seed",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "grass"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Miracle Seed"
+    ]
+  },
+  {
+    "description" : "ちからのハチマキ: 特殊には乗らない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_muscle_band_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Muscle Band",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Muscle Band"
+    ]
+  },
+  {
+    "description" : "ちからのハチマキ: 物理威力1.1倍",
+    "expected" : {
+      "allDamages" : [
+        73,
+        73,
+        75,
+        76,
+        76,
+        78,
+        78,
+        79,
+        79,
+        81,
+        82,
+        82,
+        84,
+        84,
+        85,
+        87
+      ],
+      "isImmune" : false,
+      "maxDamage" : 87,
+      "minDamage" : 73,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_muscle_band_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Muscle Band",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Muscle Band"
+    ]
+  },
+  {
+    "description" : "しんぴのしずく: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_mystic_water_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Mystic Water",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "grass"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Mystic Water"
+    ]
+  },
+  {
+    "description" : "しんぴのしずく: water技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_mystic_water_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Mystic Water",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Mystic Water"
+    ]
+  },
+  {
+    "description" : "とけないこおり: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_never_melt_ice_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Never-Melt Ice",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Never-Melt Ice"
+    ]
+  },
+  {
+    "description" : "とけないこおり: ice技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_never_melt_ice_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Never-Melt Ice",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ice"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Never-Melt Ice"
+    ]
+  },
+  {
+    "description" : "もちものなしの基準ケース（いのちのたま等との比較用）",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_no_item_baseline",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item"
+    ]
+  },
+  {
+    "description" : "どくバリ: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_poison_barb_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Poison Barb",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Poison Barb"
+    ]
+  },
+  {
+    "description" : "どくバリ: poison技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_poison_barb_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Poison Barb",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "poison"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Poison Barb"
+    ]
+  },
+  {
+    "description" : "がんせきこう: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_rock_incense_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Rock Incense",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Rock Incense"
+    ]
+  },
+  {
+    "description" : "がんせきこう: rock技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_rock_incense_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Rock Incense",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "rock"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Rock Incense"
+    ]
+  },
+  {
+    "description" : "するどいくちばし: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_sharp_beak_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Sharp Beak",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Sharp Beak"
+    ]
+  },
+  {
+    "description" : "するどいくちばし: flying技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_sharp_beak_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Sharp Beak",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "flying"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Sharp Beak"
+    ]
+  },
+  {
+    "description" : "シルクのスカーフ: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        90,
+        90,
+        92,
+        92,
+        94,
+        94,
+        96,
+        96,
+        98,
+        98,
+        100,
+        100,
+        102,
+        102,
+        104,
+        106
+      ],
+      "isImmune" : false,
+      "maxDamage" : 106,
+      "minDamage" : 90,
+      "typeEffectiveness" : 2
+    },
+    "id" : "item_silk_scarf_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Silk Scarf",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Silk Scarf"
+    ]
+  },
+  {
+    "description" : "シルクのスカーフ: normal技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        79,
+        81,
+        81,
+        82,
+        84,
+        84,
+        85,
+        85,
+        87,
+        88,
+        88,
+        90,
+        91,
+        91,
+        93,
+        94
+      ],
+      "isImmune" : false,
+      "maxDamage" : 94,
+      "minDamage" : 79,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_silk_scarf_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Silk Scarf",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Silk Scarf"
+    ]
+  },
+  {
+    "description" : "ぎんのこな: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_silver_powder_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Silver Powder",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Silver Powder"
+    ]
+  },
+  {
+    "description" : "ぎんのこな: bug技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_silver_powder_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Silver Powder",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "bug"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Silver Powder"
+    ]
+  },
+  {
+    "description" : "やわらかいすな: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_soft_sand_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Soft Sand",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Soft Sand"
+    ]
+  },
+  {
+    "description" : "やわらかいすな: ground技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_soft_sand_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Soft Sand",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Soft Sand"
+    ]
+  },
+  {
+    "description" : "のろいのおふだ: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        22,
+        22,
+        23,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        25,
+        26,
+        26
+      ],
+      "isImmune" : false,
+      "maxDamage" : 26,
+      "minDamage" : 22,
+      "typeEffectiveness" : 0.5
+    },
+    "id" : "item_spell_tag_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Spell Tag",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Spell Tag"
+    ]
+  },
+  {
+    "description" : "のろいのおふだ: ghost技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_spell_tag_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Spell Tag",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "water"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ghost"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Spell Tag"
+    ]
+  },
+  {
+    "description" : "まがったスプーン: 対象外タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_twisted_spoon_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Twisted Spoon",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "water"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Twisted Spoon"
+    ]
+  },
+  {
+    "description" : "まがったスプーン: psychic技1.2倍",
+    "expected" : {
+      "allDamages" : [
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63
+      ],
+      "isImmune" : false,
+      "maxDamage" : 63,
+      "minDamage" : 53,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_twisted_spoon_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Twisted Spoon",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "psychic"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Twisted Spoon"
+    ]
+  },
+  {
+    "description" : "ものしりメガネ: 物理には乗らない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_wise_glasses_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Wise Glasses",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Wise Glasses"
+    ]
+  },
+  {
+    "description" : "ものしりメガネ: 特殊威力1.1倍",
+    "expected" : {
+      "allDamages" : [
+        73,
+        73,
+        75,
+        76,
+        76,
+        78,
+        78,
+        79,
+        79,
+        81,
+        82,
+        82,
+        84,
+        84,
+        85,
+        87
+      ],
+      "isImmune" : false,
+      "maxDamage" : 87,
+      "minDamage" : 73,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_wise_glasses_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Wise Glasses",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Wise Glasses"
+    ]
+  }
+]

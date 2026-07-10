@@ -1,0 +1,2103 @@
+[
+  {
+    "description" : "やけどの物理技: ダメージ半減（stats_ev0_baseline の半分相当）",
+    "expected" : {
+      "allDamages" : [
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        22,
+        23
+      ],
+      "isImmune" : false,
+      "maxDamage" : 23,
+      "minDamage" : 19,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_burn_physical_halved",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "status" : "burn",
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "burn"
+    ]
+  },
+  {
+    "description" : "やけどの特殊技: 半減されない（同一実数値の物理やけどケースと対、非やけど時と同値）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_burn_special_not_halved",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "status" : "burn",
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "burn"
+    ]
+  },
+  {
+    "description" : "EV32＋いじっぱり＋攻撃+1 の複合: (100+20+32)×1.1=167 → ×3/2=250 の順で適用されること",
+    "expected" : {
+      "allDamages" : [
+        79,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "isImmune" : false,
+      "maxDamage" : 93,
+      "minDamage" : 79,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_combined_adamant_ev32_rank_plus1",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "evs" : {
+          "attack" : 32
+        },
+        "nature" : "adamant",
+        "ranks" : {
+          "attack" : 1
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  },
+  {
+    "description" : "急所は攻撃側の負ランクを無視: 攻撃-2＋急所 → ランク 0 の急所（stats_crit_on）と同値になること",
+    "expected" : {
+      "allDamages" : [
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        69
+      ],
+      "isImmune" : false,
+      "maxDamage" : 69,
+      "minDamage" : 58,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_crit_ignores_attacker_minus2",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : -2
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "critical",
+      "rank"
+    ]
+  },
+  {
+    "description" : "急所は防御側の正ランクを無視: 防御+2＋急所 → ランク 0 の急所（stats_crit_on）と同値になること",
+    "expected" : {
+      "allDamages" : [
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        69
+      ],
+      "isImmune" : false,
+      "maxDamage" : 69,
+      "minDamage" : 58,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_crit_ignores_defender_plus2",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "defense" : 2
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "critical",
+      "rank"
+    ]
+  },
+  {
+    "description" : "急所でも攻撃側の正ランクは有効: 攻撃+2＋急所 → ×2 と ×1.5 が両方乗ること",
+    "expected" : {
+      "allDamages" : [
+        114,
+        116,
+        117,
+        118,
+        120,
+        121,
+        122,
+        124,
+        125,
+        126,
+        128,
+        129,
+        130,
+        132,
+        133,
+        135
+      ],
+      "isImmune" : false,
+      "maxDamage" : 135,
+      "minDamage" : 114,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_crit_keeps_attacker_plus2",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : 2
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "critical",
+      "rank"
+    ]
+  },
+  {
+    "description" : "急所でも防御側の負ランクは有効: 防御-2＋急所 → 防御半減と ×1.5 が両方乗ること",
+    "expected" : {
+      "allDamages" : [
+        114,
+        116,
+        117,
+        118,
+        120,
+        121,
+        122,
+        124,
+        125,
+        126,
+        128,
+        129,
+        130,
+        132,
+        133,
+        135
+      ],
+      "isImmune" : false,
+      "maxDamage" : 135,
+      "minDamage" : 114,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_crit_keeps_defender_minus2",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "defense" : -2
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "critical",
+      "rank"
+    ]
+  },
+  {
+    "description" : "急所なし基準: 急所ペア比較用（stats_crit_on と同構成）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_crit_off_baseline",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "critical"
+    ]
+  },
+  {
+    "description" : "急所×1.5: 基準ケースの 1.5 倍相当になること",
+    "expected" : {
+      "allDamages" : [
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        63,
+        64,
+        64,
+        65,
+        66,
+        66,
+        67,
+        68,
+        69
+      ],
+      "isImmune" : false,
+      "maxDamage" : 69,
+      "minDamage" : 58,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_crit_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+        "isCritical" : true
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "critical"
+    ]
+  },
+  {
+    "description" : "防御側の防御ランク+2（急所なし）: 急所での防御ランク無視ケースの比較元",
+    "expected" : {
+      "allDamages" : [
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23,
+        23,
+        24
+      ],
+      "isImmune" : false,
+      "maxDamage" : 24,
+      "minDamage" : 20,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_defense_plus2_no_crit_pair",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "defense" : 2
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  },
+  {
+    "description" : "EV0 基準: 攻撃実数値 120 / 防御 120 / 威力100 非 STAB（EV・ランク系ペアの比較元）",
+    "expected" : {
+      "allDamages" : [
+        39,
+        39,
+        40,
+        40,
+        40,
+        41,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46
+      ],
+      "isImmune" : false,
+      "maxDamage" : 46,
+      "minDamage" : 39,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_ev0_baseline",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "攻撃 EV16（中間値）: 実数値 120→136 でダメージが基準より増えること",
+    "expected" : {
+      "allDamages" : [
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        51
+      ],
+      "isImmune" : false,
+      "maxDamage" : 51,
+      "minDamage" : 43,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_ev16_attack",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "evs" : {
+          "attack" : 16
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "攻撃 EV32（最大）: 実数値 120→152。EV0/EV16 と 3 段で単調増加すること",
+    "expected" : {
+      "allDamages" : [
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53,
+        53,
+        54,
+        54,
+        55,
+        55,
+        56,
+        57
+      ],
+      "isImmune" : false,
+      "maxDamage" : 57,
+      "minDamage" : 48,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_ev32_attack",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "evs" : {
+          "attack" : 32
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "防御側の防御 EV32: 実数値 120→152 でダメージが基準より減ること",
+    "expected" : {
+      "allDamages" : [
+        30,
+        30,
+        31,
+        31,
+        32,
+        32,
+        32,
+        33,
+        33,
+        33,
+        34,
+        34,
+        34,
+        35,
+        35,
+        36
+      ],
+      "isImmune" : false,
+      "maxDamage" : 36,
+      "minDamage" : 30,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_ev32_defense_defender",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "evs" : {
+          "defense" : 32
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "特攻 EV32 の特殊技: 特殊側も EV 直接加算が効くこと",
+    "expected" : {
+      "allDamages" : [
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53,
+        53,
+        54,
+        54,
+        55,
+        55,
+        56,
+        57
+      ],
+      "isImmune" : false,
+      "maxDamage" : 57,
+      "minDamage" : 48,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_ev32_sp_attack",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "evs" : {
+          "spAttack" : 32
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "防御側の特防 EV32: 特殊技のダメージが基準より減ること",
+    "expected" : {
+      "allDamages" : [
+        30,
+        30,
+        31,
+        31,
+        32,
+        32,
+        32,
+        33,
+        33,
+        33,
+        34,
+        34,
+        34,
+        35,
+        35,
+        36
+      ],
+      "isImmune" : false,
+      "maxDamage" : 36,
+      "minDamage" : 30,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_ev32_sp_defense_defender",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "evs" : {
+          "spDefense" : 32
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "いじっぱり（攻撃↑）: 実数値 120×1.1=132 で物理ダメージ増",
+    "expected" : {
+      "allDamages" : [
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50
+      ],
+      "isImmune" : false,
+      "maxDamage" : 50,
+      "minDamage" : 42,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_nature_adamant_attack_up",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "nature" : "adamant",
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "いじっぱり（特攻↓）の特殊技: 特攻 108 でダメージ減",
+    "expected" : {
+      "allDamages" : [
+        34,
+        35,
+        35,
+        36,
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        38,
+        39,
+        39,
+        40,
+        40,
+        41
+      ],
+      "isImmune" : false,
+      "maxDamage" : 41,
+      "minDamage" : 34,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_nature_adamant_sp_attack_down",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "nature" : "adamant",
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "防御側ずぶとい（防御↑）: 防御 132 で物理ダメージ減",
+    "expected" : {
+      "allDamages" : [
+        35,
+        36,
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        39,
+        39,
+        39,
+        40,
+        40,
+        41,
+        41,
+        42
+      ],
+      "isImmune" : false,
+      "maxDamage" : 42,
+      "minDamage" : 35,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_nature_bold_defense_up_defender",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "nature" : "bold",
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "ひかえめ（攻撃↓）の物理技: 実数値 120×0.9=108 で物理ダメージ減",
+    "expected" : {
+      "allDamages" : [
+        34,
+        35,
+        35,
+        36,
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        38,
+        39,
+        39,
+        40,
+        40,
+        41
+      ],
+      "isImmune" : false,
+      "maxDamage" : 41,
+      "minDamage" : 34,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_nature_modest_attack_down",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "nature" : "modest",
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "ひかえめ（特攻↑）: 特殊技では逆にダメージ増（物理ケースと対）",
+    "expected" : {
+      "allDamages" : [
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50
+      ],
+      "isImmune" : false,
+      "maxDamage" : 50,
+      "minDamage" : 42,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_nature_modest_sp_attack_up",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "nature" : "modest",
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "防御側うっかりや（特防↓）: 特防 108 で特殊ダメージ増",
+    "expected" : {
+      "allDamages" : [
+        42,
+        43,
+        43,
+        44,
+        44,
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50
+      ],
+      "isImmune" : false,
+      "maxDamage" : 50,
+      "minDamage" : 42,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_nature_rash_sp_defense_down_defender",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "nature" : "rash",
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats"
+    ]
+  },
+  {
+    "description" : "攻撃ランク-2: 実数値 120×2/4=60（急所でのランク無視ケースの比較元）",
+    "expected" : {
+      "allDamages" : [
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23,
+        23,
+        24
+      ],
+      "isImmune" : false,
+      "maxDamage" : 24,
+      "minDamage" : 20,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_rank_attack_minus2",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : -2
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  },
+  {
+    "description" : "攻撃ランク-6: 実数値 120×2/8=30",
+    "expected" : {
+      "allDamages" : [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        13
+      ],
+      "isImmune" : false,
+      "maxDamage" : 13,
+      "minDamage" : 11,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_rank_attack_minus6",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : -6
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  },
+  {
+    "description" : "攻撃ランク+1: 実数値 120×3/2=180",
+    "expected" : {
+      "allDamages" : [
+        57,
+        58,
+        59,
+        59,
+        60,
+        61,
+        61,
+        62,
+        63,
+        63,
+        64,
+        65,
+        65,
+        66,
+        67,
+        68
+      ],
+      "isImmune" : false,
+      "maxDamage" : 68,
+      "minDamage" : 57,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_rank_attack_plus1",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : 1
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  },
+  {
+    "description" : "攻撃ランク+6: 実数値 120×4=480",
+    "expected" : {
+      "allDamages" : [
+        151,
+        153,
+        154,
+        156,
+        158,
+        160,
+        161,
+        163,
+        165,
+        167,
+        169,
+        170,
+        172,
+        174,
+        176,
+        178
+      ],
+      "isImmune" : false,
+      "maxDamage" : 178,
+      "minDamage" : 151,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_rank_attack_plus6",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "attack" : 6
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  },
+  {
+    "description" : "防御側の防御ランク-2: 防御 60 で物理ダメージ倍増",
+    "expected" : {
+      "allDamages" : [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "isImmune" : false,
+      "maxDamage" : 90,
+      "minDamage" : 76,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_rank_defense_minus2_defender",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "defense" : -2
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  },
+  {
+    "description" : "防御側の防御ランク+6: 防御 480 で物理ダメージ激減",
+    "expected" : {
+      "allDamages" : [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        13
+      ],
+      "isImmune" : false,
+      "maxDamage" : 13,
+      "minDamage" : 11,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_rank_defense_plus6_defender",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "defense" : 6
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  },
+  {
+    "description" : "特攻ランク+2 の特殊技: 特攻 240",
+    "expected" : {
+      "allDamages" : [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "isImmune" : false,
+      "maxDamage" : 90,
+      "minDamage" : 76,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_rank_sp_attack_plus2",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "spAttack" : 2
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  },
+  {
+    "description" : "防御側の特防ランク-6: 特防 30 で特殊ダメージ激増",
+    "expected" : {
+      "allDamages" : [
+        151,
+        153,
+        154,
+        156,
+        158,
+        160,
+        161,
+        163,
+        165,
+        167,
+        169,
+        170,
+        172,
+        174,
+        176,
+        178
+      ],
+      "isImmune" : false,
+      "maxDamage" : 178,
+      "minDamage" : 151,
+      "typeEffectiveness" : 1
+    },
+    "id" : "stats_rank_sp_defense_minus6_defender",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "fire"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "ranks" : {
+          "spDefense" : -6
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "stats",
+      "rank"
+    ]
+  }
+]
