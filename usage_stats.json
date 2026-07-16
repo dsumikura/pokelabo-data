@@ -1,7 +1,7 @@
 {
   "source": "",
   "season": "M-4",
-  "generated_at": "2026-07-15T19:13:50+00:00",
+  "generated_at": "2026-07-16T19:13:55+00:00",
   "top_ranking": {
     "single": [
       "garchomp",
@@ -62706,7 +62706,108 @@
         ]
       },
       "double": {
-        "error": "http_404"
+        "ev_distributions": [
+          {
+            "rank": 1,
+            "hp": 32,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 2,
+            "speed": 0,
+            "pct": 11.7
+          },
+          {
+            "rank": 2,
+            "hp": 32,
+            "attack": 0,
+            "defense": 2,
+            "spAttack": 32,
+            "spDefense": 0,
+            "speed": 0,
+            "pct": 8.7
+          },
+          {
+            "rank": 3,
+            "hp": 32,
+            "attack": 0,
+            "defense": 2,
+            "spAttack": 0,
+            "spDefense": 32,
+            "speed": 0,
+            "pct": 8.1
+          },
+          {
+            "rank": 4,
+            "hp": 32,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 2,
+            "spDefense": 32,
+            "speed": 0,
+            "pct": 4.9
+          },
+          {
+            "rank": 5,
+            "hp": 32,
+            "attack": 0,
+            "defense": 32,
+            "spAttack": 0,
+            "spDefense": 2,
+            "speed": 0,
+            "pct": 4.4
+          },
+          {
+            "rank": 6,
+            "hp": 32,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 0,
+            "speed": 2,
+            "pct": 3.8
+          },
+          {
+            "rank": 7,
+            "hp": 2,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 32,
+            "speed": 0,
+            "pct": 3.8
+          },
+          {
+            "rank": 8,
+            "hp": 2,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 0,
+            "speed": 32,
+            "pct": 3.5
+          },
+          {
+            "rank": 9,
+            "hp": 15,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 18,
+            "spDefense": 32,
+            "speed": 0,
+            "pct": 3.2
+          },
+          {
+            "rank": 10,
+            "hp": 32,
+            "attack": 0,
+            "defense": 32,
+            "spAttack": 2,
+            "spDefense": 0,
+            "speed": 0,
+            "pct": 2.6
+          }
+        ]
       }
     },
     "jolteon": {
@@ -84822,7 +84923,108 @@
         ]
       },
       "double": {
-        "error": "http_404"
+        "ev_distributions": [
+          {
+            "rank": 1,
+            "hp": 32,
+            "attack": 0,
+            "defense": 2,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 32,
+            "pct": 39.5
+          },
+          {
+            "rank": 2,
+            "hp": 32,
+            "attack": 0,
+            "defense": 31,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 3,
+            "pct": 9.0
+          },
+          {
+            "rank": 3,
+            "hp": 2,
+            "attack": 32,
+            "defense": 0,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 32,
+            "pct": 7.4
+          },
+          {
+            "rank": 4,
+            "hp": 32,
+            "attack": 0,
+            "defense": 32,
+            "spAttack": 0,
+            "spDefense": 2,
+            "speed": 0,
+            "pct": 6.3
+          },
+          {
+            "rank": 5,
+            "hp": 32,
+            "attack": 0,
+            "defense": 32,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 2,
+            "pct": 3.9
+          },
+          {
+            "rank": 6,
+            "hp": 2,
+            "attack": 32,
+            "defense": 32,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 0,
+            "pct": 2.4
+          },
+          {
+            "rank": 7,
+            "hp": 32,
+            "attack": 2,
+            "defense": 0,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 32,
+            "pct": 1.9
+          },
+          {
+            "rank": 8,
+            "hp": 32,
+            "attack": 2,
+            "defense": 32,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 0,
+            "pct": 1.8
+          },
+          {
+            "rank": 9,
+            "hp": 31,
+            "attack": 32,
+            "defense": 0,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 3,
+            "pct": 1.4
+          },
+          {
+            "rank": 10,
+            "hp": 32,
+            "attack": 0,
+            "defense": 2,
+            "spAttack": 0,
+            "spDefense": 32,
+            "speed": 0,
+            "pct": 1.4
+          }
+        ]
       }
     },
     "lycanroc": {
