@@ -6613,6 +6613,144 @@
     ]
   },
   {
+    "description" : "はりこみ比較用: 特性なしの同条件",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_atk_stakeout_off_baseline",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:None",
+      "ability:Stakeout"
+    ]
+  },
+  {
+    "description" : "はりこみ: 威力2倍（実装では常時適用）",
+    "expected" : {
+      "allDamages" : [
+        132,
+        133,
+        135,
+        136,
+        138,
+        139,
+        141,
+        142,
+        144,
+        145,
+        147,
+        148,
+        150,
+        151,
+        153,
+        156
+      ],
+      "isImmune" : false,
+      "maxDamage" : 156,
+      "minDamage" : 132,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_atk_stakeout_on",
+    "input" : {
+      "attacker" : {
+        "ability" : "Stakeout",
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Stakeout"
+    ]
+  },
+  {
     "description" : "はがねつかい: 他タイプには乗らない",
     "expected" : {
       "allDamages" : [

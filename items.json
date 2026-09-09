@@ -1280,6 +1280,62 @@
     "sprite": "fairy-feather"
   },
   {
+    "id": 569,
+    "name": "ながねぎ",
+    "nameEn": "Leek",
+    "effects": [],
+    "sprite": "stick"
+  },
+  {
+    "id": 570,
+    "name": "ノーマルジュエル",
+    "nameEn": "Normal Gem",
+    "effects": [],
+    "sprite": "normal-gem"
+  },
+  {
+    "id": 571,
+    "name": "グランドコート",
+    "nameEn": "Terrain Extender",
+    "effects": [],
+    "sprite": "terrain-extender"
+  },
+  {
+    "id": 572,
+    "name": "しめつけバンド",
+    "nameEn": "Binding Band",
+    "effects": [],
+    "sprite": "binding-band"
+  },
+  {
+    "id": 573,
+    "name": "エレキシード",
+    "nameEn": "Electric Seed",
+    "effects": [],
+    "sprite": "electric-seed"
+  },
+  {
+    "id": 574,
+    "name": "サイコシード",
+    "nameEn": "Psychic Seed",
+    "effects": [],
+    "sprite": "psychic-seed"
+  },
+  {
+    "id": 575,
+    "name": "ミストシード",
+    "nameEn": "Misty Seed",
+    "effects": [],
+    "sprite": "misty-seed"
+  },
+  {
+    "id": 576,
+    "name": "グラスシード",
+    "nameEn": "Grassy Seed",
+    "effects": [],
+    "sprite": "grassy-seed"
+  },
+  {
     "id": 243,
     "name": "ちからのハチマキ",
     "nameEn": "Muscle Band",

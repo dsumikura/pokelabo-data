@@ -4100,7 +4100,7 @@
     "nameEn": "Slash",
     "type": "normal",
     "category": "physical",
-    "power": 70,
+    "power": 80,
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
@@ -4117,7 +4117,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "ツメや　カマなどで相手を　切り裂いて　攻撃する。急所に　当たりやすい。"
+    "description": "きゅうしょアップ+1で攻撃する。"
   },
   {
     "id": 164,
@@ -4800,7 +4800,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "相手の　顔などに墨を　吹きかけて　攻撃する。命中率を　さげることが　ある。"
+    "description": "50%の確率で相手の命中率を1段階下げる。"
   },
   {
     "id": 191,
@@ -5240,7 +5240,7 @@
     "category": "status",
     "power": null,
     "accuracy": null,
-    "pp": 5,
+    "pp": 8,
     "priority": 0,
     "flags": {
       "isContact": false,
@@ -5255,7 +5255,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "最大ＨＰの　半分自分の　ＨＰを　回復する。"
+    "description": "自分か味方のHPを最大HPの1/2回復する。"
   },
   {
     "id": 209,
@@ -5355,7 +5355,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "相手をにげられない状態にする。"
+    "description": "相手をにげられない状態にする。ゴーストタイプの相手には無効。"
   },
   {
     "id": 213,
@@ -6871,7 +6871,7 @@
     "category": "status",
     "power": null,
     "accuracy": null,
-    "pp": 12,
+    "pp": 8,
     "priority": 0,
     "flags": {
       "isContact": false,
@@ -8455,7 +8455,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "相手をにげられない状態にする。"
+    "description": "相手をにげられない状態にする。ゴーストタイプの相手には無効。"
   },
   {
     "id": 336,
@@ -10886,7 +10886,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "相手の回避率を1段階下げる。リフレクター、まきびし、しんぴのまもり、フィールド等を解除する。"
+    "description": "相手の回避率を1段階下げる。お互いの場のリフレクター状態、まきびし状態、しんぴのまもり状態、フィールド等を解除する。"
   },
   {
     "id": 433,
@@ -12790,7 +12790,7 @@
     "category": "status",
     "power": null,
     "accuracy": null,
-    "pp": 10,
+    "pp": 12,
     "priority": 0,
     "flags": {
       "isContact": false,
@@ -12805,7 +12805,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "歯車を　回して自分の　攻撃を　あげる　だけでなく素早さも　ぐーんと　あげる。"
+    "description": "自分の攻撃を1段階上げて素早さを2段階上げる。"
   },
   {
     "id": 509,
@@ -16690,7 +16690,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "相手をにげられない状態にする。"
+    "description": "ゴーストタイプ以外の相手をにげられない状態にする。"
   },
   {
     "id": 663,
@@ -16826,7 +16826,7 @@
     "category": "status",
     "power": null,
     "accuracy": 100,
-    "pp": 12,
+    "pp": 8,
     "priority": 0,
     "flags": {
       "isContact": false,
@@ -18030,7 +18030,7 @@
     "category": "physical",
     "power": 80,
     "accuracy": 100,
-    "pp": 10,
+    "pp": 12,
     "priority": 0,
     "flags": {
       "isContact": true,
@@ -18045,7 +18045,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "相手に　ぶつかって　強力な電気を浴びせ　びりびりちくちく　させる。相手を　ひるませる　ことが　ある。"
+    "description": "30%の確率で相手をひるませる。"
   },
   {
     "id": 717,
@@ -18758,9 +18758,9 @@
     "nameEn": "Snipe Shot",
     "type": "water",
     "category": "special",
-    "power": 80,
+    "power": 85,
     "accuracy": 100,
-    "pp": 15,
+    "pp": 16,
     "priority": 0,
     "flags": {
       "isContact": false,
@@ -18775,7 +18775,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "相手の　技を　引き受ける特性や　技の　影響を　無視して選んだ　相手を　攻撃　できる。"
+    "description": "技を引き受ける特性や技の影響を無視する。きゅうしょアップ+1で攻撃する。"
   },
   {
     "id": 746,
@@ -18785,7 +18785,7 @@
     "category": "physical",
     "power": 80,
     "accuracy": 100,
-    "pp": 10,
+    "pp": 12,
     "priority": 0,
     "flags": {
       "isContact": true,
@@ -18800,7 +18800,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "お互い　ひんしに　なるまで交代が　できなくなる。　どちらかのポケモンが　いなくなると　効果は消える。"
+    "description": "相手と自分をくらいつく状態にする。"
   },
   {
     "id": 747,
@@ -18850,7 +18850,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "自分の攻撃・防御・特攻・特防・素早さを1段階上げる。自分はにげられない状態になる。発動するたび1回だけ使える。2回目以降は失敗する。"
+    "description": "自分の攻撃・防御・特攻・特防・素早さを1段階上げる。自分はにげられない状態になる。登場するたび1回だけ使える。2回目以降は失敗する。"
   },
   {
     "id": 749,
@@ -18963,7 +18963,7 @@
     "category": "status",
     "power": null,
     "accuracy": 100,
-    "pp": 15,
+    "pp": 16,
     "priority": 0,
     "flags": {
       "isContact": false,
@@ -18978,7 +18978,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "相手を　逃げられなくする。かためられた　相手は　毎ターン防御と　特防が　下がる。"
+    "description": "相手をにげられない状態とたこがため状態にする。"
   },
   {
     "id": 754,
@@ -19038,7 +19038,7 @@
     "category": "status",
     "power": null,
     "accuracy": 100,
-    "pp": 10,
+    "pp": 12,
     "priority": 0,
     "flags": {
       "isContact": false,
@@ -19053,7 +19053,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "不思議な　力でお互いの　場の　効果を　入れ替える。"
+    "description": "味方と相手の場の状態を入れ替える。経過ターン数は引き継がれる。"
   },
   {
     "id": 757,
@@ -19588,7 +19588,7 @@
     "category": "physical",
     "power": 80,
     "accuracy": 100,
-    "pp": 10,
+    "pp": 12,
     "priority": 0,
     "flags": {
       "isContact": true,
@@ -19603,7 +19603,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "ドラムの　根っこを　ドラミングでコントロールして　こうげき　することで相手の　素早さを　下げる。"
+    "description": "相手の素早さを1段階下げる。"
   },
   {
     "id": 779,
@@ -19638,7 +19638,7 @@
     "category": "physical",
     "power": 120,
     "accuracy": 90,
-    "pp": 5,
+    "pp": 8,
     "priority": 0,
     "flags": {
       "isContact": true,
@@ -19653,7 +19653,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "小石を　燃やした　炎の　ボールで相手を　攻撃する。やけど　状態に　することが　ある。"
+    "description": "10%の確率で相手をやけど状態にする。使うと自分のこおり状態をなおす。"
   },
   {
     "id": 781,
@@ -19789,7 +19789,7 @@
     "category": "special",
     "power": 80,
     "accuracy": 100,
-    "pp": 10,
+    "pp": 12,
     "priority": 0,
     "flags": {
       "isContact": false,
@@ -19805,7 +19805,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "ギターや　ベースを　かきならして激しく　響く　大きな　振動を相手に　与えて　攻撃する。"
+    "description": "通常の攻撃技。"
   },
   {
     "id": 787,
@@ -19865,7 +19865,7 @@
     "category": "physical",
     "power": 75,
     "accuracy": 100,
-    "pp": 15,
+    "pp": 16,
     "priority": 0,
     "flags": {
       "isContact": true,
@@ -19880,7 +19880,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "食らうと　くじけるほどの勢いで　攻撃。相手の　特攻を　下げる。"
+    "description": "相手の特攻を1段階下げる。"
   },
   {
     "id": 790,
@@ -19988,9 +19988,9 @@
     "nameEn": "Meteor Assault",
     "type": "fighting",
     "category": "physical",
-    "power": 150,
+    "power": 170,
     "accuracy": 100,
-    "pp": 5,
+    "pp": 8,
     "priority": 0,
     "flags": {
       "isContact": true,
@@ -20005,7 +20005,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "太い　クキを　ふりまわして　攻撃。ただし　自分も　よろめいてしまうため次の　ターンは　動けなくなる。"
+    "description": "使った次のターン、自分は反動状態になる。"
   },
   {
     "id": 795,
@@ -21712,7 +21712,7 @@
     "category": "physical",
     "power": 120,
     "accuracy": 100,
-    "pp": 5,
+    "pp": 8,
     "priority": 0,
     "flags": {
       "isContact": true,
@@ -21727,7 +21727,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "次のターン、相手の攻撃が必中になり自分が受けるダメージが2倍になる。"
+    "description": "次に自分が行動するまで、自分は無防備状態になる。"
   },
   {
     "id": 863,
@@ -21752,7 +21752,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "ひんし状態の味方をHP半分の状態まで回復する。"
+    "description": "手持ちのひんしのポケモンを最大HPの1/2の状態で復活させる。"
   },
   {
     "id": 864,
@@ -22390,7 +22390,7 @@
     "category": "physical",
     "power": 50,
     "accuracy": 100,
-    "pp": 10,
+    "pp": 12,
     "priority": 0,
     "flags": {
       "isContact": true,
@@ -22405,7 +22405,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "バトル中に自分が受けた攻撃の回数が多いほど威力が上がる。"
+    "description": "技のダメージを受けるたび威力が50上がる。最大威力350。手持ちに戻ると威力は元に戻る。"
   },
   {
     "id": 890,
@@ -22465,7 +22465,7 @@
     "category": "physical",
     "power": 120,
     "accuracy": 100,
-    "pp": 5,
+    "pp": 8,
     "priority": 0,
     "flags": {
       "isContact": true,
@@ -22480,7 +22480,7 @@
     },
     "powerType": "fixed",
     "hitCount": "single",
-    "description": "でんきタイプのポケモンが使うと使用後に自分のでんきタイプがなくなる。"
+    "description": "自分のでんきタイプがなくなる。自分がでんきタイプではない場合、失敗する。"
   },
   {
     "id": 893,

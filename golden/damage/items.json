@@ -1,5 +1,215 @@
 [
   {
+    "description" : "ふうせん: じめん技無効",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_air_balloon_ground",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Air Balloon",
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Air Balloon",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "ふうせん: かたやぶりでも貫通しない（道具のため）",
+    "expected" : {
+      "allDamages" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "isImmune" : true,
+      "maxDamage" : 0,
+      "minDamage" : 0,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_air_balloon_mold_breaker",
+    "input" : {
+      "attacker" : {
+        "ability" : "Mold Breaker",
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Air Balloon",
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "ground"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Air Balloon",
+      "immunity"
+    ]
+  },
+  {
+    "description" : "ふうせん: じめん以外は通る",
+    "expected" : {
+      "allDamages" : [
+        45,
+        45,
+        46,
+        46,
+        47,
+        47,
+        48,
+        48,
+        49,
+        49,
+        50,
+        50,
+        51,
+        51,
+        52,
+        53
+      ],
+      "isImmune" : false,
+      "maxDamage" : 53,
+      "minDamage" : 45,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_air_balloon_other_type",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Air Balloon",
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "rock"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Air Balloon"
+    ]
+  },
+  {
     "description" : "とつげきチョッキ: 物理には効かない",
     "expected" : {
       "allDamages" : [
@@ -2549,6 +2759,144 @@
     },
     "tags" : [
       "item"
+    ]
+  },
+  {
+    "description" : "ノーマルジュエル: 他タイプには乗らない",
+    "expected" : {
+      "allDamages" : [
+        90,
+        90,
+        92,
+        92,
+        94,
+        94,
+        96,
+        96,
+        98,
+        98,
+        100,
+        100,
+        102,
+        102,
+        104,
+        106
+      ],
+      "isImmune" : false,
+      "maxDamage" : 106,
+      "minDamage" : 90,
+      "typeEffectiveness" : 2
+    },
+    "id" : "item_normal_gem_off",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Normal Gem",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "fighting"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Normal Gem"
+    ]
+  },
+  {
+    "description" : "ノーマルジュエル: ノーマル技1.3倍",
+    "expected" : {
+      "allDamages" : [
+        85,
+        87,
+        88,
+        88,
+        90,
+        91,
+        91,
+        93,
+        94,
+        94,
+        96,
+        97,
+        97,
+        99,
+        100,
+        102
+      ],
+      "isImmune" : false,
+      "maxDamage" : 102,
+      "minDamage" : 85,
+      "typeEffectiveness" : 1
+    },
+    "id" : "item_normal_gem_on",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "item" : "Normal Gem",
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "item",
+      "item:Normal Gem"
     ]
   },
   {

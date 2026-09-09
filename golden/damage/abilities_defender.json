@@ -1,5 +1,219 @@
 [
   {
+    "description" : "はどうのぼうご: 接触技のダメージ半減",
+    "expected" : {
+      "allDamages" : [
+        33,
+        33,
+        34,
+        34,
+        35,
+        35,
+        36,
+        36,
+        36,
+        36,
+        37,
+        37,
+        38,
+        38,
+        39,
+        39
+      ],
+      "isImmune" : false,
+      "maxDamage" : 39,
+      "minDamage" : 33,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_aura_guard_contact",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Aura Guard",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "flags" : {
+          "isContact" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Aura Guard"
+    ]
+  },
+  {
+    "description" : "はどうのぼうご: かたやぶりで無効化される",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_aura_guard_mold_breaker",
+    "input" : {
+      "attacker" : {
+        "ability" : "Mold Breaker",
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Aura Guard",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "flags" : {
+          "isContact" : true
+        },
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Aura Guard"
+    ]
+  },
+  {
+    "description" : "はどうのぼうご: 非接触技は軽減されない",
+    "expected" : {
+      "allDamages" : [
+        67,
+        67,
+        69,
+        69,
+        70,
+        70,
+        72,
+        72,
+        73,
+        73,
+        75,
+        75,
+        76,
+        76,
+        78,
+        79
+      ],
+      "isImmune" : false,
+      "maxDamage" : 79,
+      "minDamage" : 67,
+      "typeEffectiveness" : 1
+    },
+    "id" : "ability_def_aura_guard_non_contact",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 120,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "ability" : "Aura Guard",
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "special",
+        "power" : 100,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "ability",
+      "ability:Aura Guard"
+    ]
+  },
+  {
     "description" : "わざわいのたま: 攻撃側が持つと相手のとくぼう0.75倍（特殊）",
     "expected" : {
       "allDamages" : [

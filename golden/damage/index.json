@@ -21,15 +21,15 @@
       "name" : "weather_terrain.json"
     },
     {
-      "caseCount" : 119,
+      "caseCount" : 121,
       "name" : "abilities_attacker.json"
     },
     {
-      "caseCount" : 54,
+      "caseCount" : 57,
       "name" : "abilities_defender.json"
     },
     {
-      "caseCount" : 55,
+      "caseCount" : 60,
       "name" : "items.json"
     },
     {
@@ -41,13 +41,13 @@
       "name" : "mega.json"
     },
     {
-      "caseCount" : 6,
+      "caseCount" : 7,
       "name" : "regressions.json"
     }
   ],
   "generator" : {
-    "generatedAt" : "2026-07-10T06:04:36Z",
-    "sourceCommit" : "c7ef1c1"
+    "generatedAt" : "2026-09-09T13:23:56Z",
+    "sourceCommit" : "a775060"
   },
   "schemaVersion" : 1
 }
