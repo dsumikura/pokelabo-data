@@ -1,7 +1,7 @@
 # ゴールデンテストベクター（damage golden vectors）
 
-ダメージ計算の 3 実装（Swift = PokeLabo iOS / Kotlin = PokeLabo-Android / Python = pokelabo-ai）の
-ドリフトを機械検知するための共有テストベクター。
+ダメージ計算の 4 実装（Swift = PokeLabo iOS / Kotlin = PokeLabo-Android / Python = pokelabo-ai /
+TypeScript = PokeLabo-RN `packages/core`）のドリフトを機械検知するための共有テストベクター。
 
 - **正本はこのディレクトリ**（`golden/damage/*.json`）。ただし**手編集は禁止**
 - ケースの定義・期待値は iOS リポジトリの `tools/golden-gen`（参照実装 = `PokeLabo/Domain`）から生成する
