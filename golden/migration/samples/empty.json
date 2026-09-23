@@ -1,0 +1,30 @@
+{
+  "box" : [
+
+  ],
+  "calculatorState" : null,
+  "counts" : {
+    "box" : 0,
+    "parties" : 0,
+    "partyMembers" : 0
+  },
+  "exportedAt" : "2026-09-14T03:00:00.000Z",
+  "parties" : [
+
+  ],
+  "schemaVersion" : 1,
+  "settings" : {
+    "appearance" : null,
+    "isDoubleBattle" : null,
+    "lastShownReleaseNotesVersion" : null,
+    "partyTabSelection" : null,
+    "pokemonFilter" : null
+  },
+  "snapshotId" : "00000000-0000-4000-8000-000000000001",
+  "source" : {
+    "appVersion" : "2.1.15",
+    "build" : "1",
+    "dataManifestVersion" : 42,
+    "platform" : "ios"
+  }
+}

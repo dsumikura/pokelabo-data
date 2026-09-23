@@ -19,3 +19,7 @@ PokeLabo（iOS/Android）へ GitHub Pages 経由でゲームデータを配信�
 - **アプリ配信の `manifest.json` に含めない**（アプリのリモート同期とは無関係）
 - 再生成は iOS リポジトリで `scripts/generate_golden.sh`
 - スキーマ・運用フローの詳細: `golden/SCHEMA.md`
+
+`golden/migration/` は移行スナップショットの JSON 契約と固定サンプル（詳細: `golden/migration/SCHEMA.md`）。
+正本は iOS の `MigrationSnapshotSampleTests`。サンプル JSON は手編集せず、同テストの書き出しモードで生成する。
+`update.py` の対象外で、`manifest.json` に含めない。

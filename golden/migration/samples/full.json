@@ -1,0 +1,378 @@
+{
+  "box" : [
+    {
+      "abilityIndex" : 1,
+      "addedAt" : "2026-09-03T12:00:00.000Z",
+      "evs" : {
+        "attack" : 0,
+        "defense" : 0,
+        "hp" : 0,
+        "spAttack" : 0,
+        "spDefense" : 0,
+        "speed" : 0
+      },
+      "formIndex" : -1,
+      "id" : "00000000-0000-4000-8000-000000000031",
+      "itemId" : null,
+      "megaIndex" : 0,
+      "moveIds" : [
+        null,
+        null,
+        null,
+        null
+      ],
+      "natureModifiers" : {
+        "attack" : 1,
+        "defense" : 1,
+        "spAttack" : 1,
+        "spDefense" : 1,
+        "speed" : 1
+      },
+      "pokemonId" : 445
+    },
+    {
+      "abilityIndex" : 0,
+      "addedAt" : "2026-09-03T13:00:00.000Z",
+      "evs" : {
+        "attack" : 0,
+        "defense" : 0,
+        "hp" : 0,
+        "spAttack" : 0,
+        "spDefense" : 0,
+        "speed" : 0
+      },
+      "formIndex" : 1,
+      "id" : "00000000-0000-4000-8000-000000000032",
+      "itemId" : null,
+      "megaIndex" : -1,
+      "moveIds" : [
+        null,
+        null,
+        null,
+        null
+      ],
+      "natureModifiers" : {
+        "attack" : 1,
+        "defense" : 1,
+        "spAttack" : 1,
+        "spDefense" : 1,
+        "speed" : 1
+      },
+      "pokemonId" : 681
+    },
+    {
+      "abilityIndex" : 0,
+      "addedAt" : "2026-09-03T14:00:00.000Z",
+      "evs" : {
+        "attack" : 0,
+        "defense" : 0,
+        "hp" : 0,
+        "spAttack" : 0,
+        "spDefense" : 0,
+        "speed" : 0
+      },
+      "formIndex" : -1,
+      "id" : "00000000-0000-4000-8000-000000000033",
+      "itemId" : null,
+      "megaIndex" : -1,
+      "moveIds" : [
+        null,
+        null,
+        null,
+        null
+      ],
+      "natureModifiers" : {
+        "attack" : 1,
+        "defense" : 1,
+        "spAttack" : 1,
+        "spDefense" : 1,
+        "speed" : 1
+      },
+      "pokemonId" : 445
+    }
+  ],
+  "calculatorState" : {
+    "attackerAbilityEnabled" : true,
+    "attackerAbilityIndex" : 0,
+    "attackerAttackNatureModifier" : 1.1,
+    "attackerAttackRank" : 0,
+    "attackerDefenseNatureModifier" : 1,
+    "attackerDefenseRank" : 0,
+    "attackerEVAttack" : 32,
+    "attackerEVDefense" : 0,
+    "attackerEVSpAttack" : 0,
+    "attackerFormIndex" : -1,
+    "attackerHPRatio" : 1,
+    "attackerLevel" : 50,
+    "attackerMegaIndex" : 0,
+    "attackerPokemonId" : 115,
+    "attackerSpAttackNatureModifier" : 0.9,
+    "attackerSpAttackRank" : 0,
+    "defenderAbilityEnabled" : true,
+    "defenderAbilityIndex" : 0,
+    "defenderAttackNatureModifier" : 1.1,
+    "defenderAttackRank" : 0,
+    "defenderDefenseNatureModifier" : 1,
+    "defenderDefenseRank" : 0,
+    "defenderEVAttack" : 32,
+    "defenderEVDefense" : 32,
+    "defenderEVHP" : 32,
+    "defenderFormIndex" : -1,
+    "defenderHPRatio" : 1,
+    "defenderLevel" : 50,
+    "defenderMegaIndex" : -1,
+    "defenderPokemonId" : 806,
+    "defenderSpDefenseNatureModifier" : 1,
+    "defenderSpDefenseRank" : 0,
+    "isBurned" : false
+  },
+  "counts" : {
+    "box" : 3,
+    "parties" : 2,
+    "partyMembers" : 7
+  },
+  "exportedAt" : "2026-09-14T03:00:00.000Z",
+  "parties" : [
+    {
+      "createdAt" : "2026-09-01T10:00:00.000Z",
+      "id" : "00000000-0000-4000-8000-000000000010",
+      "members" : [
+        {
+          "abilityIndex" : 0,
+          "evs" : {
+            "attack" : 32,
+            "defense" : 0,
+            "hp" : 32,
+            "spAttack" : 0,
+            "spDefense" : 0,
+            "speed" : 2
+          },
+          "formIndex" : -1,
+          "id" : "00000000-0000-4000-8000-000000000011",
+          "itemId" : 5,
+          "megaIndex" : -1,
+          "moveIds" : [
+            9,
+            8,
+            7,
+            89
+          ],
+          "natureModifiers" : {
+            "attack" : 1.1,
+            "defense" : 1,
+            "spAttack" : 0.9,
+            "spDefense" : 1,
+            "speed" : 1
+          },
+          "orderIndex" : 0,
+          "pokemonId" : 303
+        },
+        {
+          "abilityIndex" : 0,
+          "evs" : {
+            "attack" : 32,
+            "defense" : 0,
+            "hp" : 2,
+            "spAttack" : 0,
+            "spDefense" : 0,
+            "speed" : 32
+          },
+          "formIndex" : -1,
+          "id" : "00000000-0000-4000-8000-000000000012",
+          "itemId" : 5,
+          "megaIndex" : -1,
+          "moveIds" : [
+            9,
+            8,
+            7,
+            89
+          ],
+          "natureModifiers" : {
+            "attack" : 1,
+            "defense" : 1,
+            "spAttack" : 0.9,
+            "spDefense" : 1,
+            "speed" : 1.1
+          },
+          "orderIndex" : 1,
+          "pokemonId" : 445
+        },
+        {
+          "abilityIndex" : 0,
+          "evs" : {
+            "attack" : 0,
+            "defense" : 0,
+            "hp" : 2,
+            "spAttack" : 32,
+            "spDefense" : 0,
+            "speed" : 32
+          },
+          "formIndex" : -1,
+          "id" : "00000000-0000-4000-8000-000000000013",
+          "itemId" : 5,
+          "megaIndex" : -1,
+          "moveIds" : [
+            9,
+            8,
+            7,
+            89
+          ],
+          "natureModifiers" : {
+            "attack" : 0.9,
+            "defense" : 1,
+            "spAttack" : 1.1,
+            "spDefense" : 1,
+            "speed" : 1
+          },
+          "orderIndex" : 2,
+          "pokemonId" : 6
+        },
+        {
+          "abilityIndex" : 0,
+          "evs" : {
+            "attack" : 0,
+            "defense" : 32,
+            "hp" : 32,
+            "spAttack" : 2,
+            "spDefense" : 0,
+            "speed" : 0
+          },
+          "formIndex" : -1,
+          "id" : "00000000-0000-4000-8000-000000000014",
+          "itemId" : 5,
+          "megaIndex" : -1,
+          "moveIds" : [
+            9,
+            8,
+            7,
+            89
+          ],
+          "natureModifiers" : {
+            "attack" : 0.9,
+            "defense" : 1.1,
+            "spAttack" : 1,
+            "spDefense" : 1,
+            "speed" : 1
+          },
+          "orderIndex" : 3,
+          "pokemonId" : 9
+        },
+        {
+          "abilityIndex" : 0,
+          "evs" : {
+            "attack" : 0,
+            "defense" : 0,
+            "hp" : 32,
+            "spAttack" : 2,
+            "spDefense" : 32,
+            "speed" : 0
+          },
+          "formIndex" : -1,
+          "id" : "00000000-0000-4000-8000-000000000015",
+          "itemId" : 5,
+          "megaIndex" : -1,
+          "moveIds" : [
+            9,
+            8,
+            7,
+            89
+          ],
+          "natureModifiers" : {
+            "attack" : 0.9,
+            "defense" : 1,
+            "spAttack" : 1,
+            "spDefense" : 1.1,
+            "speed" : 1
+          },
+          "orderIndex" : 4,
+          "pokemonId" : 3
+        },
+        {
+          "abilityIndex" : 0,
+          "evs" : {
+            "attack" : 2,
+            "defense" : 0,
+            "hp" : 32,
+            "spAttack" : 0,
+            "spDefense" : 32,
+            "speed" : 0
+          },
+          "formIndex" : -1,
+          "id" : "00000000-0000-4000-8000-000000000016",
+          "itemId" : 5,
+          "megaIndex" : -1,
+          "moveIds" : [
+            9,
+            8,
+            7,
+            89
+          ],
+          "natureModifiers" : {
+            "attack" : 1,
+            "defense" : 1,
+            "spAttack" : 0.9,
+            "spDefense" : 1.1,
+            "speed" : 1
+          },
+          "orderIndex" : 5,
+          "pokemonId" : 115
+        }
+      ],
+      "name" : "メインパーティ",
+      "regulation" : "M-C"
+    },
+    {
+      "createdAt" : "2026-09-02T11:00:00.000Z",
+      "id" : "00000000-0000-4000-8000-000000000020",
+      "members" : [
+        {
+          "abilityIndex" : 0,
+          "evs" : {
+            "attack" : 0,
+            "defense" : 0,
+            "hp" : 0,
+            "spAttack" : 0,
+            "spDefense" : 0,
+            "speed" : 0
+          },
+          "formIndex" : -1,
+          "id" : "00000000-0000-4000-8000-000000000021",
+          "itemId" : null,
+          "megaIndex" : -1,
+          "moveIds" : [
+            9,
+            null,
+            8,
+            null
+          ],
+          "natureModifiers" : {
+            "attack" : 1.1,
+            "defense" : 1.1,
+            "spAttack" : 1.1,
+            "spDefense" : 1.1,
+            "speed" : 1.1
+          },
+          "orderIndex" : 0,
+          "pokemonId" : 303
+        }
+      ],
+      "name" : "テスト/2",
+      "regulation" : "M-B"
+    }
+  ],
+  "schemaVersion" : 1,
+  "settings" : {
+    "appearance" : "dark",
+    "isDoubleBattle" : true,
+    "lastShownReleaseNotesVersion" : "2.1.14",
+    "partyTabSelection" : "box",
+    "pokemonFilter" : "M-C"
+  },
+  "snapshotId" : "00000000-0000-4000-8000-000000000001",
+  "source" : {
+    "appVersion" : "2.1.15",
+    "build" : "1",
+    "dataManifestVersion" : 42,
+    "platform" : "ios"
+  }
+}
