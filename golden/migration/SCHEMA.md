@@ -95,7 +95,8 @@ golden/migration/
 | `natureModifiers` | 0.9 / 1.0 / 1.1 の 5 値をそのまま。単一の性格に一致しない組み合わせもあり得る。性格名への写像は取込側の責務 |
 | `megaIndex` / `formIndex` | -1 = 通常。添字は書き出し時点のポケモンマスタの配列順（`dataManifestVersion` で識別） |
 | `settings.*` | UserDefaults に未書き込みなら `null`。既定値で埋めない。`appearance` は `system` / `light` / `dark`、`partyTabSelection` は `party` / `box` |
-| `calculatorState` | iOS の `CalculatorPersistedState` を JSON 化した生オブジェクト、または `null`。キー名は iOS の実装名で、この契約では不透明（opaque）な値として扱う。取込側の変換は RN の責務。フィールド一覧は SCHEMA.md に参考として列挙する |
+| `source.platform` | 書き出し元。`ios`（Swift 版）/ `rn-ios` / `rn-android`（RN 版）。取込側は値で分岐せず、`calculatorState` の形式の判別にだけ使ってよい |
+| `calculatorState` | **書き出し元の計算状態を JSON 化した生オブジェクト**、または `null`。`platform: ios` なら iOS の `CalculatorPersistedState`（キー名は iOS の実装名）、`rn-*` なら RN の永続化 v2（`schemaVersion: 2` を含む）。この契約では不透明（opaque）な値として扱い、変換は取込側の責務。iOS 形式のフィールド一覧は下記に参考として列挙する |
 | `counts` | 各配列の要素数。`partyMembers` は全パーティのメンバー合計。取込側は配列長との一致を検証する |
 | 含めないもの | 購入キャッシュ、広告同意、SwiftData 管理列 |
 | 互換規則 | 将来はキー追加のみ（既存キーの削除・型変更をしない）。破壊的変更は `schemaVersion` を上げる |
@@ -109,6 +110,7 @@ golden/migration/
 - `natureModifiers` は 5 値をそのまま保持する。性格名への写像は取込側の責務で、単一の性格に一致しない組み合わせも受け入れる
 - **v2.1.15 未経由のスナップショットには旧 ID 10176 / 10226 が残り得る**。取込側でも `[10176: 10186, 10226: 10191]` を適用する。対象はメンバー・ボックスの `pokemonId` と計算状態の `attackerPokemonId` / `defenderPokemonId`
 - パーティは `createdAt` 昇順、同値は `id` 文字列昇順。メンバーは `orderIndex` 昇順。ボックスは `addedAt` 昇順、同値は `id` 文字列昇順で書き出す
+- RN 版の書き出し（`platform: rn-*`）も同じキー・並び・null 規約に従う。RN 版は `calculatorState` を RN の形式で入れるので、iOS 側が RN のスナップショットを取り込む場合は `calculatorState` を無視してよい
 - スナップショットの optional 値は明示的な `null`。ただし以下の生の `calculatorState` 内は例外（nil はキー欠落）
 
 ## calculatorState のフィールド一覧（参考）
