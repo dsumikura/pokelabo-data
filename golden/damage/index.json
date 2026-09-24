@@ -33,7 +33,7 @@
       "name" : "items.json"
     },
     {
-      "caseCount" : 56,
+      "caseCount" : 58,
       "name" : "special_moves.json"
     },
     {
@@ -46,8 +46,8 @@
     }
   ],
   "generator" : {
-    "generatedAt" : "2026-09-09T13:23:56Z",
-    "sourceCommit" : "a775060"
+    "generatedAt" : "2026-09-24T22:54:08Z",
+    "sourceCommit" : "1551961"
   },
   "schemaVersion" : 1
 }

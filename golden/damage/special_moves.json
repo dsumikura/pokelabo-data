@@ -1,5 +1,151 @@
 [
   {
+    "description" : "イカサマ: 相手の攻撃を上書きし、防御の性格補正も保持する",
+    "expected" : {
+      "allDamages" : [
+        51,
+        52,
+        53,
+        53,
+        54,
+        54,
+        55,
+        56,
+        56,
+        57,
+        57,
+        58,
+        59,
+        59,
+        60,
+        61
+      ],
+      "isImmune" : false,
+      "maxDamage" : 61,
+      "minDamage" : 51,
+      "typeEffectiveness" : 1
+    },
+    "id" : "foul_play_defender_nature_override",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 60,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 150,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "nature" : "bold",
+        "natureOverrides" : {
+          "attack" : 1.1
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "id" : 492,
+        "power" : 95,
+        "powerType" : {
+          "variable" : "foulPlay"
+        },
+        "type" : "dark"
+      }
+    },
+    "tags" : [
+      "foul_play",
+      "nature_override"
+    ]
+  },
+  {
+    "description" : "通常物理技: 防御だけの性格補正上書きを反映する",
+    "expected" : {
+      "allDamages" : [
+        49,
+        49,
+        49,
+        51,
+        51,
+        52,
+        52,
+        52,
+        54,
+        54,
+        55,
+        55,
+        55,
+        57,
+        57,
+        58
+      ],
+      "isImmune" : false,
+      "maxDamage" : 58,
+      "minDamage" : 49,
+      "typeEffectiveness" : 1
+    },
+    "id" : "nature_override_defense_only",
+    "input" : {
+      "attacker" : {
+        "baseStats" : {
+          "attack" : 120,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "context" : {
+
+      },
+      "defender" : {
+        "baseStats" : {
+          "attack" : 100,
+          "defense" : 100,
+          "hp" : 100,
+          "spAttack" : 100,
+          "spDefense" : 100,
+          "speed" : 100
+        },
+        "natureOverrides" : {
+          "defense" : 1.1
+        },
+        "types" : [
+          "normal"
+        ]
+      },
+      "move" : {
+        "category" : "physical",
+        "power" : 80,
+        "type" : "normal"
+      }
+    },
+    "tags" : [
+      "nature_override"
+    ]
+  },
+  {
     "description" : "ボディプレス比較用: ぼうぎょが低ければ威力が出ない",
     "expected" : {
       "allDamages" : [

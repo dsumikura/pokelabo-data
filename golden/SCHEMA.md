@@ -71,6 +71,7 @@ golden/damage/
 | combatant `.ability` | "None" | **nameEn**（EffectResolver のマッチキー） |
 | combatant `.item` | null | nameEn |
 | combatant `.nature` | "serious" | 英名小文字 |
+| combatant `.natureOverrides` | 省略（空） | stat 名（`attack` / `defense` / `spAttack` / `spDefense` / `speed`）→ 補正値（1.1 / 1.0 / 0.9）の辞書 `{"attack": 1.1}`。指定した stat は `nature` の補正の代わりにこの値を乗じる（`1.0` の明示は nature の補正を打ち消す）。`hp` キーは無視（HP に性格補正は無い）。schemaVersion 1 の後方互換な追加（2026-09-25、Swift v2.1.16）。タグ `nature_override` |
 | combatant `.evs` / `.ranks` | 全 0 | 非 0 のみのスパース辞書 `{"attack": 32}`。EV は 0..32（**直接加算**、本家の /4 ではない）。IV は全実装 31 固定 |
 | combatant `.status` | null | "burn" / "paralysis" / "poison" / "badPoison" / "sleep" / "freeze" |
 | combatant `.weight` | 50.0 | kg（重さ依存技用） |
@@ -86,8 +87,9 @@ golden/damage/
 - カテゴリ: `basic` / `rounding` / `stats` / `context` / `weather` / `terrain` / `ability` / `item` / `special_move` / `mega` / `regression`
 - 特性ケース: **`ability:<nameEn>`**（発動・非発動の両方に付与）
 - アイテムケース: **`item:<nameEn>`**
-- 機能タグ（スネークケース）: `double_battle` / `weather_override` / `skin` / `ruin` / `aura` / `paradox_boost` / `multi_hit` / `parental_bond` / `unaware` / `mold_breaker` / `half_berry` / `expert_belt` / `hp_dependent` / `weight_dependent` / `speed_dependent` / `rank_dependent` / `fixed_damage` / `psyshock` / `body_press` / `foul_play` / `weather_ball` / `terrain_pulse` / `flying_press` / `freeze_dry` / `knock_off` / `walls` / `critical` / `burn` / `rank` / `immunity` / `stab` 等
+- 機能タグ（スネークケース）: `double_battle` / `weather_override` / `skin` / `ruin` / `aura` / `paradox_boost` / `multi_hit` / `parental_bond` / `unaware` / `mold_breaker` / `half_berry` / `expert_belt` / `hp_dependent` / `weight_dependent` / `speed_dependent` / `rank_dependent` / `fixed_damage` / `psyshock` / `body_press` / `foul_play` / `nature_override` / `weather_ball` / `terrain_pulse` / `flying_press` / `freeze_dry` / `knock_off` / `walls` / `critical` / `burn` / `rank` / `immunity` / `stab` 等
 - Python (pokelabo-ai) は未実装機能をタグ単位で明示スキップする（`SUPPORTED_ABILITIES` 台帳との突合せ + `UNSUPPORTED_TAGS`）。スキップは pass と区別して件数報告し、黙って増やさない
+- `nature_override`（2026-09-25 追加）に未対応の実装は、このタグをスキップ対象にしてよい。対応時は combatant `.natureOverrides` を `baseStat` 相当で参照する
 
 ## ベクターの取得（検証テスト側の共通仕様）
 
