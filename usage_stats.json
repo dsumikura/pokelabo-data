@@ -1,7 +1,7 @@
 {
   "source": "",
   "season": "M-7",
-  "generated_at": "2026-10-27T21:54:18+00:00",
+  "generated_at": "2026-10-28T22:18:11+00:00",
   "top_ranking": {
     "single": [
       "garchomp",
@@ -94532,7 +94532,7 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 32,
-            "pct": 22.8
+            "pct": 24.1
           },
           {
             "rank": 2,
@@ -94542,7 +94542,7 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 3,
-            "pct": 7.9
+            "pct": 6.7
           },
           {
             "rank": 3,
@@ -94552,7 +94552,7 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 32,
-            "pct": 5.4
+            "pct": 5.3
           },
           {
             "rank": 4,
@@ -94562,67 +94562,67 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 2,
-            "pct": 4.5
+            "pct": 4.9
           },
           {
             "rank": 5,
-            "hp": 25,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 9,
-            "pct": 4.5
-          },
-          {
-            "rank": 6,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 3.7
-          },
-          {
-            "rank": 7,
-            "hp": 17,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 17,
-            "pct": 3.3
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 10,
             "hp": 0,
             "attack": 0,
             "defense": 2,
             "spAttack": 32,
             "spDefense": 0,
             "speed": 32,
-            "pct": 2.5
+            "pct": 3.7
+          },
+          {
+            "rank": 6,
+            "hp": 25,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 0,
+            "speed": 9,
+            "pct": 3.7
+          },
+          {
+            "rank": 7,
+            "hp": 1,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 1,
+            "speed": 32,
+            "pct": 3.3
+          },
+          {
+            "rank": 8,
+            "hp": 17,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 0,
+            "speed": 17,
+            "pct": 3.0
+          },
+          {
+            "rank": 9,
+            "hp": 0,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 2,
+            "speed": 32,
+            "pct": 2.9
+          },
+          {
+            "rank": 10,
+            "hp": 32,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 2,
+            "speed": 0,
+            "pct": 2.8
           }
         ]
       },
@@ -94636,7 +94636,7 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 32,
-            "pct": 22.8
+            "pct": 24.1
           },
           {
             "rank": 2,
@@ -94646,7 +94646,7 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 3,
-            "pct": 7.9
+            "pct": 6.7
           },
           {
             "rank": 3,
@@ -94656,7 +94656,7 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 32,
-            "pct": 5.4
+            "pct": 5.3
           },
           {
             "rank": 4,
@@ -94666,67 +94666,67 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 2,
-            "pct": 4.5
+            "pct": 4.9
           },
           {
             "rank": 5,
-            "hp": 25,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 9,
-            "pct": 4.5
-          },
-          {
-            "rank": 6,
-            "hp": 1,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 32,
-            "pct": 3.7
-          },
-          {
-            "rank": 7,
-            "hp": 17,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 0,
-            "speed": 17,
-            "pct": 3.3
-          },
-          {
-            "rank": 8,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 3.2
-          },
-          {
-            "rank": 9,
-            "hp": 32,
-            "attack": 0,
-            "defense": 0,
-            "spAttack": 32,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.6
-          },
-          {
-            "rank": 10,
             "hp": 0,
             "attack": 0,
             "defense": 2,
             "spAttack": 32,
             "spDefense": 0,
             "speed": 32,
-            "pct": 2.5
+            "pct": 3.7
+          },
+          {
+            "rank": 6,
+            "hp": 25,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 0,
+            "speed": 9,
+            "pct": 3.7
+          },
+          {
+            "rank": 7,
+            "hp": 1,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 1,
+            "speed": 32,
+            "pct": 3.3
+          },
+          {
+            "rank": 8,
+            "hp": 17,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 0,
+            "speed": 17,
+            "pct": 3.0
+          },
+          {
+            "rank": 9,
+            "hp": 0,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 2,
+            "speed": 32,
+            "pct": 2.9
+          },
+          {
+            "rank": 10,
+            "hp": 32,
+            "attack": 0,
+            "defense": 0,
+            "spAttack": 32,
+            "spDefense": 2,
+            "speed": 0,
+            "pct": 2.8
           }
         ]
       }
@@ -95168,7 +95168,7 @@
             "spAttack": 0,
             "spDefense": 0,
             "speed": 2,
-            "pct": 24.6
+            "pct": 23.0
           },
           {
             "rank": 2,
@@ -95178,27 +95178,27 @@
             "spAttack": 0,
             "spDefense": 2,
             "speed": 0,
-            "pct": 12.8
+            "pct": 11.5
           },
           {
             "rank": 3,
-            "hp": 31,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 3,
-            "pct": 5.7
-          },
-          {
-            "rank": 4,
             "hp": 32,
             "attack": 0,
             "defense": 30,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 4,
-            "pct": 4.9
+            "pct": 6.3
+          },
+          {
+            "rank": 4,
+            "hp": 31,
+            "attack": 0,
+            "defense": 32,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 3,
+            "pct": 5.4
           },
           {
             "rank": 5,
@@ -95208,57 +95208,57 @@
             "spAttack": 0,
             "spDefense": 3,
             "speed": 0,
-            "pct": 3.8
+            "pct": 3.7
           },
           {
             "rank": 6,
-            "hp": 31,
+            "hp": 2,
             "attack": 0,
-            "defense": 30,
+            "defense": 32,
             "spAttack": 0,
             "spDefense": 0,
-            "speed": 5,
-            "pct": 2.6
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 30,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 3,
+            "speed": 32,
             "pct": 2.0
           },
           {
-            "rank": 8,
+            "rank": 7,
             "hp": 32,
             "attack": 2,
             "defense": 32,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 0,
-            "pct": 1.6
+            "pct": 1.9
+          },
+          {
+            "rank": 8,
+            "hp": 31,
+            "attack": 0,
+            "defense": 30,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 5,
+            "pct": 1.8
           },
           {
             "rank": 9,
+            "hp": 32,
+            "attack": 0,
+            "defense": 30,
+            "spAttack": 0,
+            "spDefense": 1,
+            "speed": 3,
+            "pct": 1.8
+          },
+          {
+            "rank": 10,
             "hp": 32,
             "attack": 0,
             "defense": 2,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 32,
-            "pct": 1.6
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.5
+            "pct": 1.7
           }
         ]
       },
@@ -95272,7 +95272,7 @@
             "spAttack": 0,
             "spDefense": 0,
             "speed": 2,
-            "pct": 24.6
+            "pct": 23.0
           },
           {
             "rank": 2,
@@ -95282,27 +95282,27 @@
             "spAttack": 0,
             "spDefense": 2,
             "speed": 0,
-            "pct": 12.8
+            "pct": 11.5
           },
           {
             "rank": 3,
-            "hp": 31,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 3,
-            "pct": 5.7
-          },
-          {
-            "rank": 4,
             "hp": 32,
             "attack": 0,
             "defense": 30,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 4,
-            "pct": 4.9
+            "pct": 6.3
+          },
+          {
+            "rank": 4,
+            "hp": 31,
+            "attack": 0,
+            "defense": 32,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 3,
+            "pct": 5.4
           },
           {
             "rank": 5,
@@ -95312,57 +95312,57 @@
             "spAttack": 0,
             "spDefense": 3,
             "speed": 0,
-            "pct": 3.8
+            "pct": 3.7
           },
           {
             "rank": 6,
-            "hp": 31,
+            "hp": 2,
             "attack": 0,
-            "defense": 30,
+            "defense": 32,
             "spAttack": 0,
             "spDefense": 0,
-            "speed": 5,
-            "pct": 2.6
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 30,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 3,
+            "speed": 32,
             "pct": 2.0
           },
           {
-            "rank": 8,
+            "rank": 7,
             "hp": 32,
             "attack": 2,
             "defense": 32,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 0,
-            "pct": 1.6
+            "pct": 1.9
+          },
+          {
+            "rank": 8,
+            "hp": 31,
+            "attack": 0,
+            "defense": 30,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 5,
+            "pct": 1.8
           },
           {
             "rank": 9,
+            "hp": 32,
+            "attack": 0,
+            "defense": 30,
+            "spAttack": 0,
+            "spDefense": 1,
+            "speed": 3,
+            "pct": 1.8
+          },
+          {
+            "rank": 10,
             "hp": 32,
             "attack": 0,
             "defense": 2,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 32,
-            "pct": 1.6
-          },
-          {
-            "rank": 10,
-            "hp": 32,
-            "attack": 0,
-            "defense": 32,
-            "spAttack": 2,
-            "spDefense": 0,
-            "speed": 0,
-            "pct": 1.5
+            "pct": 1.7
           }
         ]
       }
@@ -95380,7 +95380,7 @@
             "spAttack": 0,
             "spDefense": 2,
             "speed": 0,
-            "pct": 20.4
+            "pct": 19.5
           },
           {
             "rank": 2,
@@ -95390,7 +95390,7 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 0,
-            "pct": 19.6
+            "pct": 17.2
           },
           {
             "rank": 3,
@@ -95400,7 +95400,7 @@
             "spAttack": 32,
             "spDefense": 2,
             "speed": 0,
-            "pct": 12.2
+            "pct": 10.7
           },
           {
             "rank": 4,
@@ -95410,7 +95410,7 @@
             "spAttack": 2,
             "spDefense": 0,
             "speed": 0,
-            "pct": 4.4
+            "pct": 4.5
           },
           {
             "rank": 5,
@@ -95420,57 +95420,57 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 0,
-            "pct": 4.0
+            "pct": 3.7
           },
           {
             "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 25,
-            "spAttack": 0,
-            "spDefense": 9,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 8,
             "hp": 32,
             "attack": 0,
             "defense": 2,
             "spAttack": 0,
             "spDefense": 32,
             "speed": 0,
-            "pct": 2.0
+            "pct": 2.3
           },
           {
-            "rank": 9,
+            "rank": 7,
+            "hp": 32,
+            "attack": 0,
+            "defense": 1,
+            "spAttack": 32,
+            "spDefense": 1,
+            "speed": 0,
+            "pct": 2.2
+          },
+          {
+            "rank": 8,
             "hp": 2,
             "attack": 0,
             "defense": 32,
             "spAttack": 32,
             "spDefense": 0,
             "speed": 0,
-            "pct": 1.8
+            "pct": 1.9
+          },
+          {
+            "rank": 9,
+            "hp": 0,
+            "attack": 0,
+            "defense": 32,
+            "spAttack": 32,
+            "spDefense": 2,
+            "speed": 0,
+            "pct": 1.7
           },
           {
             "rank": 10,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
+            "hp": 32,
+            "attack": 32,
+            "defense": 0,
             "spAttack": 0,
-            "spDefense": 32,
+            "spDefense": 2,
             "speed": 0,
-            "pct": 1.5
+            "pct": 1.6
           }
         ]
       },
@@ -95484,7 +95484,7 @@
             "spAttack": 0,
             "spDefense": 2,
             "speed": 0,
-            "pct": 20.4
+            "pct": 19.5
           },
           {
             "rank": 2,
@@ -95494,7 +95494,7 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 0,
-            "pct": 19.6
+            "pct": 17.2
           },
           {
             "rank": 3,
@@ -95504,7 +95504,7 @@
             "spAttack": 32,
             "spDefense": 2,
             "speed": 0,
-            "pct": 12.2
+            "pct": 10.7
           },
           {
             "rank": 4,
@@ -95514,7 +95514,7 @@
             "spAttack": 2,
             "spDefense": 0,
             "speed": 0,
-            "pct": 4.4
+            "pct": 4.5
           },
           {
             "rank": 5,
@@ -95524,57 +95524,57 @@
             "spAttack": 32,
             "spDefense": 0,
             "speed": 0,
-            "pct": 4.0
+            "pct": 3.7
           },
           {
             "rank": 6,
-            "hp": 32,
-            "attack": 0,
-            "defense": 1,
-            "spAttack": 32,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 2.7
-          },
-          {
-            "rank": 7,
-            "hp": 32,
-            "attack": 0,
-            "defense": 25,
-            "spAttack": 0,
-            "spDefense": 9,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 8,
             "hp": 32,
             "attack": 0,
             "defense": 2,
             "spAttack": 0,
             "spDefense": 32,
             "speed": 0,
-            "pct": 2.0
+            "pct": 2.3
           },
           {
-            "rank": 9,
+            "rank": 7,
+            "hp": 32,
+            "attack": 0,
+            "defense": 1,
+            "spAttack": 32,
+            "spDefense": 1,
+            "speed": 0,
+            "pct": 2.2
+          },
+          {
+            "rank": 8,
             "hp": 2,
             "attack": 0,
             "defense": 32,
             "spAttack": 32,
             "spDefense": 0,
             "speed": 0,
-            "pct": 1.8
+            "pct": 1.9
+          },
+          {
+            "rank": 9,
+            "hp": 0,
+            "attack": 0,
+            "defense": 32,
+            "spAttack": 32,
+            "spDefense": 2,
+            "speed": 0,
+            "pct": 1.7
           },
           {
             "rank": 10,
-            "hp": 2,
-            "attack": 0,
-            "defense": 32,
+            "hp": 32,
+            "attack": 32,
+            "defense": 0,
             "spAttack": 0,
-            "spDefense": 32,
+            "spDefense": 2,
             "speed": 0,
-            "pct": 1.5
+            "pct": 1.6
           }
         ]
       }
@@ -95592,7 +95592,7 @@
             "spAttack": 0,
             "spDefense": 0,
             "speed": 0,
-            "pct": 28.5
+            "pct": 30.2
           },
           {
             "rank": 2,
@@ -95602,7 +95602,7 @@
             "spAttack": 0,
             "spDefense": 2,
             "speed": 0,
-            "pct": 13.9
+            "pct": 15.6
           },
           {
             "rank": 3,
@@ -95612,77 +95612,77 @@
             "spAttack": 0,
             "spDefense": 0,
             "speed": 9,
-            "pct": 7.8
+            "pct": 6.6
           },
           {
             "rank": 4,
-            "hp": 28,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 6,
-            "pct": 5.2
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 4.6
-          },
-          {
-            "rank": 6,
             "hp": 32,
             "attack": 32,
             "defense": 0,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 2,
-            "pct": 4.6
+            "pct": 5.2
           },
           {
-            "rank": 7,
+            "rank": 5,
             "hp": 26,
             "attack": 32,
             "defense": 0,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 8,
-            "pct": 4.1
+            "pct": 3.8
+          },
+          {
+            "rank": 6,
+            "hp": 28,
+            "attack": 32,
+            "defense": 0,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 6,
+            "pct": 3.7
+          },
+          {
+            "rank": 7,
+            "hp": 32,
+            "attack": 32,
+            "defense": 1,
+            "spAttack": 0,
+            "spDefense": 1,
+            "speed": 0,
+            "pct": 3.6
           },
           {
             "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 9,
             "hp": 2,
             "attack": 32,
             "defense": 0,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 32,
-            "pct": 2.1
+            "pct": 1.7
+          },
+          {
+            "rank": 9,
+            "hp": 0,
+            "attack": 32,
+            "defense": 32,
+            "spAttack": 0,
+            "spDefense": 2,
+            "speed": 0,
+            "pct": 1.6
           },
           {
             "rank": 10,
-            "hp": 32,
+            "hp": 2,
             "attack": 32,
-            "defense": 0,
+            "defense": 32,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 0,
-            "pct": 1.3
+            "pct": 1.5
           }
         ]
       },
@@ -95696,7 +95696,7 @@
             "spAttack": 0,
             "spDefense": 0,
             "speed": 0,
-            "pct": 28.5
+            "pct": 30.2
           },
           {
             "rank": 2,
@@ -95706,7 +95706,7 @@
             "spAttack": 0,
             "spDefense": 2,
             "speed": 0,
-            "pct": 13.9
+            "pct": 15.6
           },
           {
             "rank": 3,
@@ -95716,77 +95716,77 @@
             "spAttack": 0,
             "spDefense": 0,
             "speed": 9,
-            "pct": 7.8
+            "pct": 6.6
           },
           {
             "rank": 4,
-            "hp": 28,
-            "attack": 32,
-            "defense": 0,
-            "spAttack": 0,
-            "spDefense": 0,
-            "speed": 6,
-            "pct": 5.2
-          },
-          {
-            "rank": 5,
-            "hp": 32,
-            "attack": 32,
-            "defense": 1,
-            "spAttack": 0,
-            "spDefense": 1,
-            "speed": 0,
-            "pct": 4.6
-          },
-          {
-            "rank": 6,
             "hp": 32,
             "attack": 32,
             "defense": 0,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 2,
-            "pct": 4.6
+            "pct": 5.2
           },
           {
-            "rank": 7,
+            "rank": 5,
             "hp": 26,
             "attack": 32,
             "defense": 0,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 8,
-            "pct": 4.1
+            "pct": 3.8
+          },
+          {
+            "rank": 6,
+            "hp": 28,
+            "attack": 32,
+            "defense": 0,
+            "spAttack": 0,
+            "spDefense": 0,
+            "speed": 6,
+            "pct": 3.7
+          },
+          {
+            "rank": 7,
+            "hp": 32,
+            "attack": 32,
+            "defense": 1,
+            "spAttack": 0,
+            "spDefense": 1,
+            "speed": 0,
+            "pct": 3.6
           },
           {
             "rank": 8,
-            "hp": 0,
-            "attack": 32,
-            "defense": 32,
-            "spAttack": 0,
-            "spDefense": 2,
-            "speed": 0,
-            "pct": 2.2
-          },
-          {
-            "rank": 9,
             "hp": 2,
             "attack": 32,
             "defense": 0,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 32,
-            "pct": 2.1
+            "pct": 1.7
+          },
+          {
+            "rank": 9,
+            "hp": 0,
+            "attack": 32,
+            "defense": 32,
+            "spAttack": 0,
+            "spDefense": 2,
+            "speed": 0,
+            "pct": 1.6
           },
           {
             "rank": 10,
-            "hp": 32,
+            "hp": 2,
             "attack": 32,
-            "defense": 0,
+            "defense": 32,
             "spAttack": 0,
             "spDefense": 0,
             "speed": 0,
-            "pct": 1.3
+            "pct": 1.5
           }
         ]
       }
