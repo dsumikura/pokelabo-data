@@ -1,6 +1,6 @@
 {
-  "version": 307,
-  "updatedAt": "2026-11-20T23:51:24.063363+00:00",
+  "version": 308,
+  "updatedAt": "2026-11-21T22:55:37.470790+00:00",
   "files": {
     "pokemon": {
       "hash": "937eb5a62ef3b03d2e5b7d4b586b5a5cbd5e5b1f4f6bcdb7a8ea74123e221c99",
@@ -23,8 +23,8 @@
       "size": 10756
     },
     "usage_stats": {
-      "hash": "5955b8d5fdf7de4c6c988647a4d1e7072a2cfe1deee6491bd54aab8c76cb9657",
-      "size": 2141162
+      "hash": "09875e62341f98f22b5fa00a63f553bbd8b1dabb4e03004621c4ee58eb600319",
+      "size": 2141152
     }
   }
 }
